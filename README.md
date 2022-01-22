@@ -5,3 +5,4 @@
     * Gestão do tempo
         1. Fundamentos 
         2. A Matriz do Tempo
+        3. Trabalhando os Quadrantes
