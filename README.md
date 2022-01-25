@@ -6,3 +6,5 @@
         1. Fundamentos 
         2. A Matriz do Tempo
         3. Trabalhando os Quadrantes
+        4. Preparando a Casa
+        5. Planejamento Semanal
