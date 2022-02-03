@@ -15,3 +15,5 @@
         2. Fases da Vida
         3. Autoconhecimento  
         4. Traços Pessoais  
+        5. Valores
+        6. Aspirações
