@@ -1,8 +1,8 @@
 # Pós em Analise
- Colocar texto tirado da minha pós em analise 
+ Colocar textos tirado da minha pós em analise 
 
 1. Módulo 1
-    * Gestão do tempo
+    * Gestão do tempo - Prof: 
         1. Fundamentos 
         2. A Matriz do Tempo
         3. Trabalhando os Quadrantes
@@ -10,10 +10,22 @@
         5. Planejamento Semanal
         6. Dicas Importantes
 
-    * Projeto de Vida
+    * Projeto de Vida - Prof: 
         1. Vida - Sentido da Vida  
         2. Fases da Vida
         3. Autoconhecimento  
         4. Traços Pessoais  
         5. Valores
         6. Aspirações
+        7. Objetivos/Metas
+        8. Planejamento
+
+    * Coaching e Planejamento de Carreira - Prof: Gilberto Guimarães
+        1. Tempo de Grandes Mudanças
+        2. A Carreira Ontem e Hoje
+        3. O Significado e Benefícios do Trabalho
+        4. Carreira, Organização e Elaboração de um Plano de Carreira
+        5. Descoberta das preferências e aplicações do Holland
+        6. Descoberta das Preferências - MapaPreferências
+        7. Descoberta das competências
+        8. Criação de Programa para Desenvolvimento e redução de gaps
