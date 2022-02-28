@@ -1,0 +1,132 @@
+Conceitos Básicos
+O que é Inteligência Competitiva?
+
+Como uma evolução do conceito de “Era da Evolução” criado por Peter Drucker, passamos a chamar o tempo em que vivemos de “Era do Conhecimento”, quando ter a informação e transformá-la em conhecimento relevante e útil é o que realmente trará vantagens competitivas para uma empresa, um país ou mesmo para um profissional.
+
+Desta forma, podemos afirmar que “Inteligência” é o ato de transformar “informação” em “conhecimento” e, por derivação, que “Inteligência Competitiva” é transformar as informações disponíveis em conhecimento que gere vantagens competitivas. Mas não seria correto afirmar que o campo da Inteligência Competitiva se restringe a esta transformação do dado.
+
+O campo da Inteligência Competitiva reúne também todas as ações necessárias desde a coleta e armazenamento dos dados que serão matéria prima para a geração de conhecimento, bem como sua distribuição e apresentação de forma a permitir sua visualização, interpretação e utilização. Especificamente no caso da Inteligência Competitiva, o foco deverá sempre estar voltado para o ambiente competitivo onde opera uma organização.
+
+Inteligência Competitiva é o ato de entender uma indústria e os concorrentes para que a empresa possa tomar as melhores decisões.
+
+Significa que a Inteligência Competitiva tem como finalidade ajudar as empresas a prosperarem no mercado em que operam se mantendo competitivas a partir de decisões que são tomadas com mais inteligência e assertividade, pois são decisões baseadas no conhecimento extraído de informações do mercado.
+
+Vale ressaltar que as informações de mercado em questão devem englobar a maior parte possível dos aspectos relevantes que atuam sobre o mercado em questão. Muitas vezes o foco acaba se resumindo aos concorrentes, que talvez seja a faceta mais explícita do mercado. Porém deve-se evitar uma visão restritiva quando uma série de outros elementos podem afetar a competitividade de uma organização. Veja, a seguir, alguns exemplos que devem ser levados em consideração:
+
+Clientes;
+
+Parceiros;
+
+Fornecedores;
+
+Governos;
+
+Agências reguladoras;
+
+Formadores de opinião, entre outros.
+
+Muitas vezes o termo Inteligência Competitiva (“Competitive Intelligence”) se confunde com o termo Inteligência de Negócios (“Business Intelligence”), porém é importante ressaltar que, apesar de próximos, trata-se de conceitos diferentes. Enquanto o primeiro está focado nos elementos que estão no ambiente externo à organização e que afetam sua competitividade, o segundo engloba também elementos no contexto interno das organizações. Outra forma de expor a diferença é entender que o negócio envolve aspectos externos (competitivos) e aspectos internos que posicionarão a organização de forma mais ou menos competitiva no mercado.
+
+O que é Big Data?
+
+A Era do Conhecimento é tanto consequência como causa para o aumento significativo dos dados que são produzidos e consumidos no mundo. A evolução tecnológica acelerada, a diminuição do custo de armazenamento, o alto grau de conexão entre pessoas, empresa e sistemas e uma cultura de monitoramento e compartilhamento de informações são catalisadoras para que este aumento seja exponencial.
+
+Observe a curva representada no gráfico a seguir.
+
+
+Este gráfico impressiona não apenas pelo volume em si, pois estima-se que em 2020 a humanidade terá produzido o equivalente a 40.000 EB de informação digital. Mas ele impressiona também pela forma de uma curva exponencial e de crescimento acelerado. Ao mesmo tempo não conseguimos ver motivos para esta aceleração no crescimento do volume de dados diminuir nas próximas décadas. A tendência é que o mundo produza ainda mais informações.
+
+A explosão no volume, complexidade e variedade de dados trouxe uma consequência rápida e direta: os sistemas e a tecnologia disponível não estavam preparados para lidar com isso. Em outras palavras, sistemas tradicionais passaram a ter dificuldade para armazenar e processar tantos dados e, com isso, surge o “Big Data”. Veja, a seguir, a definição oferecida pela própria McKinsey:
+
+Big Data é “um grande conjunto de dados gerados e armazenados com os quais os aplicativos de processamento de dados tradicionais ainda não conseguem lidar em um tempo tolerável”.
+
+Então o termo “Big Data” originalmente se refere aos dados, mas com o tempo passamos a utilizá-lo para designar também todas as técnicas, ferramentas e tecnologias criadas para lidar com tal volume de dados. Big Data passou a ser, até mesmo, usado como sinônimo do uso deste volume de dados e a transformação desde dado em conhecimento (“o big data nos mostra que nossos clientes têm uma tendência a preferir o produto A ao produto B na hora em que navega no site”, por exemplo).
+
+A primeira e mais notável implicação do big data é justamente a produção, captura, armazenamento e processamento de cada vez mais dados. Se antes um dado parecia irrelevante por não trazer qualquer vantagem competitiva, agora as possibilidades de combinar imensos volumes destes dados com outros dados e de utilização de algoritmos de mineração de dados e inteligência artificial passou a gerar conhecimentos e possibilidades antes não percebidos. Que possibilidades são estas? Mais assertividade e maiores retornos financeiros.
+
+Mas para que um grande volume de dados seja considerado, de fato, big data, algumas características devem ser observadas. Convencionou-se observar estas características através de um modelo baseado em 5 Vs:
+
+Volume - big data trata de um grande volume de dados.
+
+Variedade - são dados variados em termos de conteúdo e formato.
+
+Velocidade - nos processamentos envolvidos.
+
+Veracidade - das informações e conhecimentos derivados;
+
+Valor - gerado pela utilização destes dados.
+
+Então não basta reunir uma grande quantidade de dados para que se esteja trabalhando com big data.
+
+O que é Qualidade?
+
+A palavra “qualidade” é um substantivo, não um adjetivo. Isso significa que é uma propriedade de um ser ou uma coisa. Não é algo que se “tem” ou “não tem”. É uma característica que pode ser medida e pode possuir um aspecto positivo ou negativo. Podemos dizer, por exemplo, que “este é um produto de boa qualidade” ou “este é um produto de baixa qualidade”.
+
+Mas o que irá definir se algo tem boa ou má qualidade? Vários são os aspectos e elementos que podem contribuir para a avaliação da qualidade de algo. São alguns dos elementos básicos da qualidade:
+
+Desempenho;
+
+Confiabilidade;
+
+Conformidade;
+
+Durabilidade;
+
+Disponibilidade.
+
+É, portanto, a medida de adequação dos indicadores destes elementos comparados com a expectativa que se tem em relação a algo que determinará o seu nível de qualidade. Ter alta qualidade significa que se tem alta adequação em relação às expectativas.
+
+O que é Governança?
+
+Na Sociedade do Conhecimento não apenas as empresas são grandes produtoras e consumidoras de dados. As pessoas também desenvolveram hábitos que as tornaram cada vez mais digitais, conectadas e ávidas por informação. Esta tendência acaba deixando uma infinidade de informações registradas e disponíveis na nuvem da internet, criando um perfil e rastros digitais universais e permanentes de praticamente qualquer pessoa.
+
+Esta enorme profusão de dados tem efeitos extremamente positivos em vários aspectos, como uma melhor prestação de serviço por parte das empresas e recomendações que nos ajudam a ter experiências mais personalizadas e adequadas aos nossos gostos. Mas é claro que “todo este poder” traz, por outro lado, “grandes responsabilidades”. Valores e responsabilidades de toda a sociedade precisam ser revistos à luz desta nova realidade.
+
+Mas como as empresas devem lidar com todas estas questões de ética no uso dos dados, privacidade e coleta de dados particulares? A resposta está na elaboração e divulgação de um plano de Governança de Dados. Governança de dados se refere ao gerenciamento dos dados de uma empresa, sua disponibilidade, seu uso e a segurança da informação compartilhada dentro da empresa. Suas políticas e mecanismos devem assegurar que a informação inserida pelos colaboradores ou por um processo automatizado cumpra requisitos e padrões consoantes com seus valores. Trata-se de aspectos como a integridade dos dados, regras de utilização, políticas de acesso e divulgação, segurança etc.
+
+ 
+
+ 
+
+Atividade extra
+
+Nome da atividade: Filme: Duplicidade (https://www.imdb.com/title/tt1135487/)
+
+O filme duplicidade é uma comédia romântica de 2009 onde Claire Stenwick (Julia Roberts) é uma ex-agente da CIA (EUA) e Ray Koval (Clive Owen) é um ex-agentes do MI-6 (Reino Unido). Se conhecem de seu período como espiões governamentais, mas agora trabalham para corporações da iniciativa privada rivais e se encontraram “fortuitamente” em um caso de espionagem industrial. Eles têm como missão encontrar a fórmula química de um cosmético que renderá uma fortuna à corporação que patenteá-lo primeiro.
+
+ 
+
+Referência Bibliográfica
+
+MANYIKA, J., CHUI, M., BROWN, B., BUGHIN, J., DOBBS, R., ROXBURGH, C., BYERS, A.
+
+Big data: The Next Frontier For Innovation, Competition, And Productivity. McKinsey Global Institute. http://www.mckinsey.com/insights/business_technology/big_data_the_next_frontier_for_innovation.
+
+NIKOLAOS, T.; EVANGELIA, F.
+
+Competitive intelligence: concept, context and a case of its application, Science
+
+Journal of Business Management, vol. 2, 2012
+
+TARVER, E.
+
+What is the difference between business intelligence and competitive intelligence? Investopedia, Small Business.
+
+https://www.investopedia.com/ask/answers/040915/what-difference-between-business-intelligence-and-competitive-intelligence.asp
+
+WIKIPEDIA
+
+Governança corporativa
+
+https://pt.wikipedia.org/wiki/Governan%C3%A7a_corporativa
+
+
+
+1.O que é Inteligência Competitiva?
+É a construção de inteligência que garanta a competitividade da empresa a partir da pesquisa, descoberta de fatos e captura de informações públicas e de forma lítica.
+
+2.Sobre as diferenças entre Business Intelligence (Inteligência de Negócios) e Competitive Intelligence (Inteligência Competitiva), podemos afirmar que:
+A Inteligência Competitiva está contida no BI.
+
+3.Big data envolve cinco dimensões iniciadas com a letra “V”. Das alternativas a seguir, qual é a única que não se enquadra nesta lista de características?
+Virtuosidade

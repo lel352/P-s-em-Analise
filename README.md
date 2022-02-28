@@ -29,3 +29,13 @@
         6. Descoberta das Preferências - MapaPreferências
         7. Descoberta das competências
         8. Criação de Programa para Desenvolvimento e redução de gaps
+
+    * Governança e Qualidade de Dados - Prof: Eduardo Ribeiro
+        1. Era do Conhecimento
+        2. Conceitos básicos
+        3. Coleta de dados
+        4. A sociedade do conhecimento
+        5. Uso ético dos Dados
+        6. Plano de Qualidade dos Dados
+        7. Implantando a Governança de Dados
+        8. Futuro da Qualidade e Governança de Dados

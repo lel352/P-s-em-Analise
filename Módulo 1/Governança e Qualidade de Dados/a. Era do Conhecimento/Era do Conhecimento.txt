@@ -1,0 +1,114 @@
+Era do Conhecimento
+Quem tem a informação tem o poder
+
+Peter Drucker é um dos mais renomados pensadores e consultores do mundo corporativo e foi o primeiro a se referir ao período que ocorre após a Era Industrial como a Era da Informação. Esta expressão revela uma mudança na importância que a propriedade da informação passa a ter no mundo naquele momento, em comparação com os antigos meios de produção e trabalho.
+
+Os donos dos meios de produção sempre possuem um poder associado a esta propriedade na sociedade onde vivem, portanto nos tempos em que a agricultura era essencialmente o principal meio de produção, proprietários de grandes porções produtivas de terra possuíam também grandes riquezas e muito poder. Com o surgimento da Era Industrial, foram os donos dos meios industriais de trabalho que passaram a exercer este maior poder sobre a sociedade.
+
+Como observado por Drucker, conforme o mundo caminhava em uma direção onde a informação passava a ser considerado um bem mais precioso, o número de trabalhadores mecânicos ou braçais vinha sendo substituído pelos trabalhadores intelectuais. Em outras palavras, o trabalho operário passou a ser cada vez mais automatizado e o trabalho intelectual cada vez mais valorizado.
+
+"Que poder operário que nada! A sociedade caminha em direção à predominância do setor de serviços.”
+
+ Daniel Bell, sociólogo nascido nos Estados Unidos.
+
+Cada vez mais o poder foi se direcionando para às mãos das pessoas que possuíam conhecimentos de interesse aos demais. Isso acabou criando um conceito claramente expresso pela frase “Quem tem a informação tem o poder”. Governos e corporações rapidamente perceberam que a captura de informações seria um diferencial competitivo e investiram nesta direção. Em todo mundo foram criadas, por exemplo, agências de inteligência que suportavam os países em suas disputas militares na chamada Guerra Fria (CIA, KGB, MI6 etc.).
+
+Nas corporações, muitos investimentos na coleta, armazenamento e processamento de dados foram feitos. Um grande exemplo é o varejista Walmart, um dos maiores do mundo. A empresa criou em meados dos anos 1980 aquele se tornou mais tarde o maior banco de dados privado do planeta. Mas ter a informação, na verdade, não cria nenhuma vantagem competitiva se o seu proprietário não puder (ou não souber como) usar esta informação.
+
+Por isso a maneira mais adequada de se proferir a frase anterior deveria ser “Quem tem e usa a informação, tem o poder”. Foi isso que a equipe de gestão da Walmart fez: utilizando algoritmos de inteligência artificial ela transformou o dado que estava armazenado seu Banco de Dados em conhecimento aplicado. Este conhecimento trouxe lucro e vantagem competitiva para a empresa.
+
+A Era do Conhecimento
+
+Porém, diferentemente das mercadorias que os grandes varejistas mantêm estocadas em seus depósitos, a informação é um bem abstrato. A observação e registro de fatos concretos e que ocorrem no mundo à nossa volta vai gerar aquilo que chamamos de “dado”. São os dados que ficam armazenados em algum meio ou tecnologia. Pode ser um caderno, a nossa memória ou um dispositivo eletrônico de armazenamento como o HD de um computador.
+
+Mas precisamos pensar no “dado” como o estado mais básico deste bem. Assim como o diamante bruto já é, em parte, o brilhante lapidado, o “dado” também já é um pouco de “informação”. Mas para que um dado se transforme efetivamente em informação ele precisa ser trabalhado. Ou como se diz geralmente, ele deve ser processado.
+
+Contudo a quantidade de dados e informações com os quais nós e as empresas precisam lidar, muitas vezes, é maior do que percebemos em um primeiro momento. Então para que, de fato, se tenha algum tipo de poder ou vantagem competitiva, é necessário transformar “dado” em “informação” e combinar as informações na construção do conhecimento.
+
+Esta percepção nos levou a, mais uma vez, mudar o nome da era em que vivemos de “Era da Informação” para a “Era do Conhecimento”. Além disso, hoje é cada vez mais fácil ter acesso a um volume enorme de informações, a verdadeira vantagem está em se conseguir extrair desta montanha de informações um volume significativo de conhecimento relevante.
+
+No caso do Walmart a equipe foi capaz de identificar uma tendência de compra casada, onde um grupo significativo de pessoas que iam até a loja comprar fraldas também levavam cerveja. De posse deste conhecimento a equipe comercial pode rearrumar os produtos expostos de forma a potencializar sua venda e obter mais lucro.
+
+Dado se Transforma em Conhecimento
+
+Processar um dado em informação significa dar contexto e significado a este dado. O número “38”, por exemplo, é um dado bruto. Sem contexto e significado não diz muita coisa. Porém ao dizer que “38ºC se refere à medição da temperatura corporal de uma criança, feita por um termômetro analógico de mercúrio” o dado passa a ter contexto e significado. Passa a ser informação.
+
+Toda mãe e pai sabe que uma criança com 38ºC de temperatura está com febre. Mas imagine, apenas por um instante, que esta informação chegou para uma pessoa que nunca foi apresentada ao conhecimento de que existe uma tabela padrão de temperatura corporal e que esta tabela indica qual é a faixa considerada “normal” da temperatura de um ser-humano. A temperatura de 38ºC está acima desta faixa.
+
+Isso significa que, apesar de ter contexto e significado, a informação não tem utilidade prática para quem acabou de recebê-la. Do mesmo jeito, se a informação de que a criança está com febre chega para alguém que não sabe o que é febre ou que existem medicamentos para controlar este estado do corpo, também não tem utilidade, não lhe confere o poder de resolver a situação.
+
+Agora voltemos à situação onde uma série de conhecimentos são combinados e possibilitam que esta mãe ou este pai possam tomar uma atitude. Vamos ver:
+
+Meu filho está com temperatura 38ºC.
+
+38ºC é um estado de febre.
+
+Contra febre podemos aplicar um medicamento antitérmico.
+
+Porém a automedicação é perigosa, então devo consultar alguém.
+
+A pessoa que tem conhecimento e capacidade para me responder é o médico.
+
+Meu filho possui um médico pediatra que o acompanha.
+
+Eu tenho o número telefônico deste médico.
+
+Eu sei usar um telefone, então vou entrar em contato.
+
+Perceba a quantidade e variedade de informações e conhecimentos que são utilizados, mesmo em um exemplo simples como este.
+
+O Censo Americano
+
+Conforme o mundo evoluiu, percebeu-se a importância do conhecimento e caminhamos da Era Industrial para a Era da Informação e depois a Era do Conhecimento. Isso significou que a sociedade precisou investir no desenvolvimento de novas ferramentas para processar tal volume de dados em um tempo tolerável. Foi exatamente o que fez Herman Hollerith ao inventar a sua máquina de contar usando cartões perfurados para dar suporte ao processamento do Censo Americano.
+
+Nos Estados Unidos o censo da população é atualizado a cada dez anos e seus resultados interferem diretamente na política, já que o conhecimento gerado a partir dele é aplicado nas distribuições políticas do país. Porém no censo de 1880 foram necessários sete anos para apurar (contar) os dados coletados. Isso significa que o conhecimento só foi gerado sete anos após a coleta dos dados, quase no momento em que se precisava realizar uma outra coleta.
+
+Identificando este prazo como um problema e, ao mesmo tempo, uma oportunidade, Herman Hollerith inventou uma máquina de contar que usava agulhas e cartões perfurados para processar os dados coletados. Como a implementação desta tecnologia, a apuração dos dados coletados no censo de 1890 levou apenas dois dias!
+
+A máquina de contar inventada e comercializada pela empresa de Hollerith não era, ainda, um computador. Mas foi a base para o desenvolvimento alguns anos depois do IBM ASCC, também conhecido como MARK I. O primeiro computador comercial do mundo pesava 35 toneladas e tinha 16 metros de comprimento. Mas foi o grande precursor de toda a tecnologia que hoje nos permite viver em um mundo extremamente conectado e que gera e consome informação em uma velocidade extrema.
+
+ 
+
+ 
+
+Atividade extra
+
+Nome da atividade: Vídeo - Mario Sergio Cortella em A Era da Curadoria: O que Importa é Saber o que Importa
+
+Link para assistir a atividade: https://www.youtube.com/watch?v=5TaaT30L8yg
+
+ 
+
+Referência Bibliográfica
+
+GUROVITZ, H.
+
+O que cerveja tem a ver com fraldas? Revista EXAME
+
+https://exame.abril.com.br/revista-exame/o-que-cerveja-tem-a-ver-com-fraldas-m0053931/
+
+KIMBALL, R.
+
+The Data Warehouse Toolkit: o Guia Completo para Modelagem Dimensional.
+
+MÖDERLER, C.
+
+1860: Nasce Herman Hollerith, "pai" do processamento de dados. DW
+
+https://www.dw.com/pt-br/1860-nasce-herman-hollerith-pai-do-processamento-de-dados/a-312287
+
+WIKIPEDIA. Era da informação
+
+https://pt.wikipedia.org/wiki/Era_da_informa%C3%A7%C3%A3o
+
+
+
+O que é a Sociedade do Conhecimento?
+R: É a sociedade da Era do Conhecimento, formado por pessoas e empresas cada vez mais data centric.
+
+
+Dentre as alternativas abaixo, qual não foi citada como uma característica da Sociedade do Conhecimento?
+R: Muito Educada
+
+Somos uma sociedade digital, extremamente conectada e ávida pela produção e troca de informações. Estabelecemos grande parte de nossas relações usando um canal digital que gera e armazena rastros sobre tudo que fazemos. Nas alternativas a seguir, qual representa um ato que fortalece estas características?
+R: Todas as alternativas anteriores registram comportamentos que reforçam as características da Sociedade do Conhecimento

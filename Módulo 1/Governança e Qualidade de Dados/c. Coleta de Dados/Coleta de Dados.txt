@@ -1,0 +1,135 @@
+Coleta de Dados
+Onde os dados são produzidos?
+
+Os dados são a matéria-prima fundamental para a criação de informação e transformação em conhecimento. Desta forma, para que se possa criar conhecimento em um ambiente de Inteligência Competitiva, a cadeia produtiva de conhecimento possui as seguintes etapas:
+
+Coleta;
+
+Higienização;
+
+Padronização;
+
+Contextualização;
+
+Disponibilização.
+
+Portanto, para que haja dados disponíveis à produção do conhecimento, o primeiro passo é coletar estes dados para que possam ser inseridos em um ambiente de geração do conhecimento. Porém os dados não são criados no ambiente de inteligência Competitiva, mas sim armazenados e utilizados neste ambiente.
+
+Os dados são representações (registros) de algo que ocorreu no mundo real e geralmente são coletados e armazenados em um sistema transacional. É bem da verdade que um dado, fundamentalmente, não precisaria ser registrado em um sistema transacional, já que existem outras tecnologias mais antigas de registro, como livros, cadernos etc. Mas do ponto de vista dos nossos estudos, um dado precisa estar registrado em uma fonte eletrônica para que possa ser inserido na cadeia produtiva de conhecimento.
+
+Com isso, podemos afirmar que os sistemas transacionais são as origens dos dados que serão inseridos no processo de criação do conhecimento usando BI.
+
+Onde o dado se transforma em conhecimento?
+
+De forma mais concreta, muitos exemplos podem ser observados onde dados são registrados e armazenados em sistemas transacionais para que posteriormente sejam inseridos na cadeia produtiva de conhecimento. Em um supermercado, por exemplo, esta ação está muito bem delimitada pelo momento chamado de check-out.
+
+O check-out é quando um cliente se direciona para a fila do caixa e um operador de caixa inicia o registro dos itens comprados no sistema. Podemos dizer que as principais funções do operador de caixa neste momento são:
+
+Iniciar uma transação;
+
+Eventualmente identificar o cliente, embora em muitos supermercados esta identificação ainda não aconteça;
+
+Realizar o registro de um item da compra, ou seja, um produto que o cliente tenha colocado no carrinho e esteja levando para casa. Esta operação é repetida inúmera vezes, até que todos os itens estejam registrados.
+
+Encerrar a transação recebendo o pagamento do valor total.
+
+Do ponto de vista das operações do supermercado, este é um processo fundamental e que faz parte do dia-a-dia da empresa. Além de ser um registro digital de um evento que está ocorrendo fisicamente nas lojas. Do ponto de vista da cadeia produtiva de conhecimento, esta é uma ação fundamental de coleta de dados.
+
+Porém este dado, após ser coletado, precisa ser processado e transformado em conhecimento. Esta transformação ocorre em um sistema de Inteligência de Negócios ou Inteligência Competitiva. Genericamente podemos dizer que se trata de um ambiente de Business Intelligence (BI). Ou seja, um banco de dados em formato analítico (Data Warehouse ou Data Mart) que reúne dados de diversas fontes transacionais.
+
+Como os dados são coletados?
+
+Algumas empresas, como os supermercados, não têm a informação como base fundamental de seu negócio. O registro e a coleta são realizados como parte do negócio, mas o supermercado não “vive” de informação, ele “vive” de adquirir, armazenar e vender produtos alimentícios. Supermercados não precisam usar os dados de forma estratégica, embora possam usar e com isso obter grandes resultados.
+
+Outras empresas, entretanto, têm a informação como base fundamental de seus negócios. São empresas que geram receita justamente através da coleta e venda de dados e informação. Como exemplos podemos citar a empresas de processamento de dados, consultorias, auditorias, escolas etc.
+
+Vamos olhar para a indústria de seguros, por exemplo. Ao adquirir uma apólice, o segurado está “comprando” uma promessa de que, caso algo venha a acontecer (um sinistro) com algo que esteja protegido pelo seguro (o bem segurado), a seguradora irá arcar parcial ou completamente com os custos de reposição ou reparação do bem (a indenização).
+
+Em outras palavras, o que a seguradora “vende” é a administração de todos os riscos de sua carteira, tecnicamente conhecido como “sinistralidade”. Para tanto, uma série de cálculos atuariais precisam ser realizados com base nas características de sua carteira de risco, tornando a correta coleta de dados uma atividade fundamental para o sucesso e sobrevivência do negócio.
+
+Os dados são coletados em diversos momentos, sendo os mais representativos a fase de proposição e avaliação do risco para a emissão da apólice e o registro dos sinistros que ocorrem com os bens da carteira segurada. Nos dois momentos estão envolvidas pessoas fundamentais para a correta coleta de dados, como os próprios clientes, corretores de seguro e inspetores de riscos (vistoriadores).
+
+Como podemos notar, a coleta de dados neste exemplo é bastante sensível. Outro exemplo em que a coleta de dados é extremamente sensível são os serviços médicos. Imaginem um hospital, por exemplo, onde pacientes são consultados e precisam ser corretamente medicados. Neste caso podemos dizer que a coleta de dados é, de fato, um caso de vida ou morte.
+
+Além disso há toda uma sensibilidade com relação à natureza do dado coletado. Informações trocadas por médicos e pacientes, e registradas nos sistemas de prontuário eletrônico dos hospitais, são informações sigilosas por lei. Questões éticas e de governança destes dados são extensamente discutidas nas escolas de medicina e são preocupação constante nos responsáveis de tecnologia da informação de hospitais.
+
+São dados pessoais e que possuem extremo interesse médico, mas que também poderiam ser utilizados, por exemplo, pelas empresas de seguro no momento de avaliar o risco de uma pessoa em um seguro de vida. Porém é antiético e contra lei que estes dados sejam fornecidos pelo hospital para a seguradora sem que o paciente, verdadeiro dono desta informação, seja consultado.
+
+Agora notem que nos exemplos acima, nas atividades de coleta de dados, há sempre um elemento em comum que são as pessoas responsáveis pela coleta do dado (operador de caixa de supermercado, corretor de seguros, vistoriadores, médicos, enfermeiros etc.). Acontece que cada vez mais o elemento humano vem sendo substituído no processo por sensores e sistemas eletrônicos que, muitas vezes, não apenas dão conta do recado como realizam a tarefa com muito mais assertividade, mais velocidade e menos custos.
+
+Vamos olhar para o caso de uma rodovia, por exemplo. É extremamente importante para os operadores de tráfego da rodovia compreender quais são os volumes de tráfego que ocorrem em cada trecho da estrada nas diferentes horas do dia. Mas seria muito improdutivo que esta coleta fosse realizada por pessoas contando o número de veículos passando em alta velocidade a cada hora, em cada trecho. Para coletar estes dados a administração deverá fazer uso de sensores espalhados nos pontos estratégicos do percurso e integrados a um banco de dados que centraliza o dado. Ou seja, o processo de coleta de dados neste caso ocorre sem interferência humana direta.
+
+Outro exemplo em que sensores são utilizados para coletar os dados é no momento em que uma pessoa “conectada” está praticando exercícios físicos. Tradicionalmente a corrida era uma atividade simples, que não requer muita estrutura (diferentemente dos esportes de quadra, por exemplo) e na maioria das vezes realizada de forma individual.
+
+Mas é cada vez mais comum que o praticante de corrida se utilize de vários devices tecnológicos que o acompanham durante a prática. Estes devices têm a função de tornar o treino mais agradável (possibilitando que o praticante ouça música por exemplo), mais seguro (acompanhando sinais vitais como pressão e batimento cardíaco) e mais otimizado em termos de performance (registrando dados de performance como tempo etc.), Mas é notável que todas estas facilidades são, ao mesmo tempo, fontes geradoras de dados.
+
+Vamos avaliar algumas sob este aspecto:
+
+Música: enquanto a pessoa ouve música usando um aplicativo como o iTunes ou o Spotify, dados são coletados sobre os hábitos musicais de cada pessoa. Que estilo, músicos, autores são ouvidos com qual frequência, em quais horários do dia, em qual volume etc. Há ainda as informações de quais músicas são agrupadas em quais playlists, quais são compartilhadas entre amigos etc. Estes dados ajudam os aplicativos a fornecer uma experiência mais personalizada, recomendando com mais assertividade novas músicas e autores, por exemplo. Mas também traçam um perfil musical que, associado a outros dados de perfil (demográficos, locais onde costuma circular, navegação na internet etc.) são fonte valiosa para que a indústria da música possa direcionar os seus investimentos. Também são informações que podem ser utilizadas por outras indústrias como a publicidade e a indústria de entretenimento como um todo.
+
+Corrida: enquanto a pessoa corre usando um aplicativo de monitoramento (Nike Run, RunKeeper etc.) dados são coletados sobre tempo, ritmo, velocidade, percurso e batimentos cardíacos. Há ainda classificações feitas pelos próprios participantes (quão intenso foi aquele treino, se foi recreativo ou de velocidade etc.) e a possibilidade de associar grupos de amigos que correm separadamente, mas formam um grupo virtual de corrida. Estes dados são utilizados pelos aplicativos para otimizar a performance do corredor, propondo desafios, planilhas de treino personalizada etc. Mas também têm imenso valor para empresas de materiais esportivos (“está na hora de comprar um tênis novo!”), empresas promotoras de eventos esportivos (faz sentido realizar uma maratona na cidade?) e seguradoras (qual o nível de sedentarismo de uma pessoa que está fazendo um seguro de vida?).
+
+Este exemplo ilustra com o conceito de coleta de dados está expandido e vem fazendo cada vez mais parte de nossa vida, de forma natural e muitas vezes onipresente.
+
+Extração, Transformação e Carga de Dados
+
+Pois bem, dados são representações de algo na vida real que são inseridos, armazenados e processados em sistemas operacionais, mas depois podem ser inseridos em uma cadeia produtiva de conhecimento suportada por uma estrutura de Business Intelligence (BI). Para que isso ocorra, o dado precisa ser:
+
+Extraído dos sistemas transacionais.
+
+Transformados de forma que fiquem higienizados e padronizados.
+
+Carregados no banco de dados do Business Intelligence.
+
+Este processo recebe o nome de ETL, que significa Extract, Transform and Load. Como o conhecimento de qualidade é criado a partir de dados de qualidade, é importante que o processo de ETL mantenha, ou até acrescente, a qualidade a estes dados, o que é feito na etapa de transformação do dado.
+
+Como exemplo, vamos imaginar uma falha no processo de coleta de dados onde, ao preencher o nome da cidade de residência de um cliente, os usuários do sistema transacional cometem pequenos erros de digitação. No final, clientes são associados a cidades reais como “São Paulo”, “Rio de Janeiro” e “Fortaleza”, mas também são associados a cidades que não existem como “Sao Paulo”, “Sâo Paulo”, “Rio Janeiro” e “Fortalesa”.
+
+Neste caso será na etapa de transformação, após extrair estes dados do sistema transacional e antes de carregá-los no BI, que o processo irá tentar corrigi-los, Esta correção poderá usar um algoritmo de aproximação fonética, por exemplo, que analisa cada dado “cidade” que não esteja na base de municípios do Brasil e tenta correlaciona-lo com o texto (nome da cidade) mais próximo.
+
+A etapa de transformação pode não apenas corrigir os dados, mas também padronizá-los de forma que fiquem sobre o mesmo contexto. Exemplos comuns de padronização são a conversão monetária para que todos os valores sejam armazenados em uma mesma moeda, evitando que US$ 100.00 sejam confundidos com R$ 100,00 já que representam valores bem diferentes.
+
+ 
+
+ 
+
+Atividade extra
+
+Nome da atividade: Veja o vídeo de apresentação da loja Amazon Go. Trata-se de um ponto de vendas físico totalmente baseado em autosserviço implantado pela Amazon. Note que toda a operação e coleta de dados são realizadas sem a interferência de um funcionário da loja. Apesar disso não podemos dizer, ainda, que não há um humano envolvido já que o cliente deve estar presente para escolher e pegar os produtos das prateleiras.
+
+Local para acessar o vídeo: https://www.youtube.com/watch?v=NrmMk1Myrxc
+
+ 
+
+Referência Bibliográfica
+
+ELIAS, D. Entendendo o processo de ETL
+
+https://canaltech.com.br/business-intelligence/entendendo-o-processo-de-etl-22850/
+
+ELIAS, D. O que significa OLTP e OLAP na prática? Canaltech, Gestão, Business Intelligence.
+
+https://canaltech.com.br/business-intelligence/o-que-significa-oltp-e-olap-na-pratica/
+
+RIBEIRO, E. Analítico versus Transacional. Tecnologia e Marketing.
+
+http://www.tecnologiaemarketing.com.br/analitico-versus-transacional-2/
+
+
+1.Por que a coleta de dados afeta o valor que pode ser gerado por um processo de Inteligência Competitiva, suportado por um ambiente de BI?
+R:Porque o objetivo do BI é gerar conhecimento relevante e a sua qualidade está diretamente ligada à qualidade dos dados coletados.
+
+2.Qual das alternativas a seguir apresenta uma etapa que não faz parte da cadeia produtiva de conhecimento no BI?
+R:Visualização
+
+3.O que Sam Walton e sua equipe fizeram usando o maior banco de dados privado do planeta e como isso se refletiu na companhia?
+R:O Walmart construiu o maior Banco de Dados privado do planeta e, a partir deste BD, extraiu uma série de conhecimentos que permitiu rever a organização de produtos da loja com base no comportamento de um grupo significativo de clientes. Esta reorganização trouxe resultados financeiros positivos para sua operação.
+
+4.Qual das características a seguir diferencia o conhecimento de um dado?
+R:Utilidade
+
+5.Herman Hollerith desenvolveu uma tecnologia que foi usada no censo americano para:
+R:Reduzir o tempo de apuração
+
+6.Por que os computadores e toda a tecnologia de coleta, processamento e distribuição de dados é tão importante na chamada Era do Conhecimento?
+R:Porque os computadores hoje em dia são capazes de processar e armazenar grandes volumes de dados em tempos aceitáveis para a produção de conhecimento.
