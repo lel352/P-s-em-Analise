@@ -1,0 +1,125 @@
+Plano de Qualidade dos Dados
+Qualidade Total e Certificações
+
+Como dito anteriormente, a palavra “qualidade” não é um adjetivo, mas sim um substantivo. Todo objetivo, item, ser ou coisa tem qualidade, que pode ser altamente consistente com a expectativa que se tem ou estar distante do que se considera adequado. Ou seja, a avaliação sobre a qualidade de algo está ligado a uma avaliação que nem sempre é objetiva, mas deveria ser.
+
+Ao longo da história, a qualidade foi primeiramente observada em atividades de inspeção. Ou seja, a adequação de certas características de algo era avaliado e comparado com um padrão de expectativas. Tudo que atendia a este padrão era preservado enquanto o que não atendia era descartado. Esta é uma visão muito comum na Era Industrial onde a inspeção de qualidade era parte de uma linha de montagem, onde itens que passavam pela linha sem atender aos requisitos mínimos de qualidade após certas etapas de produção (fabricação) eram retirados da linha.
+
+Este conceito evoluiu para um Controle da Qualidade onde não apenas o item era inspecionado, mas também o processo de fabricação. Ao mesmo tempo, controlar a qualidade deixa de ser uma prática apenas das fábricas e passa a fazer parte da “produção” de qualquer bem ou serviço, qualquer item concreto ou abstrato. Empresas que prestam serviço aos seus clientes começam a inspecionar se o serviço está sendo bem realizado, ou seja, está de acordo com a expectativa de seus clientes.
+
+Há então uma mudança na cultura da qualidade onde as organizações passam a preocupa-se não apenas de forma reativa com relação à qualidade, mas sim de forma proativa. O processo e o produto não são apenas inspecionados para avaliar se houve qualidade, mas há uma preocupação de garantir que a qualidade seja obtida ao longo do serviço. São incluídos no processo ações que garantam, ou aumentem a chance, de que as expectativas sejam atingidas.
+
+Há então uma mudança de paradigma onde o processo passa a ter mais importância do que o próprio produto final. Assume-se a premissa de que padrões precisam ser adotados e que se algo é feito sempre da maneira certa, o resultado sempre obterá a maior qualidade possível. Vira moda o termo “Qualidade Total” e são criadas uma série de normas que devem ser seguidas pelas empresas para garantir que o processo é feito sempre de acordo com os padrões estabelecidos. Junto com as normas aparecem agências certificadoras, profissionais especializados, certificações e muito investimento é feito na garantia dos padrões de processos em busca da obtenção da qualidade total.
+
+A evolução natural deste conceito parece ser olhar menos para o processo e o produto e mais para o seu destino final: o cliente. Depois de muito evoluir no ramo da qualidade, as empresas se deram conta de que estavam olhando muito “para dentro” e não pensavam tanto “na dor dos clientes”. Termos como “entender a perspectiva do cliente” ou “olhar com os olhos do cliente” passaram a ser comumente utilizados e as empresas tornaram-se customer centric.
+
+Percebeu-se que ter “boa qualidade” significa atender às expectativas dos clientes e a busca passa a ser pelo ato de “encantar o cliente”, que na verdade seria ter mais qualidade do que o cliente espera, surpreendendo este cliente. Percebe-se também que a qualidade pode ser medida de variada em dimensões abstratas como quando um produto “tem que ser bonito”, “deve estar na moda” ou “ser agradável e moderno”. Lembrando que “bonito”, “agradável”, “moderno” podem receber avaliações diferentes de pessoa para pessoa.
+
+Mas e a qualidade em relação aos dados? No caso da qualidade de dados o próprio item “dado” é bastante abstrato e não existe uma norma ISO específica sobre a qualidade do dado. Afinal as normas têm foco nos processos e o “dado” é um resultado, não um processo. Existe, porém, uma norma que se refere ao produto software e como o dado é um registro eletrônico feito em um sistema, esta norma se aproxima bastante do conceito de garantir a qualidade do dado.
+
+A norma ISO/IEC 9129 observa aspectos da qualidade interna e externa do software em seis dimensões principais:
+
+Funcionalidade;
+
+Confiabilidade;
+
+Usabilidade;
+
+Eficiência;
+
+Manutenibilidade;
+
+Portabilidade.
+
+Observe que o dado é coletado, armazenado e processado por um software e, assim, passa de forma transversal em todas estas dimensões. Dito de outra forma, a qualidade do dado pode ser afetada pela qualidade do software em cada uma destas seis dimensões. A seguir a figura 1 apresenta o desmembramento destas dimensões em itens de qualidade.
+
+É interessante notar que nas seis dimensões representadas abaixo o desmembramento “conformidade” está presente, de forma que estar em conformidade com os padrões estabelecidos em cada uma das seis dimensões é um aspecto fundamental da qualidade de software.
+
+
+Planejamento da Qualidade de Dados
+
+Dado é matéria-prima para a produção de informação e conhecimento. Para ter qualidade, a informação precisa ser “consistente”, “confiável”, “relevante”, “contextualizada” e “estar disponível”. Avaliar estas cinco dimensões e garantir que atendem às expectativas dos clientes (usuários) da informação é garantir a qualidade da informação.
+
+A história da qualidade nos mostra que, para isso, é preciso garantir a qualidade do processo de produção da informação, do que chamamos a cadeia produtiva do conhecimento. Precisamos garantir que o dado, ao longo de todo o seu processo, mantém a qualidade esperada. Dados precisam ser “coletados”, “higienizados”, “padronizados”, “contextualizados” e “disponibilizados” seguindo os padrões esperados de qualidade.
+
+Note que neste processo de garantir a qualidade do dado a estrutura de ETL (Extração, Transformação e Carga) tem papel de destaque. É fundamental que os processos internos do ETL não apenas garantam, mas insiram, qualidade ao dado. Para isso servem os passos de padronização e higienização, por exemplo.
+
+Qualidade se traduz, neste caso, em conformidade com o que foi especificado. Uma informação de qualidade deve ser exata e precisa e o titular da informação deve criar uma espécie de “Dicionário de Conformidades” para cada tipo de informação ou dado que for tratado na cadeia produtiva de conhecimento. Veja alguns exemplos:
+
+A data de nascimento dos clientes é o registro do dia em que o cliente nasceu e deve estar completa com o dia, mês e ano, este último representado com quatro dígitos. Dia deve ser um número de 1 a 31, sendo que o limite varia de mês a mês (Janeiro, Março, Maio, Julho, Agosto, Outubro e Dezembro varia de 1 a 31. Abril, Junho, Setembro e Novembro varia de 1 a 30. Fevereiro varia de 1 a 28 em anos não bissextos, de 1 a 29 em anos bissextos). Mês deve ser um número de 1 a 12. Ano deve ser um número que represente uma idade maior que 18 anos, porque neste caso os clientes precisam ser maiores de idade, ou menor que 85 anos, porque neste caso há um limite de idade para que os clientes possam usufruir do serviço em questão.
+
+O número de telefone deve ser um número com n dígitos numéricos dependendo do país, unidade e estado onde o contato mora. Ele é um identificador de uma linha telefônica através da qual pode-se contatar uma pessoa da base de contatos.
+
+Com o dicionário de conformidades, deve-se elaborar um Plano de Qualidade de Dados como parte dos projetos de software ou da cadeia produtiva de conhecimento. O plano deve possuir os seguintes itens:
+
+Título do Projeto: um nome que o identifica. Exemplos: Plano de Qualidade da Informação de Clientes ou Plano de Qualidade do Software de Ponto de Venda.
+
+Autores: são os titulares da informação, os responsáveis pela elaboração do plano de qualidade e das normas de conformidade.
+
+Lista de requisitos de qualidade: são as dimensões de qualidade que serão através das quais a informação será avaliada. Serão os elementos que garantem a exatidão e a precisão dos dados.
+
+Lista dos padrões de qualidade: determina todas as ferramentas que serão usadas para medir os dados, que métricas serão observadas e quais são as metas de conformidade esperadas.
+
+Sistema de controle de mudanças da qualidade: como a qualidade está associada à expectativa do cliente / usuário, que é um agente externo à cadeia produtiva do conhecimento, esta expectativa está sujeita a mudanças e estas mudanças precisam ser controlada.
+
+Frequência de avaliação dos requisitos de qualidade: com qual frequência as ferramentas de padrão de qualidade serão utilizadas para medir e garantir qualidade de um dado.
+
+Gestão da Qualidade de Dados
+
+Com a visão conceitual apresentada acima deve estar claro que o processo de gestão da qualidade de dados é algo contínuo e constante. Se o dado é uma representação de um fato que ocorre fora do sistema, “no mundo real”, e ter qualidade significa estar em conformidade com a expectativa de um agente também externo à cadeia produtiva de geração de conhecimento que é o cliente, seus parâmetros podem variar ao longo do tempo.
+
+Para gerir a qualidade dos dados, portanto, são necessárias ferramentas de acompanhamento que podem se apoiar nas próprias ferramentas de geração do conhecimento, neste caso o conhecimento de que os dados estão ou não estão em conformidade com os padrões esperados de qualidade. Sugere-se, portanto, a criação de dashboards de acompanhamento da qualidade dos dados.
+
+Garantia e Controle da Qualidade
+
+Adicionalmente aos dashboards de qualidade de dados, que garantem um acompanhamento contínuo da qualidade, deve-se estabelecer um processo de melhoria contínua da qualidade. Sugere-se o uso de um framework (uma “abordagem”) conhecida pela sigla PDCA, que é a sigla em inglês para PLAN-DO-CHECK-ACT ou “Planejar”, “Realizar”, “Monitorar” e “Agir”.
+
+Planejar diz respeito ao planejamento da qualidade, a determinação de quais são as ferramentas, métricas e metas da qualidade. Realizar diz respeito a colocar em prática o plano de qualidade enquanto a cadeia produtiva do conhecimento é executada. Monitorar através de indicadores e um dashboard, de forma constante para que qualquer desvio possa ser imediatamente percebido. Agir significa descobrir a causa do desvio e corrigi-lo para que se retorne ao estado anterior de conformidade.
+
+O PDCA é uma abordagem de melhoria contínua muito usada em processos produtivos e que deve suportar a necessidade de monitoramento constante dos processos de qualidade de dados.
+
+ 
+
+ 
+
+Atividade extra
+
+Nome da atividade: Leia a matéria “Baixa qualidade dos dados impacta organizações; um custo financeiro de US$ 15 milhões em 2017” baseada em estudos do Gartner e reflita sobre a qualidade da informação na empresa em que você trabalha.
+
+Endereço para ler a matéria: https://itforum365.com.br/baixa-qualidade-dos-dados-impacta-organizacoes-um-custo-financeiro-de-us-15-milhoes-em-2017/
+
+ 
+
+Referência Bibliográfica
+
+FALCONI, V. TQC ? Controle da Qualidade Total (no estilo japonês). Belo Horizonte, MG: Editora de Desenvolvimento Gerencial, 1999.
+
+MEIRE. O que é PDCA? BLOG DA QUALIDADE.
+
+https://blogdaqualidade.com.br/o-que-e-pdca/
+
+WIKIPEDIA. ISO/IEC 9126.
+
+https://pt.wikipedia.org/wiki/ISO/IEC_9126
+
+WIKIPEDIA. Organização Internacional de Normalização.
+
+https://pt.wikipedia.org/wiki/Organiza%C3%A7%C3%A3o_Internacional_de_Normaliza%C3%A7%C3%A3o#Membros_(adaptado_da_vers%C3%A3o_inglesa)
+
+Ir para questão
+
+
+1: Qual foi a principal mudança de paradigma que ocorreu entre o início da qualidade, quando o foco estava na inspeção e o conceito atual de ver a qualidade pela ótica do cliente?
+R: as ações da qualidade deixaram de ser reativas e passaram a ser proativas, atuando sobre o processo e avaliando sob a ótica do cliente.
+Exp: No início as ações da qualidade ocorriam de forma reativa, em uma visão mais industrial, descartando itens que não estavam em conformidade com os padrões. A evolução deste conceito foi considerar ações proativas em relação ao processo, não apenas o produto, e a avaliar a qualidade sob a ótica do cliente / usuário.
+
+
+2: Há algo de errado na frase a seguir? Se há, o que é?
+“Este é um produto sem qualidade, por isso prefiro aquele outro que possui qualidade.”
+R: não existe produto com ou sem qualidade, pois qualidade é um substantivo logo existem produtos com alta qualidade ou baixa qualidade.
+Exp: Qualidade é uma característica de cada item e determina se certas características desse item estão ou não em conformidade com a expectativa.
+
+
+3: Não existe uma norma internacional de qualidade de dados, mas a norma de qualidade do produto software (ISO/IEC 9129) está intimamente conectada à qualidade dos dados porque são nos sistemas que os dados são coletados, armazenados e processados para que sejam transformados em conhecimento. Com relação às dimensões de qualidade externa e interna que compõem a norma, podemos afirmar que:
+R: são seis dimensões, mas em todas há um elemento de conformidade com relação aos parâmetros de expectativa do cliente.
+Exp: Qualidade pode ser explicada como conformidade em relação aos parâmetros que são esperados pelo cliente/ usuário do software. Ser um software de alta qualidade significa atender às expectativas do cliente / usuário nas seis dimensões definidas pela norma.

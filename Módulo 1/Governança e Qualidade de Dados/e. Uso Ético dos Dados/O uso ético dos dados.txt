@@ -1,0 +1,105 @@
+O uso ético dos dados
+O uso ético dos dados
+
+Na Sociedade do Conhecimento não apenas as empresas são grandes produtoras e consumidoras de dados, mas pessoas também desenvolveram hábitos que as tornaram cada vez mais digitais, conectadas e ávidas por informação. Um dos hábitos mais comuns e que mais potencializa esta profusão de dados é o uso constante do celular. Segundo o IBGE, o Brasil fechou o ano de 2016 com 116 milhões de pessoas conectadas à internet (64,7% de toda a população), sendo que o celular ainda é o principal aparelho de conexão, usado por 94,6% dos internautas. Mas o celular vai além de um aparelho de acesso à internet. É o principal instrumento de acesso ao mundo virtual, mas é também uma máquina de geração de dados (acessos, localização, aplicativos etc.).
+
+Mas quem usa esta informação? E quem usa, como usa esta informação? Vamos traçar um paralelo com os estudantes de medicina. Desde que estão na faculdade preparando-se para se tornarem médicos no futuro, estes estudantes estão em contato com as responsabilidades e preceitos éticos que envolvem a sua profissão e o uso de suas futuras habilidades profissionais. Médicos sabem que um erro seu por negligência podem causar danos muito sérios, como tirar a vida de um paciente. Sabem também que as informações trocadas entre médico e paciente são informações confidenciais e há de se ter muita responsabilidade com a coleta e divulgação destas informações.
+
+Mas agora vamos olhar para os estudantes de tecnologia (desenvolvedores de aplicativos, engenheiros de celulares etc.). Hoje a tecnologia e o uso dos dados têm um impacto enorme na vida das pessoas, mas não há ainda uma definição clara sobre um código de ética envolvendo os usos destas informações e como este impacto deve ser controlado ou regulado e estes estudantes e profissionais simplesmente não estão sendo formados nesta questão. A Sociedade do Conhecimento ainda precisa evoluir muito nesta direção.
+
+Privacidade
+
+Dentre todas as questões envolvidas no uso ético das informações, uma que tem figurado com frequência é a questão da privacidade. O celular incorpora a principal interface com as redes sociais e possui mecanismos de monitoramento como o gps. Estamos o tempo todo com o celular. Então a questão da privacidade se tornou uma grande preocupação no mundo.
+
+Mas há diferenças culturais que fazem com que as pessoas tratem de forma totalmente diferente estas questões. A China, por exemplo, tem uma visão bastante diferente da que estamos acostumados no ocidente. Como país, sua estratégia é tornar-se o maior fornecedor de dados de perfil (“profile”) do mundo. Como sociedade, a privacidade da população não é uma questão.
+
+Como exemplo, podemos citar os experimentos de utilização da tecnologia de reconhecimento facial para possibilitar o acesso às residências. Vários condomínios já implantaram uma tecnologia que abre as portas do condomínio e da residência quando um dos moradores autorizados se aproxima da porta. Esta abertura acontece a partir de uma tecnologia de reconhecimento facial e é muito conveniente. Até aqui, nada demais, trata-se da tecnologia ajudando as pessoas.
+
+O detalhe é que esta tecnologia está abertamente conectada com sistemas de monitoramento da polícia chinesa, que usa estes dados para rastrear pessoas que têm mandado de prisão expedida e que estão foragidas. Mas, pense bem. Esta tecnologia integrada permite também que o governo controle ativamente quem frequenta a sua casa e a que horas as pessoas chegam e saem, por exemplo. No senso comum sobre privacidade no ocidente isso seria um problema. No senso comum dos chineses parece não ser um problema.
+
+Mas agora vamos pensar em termos globais. Cada vez mais as fronteiras políticas dos países têm sido sobrepostas por relações econômicas e de negócios entre empresas e empresas e entre pessoas e empresas. Cada vez mais é comum que empresas de um país (China, por exemplo) se relacionem com pessoas de outros países (Brasil, por exemplo). E como ficam estas diferenças culturais tão exacerbadas. É algo que ainda não foi resolvido, mas que merece nossa atenção urgente.
+
+#tenyearschallenge
+
+Falando em tecnologia de reconhecimento facial, sabemos que tem sido um dos maiores investimentos de muitas empresas nos últimos anos. Quando as redes sociais, como o Facebook por exemplo, começaram a fornecer facilidades de marcação de pessoas nas fotos, inclusive com sugestões (“É o Eduardo nesta foto?”).
+
+Ao mesmo tempo em que melhorava a usabilidade para os seus usuários, facilitando a marcação de amigos nas fotos, o Facebook iniciava a construção do que é hoje, provavelmente, um dos maiores bancos de dados de reconhecimento facial do mundo.
+
+Agora, uma das maiores dificuldades enfrentada pelos algoritmos de reconhecimento facial está justamente na capacidade de simular e reconhecer o envelhecimento das pessoas. Então, recentemente a internet viu um jogo chamado “#tenyearschallenge” (desafio dos 10 anos) viralizar na internet. Tratava-se de um desafio onde as pessoas postaram fotos suas com a diferença de 10 anos. Muitos entraram na brincadeira e a hashtag oficial do desafio passou dias entre as maiores tendências das redes sociais.
+
+Até que alguém aventou a possibilidade de que tudo não passava de uma estratégia justamente para treinar e aprimorar algoritmos de reconhecimento facial. Empresas como o Facebook correram para declarar que não possuíam qualquer relação com a criação do desafio e, de fato, não há provas ou indícios de que houve alguma relação. Mas que a ideia faz sentido, sim ela faz.
+
+Segurança
+
+Se na Sociedade do Conhecimento concordamos que o conhecimento tem se tornado um dos bens mais valiosos e que, ao mesmo, se mal utilizado pode causar danos graves à pessoas e/ou organizações, faz sentido que o tema da segurança tenha se tornado cada vez mais importante e sensível nos tempos atuais. Não existe sistema 100% seguro e livre de vulnerabilidades, mas as empresas, governos e pessoas devem se preocupar cada vez mais em quão seguros estão os seus dados e sistemas.
+
+Em 2007 o ator Bruce Willis estrelou o quarto filme da série Duro de Matar. Neste episódio o policial John McClane, personagem principal interpretado pelo ator, tem contato com o hacker Matthew Farrell enquanto outro hacker interpretado por Timothy Olyphant realiza um ataque massivo contra vários sistemas de infraestrutura americano (energia, comunicações, tráfego terrestre, tráfego aéreo etc.). O conceito que sustenta o filme é que todo o mundo está suportado por tecnologia, mas mesmo a tecnologia mais sofisticada pode ser capturada e se tornar refém de elementos mal intencionados (assista ao trailer em https://www.youtube.com/watch?v=joFa1cn26LA).
+
+Mesmo envolto em todo o sensacionalismo do cinema de hollywood, este filme anunciava há mais de dez anos como a nossa vida se tornava cada vez mais dependente da segurança dos sistemas de informação. Mesmo com toda a imaginação dos roteirista, esta obra de ficção ainda não era capaz de prever o quanto nosso cotidiano estaria dependente e exposto a um ataque cibernético.
+
+Hoje, por exemplo, vemos grandes investimentos e avanços no desenvolvimento dos carros autônomos. Já sabemos que eles serão uma realidade no futuro, apesar de não estar claro ainda quanto falta para chegar este futuro. Cinco anos? Dez ano? As previsões são variadas, mas ninguém discorda que é um futuro certo. Porém muitas discussões sobre segurança ainda precisam ser realizadas. Um carro autônomo pode ser invadido e utilizado como ataque terrorista? Ou, muito menos dramático, pode ser utilizado para rastrear e invadir a privacidade de uma pessoa?
+
+É preciso, porém, lembrar que os crimes cibernéticos não começaram recentemente. Já no início dos anos 1990, Kevin Poulsen era preso e banido da internet por cometer crimes invadindo centrais telefônicas para ganhar concursos e sorteios em programas de rádio. Também é importante lembrar que as falhas de segurança envolvem muito mais do que os sistemas em si, pois pessoas podem, de forma intencional ou não, criar brechas na segurança dos sistemas. A exploração destas brechas por criminosos ganha o nome de engenharia social.
+
+Governança de Dados
+
+A Governança de Dados determina como as empresas devem lidar com todas estas questões de ética no uso dos dados, privacidade e coleta de dados particulares. Governança de dados trata de todo o gerenciamento de dados em uma empresa. No plano de Governança de Dados são definidas as políticas e os mecanismos que irão assegurar que a informação que colaboradores têm acesso receberão o melhor uso possível, de acordo com os valores praticados pela empresa.
+
+Este movimento tem criado uma figura cada vez mais importante nas empresas que é o responsável pela governança de dados. Pode ser um papel cumprido pelo diretor de compliance, por exemplo. Mas algumas empresas já estão criando um executivo específico para isso, chamado de CDO (Chief Data Officer). Dependendo da importância que os dados possuem nas operações da empresa, faz bastante sentido.
+
+Por fim, a governança de dados deve ser desenvolvida em cinco passos descritos a seguir:
+
+Identifique os titulares da informação, ou seja, dentro da organização quem será responsável por cada dado, sobretudo para os dados mais sensíveis e críticos.
+
+Determine a situação atual, pois fazer um diagnóstico de como estas informações têm sido tratadas na empresa atualmente é muito importante para o próximo passos, que é...
+
+Desenvolva uma estratégia, deixando bem claras as políticas e os valores relacionados à coleta, armazenamento, uso e disponibilização de dados.
+
+Use a informação da melhor forma possível, deixando claro quais são os conceitos de “melhor forma” na empresa. E, por fim...
+
+Meça constantemente os riscos e oportunidades relacionados com cada parte da informação que permanece em posse da empresa.
+
+Muitas empresas estão sendo obrigadas a formular suas políticas de governança de dados por determinação de governos ou pressão da sociedade. Conforme todos percebem os riscos (e as oportunidades) que surgem a partir da posse e uso dos dados, mais se dá valor à necessidade de governança de dados.
+
+ 
+
+ 
+
+Atividade extra
+
+Nome da atividade: Leia a matéria do G1 / BBC sobre o caso do Facebook e a Cambridge Analytica que veio à público em 2018.
+
+Endereço para ler a matéria: https://g1.globo.com/economia/tecnologia/noticia/entenda-o-escandalo-de-uso-politico-de-dados-que-derrubou-valor-do-facebook-e-o-colocou-na-mira-de-autoridades.ghtml
+
+ 
+
+Referência Bibliográfica
+
+DUPAS, G. Ética e Poder na Sociedade da Informação
+
+http://editoraunesp.com.br/catalogo/9788539300778,etica-e-poder-na-sociedade-da-informacao-3-edicao
+
+GABRIEL, M. Você, Eu e os Robôs
+
+https://www.martha.com.br/livros/voce-eu-e-os-robos-por-martha-gabriel/
+
+GARCIA, G. Os 15 hackers que fizeram os maiores estragos da história
+
+https://exame.abril.com.br/tecnologia/os-15-hackers-mais-perigosos-de-todos-os-tempos/
+
+TIBURI, M. O desafio da ética na sociedade do conhecimento.
+
+https://revistacult.uol.com.br/home/o-desafio-da-etica-na-sociedade-do-conhecimento/
+
+
+1. Por que o uso dos dados passou a ser um problema sob a ótica da ética nos tempos atuais?
+R:Porque com o aumento do volume, valor e relevância dos dados e informações na Era do Conhecimento, somado à grande profusão de dados que são coletados e compartilhados, a vida de todos na sociedade passou a ser extremamente afetada pela forma como os dados são tratados pelas empresas e governos.
+Ex: A Era do Conhecimento trata justamente da importância que o ato de gerar, coletar, armazenar e processar dados para que sejam transformados em informação e conhecimento tomou em nossa sociedade. Esse conceito não afeta apenas as empresas, mas toda a sociedade onde estão inseridas, pois a vida das pessoas pode cada vez mais ser afetada positiva ou negativamente pelo bom ou mau uso destes dados, informações e conhecimentos.
+
+2. Por que as diferenças de cultura devem ser consideradas sob a ótica da privacidade?
+R: Porque empresas de diferentes países e culturas avaliam de forma distinta as questões de privacidade, mas realizam negócios com cidadãos de todos os países.
+Ex: O mundo das relações comerciais está cada vez mais sem fronteiras. Hoje é bastante comum que um brasileiro, por exemplo, utilize um site americano para adquirir uma mercadoria vendida por uma empresa inglesa, mas que foi produzida e será despachada diretamente da China, transportada por uma empresa de logística com sede na Alemanha. Toda a negociação é permeada por sistemas que realizam a troca de informações, mas cada um age sob seus limites legais e culturais.
+
+3. Por que estudantes e profissionais de tecnologia deveriam ser formados nas questões éticas do uso da informação?
+R: Porque as tecnologias e o uso das informações têm afetado cada vez mais a vida das pessoas, tornando-se bens de muita responsabilidade na Era do Conhecimento.
+Ex: Há até pouco tempo não era comum que as escolas de tecnologia formassem os seus alunos nas questões de ética e privacidade que se tornaram tão cruciais para o vida de toda a sociedade. Diferentemente de médicos, por exemplo, que entendem como o exercício de sua profissão pode afetar diretamente a vida das pessoas envolvidas, os profissionais que hoje desenvolvem as tecnologias que utilizamos em nosso dia-a-dia precisam entender que estas tecnologias e os seus usos também afetam diretamente a forma como vivemos e que o seu mal-uso pode trazer consequências reais e gravíssimas.

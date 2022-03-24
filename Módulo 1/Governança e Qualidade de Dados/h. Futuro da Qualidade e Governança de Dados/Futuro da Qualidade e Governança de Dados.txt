@@ -1,0 +1,90 @@
+Futuro da Qualidade e Governança de Dados
+Como se prevê o futuro?
+
+Estamos assolados por uma estatística que nos diz que a maioria dos empregos e profissões que existem hoje em dia deixarão de existir nos próximos anos. John Pugliano, autor do livro “Robots are Coming: A Human's Survival Guide to Profiting in the Age of Automation”, afirma que todos os trabalhos rotineiros ou previsíveis serão substituídos por algoritmos matemáticos até 2025.
+
+Para avaliar se a nossa profissão continuará existindo e se continuarem “competitivos”, tentamos prever o futuro. Existe um dito popular que diz que “o futuro a Deus pertence”. Independentemente das crenças religiosas de cada um, a principal conotação deste dito é que o futuro não pertence a nós, ou seja, não está sob nosso controle. Assim como não podemos controlá-lo, não possuímos a capacidade de prevê-lo com 100% de assertividade. Mas isso nunca impediu a humanidade de tentar.
+
+Tentar prever o futuro é sempre um exercício de adivinhação, mas esta adivinhação pode ser mais ou menos embasada em fatos, tendências e simulações de futuro. Para isso, recolhemos dados e olhamos para o passado, acompanhamos o que está acontecendo no presente e exercitamos caminhos possíveis no futuro.
+
+Ao longo da história nos convencemos de que o passado e presente são os melhores indicadores possíveis para o futuro. E são mesmo, já que são os únicos indicadores que temos para trabalhar. Neste ponto, pessoas envolvidas com o trabalho baseado em dados têm uma grande vantagem competitiva. Os ambientes analíticos são os espaços perfeitos para identificar e observar tendências.
+
+Em nosso escopo aqui devemos tentar prever se a Qualidade dos Dados e a Governança de Dados continuarão representando um papel significativo nas organizações nos próximos anos. Seguindo a prática, devemos observar quais são as tendências que hoje apontam para o mundo no que se refere ao uso dos dados pelas organizações.
+
+Tendências alavancadas pelos dados
+
+Uma forma de olhar, portanto, é entender tendências que estão ocorrendo e avaliar até que ponto são alavancadas e/ou alavancadoras de uma prática centrada em dados. Neste sentido podemos apontar três tendências que vêm ganhando muita relevância: a Internet das Coisas (IoT – Internet of Things), a Inteligência Artificial (AI - Artificial Intelligence) e a Nanotecnologia.
+
+Também podemos dizer que a Inteligência Competitiva e o BI são cada vez mais atividades estratégicas dentro das organizações e, portanto, têm o seu valor nas tendências de evolução do mundo corporativo. Estas tendências que precisam ser identificadas pelos gestores para que as organizações retirem conhecimento estratégico deste contexto e garanta os melhores investimentos possíveis na evolução de sua estrutura de BI.
+
+Para mim está muito clara a tendência de o mundo produzir cada vez mais dados. Se antes os sistemas transacionais formais eram as principais origens de dados para os sistemas de BI, cada vez mais outras fontes são criadas e se tornam comuns. Desde sensores profissionais instalados com algum objetivo de negócio (ex.: sensores de movimento em estradas, sensores que medem a entrada de clientes em shoppings, câmeras que identificam o humor das pessoas em uma loja etc.) até devices de uso comum como celulares e relógios, cada vez mais se tornam máquinas de monitoramento.
+
+Por falar em relógios, uma tendência que claramente incentiva este aumento da produção dos dados é o IoT. Como já citamos, IoT é a abreviação de Internet of Things (a tradução mais comum é “Internet das Coisas”, mas uma boa descrição seria “Internet nas coisas”). Trata-se de uma tendência de conectar itens usados no dia-a-dia à internet, incrementando suas funcionalidades e melhorando, com isso, a experiência. Mas é simples perceber que um item conectado, seja uma geladeira, uma fechadura ou um tênis, também se torna um importante gerador de dados.
+
+Outra tendência a cada dia mais presente em nossas vidas é a Inteligência Artificial, que é a simulação de uma inteligência humana em mecanismos ou sistemas computacionais. Existem vários tipos e aplicações para a IA (ou AI, de Artificial Intelligence) mas todas elas se transformam em grandes geradoras de dados e, dependendo de quão sofisticada, até mesmo de conhecimento relevante.
+
+Conjugada à IoT significa que cada vez teremos itens de nosso dia-a-dia operando com inteligência própria. Estes itens observarão o seu entorno, tomarão decisões e aprenderão sobre o ambiente e as pessoas que interagem com eles. Como estão conectados são capazes de criar uma grande inteligência universal, tendo acesso a mais ambientes e realidades do que um ser-humano teria de forma isolada.
+
+Observamos, ainda, como uma forte tendência a miniaturização dos componentes digitais, chegando ao nível que chamamos de nanotecnologia. Segundo a Wikipedia, “nanotecnologia é uma ciência que se dedica ao estudo da manipulação da matéria numa escala atómica e molecular lidando com estruturas entre 1 e 1000 nanômetros”. Em outras palavras, trata-se de diminuir a um tamanho “nano” componentes digitais conectados à nuvem e com uma aplicação especializada.
+
+Um exemplo muito comum de onde a nanotecnologia poderá ser usada é na área da saúde, onde nano componentes poderão ser implantados no corpo das pessoas e farão leituras constantes de indicadores que determinam as condições de saúde do usuário, podendo inclusive agir proativamente para combater entupimentos de artérias, infartos e acidentes vasculares.
+
+Mais uma vez, do ponto de vista da informação, a quantidade e variedade de novos dados que poderão ser coletados é representativa. Em paralelo com a Internet das Coisas, a nanotecnologia funciona como uma Internet das Pessoas, ou seja, nós e nossos corpos estarão conectados em um nível que ainda não conseguimos prever.
+
+Tendências para Qualidade e Governança de Dados
+
+Com certeza estas três tendências se tornarão cada dia mais realidade no nosso mundo e no ambiente corporativo. Se dados em maior quantidade e variedade serão coletados e utilizados na geração de conhecimento estratégico, está claro que a necessidade de se garantir a qualidade destes dados será anda maior e sofisticada. Da mesma forma, aumentam as implicações sobre privacidade, segurança e uso ético dos dados, que é justamente o núcleo da política de Governança de Dados.
+
+Além da necessidade destes dois conhecimentos aumentar ao longo dos próximos anos, é muito provável que empresas que antes não possuíam esta relação com os meandros da qualidade e governança de dados tenham que começar a se preocupar com o assunto em breve. Utensílios domésticos como geladeiras, fornos e porta-retratos, por exemplo, não possuíam uma interação intensa em troca de dados com seus usuários. Se passarão a ter, uma nova realidade se apresenta.
+
+Isso significa que a atuação de profissionais especializados em Governança e Qualidade de Dados deve, ainda, se ampliar para novos mercados, com novos desafios e exigências cada vez maiores.
+
+Como se preparar para o futuro?
+
+Utilizando a própria filosofia de tomar decisões baseadas em informação é possível observar e identificar que tendências estão acontecendo e, a partir destas tendências deixar a organização mais preparada para crescer e sobreviver no futuro. Da mesma forma, o profissional pode direcionar os seus investimentos em educação e treinamento a partir da percepção destas tendências. Esta é a melhor maneira de se preparar para o futuro.
+
+ 
+
+ 
+
+Atividade extra
+
+Nome da atividade: Assista ao documentário “O Futuro em 2111 - Mundo Inteligente” do Discovery Channel e reflita sobre as quantidades e variedades de novos dados que poderão ser gerados para o BI conforme são apresentadas as previsões de como será o mundo e a vida cotidiana no próximo século.
+
+Link: https://www.youtube.com/watch?v=LNcn2YUt1Ho
+
+ 
+
+Referência Bibliográfica
+
+GABRIEL, M. Você, Eu e os Rôbos - Pequeno Manual do Mundo Digital.
+
+Editora Atlas, 2017.
+
+UOL. Empregos e Carreiras. As profissões ameaçadas pelos avanços tecnológicos.
+
+https://economia.uol.com.br/noticias/bbc/2018/12/20/as-profissoes-ameacadas-pelos-avancos-tecnologicos.htm
+
+WIKIPEDIA. Inteligência artificial
+
+https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_artificial
+
+WIKIPEDIA. Nanotecnologia
+
+https://pt.wikipedia.org/wiki/Nanotecnologia
+
+ZAMBARDA, P. ‘Internet das Coisas’: entenda o conceito e o que muda com a tecnologia.
+
+https://www.techtudo.com.br/noticias/noticia/2014/08/internet-das-coisas-entenda-o-conceito-e-o-que-muda-com-tecnologia.html
+
+1. Prever o futuro é algo bastante difícil, ainda mais em um tempo onde as coisas mudam a uma velocidade estonteante, como estamos vivendo hoje em dia. Porém, sobre o futuro da Governança de Dados, podemos afirmar que:
+R: As tendências apontam para um aumento contínuo do valor da Governança de Dados na medida que novos dados são coletados, novos tipos de negócio passam a ter contato com dados e novas aplicações para estes dados são criadas.
+Exp: O mundo demonstrou nos últimos anos uma tendência a criar novos dados e dar utilidades inovadoras para estes dados. Conforme a sociedade se torna mais conectada e mais digital, esta tendência acelera ainda mais a necessidade de se estruturar um ambiente de inteligência como o proposto pelo BI.
+
+2. Uma das principais tendências que podem afetar a forma como lidamos com os dados é IoT. O que é IoT?
+R: IoT é o acrônimo para internet das coisas e trata-se de uma tendência tecnológica onde os itens e objetos do dia-a-dia passam a estar conectados à internet.
+Exp: IoT é o acrônimo em inglês para Internet das coisas (Internet of Things) e, além de ser uma tendência, é uma realidade já observada em nosso dia-a-dia quando temos smartwatches que se conectam à internet, fechaduras controladas por um app de celular etc. Cada vez mais itens (devices) serão conectados à internet para melhorar a sua experiência de uso.
+
+3. Nos itens apresentados nas alternativas a seguir, qual não faz sentido conectar-se à internet e entrar na tendência do IoT?
+R: Todas as alternativas anteriores apresentam itens onde faz sentido conectar-se à internet e fazem parte da tendência de IoT.
+Exp: Com o aumento da realidade IoT, virtualmente qualquer item pode estar conectado à internet e, com isso, ganhar utilizações que melhoram a sua experiência de uso e geram dados adicionais para um BI de comportamento.

@@ -39,3 +39,13 @@
         6. Plano de Qualidade dos Dados
         7. Implantando a Governança de Dados
         8. Futuro da Qualidade e Governança de Dados
+
+    * Teoria Geral de Sistemas - Prof: Lindolfo Júnior
+        1. Fundamentos, Bases Tecnológicas e Científicas dos Algoritmos
+        2. Lógica Computacional, Linguagens e Conceitos
+        3. Hardware e sua base na estruturação dos Sistemas
+        4. Conceitos e Estrutura dos Sistemas Operacionais e seus Principais Tipos
+        5. As Principais Aplicações da Matemática e Estatística em Sistemas
+        6. Os Principais Conceitos e Abordagens em Bancos de Dados
+        7. Tipos de Redes, Hardware, Segurança e Conectividade
+        8. Ciclo de Vida, Modelagem e Métodos Ágeis de Desenvolvimento de Sistemas

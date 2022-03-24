@@ -1,0 +1,130 @@
+Implantando a Governança de Dados
+Titulares da Informação
+
+Relembrando, a Governança de Dados “é um sistema de tomada de decisões executado por um modelo que descreve quem age com qual informação, em que momento, usando que métodos e sob que circunstâncias” (VEYRAT, 2015). Em outras palavras a política de governança de dados de uma organização tem como objetivo:
+
+Proteger os dados que trafegam pela empresa;
+
+Dar eficiência aos processos que coletam e manipulam dados dentro da empresa;
+
+Reduzir os custos e riscos do uso dos dados; e
+
+Dar transparência às partes interessadas sobre os procedimentos que envolvem dados dentro da organização.
+
+Em geral o plano de Governança de Dados será composto por:
+
+Um conselho que tem a missão de zelar pelos valores da organização no que tange ao uso dos dados por ela coletados, manipulados e divulgados. O conselho deve ser formado por pessoas com grande influência na gestão e que conheçam os detalhes dos processos que envolvem coleta, processamento e divulgação de dados.
+
+Procedimentos associados à manipulação de dados, tanto no que diz respeito às definições de políticas, princípios e valores.
+
+Planos de Ação que se refere a eventos que venham a ocorrer e exijam uma resposta da empresa como, por exemplo, o vazamento acidental de dados.
+
+O primeiro passo para se desenvolver um Plano de Governança de Dados é definir quem é o Governador dos Dados. “Governador” aqui com o sentido de qual executivo se tornará o responsável pelas políticas de governança referentes ao uso dos dados e informações. Com a evolução da sociedade para a Era do Conhecimento e o agravamento dos valores e riscos envolvidos na gestão dos dados, tem se tornado cada vez mais comum a criação de um cargo específico para este fim, o Chief Data Officer (CDO).
+
+Em muitas organizações, porém, este papel acaba sendo cumprido pelo responsável pela área de compliance, ou seja, considera-se que estar em conformidade em relação aos dados e informações é mais uma das responsabilidades desta área, junto com o cumprimento de outras leis e regulamentos internos ou externos.
+
+Será o Governador de Dados quem irá conduzir a criação das políticas de governança de dados, as reuniões, definir pautas, cronogramas, objetivos etc. Mas o Governador de Dados não é, necessariamente, responsável direto por nenhuma informação dentro da organização. Os responsáveis são chamados de “Titulares da Informação”.
+
+Significa que para cada dado coletado, armazenado, processado e distribuído o comitê deverá indicar um titular, que fica responsável por este dado. É como se ele fosse o “dono” ou gestor daquele bem (asset) dentro da companhia. Todo bem, e com os dados não é diferente, possui um valor, custo e riscos associados. Então é responsabilidade do titular equilibrar estas três dimensões.
+
+Diagnóstico e Planejamento
+
+Todo processo de governança começa com um diagnóstico para avaliar a situação atual e um planejamento de próximos passos para que a organização possa atingir os seus objetivos de governança. Para determinar a situação atual o trabalho deve começar com um levantamento de quais são as informações que a empresa possui. Que dados são coletados e armazenados na organização como parte de sua operação?
+
+Este deve ser um levantamento extensivo e exaustivo, pois invariavelmente as empresas ficam surpresas com a quantidade e a variedade de dados que elas possuem. Neste levantamento, em geral, já se percebem duplicidades e redundâncias desnecessárias e, muitas vezes, dados que não precisavam ser coletados ou armazenados.
+
+O comitê deve, então, priorizados os dados que são mais sensíveis. Não faz sentido tentar resolver todos os problemas de uma só vez, então é preciso fazer uma avaliação de valor versus custo. Bo ponto de vista do valor, leva-se em conta a importância que os dados têm para a execução das operações e o valor dos conhecimentos que são ou poderiam ser gerados com base naquele dado. Do ponto de vista de custo devem ser considerados os custos diretos e indiretos de coleta, armazenamento e processamento do dado, mas também os riscos da empresa manter aqueles dados armazenados.
+
+Itens de alto valor e alto custo são os mais sensíveis e devem ser priorizados no planejamento da governança de dados. Por outro lado, itens de baixo valor e baixo custo podem ficar para o final da fila. Uma discussão mais detalhada sobre os riscos está presente adiante neste material. Seguindo a prioridade, o comitê deve avaliar que medidas de proteção já existem para estes dados e qual é a sua qualidade atual.
+
+Nestes passos podemos usar um método de avaliação como a matriz SWOT, por exemplo. Um dado sensível pode trazer forças para a organização (Strengths), mas também pode gerar fraquezas (Weaknesses) se possui uma qualidade baixa, por exemplo. Por outro lado, pode gerar oportunidades (Opportunities) de diferenciais competitivos, dependendo do conhecimento estratégico que pode ser extraído dele, mas também traz consigo ameaças (Threats). Então uma boa prática consiste em utilizar a matriz SWOT para avaliar os dados prioritários definidos no levantamento anterior.
+
+Concluído o Diagnóstico, o comitê parte para o planejamento, sempre seguindo a prioridade definida. O comitê deve escrever uma missão para o comitê e a política de governança e definir qual a visão da empresa com relação aos dados e informações. Esta missão e visão, é claro, precisa estar consoante com a visão e a missão da organização.
+
+O comitê deve, então, criar um programa que contenha projetos específicos para os conjuntos de dados mais sensíveis, estabelecer os objetivos estratégicos e os desdobrando dos planos táticos e operacionais. Não necessariamente é o comitê quem vai gerenciar os projetos, ele pode atuar como um patrocinador que monitora os resultados ao longo do tempo.
+
+Uso da Informação
+
+Em resumo podemos dizer que a governança visa garantir a melhor utilização possível dos dados que estão sob gestão da organização. Com os projetos estabelecidos, o grupo deve elaborar os manuais de uso destes dados. O manual é um documento que deixa claro:
+
+O titular responsável por cada conjunto de dados;
+
+As políticas de acesso, definindo quem tem acesso, qual o objetivo do acesso e qual o tipo de acesso (leitura, edição, inserção etc.);
+
+Quais são as alçadas envolvidas no acesso ao dado;
+
+Como o acesso é controlado;
+
+Um plano de ação em caso de desvio.
+
+Para não deixar totalmente no abstrato, vamos desenvolver um exemplo resumido para um dado que costuma ser considerado sensível na maior parte das organizações: o valor de salário dos colaboradores.
+
+Titular:
+Gerente do Departamento de Pessoal.
+Políticas de Acesso:
+Gerente do Departamento de Pessoal: acesso total (para realização das funções de folha de pagamento).
+
+Coordenador de Remuneração: acesso total (para realização das funções de folha de pagamento).
+
+Analista de Remuneração: acesso de leitura (para realização das funções de folha de pagamento).
+
+Gerentes Funcionais: acesso de leitura, respeitando as alçadas definidas a seguir.
+
+Alçadas
+Cada gerente funcional tem acesso de consulta aos salários de seu departamento.
+Como o acesso é controlado
+Informação armazenada no sistema do Departamento de Pessoal, módulo Folha de Pagamento. Acesso controlado por usuário, senha e perfil.
+Plano de ação em caso de desvio.
+O Comitê de Governança é acionado para uma reunião extraordinária e nomeia em até 24hs um auditor que deverá abrir uma sindicância e apresentar os resultados em até 72hs. O Gestor de TI suspende todos os acessos ao módulo de Folha de Pagamentos.
+Um manual como este, porém muito mais elaborado e detalhado em casos reais, deve ser desenvolvido para cada conjunto de dados sensíveis da companhia.
+
+Riscos e Oportunidades
+
+Por fim o comitê tem a responsabilidade de monitorar constantemente os riscos e oportunidades envolvidas na gestão dos dados da companhia. Riscos e oportunidades são quaisquer evento que possua uma probabilidade x de ocorrer e, caso venha ocorrer, cause um impacto y. A avaliação dos riscos e oportunidades recai justamente em sua classificação entre probabilidade e impacto.
+
+A partir desta análise de risco, planos de ação são desenvolvidos para mitigar as probabilidades ou remediar os impactos. A análise de riscos deve ser incorporada ao Manual de Uso de Dados, mas é importante ressaltar que um risco pode afetar mais do que um conjunto de dados. Exemplo, o risco de invasão do banco de dados de clientes de um site pode afetar itens como os dados de contato, número do cartão de crédito, comportamento de compras etc.
+
+ 
+
+ 
+
+Atividade extra
+
+Nome da atividade: Leia a matéria “Os 10 Maiores Vazamentos de Dados da História” e reflita sobre como uma política de governança de dados poderia ter evitado os problemas e prejuízos relatados.
+
+Endereço para ler a matéria: https://www.advogatech.com.br/blog/@HenriqueDantas/os-10-maiores-vazamentos-de-dados-da-historia-b05by2t
+
+ 
+
+Referência Bibliográfica
+
+DAMA Brasil. Conhecimento.
+
+http://www.dama.org.br/conhecimento/
+
+RUNRUN.IT Blog. Governança de dados: organize esse processo crítico para a sua empresa.
+
+https://blog.runrun.it/governanca-de-dados/
+
+TAVARES, R. The DAMA Guide to the Data Management Body of Knowledge (DAMA-DMBOK) Portuguese Edition.
+
+https://www.amazon.com/gp/product/1935504177/
+
+VEYRAT, P. O que é governança de dados?
+
+https://www.venki.com.br/blog/governanca-de-dados/
+
+
+
+1. Afinal, o que é Governança de Dados?
+R: é um conjunto de regras e um modelo que descreve quem age com qual informação, em que momento, usando que métodos e sob que circunstâncias, com objetivo de garantir o melhor uso possível dos dados por representantes de uma organização.
+Exp: A Governança de Dados é um conjunto de regras e procedimentos que buscam garantir o melhor uso possível dos dados, em consonância com os valores da organização onde os dados estão armazenados ou que trafegando.
+
+
+2. Vários são os objetivos que podem ser considerados na Governança de Dados. Dentre as alternativas abaixo, qual apresenta um objetivo que não faz sentido neste conjunto?
+R: Criar um plano de coleta de dados que alimente a estrutura de BI da empresa com dados relevantes para a tomada de decisão.
+Exp:Apesar desta alternativa apresentar um item importante do projeto de construção de um Business Intelligence (BI) e, é claro, do BI ter que estar subordinado às políticas de Governança de Dados, este assunto não é tratado pela Governança de Dados. Depois que os dados são coletados os manuais de dado precisarão ser atualizados caso seja identificado que se trata de dados sensíveis, mas aí é outro assunto.
+
+3. Dentre as alternativas abaixo, qual está correta em relação ao Conselho de Governança de Dados?
+R: todas as alternativas apresentadas estão corretas.
+Exp: 
