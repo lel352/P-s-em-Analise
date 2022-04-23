@@ -1,0 +1,90 @@
+Entendendo o Poder da Engenharia Social
+Entendendo o poder da Engenharia Social
+
+A Engenharia social é um dos pontos mais importantes de atenção. É por meio da Engenharia Social que muitos ataques poderão ocorrer, mesmo com toda infraestrutura necessária de proteção na empresa.
+
+Muitas pessoas não precisam de nenhuma ferramenta para fazer uma invasão aos dados confidenciais das empresas. Os seres humanos também são falhos e costumam deixar seus negócios visíveis por meio apenas da sua comunicação, falando coisas abertamente para pessoas desconhecidas.
+
+Você pode estar em um café em um centro comercial, apenas conversando com o seu amigo da empresa sobre a reunião de fechamento mensal. Nessa conversa vocês discutem o que foi vendido, as metas, o faturamento, margens, parceiros estratégicos e os próximos passos para alcançarem seu sucesso. Quando uma conversa é feita entre suas pessoas, normalmente o foco da atenção está nessas duas pessoas e não fazem questão de saber quem está na mesa ao lado. E é nessa hora que entra a Engenharia Social. Não necessariamente você pode conhecer a pessoa ao lado, mas ela pode ter uma foto sua que alguém entregou justamente para que essa pessoa ao seu lado pudesse lhe seguir por alguns instantes e coletar as informações necessárias.
+
+Como se não bastasse, esse café tem wireless e você pede a senha para se conectar. Essa pessoa ao seu lado está discretamente tomando um café e vendo as notícias em um notebook. Porém, na verdade ela pode estar monitorando todos que estão se conectando à rede e o que estão fazendo (entrando em e-mails, VPNs, Sites). Tudo pode ser monitorado com tranquilidade e é nessa hora que muitas senhas são descobertas. Por isso, vale a reflexão com quem você fala e onde você se conecta! Todo cuidado é pouco.
+
+A pessoa de má índole não tem uma fisionomia pré-determinada. Podem ser amigos, parentes, colegas, qualquer pessoa ao seu lado. Este fato dificulta para as autoridades e policiais descobrir quem de fato está atuando para espionar as empresas e colegas. 
+
+Por outro lado, sabemos que as pessoas de boa índole também não ficam desconfiando o tempo inteiro das pessoas que estão à sua volta. E é nesse momento que acabam falando algo que não devem e os dados importantes acabam sendo coletados.
+
+ 
+
+Meios existentes para evitar ataques por meio da Engenharia Social:
+
+Evite compartilhar informações em voz alta aos colegas de trabalho;
+Evite conversar sobre negócios em elevadores e ambientes públicos;
+Não deixe seu computador desbloqueado quando for ao banheiro ou café;
+Não deixe seu pen-drive solto na mesa quando sair para alguma reunião;
+Não seja curioso pegando algum pen-drive abandonado para tentar ver os arquivos que estão nele;
+Ao digitar uma senha, esteja seguro que ninguém está vendo;
+Não compartilhe qualquer login e senha com qualquer pessoa;
+Não use e-mails pessoais para assuntos corporativos;
+Troque suas senhas com frequência para evitar transtornos em caso de acesso indevido.
+ 
+
+Algumas pessoas de má índole se aproveitam de idosos em bancos para ver as suas senhas e obter o roubo desejado por meio de manipulações. Estas pessoas se passam por boazinhas querendo ajudar de todas as formas e quando se menos percebe, o roubo já ocorreu.
+
+ 
+
+Como descobrir quem você é?
+
+Muitas ações estão sendo trabalhadas por meio das redes sociais, onde os Hackers atuam diretamente nas buscas pelos principais líderes das empresas. Quando ocorre essa busca por exemplo, no LinkedIn, os hackers já têm acesso aos principais dados da pessoa. A partir daí, inicia-se a clonagem dos dados para que eles possam ter uma conta ou e-mail idêntico ao seu e solicitar informações importantes para o restante dos funcionários.
+
+ 
+
+Cuidado com o que você joga no Lixo!
+
+Aquela famosa amassada no papel e jogada na cesta de lixo pode ser um dos melhores presentes para quem deseja obter a informação desejada. É só tirar o papel do lixo e ver quais são as informações mais importantes que tem nele. A partir daí, é saber aproveitar o que tem de bom e iniciar os ataques. Pode ser um extrato, uma conta, uma senha, um e-mail de alguém importante. Até as trituradoras não estão seguras, pois estes especialistas nos ataques têm a paciência necessária para coletar e recuperar as informações e papéis rasgados.
+
+ 
+
+Não seja curioso com Fake News
+
+Hackers adoram pessoas curiosas, principalmente por notícias sensacionalistas que podem falar de famosos ou até mesmo de você. Quando uma provocação chega ao seu e-mail, você pode fazer questão de abrir e é nessa hora que o hacker agradece por seu desequilíbrio emocional, por sua raiva e por clicar no arquivo infectado.
+
+ 
+
+Tenha cuidado com as mensagens inbox e WhatsApp
+
+Não sabemos quem exatamente está do outro lado da linha quando nos pedirem algo pelo WhatsApp ou inbox/direct nas redes sociais. O fato de confirmarmos que é o celular da pessoa não significa que é a pessoa que está do outro lado. Podem ter roubado o celular dessa pessoa, onde antes de roubarem viram a senha e pronto, a partir daí o acesso está liberado para o hacker conversar rapidamente com quem ele quiser. Pelo histórico do WhatsApp ele poderá ver todas as pessoas com quem mais conversou, identificar pai, mãe, amigos e iniciar uma conversa amigável em busca de maiores informações.
+
+ 
+
+ 
+
+Atividade Extra
+
+Assista o vídeo sobre a informação roubada do SAS.
+
+https://www.youtube.com/watch?v=My-SizcEJok
+
+ 
+
+Referência Bibliográfica
+
+- Livro: Segurança da informação, Edison Fontes, CISM, CISA – O Usuário faz a diferença.
+
+- https://itmidia.com/5-truques-de-engenharia-social-que-os-golpistas-usam-para-enganar-voce/
+
+- https://canaltech.com.br/seguranca/O-que-e-Engenharia-Social/
+
+- https://www.proof.com.br/blog/ataques-de-engenharia-social/
+
+
+1. Você recebeu uma ligação para doar dinheiro para uma criança de 03 anos que está com câncer. O que você faz?
+R: Confirma a realidade dos fatos para verificar a forma mais segura de ajudar caso o fato seja real.
+Exp: Nunca sabemos se o fato é ou não real. Devemos confirmar a realidade dos fatos para verificar a forma mais segura de ajudar caso o fato seja real.
+
+2. Você está em um evento público e resolve comprar uma água de um vendedor ambulante que tem má índole. Pensando na segurança da informação, quais são os riscos dessa compra?
+R: Todas as informações acima.
+Exp: Os riscos são vários, por isso, todas as alternativas acima estão corretas.
+
+3. Quais são os riscos de ser curioso por uma notícia sensacionalista e clicar nela?
+R: Risco da notícia ser fake e ter um vírus nela
+Exp: As notícias sensacionalistas provocam curiosidades. O risco é de ser uma notícia fake e ter um vírus nela.

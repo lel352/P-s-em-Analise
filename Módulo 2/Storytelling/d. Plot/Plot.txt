@@ -1,0 +1,71 @@
+Plot
+O que é Plot
+
+O termo Plot se confunde muito com a própria história. Porém o plot não é toda a história. Ele está mais próximo de uma estrutura coerente que explicita os eventos que decorrem durante a narrativa. A definição mais adequada é:
+
+Plot é uma série de eventos interligados por meio de uma cadeia de causa e efeito que dizem respeito a um personagem que deseja algo desesperadamente, que não será fácil conseguir devido a obstáculos interno e externos e que chegará a uma conclusão. 
+
+Através dessa definição vemos que o foco principal do Plot é desenvolver quais eventos irão ocorrer no processo do protagonista buscar realizar o seu desejo até que haja uma conclusão e consequente transformação do personagem pela jornada realizada.
+
+Estruturas Narrativas
+
+O Plot serve como um guia para a criação da narrativa. Portanto existem diversas estruturas genéricas utilizadas como modelo para que essa história seja contada. Isso não significa que essas estruturas existam formalmente, afinal não existem regras para a criação de uma narrativa, porém são estruturas que facilitam o desenvolvimento da história e identificar onde podemos melhorar.
+
+Além da mais comum, a estrutura de três atos, que iremos detalhar, temos outros exemplos:
+
+Estrutura de dois atos – Dividido num momento de exposição com indicação de problemas futuros é um momento pós problemas com a conclusão da história. Muito comum em musicais e nas tragédias gregas como Édipo Rei. Ela facilita a criação da narrativa, pois não necessita da criação de todos os percalços passados pelo protagonista até atingir (ou não, o que é mais comum nessa estrutura) seu objetivo.
+
+A Jornada do Herói – Essa estrutura nasceu dos trabalhos de Joseph Campbell relativos a Mitologia Comparada. Após estudar diversos mitos e heróis ele identificou que havia uma estrutura similar de doze eventos que se repetia que ele chamou de Jornada do Herói ou Monomito. Essa estrutura tem sido muito usada atualmente no cinema especialmente nos filmes de Super Herói, Fantasia e animação. Joseph Campbell inclusive trabalhou no desenvolvimento narrativo de Star Wars a fim de transformá-lo em uma mitologia.
+
+Kishōtenketsu – Essa é uma estrutura narrativa em 4 atos desenvolvida em países orientais que contraria tudo o que consideramos no ocidente pois ela não tem conflito. O primeiro ato apresenta o cenário e os personagens; o segundo o expande, sem provocar mudanças; no terceiro há uma virada independente dos desejos personagens; e no quarto ato tudo se concluiu. É uma forma diferente de pensar a narrativa e, apesar de muito interessante, não tem ressonância com o grande público.
+
+O importante é perceber que as estruturas narrativas são ferramentas que nos ajudam a escrever histórias que agradem ao público, trabalhando estruturas mais comuns e previsíveis que facilitem o entendimento e a suspensão de descrença.
+
+Estrutura de 3 atos
+
+A estrutura de 3 atos é de longe a mais comumente utilizada e foi delineada pela primeira vez na Poética de Aristóteles. Na sua obra, ele apontou que as histórias apresentam 3 momentos distintos no seu desenvolvimento: prólogo, episódio e êxodo. Hoje usamos os termos: apresentação, desenvolvimento e resolução. A estrutura é bastante similar mas fomos introduzindo pequenos detalhes, como as viradas de plot (plot twists) para indicar as mudanças de ato.
+
+Cada um desses atos tem os seguintes objetivos e características:
+
+O primeiro ato (situação inicial/introdução) define o cenário de equilíbrio e o status quo a ser perturbado. É essa perturbação interna ou externa que promove o desejo do protagonista que coloca a história em movimento no primeiro plot twist.
+
+O segundo ato (complicação/desenvolvimento) apresenta como os envolvidos lidarão com essa perturbação e especialmente como o protagonista lida com o desejo. A partir desse momento começam os confrontos significativos, a busca por algo definitivo e que ponha as coisas no lugar. Seja no mesmo ou em outro. Alguns dividem esse ato em dois, considerando que há um momento no meio do segundo ato em que o protagonista não tem como voltar atrás na sua jornada, chamado de point of no return. Porém, temos durante todo o segundo ato, um grupo de pequenas viradas, vitórias e derrotas, que encaminham o protagonista na sua tentativa de vencer os obstáculos que o impedem de realizar o seu desejo.
+
+O terceiro ato (situação final/conclusão) surge após o clímax e  mostra como o confronto foi resolvido e se o protagonista conseguiu realizar o desejo que o impelia a agir.
+
+Não esqueça que a estrutura não é o caminho da história, mas um mapa, uma ferramenta para que você consiga determinar o ritmo e os eventos da sua narrativa com o propósito de capturar a atenção do “consumidor” da sua história.
+
+ 
+
+ 
+
+Atividade extra
+
+Nome da atividade: Decomponha sua história preferida em 3 atos
+
+Volte a sua história preferida que analisamos na aula 2 e decomponha ela em três atos evidenciando os plot twists e o processo de transformação dos personagens
+
+ 
+
+Referência Bibliográfica
+
+ARISTÓTELES. Poética.  Imprensa Nacional –. Casa da Moeda. 1990.
+
+MCKEE, Robert – Story. Curitiba: Arte e Letra, 2006.
+
+VOGLER, Christopher. A Jornada do Escritor. São Paulo: Nova Fronteira, 2006
+
+
+1. Os micro contos são formas de entregar narrativas que podem ou não respeitar a estrutura tradicional dos 3 atos. Sobre o exemplo abaixo, podemos dizer que:
+
+“Vende-se: sapatinhos de bebê nunca usados.”
+R: Apenas sugere uma história que se desenvolve na cabeça do leitor, mas não tem estrutura definida
+Exp: Apenas sugere uma história que se desenvolve na cabeça do leitor, mas não tem estrutura definida, pois não apresenta personagens nem um arco dramático mas a imagem sugere uma história que é desenvolvida pelo leitor.
+
+2. O Haiku é um poema curto, de três linhas, que envolve uma linguagem sensorial para capturar uma sensação ou imagem. Ele normalmente termina com uma imagem inesperada e não apresenta conflito, apenas contemplação. Narrativamente ele se aproxima mais da estrutura narrativa:
+R: Kishōtenketsu
+Exp: Kishōtenketsu, pela falta de conflito e pela virada inesperada no terceiro ato que tem paralelo com o verso final surpreendente.
+
+3. O Plot busca mostrar os eventos pelos quais passa o protagonista na tentativa de realizar o seu desejo. Os eventos que ocorrem no segundo ato (complicação/desenvolvimento) estão mais ligados a:
+R: Obstáculos encontrados pelo Protagonista
+Exp: Obstáculos encontrados pelo Protagonista, afinal após a apresentação do cenário e da perturbação do status quo temos os desafios que serão vividos pelo protagonista na busca pelo seu desejo.

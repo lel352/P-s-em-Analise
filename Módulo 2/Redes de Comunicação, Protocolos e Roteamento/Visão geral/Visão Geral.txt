@@ -1,0 +1,107 @@
+Visão Geral
+As redes de comunicação, ou simplesmente “redes” são uma coleção de computadores e/ou dispositivos conectados entre si com fios e/ou sinais sem fio. Esses dispositivos conectados enviam e recebem dados e instruções uns para os outros. Os dados e instruções que são enviados através de uma rede são mais do que apenas o que você vê quando você digita no teclado ou clica em um link de site. Eles acontecem em segundo plano para que os computadores saibam como agir em todos os tipos de situações.
+
+Imagine que as redes sejam as versões eletrônicas de todas as agências dos correios em todo o mundo. Se você quiser enviar um pacote para alguém, coloque os endereços e a postagem corretos e coloque-os nos correios. Em seguida, o funcionário da agência postal coloca símbolos especiais no pacote. Esses símbolos ajudam todos os outros funcionários dos correios a saber o que fazer com esse pacote quando se trata deles. As redes fazem a mesma coisa, mas fazem isso com computadores em vez de locais físicos. As Redes pode ser definido como o ato de:
+
+Criação de novas redes (geralmente instalando dispositivos e elementos de conectividade).
+Enviar informações de um lado para outro em uma ou mais redes.
+A rede permite que os usuários de computador compartilhem dados e interajam uns com os outros, embora estejam usando dois computadores diferentes. As pessoas podem interagir em rede em qualquer lugar; eles podem usar a rede enquanto estão na mesma sala ou podem usar a rede enquanto estão em dois países / regiões diferentes. Alguns aspectos chaves das Redes são:
+
+Hardware e Software de Rede
+
+Os dispositivos de hardware e software usados para criar redes estão localizados em todo o mundo e até mesmo no espaço! As empresas geralmente criam redes que conectam todos os funcionários em um prédio. Empresas de TV a cabo enviam seus sinais de TV de satélites espaciais que orbitam o planeta. E muitas pessoas de todo o mundo interagem entre si todos os dias quando usam a Internet. A internet é a maior rede do mundo. Depois que foi criado na década de 1990, as redes aumentaram sua popularidade, com muitos usuários de rede visitando sites públicos e sites de compartilhamento de arquivos.
+
+Hardware especial para redes incluem roteadores e cabos de rede. Estes são usados para mover informações de um lugar para outro e conectar computadores e dispositivos juntos. Um software especial para redes permite que os usuários façam coisas úteis e permitam que os dados sejam transferidos de um local em uma rede para outro.
+
+Redes com fio e sem fio
+
+As redes podem ser com ou sem fio. Originalmente, as redes usavam fios para se conectar, mas as redes de hoje estão usando cada vez mais a tecnologia sem fio. As redes sem fio ainda usam fios para se conectar a pontos de concentração maiores, mas também incluem hardware adicional (chamados de roteadores) que possibilita que computadores, telefones, tablets e outros dispositivos acessem redes "pelo ar" sem fios ou cabos.
+
+Conectividade de rede
+
+Para se conectar a uma rede, os computadores ou outros dispositivos precisam ter um hardware especial que permita a conexão de rede. A maioria dos dispositivos modernos vem com esse hardware já instalado, mas alguns dispositivos mais antigos não exigem um adaptador de rede especial. Por exemplo, as TVs mais antigas não tinham esse hardware, mas as TVs inteligentes modernas têm esse recurso integrado para que possam se conectar à Internet por meio de uma rede doméstica ou empresarial. Alguns dispositivos não podem se conectar a uma rede, mesmo com um adaptador de rede, por exemplo, fornos torradeiras ou rádios.
+
+Redes locais e de longa distância
+
+Existem milhões de pessoas não técnicas que possuem redes em suas casas. Se você tiver wi-fi que possa se conectar ao seu computador, telefone, impressora ou outros dispositivos, isso é uma rede. As redes domésticas podem até incluir smart TVs conectadas à Internet, consoles de jogos e até aparelhos digitais e luzes que podem ser controladas por comando de voz ou por meio de um aplicativo de telefone quando você estiver ausente. Escritórios domésticos pequenos podem operar muito bem com uma configuração básica de rede doméstica.
+
+As empresas maiores geralmente exigem redes maiores e mais poderosas. Isso ocorre porque empresas maiores geralmente exigem mais armazenamento de dados e padrões de segurança mais altos, especialmente à medida que o negócio se expande. Uma rede doméstica funciona em uma rede local em um apartamento ou edifício. As redes de negócios podem exigir várias redes de área local ou até mesmo uma rede de área ampla que conecte essas várias redes de área local entre cidades ou países / regiões.
+
+Modelos Básico de Redes
+
+Os dois modelos básicos de redes são redes cliente-servidor e redes ponto-a-ponto.
+
+Um servidor é um computador poderoso que armazena arquivos e aplicativos. Outros computadores ou dispositivos na mesma rede podem acessar o servidor como um local central para armazenar informações ou usar aplicativos. Os dispositivos que acessam o servidor são conhecidos como clientes.
+
+O servidor controla o nível de acesso que os clientes têm. Um usuário pode acessar um arquivo ou aplicativo de servidor de qualquer lugar se usar um cliente que esteja conectado à rede do servidor e tenha o nível adequado de acesso (geralmente baseado em senha). Redes cliente-servidor são comuns em empresas. Eles são úteis porque mantêm todos os dados compartilhados em um único local. Isso facilita muito os backups de arquivos. As redes cliente-servidor também mantêm os arquivos atualizados e fáceis de encontrar, garantindo que os usuários trabalhem em um arquivo compartilhado em um único local (em vez de trabalhar em várias cópias salvas em vários locais).
+
+Redes peer-to-peer são mais comuns em residências. Cada dispositivo em uma rede peer-to-peer pode acessar qualquer um dos outros se o login e a senha forem conhecidos. Isso permite que os usuários compartilhem recursos e informações. O Bluetooth é um exemplo de recurso que funciona apenas por causa de redes ponto a ponto. Quando você "emparelha" um dispositivo com Bluetooth, você está conectando esse dispositivo a uma rede ponto a ponto. Muitas pessoas usam o Bluetooth para usar fones de ouvido sem fio ou um mouse sem fio. Mas as pessoas também podem usar o Bluetooth para conectar seus dispositivos, de modo que possam compartilhar fotos nos dispositivos uns dos outros sem precisar usar uma senha. Seus dispositivos “confiam” uns nos outros porque estão na mesma rede. As empresas maiores não usam redes ponto a ponto porque complicam os backups e facilitam a perda de arquivos ou várias versões do mesmo arquivo.
+
+Intranet, Extranets e ternet
+
+Existem diferentes tipos de redes, dependendo de quem as utiliza e de quais são as suas necessidades. Algumas redes estão disponíveis ao público. Algumas redes são privadas. E há outras redes que combinam acesso público e privado e possuem ferramentas especiais de segurança para proteger as informações. 
+
+Intranets - Uma intranet é uma rede de computadores privada dentro de uma organização. Às vezes chamado de rede corporativa, é o mesmo que qualquer outra rede, exceto que o acesso é limitado pelas permissões definidas por essa organização. O ponto principal de uma intranet é permitir que as pessoas com essa organização colaborem e compartilhem recursos de maneira privada e segura. Algumas intranets estão conectadas à Internet, mas outras não. As intranets podem ser personalizadas para atender às necessidades do grupo que as está usando. Algumas intranets têm níveis de acesso diferentes, o que significa que alguns usuários da intranet têm acesso limitado a serviços ou até mesmo navegam na Web, enquanto outros usuários são totalmente irrestritos. Esses níveis de acesso são solicitados pelos gerentes de negócios e configuram o acesso e a segurança é uma tarefa comum dos profissionais de TI.
+
+Extranets - Uma extranet é uma rede lógica de computadores privados que fornece acesso a partes da Internet de uma organização. Organizações configuram a extranet para que possam compartilhar os benefícios de sua Internet com usuários externos, parceiros ou clientes, mas também manter a segurança informações internas e aplicativos que eles não desejam compartilhar. Por exemplo, a empresa Litware  pode terceirizar seu suporte ao produto para uma empresa de suporte terceirizada, que pode precisar de acesso a uma documentação técnica, aplicativos de emissão de tickets, ou outros recursos de sua localização. No entanto, a equipe de suporte não precisa ter acesso a tudo em que a empresa está trabalhando ou a informações de funcionários particulares. Geralmente, sistemas e aplicativos inteiros são projetados para uso em extranet. Um cuidado especial é dedicado a garantir que o nível correto de segurança seja implementado para fornecer o equilíbrio adequado entre acesso e privacidade. Usuários internos podem precisar atualizar informações na extranet e acesso concedido pelo usuário externo para ver as informações certas, sem também ver os arquivos mais privados que a empresa mantém em sua Internet.
+
+Internet - A Internet é como uma grande teia de aranha que conecta computadores, dispositivos e redes menores em todo o mundo. Quando as pessoas pensam na Internet, elas pensam em PCs, tablets e telefones. Mas existem literalmente bilhões de outros dispositivos, como abridores de portas de garagem, alarmes de carros e até mesmo máquinas de venda automática, todos conectados pela Internet. A internet é a maior rede do mundo das redes e continua a crescer. As pessoas estão adicionando à Internet desde que foi inventada. A maioria das pessoas pensa na Internet como tendo início nos anos 90, quando a pessoa e os negócios médios realmente começaram a usá-la. No entanto, tem suas origens na década de 1960, quando o governo dos Estados Unidos em colaboração com pesquisadores das forças armadas dos EUA queriam desenvolver uma maneira robusta e tolerante a falhas de comunicação. Hoje, nenhum grupo individual possui ou controla todo o hardware que se conecta à Internet. A Internet conecta cidades e até mesmo no espaço. O hardware que ele usa foi construído por governos, empresas e até por alguns indivíduos. Hardware da Internet é uma massa de diferentes tecnologias reunidas para conectar o mundo. Qualquer um pode usar a Internet. Tudo o que precisam é de um dispositivo compatível e uma conexão.
+
+Zonas de segurança, redes de perímetro e firewalls - Uma rede de perímetro é uma pequena sub-rede física ou virtual que é configurada entre a rede local privada de uma empresa, ou LAN, e redes não confiáveis, como a Internet. É chamado de rede de perímetro porque geralmente está na borda de uma LAN. Geralmente, essa é uma estrutura física que suporta o conceito de extranet lógica anteriormente abordado. Uma rede de perímetro permite que usuários fora da LAN de uma empresa, para acessar serviços específicos localizados nessa rede de perímetro. A rede de perímetro pode abrigar um comutador com servidores conectados a ele que oferecem web, email ou outros serviços. Um firewall é um dispositivo de hardware ou um programa de software que fornece segurança ao segregar uma parte da rede de outra. Os firewalls são configurados para usar regras de filtragem que permitem apenas redes autorizadas tráfego para passar por isso. Eles podem filtrar com base no tipo de tráfego, onde a comunicação se origina ou em outros critérios. Os firewalls são usados ​​para ajudar a proteger a rede contra ataques maliciosos e intrusos indesejados. Eles são o tipo de dispositivo de segurança na rede de perímetro de uma organização. Dispositivos de segurança, como firewalls, são a principal defesa da rede de uma empresa. Sejam LANs, LANs de redes de longa distância, intranets ou extranets. As redes de perímetro podem fornecer uma barreira física, mantendo certas informações abertas a usuários específicos ou ao público, mantendo o restante dos dados da organização em segredo.
+
+Tipos de Redes
+
+Uma rede local, ou LAN é o tipo mais comum de rede. Uma LAN conecta um grupo de dispositivos fisicamente próximos uns dos outros. A palavra-chave na LAN é local. Por exemplo, todos os dispositivos em uma casa ou escola ou um escritório corporativo estão conectados a uma LAN. LANs são como as ruas do bairro, mas em vez de conectar casas, eles conectam dispositivos. Lans pode trabalhar sozinho desconectado de outras redes, ou eles podem se conectar a outras redes ou mesmo a Internet. Uma LAN  pode conectar um ou dois dispositivos, ou muitos milhares LANs maiores, exigem hardware de rede especial que garanta que a rede é poderosa o suficiente para suportar todos os seus dispositivos. Às vezes, as LANs ficam tão grandes que precisam para ser dividido em várias LANs, ou LANs virtuais chamadas VLANs. Alguns dispositivos, como impressoras são permanentemente associadas a uma LAN enquanto dispositivos como telefones e laptops podem saia ou junte-se a LANs a qualquer momento que o usuário desejar. As casas geralmente têm uma rede ou LAN e estão conectadas para a Internet através um provedor de serviços de Internet ou ISP. LANs usam roteadores para conectar dispositivos de rede para o seu ISP e, finalmente, para a Internet. Muitas LANs agora têm recursos sem fio para que Conexões Wi-Fi podem ser usado em vez de conexões com fio.
+
+Uma rede de longa distância ou WAN conecta redes locais menores em conjunto. WANs cobrem grandes áreas, como cidades ou regiões, para conectar redes menores dentro dessas áreas juntas. Pense neles como rodovias conectando bairros juntos. É uma capacidade frequentemente adquiridos de provedores de telecomunicações. Algumas empresas maiores usam WANs para se conectar escritórios globais para que todos os seus funcionários em todo o mundo tem acesso a os mesmos recursos de rede como aplicativos e ferramentas de comunicação. A Internet pode ser considerada a maior WAN do mundo. Ele conecta milhões de pessoas juntas o tempo, permitindo suas redes menores para falar uns com os  outros.
+
+Redes Privadas Virtuais (VPNs)
+
+Às vezes, redes como as descritas acima são conectadas pela Internet. Isso permite que usuários de redes privadas de todo o mundo acessem a mesma rede sem viajar para o local físico dos servidores. Para manter essas redes seguras, é utilizada uma tecnologia denominada Virtual Private Network (VPN). A VPN cria uma conexão criptografada para que outros usuários da Internet não consigam ver ou acessar dados do usuário ou atividade de rede nessa VPN. As redes VPN usam senhas e outros métodos de identificação para que somente usuários aprovados possam acessar a rede.
+
+Atividades Extra
+
+Conheça mais sobre o tamanho da Internet acessando os links abaixo:
+
+Monitorando o tráfego da Internet @ https://www.akamai.com/uk/en/resources/visualizing-akamai/real-time-web-monitor.jsp,   
+O backbone da Internet @ https://www.submarinecablemap.com/#/ 
+O mapa da Internet @ https://global-internet-map-2018.telegeography.com/ 
+Você sabia que as Coisas também se conectam na Internet? Lei um pouco mais sobre a Internet das Coisas em https://pt.wikipedia.org/wiki/Internet_das_coisas .
+
+ 
+
+Referência Bibliográfica
+
+Livros:
+
+Redes de Computadores – Uma Abordagem de Sistemas. Peterson, Larry e Davie, Bruce. Editora Elsevior. Tradução da 3ª Edição.
+
+Cisco CCNA – Guia de Certificação do Exame #640-607. Odom, Wendell. Cisco Press. Alta Books.
+
+Redes e Sistemas de Comunicação de Dados. Stallings, William. Editora Campus. Tradução da 5ª Edição
+
+Web-learning:
+
+Disciplina: Redes de Computadores (Univesp - Universidade Virtual do Estado de São Paulo) @ https://www.youtube.com/watch?v=v8vxTtT2S_0&list=PLxI8Can9yAHc-_dZ6nsfoon08i2-4OvEk
+
+IT Support: Networking Essentials @ https://courses.edx.org/courses/course-v1:Microsoft+CLD260x+1T2019/course/ 
+
+IoT Networks and Protocols @ https://courses.edx.org/courses/course-v1:CurtinX+IOT3x+3T2018/course/
+
+Introduction to Open Source Networking Technologies @ https://www.edx.org/course/introduction-to-software-defined-networking-technologies 
+
+NFV Acceleration: An Introduction to OPNFV @ https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS164x+1T2018/course/ 
+
+
+1. Quais são os aspectos chaves que definem as Redes de Comunicação?
+R: Redes locais e de distância, Conectividade, Hardware e Software, Redes com e sem fio
+Exp:
+
+2. Quanto os tipos de Redes de Computadores e qual faz mais sentido para um Campus Universitário?
+R: CAN (Campus Area Network) ou rede de campus
+Exp: A CAN (Campus Area Network) – ou seja, uma rede de campus – possui um propósito bastante parecido com a LAN. Contudo, ela já possui um alcance maior.
+Sua utilidade é permitir a conexão entre redes de um mesmo complexo ou condomínio, como universidades, hospitais e centros comerciais.
+
+3. Em termos de hierarquia (menor para maior), como podemos organizar os tipos de redes de comunicação:
+R: Em termos de hierarquia (menor para maior), como podemos organizar os tipos de redes de comunicação:
+Exp:

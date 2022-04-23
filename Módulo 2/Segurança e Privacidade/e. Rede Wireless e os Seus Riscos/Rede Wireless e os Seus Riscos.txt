@@ -1,0 +1,76 @@
+Rede Wireless e Seus Riscos
+A conexão via rede wireless é uma tendência pela sua comodidade e é importante em ambientes em que não existe a infraestrutura de TI de cabeamento estruturado em todos os ambientes de trabalho. Existem eventos de grande porte em estádios que o cliente deseja dar acesso a todos os convidados. Uma das melhores marcas de antenas wireless hoje no mercado é Cisco e Aruba.
+
+É um conforto muito válido, desde que a sua segurança trabalhe em conjunto. Precisamos ter o máximo de certeza ao saber se realmente este ambiente é seguro ou não. E este é um dos principais desafios das empresas e das comunidades de coworking. Muitas perguntas podem ser feitas, mas poucas respostas podem ser respondidas. 
+
+Existe uma relação muito forte de confiança entre quem pede um acesso à internet e quem libera o acesso à internet, mas vale lembrar que mesmo sendo minorias, os hackers existem e isso pode gerar grandes riscos para a sua empresa e para o seu computador.
+
+Mesmo não tendo todo o conhecimento técnico necessário para conduzir uma confirmação se o ambiente é seguro ou não, vale a pena avaliar o cenário atual e entender quais são os riscos existentes antes de se conectar a qualquer ambiente que tenha um acesso fácil a conexão wireless. Quanto mais informações você tiver, maior a probabilidade de você se manter mais seguro nos ambientes que frequenta. 
+
+Para manter a sua segurança, lembre-se de que os seus aplicativos e sistemas podem ser acessados por dupla autenticação, ou seja, aquele código SMS que chega ao celular para confirmar que você é a pessoa que deseja se conectar ao aplicativo.
+
+O ambiente wireless é muito legal, mas a sua segurança também. Por isso mantenha-se atento sempre para não correr riscos de ser atacado em ambientes públicos.
+
+ 
+
+Abaixo segue algumas vantagens de se conectar em ambiente wireless
+
+Conforto ao trabalhar em qualquer local que tenha sinal;
+Evita transtornos com passagem de cabeamento estruturado;
+Pode ser roteada de um celular para um computador;
+É relativamente segura se não tiver algum hacker clonando a rede.
+ 
+
+Abaixo segue algumas desvantagens de se conectar em ambiente wireless
+
+Sempre terão riscos na conexão cabeada ou wireless. A rede pode estar clonada e você sem perceber pode estar se conectando a uma rede que está coletando todas as suas informações;
+Ambientes públicos de acesso comum podem ter riscos;
+Em alguns casos, o acesso pode ser mais lento do que na rede cabeada;
+Compartilhamento de dados indesejados, por meio de conexões em redes públicas, se cadastrando a rede por meio de redes sociais.
+ 
+
+Quando você se conecta a uma rede aberta ou a uma rede privada por meio das suas redes sociais (realizando o login pelo facebook), todos os seus dados são enviados ao dono da rede, que percebe quem está passando pela empresa, por meio de ferramentas que apresentam foto, sexo, idade e quais são os resultados que estas pessoas estão trazendo para a empresa. Exemplo, se a empresa é uma loja, ele consegue visualizar a faixa etária das pessoas que estão entrando na loja, se são mais homens ou mulheres.  Desta forma, o dono da rede consegue ter dados suficientes para gerar novas estratégias de vendas com o objetivo de ter mais resultados.
+
+ 
+
+Fortaleça sempre o acesso a rede Wireless da sua residência e empresa 
+
+Tendo na senha letra maiúscula, minúscula, números e símbolos. Não compartilhe estas senhas, visto que existem aplicativos conhecidos como dedo duros, onde pessoas divulgam as senhas de vários ambientes do Brasil. Podem estar usando a sua rede e a sua internet sem que você saiba.
+
+ 
+
+Trabalhe com redes isoladas para os seus visitantes
+
+Quando uma empresa quer ser profissional, ela contrata equipe especializada para cuidar do seu ambiente wireless, dando aos funcionários uma senha que vai permitir o acesso as pastas da rede e outro tipo de acesso aos visitantes, sem acesso as pastas da rede. Entrando em um tema um pouco mais técnico, outras equipes podem filtrar os permissionamentos de acessos as pastas de rede por funcionário. Isso vai depender do tamanho da empresa. Mas de toda forma, tendo uma antena com alta qualidade e ela estando conectada a um firewall, equipes conseguirão fazer as configurações necessárias para minimizar os riscos de acessos em locais indevidos.
+
+ 
+
+Antenas de baixa, média e alta qualidade de sinal e performance
+
+Hoje nas prateleiras de qualquer hipermercado existe a possibilidade de comprar uma antena wireless, colocar em casa e com poucos cliques, tudo vai funcionar. O fato é que estamos falando de um ambiente familiar com duas a seis pessoas e uma casa ou apartamento de 80 a 120m2. Quando você compra uma antena desse porte, ela atenderá o básico e bem. 
+
+Se você for um gerente de projetos e precisará comprar uma antena para atender quinhentos funcionários, é bom se planejar. Primeiro porque a antena do hipermercado não atenderá quinhentas pessoas ao mesmo tempo. Para isso, é necessário contratar uma empresa especializada no assunto que vai mapear todo o ambiente da empresa, entre setores e andares. Eles verão quais são as possíveis barreiras de sinais, como concreto, vidros e espelhos. A partir daí, farão a melhor proposta para atender as suas expectativas. 
+
+Uma grande vantagem ao contratar uma empresa terceira é que a antena não fica sendo sua. Isso significa que você paga pelo serviço prestado pelo provedor de antena wireless. Com a evolução das tecnologias, você não perde as antenas por depreciação. O provedor poderá trocar para você, mantendo a mesma qualidade do serviço contratado.
+
+ 
+
+ 
+
+Atividade Extra
+
+Assista o vídeo abaixo sobre repetidor Wireless. https://www.youtube.com/watch?v=i_awTe5vCCI
+
+ 
+
+Referência Bibliográfica
+
+- Livro: Segurança da informação, Edison Fontes, CISM, CISA – O Usuário faz a diferença.
+
+- https://www.watchguard.com/br/wgrd-products
+
+- https://www.symmetry.com.br/aruba-networks/?gclid=EAIaIQobChMI1P_a56344AIVA1cMCh3S7wh5EAAYASAAEgLq8PD_BwE
+
+1. Meus visitantes querem acessar a minha rede Wireless. Quero dar o acesso, mas não sei como. Qual das alternativas abaixo é melhor para este cenário?
+R: Criar uma rede isolada só para que o visitante possa acessar por um determinado período.
+Exp É importante separar as conexões dos funcionários e dos visitantes. Criar uma rede isolada só para que o visitante possa acessar por um determinado período.

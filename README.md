@@ -49,3 +49,48 @@
         6. Os Principais Conceitos e Abordagens em Bancos de Dados
         7. Tipos de Redes, Hardware, Segurança e Conectividade
         8. Ciclo de Vida, Modelagem e Métodos Ágeis de Desenvolvimento de Sistemas
+
+2. Módulo 2
+    * Storytelling - Prof: 
+        1. Fundamentos Teóricos
+        2. Estrutura Narrativa
+        3. Personagens
+        4. Plot
+        5. Cenário, Tom e Mensagem
+        6. Estratégias Narrativas
+        7. Storytelling na Gestão de Negócios
+        8. Criando um projeto de Storytelling   
+
+    * Segurança e Privacidade - Prof: Marcos Paulo Rodrigues
+        1. Conhecendo a Segurança da Informação - Técnica
+        2. Entendendo Poder da Engenharia Social
+        3. Minimizando Impactos com Backups
+        4. Entendendo a Segurança do Data Center Profissional
+        5. Rede Wireless e os Seus Riscos
+        6. Case de Sucesso: O Ataque do Vírus Ransomware
+        7. A Política de Segurança
+        8. LGPD, Lei 13.709/2018 - Lei Geral da Proteção de Dados
+
+    * Redes de Comunicação, Protocolos e Roteamento - Prof: Gustavo Lima
+        1. Visão geral
+        2. E Como as Redes Funcionam?
+        3. Fio e Sem fio
+        4. Lógicas e Protocolos
+        5. Comunicação em Camadas
+        6. Redes IP, Roteamento
+        7. Dividindo as Redes
+        8. Tecnologia Emergente
+
+    * Arquitetura de Computadores, Redes e Sistemas Operacionais
+
+3. Módulo 3
+    * Computação em Nuvem
+    * Análise de Sistemas de Informação
+    * Desenvolvimento de Sistemas de Informação
+    * Computação e Inteligência Artificial
+
+4. Conteúdo Bônus
+    * Tópicos Especiais de Tecnologia
+    * Tópicos Especiais de Diversidade
+    * Tópicos Especiais de Carreira
+    * Atualidades pós-graduação

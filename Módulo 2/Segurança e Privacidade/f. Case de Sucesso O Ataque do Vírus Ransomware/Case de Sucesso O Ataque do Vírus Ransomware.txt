@@ -1,0 +1,93 @@
+Case de Sucesso: Ataque de Vírus Ransomware
+Case de Um Ataque por Vírus Ransomware
+
+Muitas pessoas acabam adotando a prática de redução máxima de custos e acreditam que a sorte sempre está com elas. A sorte é um fator importante, mas vale lembrar que temos seres humanos em todos os setores da empresa e estas pessoas tem seus costumes e os riscos sempre estão presentes.
+
+Um clique errado pode comprometer a empresa inteira e os impactos podem ser gigantescos. O fato é que estes cliques são provocantes e chegam das mais diversas formas criativas para você clicar em algo que não é bem a realidade que imagina.
+
+Quando você clica em um vírus, um arquivo é executado no seu computador, podendo ser de madrugada ou quando você menos imagina. Posteriormente, por sorte (do Hacker), você virou uma vítima e todos os dados do seu computador e da sua empresa acabam sendo criptografados.
+
+Isso significa que você não reconhece mais nenhum tipo de arquivo e provavelmente toda a sua operação pode parar gerando um risco de grande porte para a sua companhia.
+
+Nesta aula apresentaremos como evitar este cenário e como você deve reagir em caso de ataque de ransonware. 
+
+Esta aula foi baseada em um caso real de uma empresa que estava desprotegida e com uma operação diária de R$ 400mil. As tomadas de decisões estratégicas precisaram ser rápidas, pois a cada dia que passava, a empresa perdia quatrocentos mil reais.
+
+Ransomware é um vírus muito perigoso que afetou centenas de empresas no mundo na última década, criptografando todos os dados em um curto espaço de tempo, impedindo que a empresa mantenha a sua operação ativa. Quando acontece este fato, cabe a empresa duas opções:
+
+Solução 01 – Voltar o Backup o mais rápido possível:
+
+Se a empresa tem uma infraestrutura adequada e equipes especializadas em tecnologia da informação, exista a chance de normalizar o ambiente com a recuperação dos arquivos por meio dos últimos backups realizados. Dependendo do tamanho da empresa, como são muitos dados, pode levar dias para a recuperação completa. Lembrando que normalmente, se perde também os dados do dia do ataque, visto que neste dia específico, pode não ter iniciado o job backup.
+
+Impacto – Solução 01: 
+
+Mesmo com a empresa recuperando todos os dados, devido ao tempo perdido na recuperação, já existe um grande prejuízo dos dias parados. Se a empresa é de grande porte, são milhões perdidos em poucos dias. 
+
+ 
+
+Solução 02 – Pagar o Resgate
+
+Se a empresa não tem o Backup, não adianta reclamar. Vai ter que negociar com o hacker e mesmo pagando um valor negociado, corre o risco de não receber o script para voltar os dados. Neste caso a empresa inteira está nas mãos do Hacker e cabe neste momento ter a delicadeza para saber lidar com a situação sem trabalhar com ofensas ou revoltas. Como a decisão está nas mãos do hacker, ele pode aumentar a quantia desejada ou simplesmente te ignorar por semanas para lhe provocar e não lhe devolver os dados.
+
+Impacto – Solução 02:
+
+Neste ponto, se você já perceber que não tem backup e a negociação for rápida, pode ser que em um dia os dados estejam recuperados, pois não é uma questão de recuperação via backup e sim, uma descriptografia, ou seja, o período de recuperação dos dados é menor. Assim, a empresa não perderá os milhões com tantos dias parados.
+
+ 
+
+Como evitar o Ataque de Ransomware:
+
+Reduzir custos é a pior ideia de um empreendedor de uma empresa de grande porte. Muitos deles acreditam na sorte e sabem que a tecnologia da informação é um meio necessário para gerarem seus lucros, ao mesmo tempo, pensam a todo momento em reduzir custos operacionais, entre eles, custos que envolvem pessoas, processos e tecnologia da informação.
+
+Os hackers adoram quando as empresas não investem pesado em Firewall, Antivírus e Backup. São pessoas inteligentes e sabem aproveitar cada detalhe desta situação. A partir do momento que eles invadem a rede, eles conseguem saber quais são as tecnologias implantadas no local e podem entender todas as demais vulnerabilidades que a empresa tem e como pode ser atacada. Desta forma, a empresa fica ainda mais refém destes hackers.
+
+Para que uma empresa não precise passar dias de transtornos e sofrimentos, ela precisa se atentar aos riscos e minimizar os impactos evitando estes tipos de ataques. No caso, só há uma maneira, investindo no pré-ataque, ou seja, com barreiras de alta performance que vão realizar o primeiro filtro na empresa, ou seja, Firewall. Em paralelo, investir em bons antivírus nos computadores da empresa, pois sabemos que estes computadores não ficam só na empresa. Estão a todo momento em reuniões externas ou home-office. 
+
+E por fim, investir nos ataques, em um bom backup e em equipes especializadas no assunto. Quando estes investimentos são realizados com sucesso, a empresa consegue se proteger de todos os lados, impedindo ataques e recuperando os dados com sucesso em caso de ataques.
+
+ 
+
+Pós-Pagamento de Resgate
+
+Não basta apenas pagar um resgate! Esta é a parte mais fácil. O grande desafio é identificar por qual máquina este vírus entrou na empresa, fazer uma formatação geral, realizar um scan na rede inteira para verificar se não existem outros vírus em quarentena que estejam alocados na empresa aguardando a melhor oportunidade de serem executados. Estas ações são feitas com equipes especializadas em segurança da informação.
+
+ 
+
+Quando o Hacker é bonzinho!
+
+Por incrível que pareça, existem hackers que desejam ser bonzinhos depois do pagamento do resgate. Eles enviam um script de como a empresa deve recuperar os dados (Essa parte deve ser feita por especialistas no assunto) e posteriormente, enviam um relatório mostrando a você quais são os pontos fracos da empresa e quais são as melhores formas de corrigir estas vulnerabilidades.
+
+Para finalizar, não pensem que os ataques ficam só nas televisões, filmes e novelas. Eles podem chegar a sua empresa ou na sua casa a qualquer momento e cabe a você tomar as ações necessárias para se proteger com antecedência, evitando todos os impactos citados acima e apresentados em aula.
+
+ 
+
+ 
+
+Atividade Extra
+
+Assista o vídeo abaixo sobre o uso do Ransomware: https://www.watchguard.com/br/wgrd-resource-center/ransombear
+
+ 
+
+Referência Bibliográfica
+
+- Livro: Segurança da informação, Edison Fontes, CISM, CISA – O Usuário faz a diferença.
+
+- https://www.telecorp.com.br/glossario/data-center/
+
+- https://www.matrix.com.br/pt-br/
+
+- https://www.watchguard.com/br/wgrd-solutions/security-threats/ransomware
+
+
+1. Fui atacado por vírus ransomware! Não tenho backup nem firewall. O que devo fazer?
+R: Negociar com o Hacker para ver se pelo menos consegue os dados de volta.
+Exp: Se não tem backup e os dados são muito importantes para você, não terá saída a não ser negociar com o hacker.
+
+2. Quais são as medidas básicas para me proteger de um vírus Ransomware?
+R: Todas as alternativas acima.
+Exp:Todas as alternativas citadas são importantes para manter um ambiente seguro.
+
+3.Tenho uma excelente ferramenta de backup, mas não sei mexer nisso. Qual é a melhor recomendação?
+R:  Contratar uma equipe especializada no assunto.
+Exp: O risco de fazer algo errado é grande se não for com equipes especializadas no assunto.

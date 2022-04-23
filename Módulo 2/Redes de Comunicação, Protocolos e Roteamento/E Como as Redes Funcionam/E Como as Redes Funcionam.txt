@@ -1,0 +1,81 @@
+Como Funcionam
+Equipamentos de Rede
+
+Cada dispositivo em uma rede tem uma finalidade ou uma função. Por exemplo, um computador conectado à rede ou smartphone faz solicitações e consome informações e uma rede conectada O servidor armazena informações e processa solicitações. Dispositivos que solicitam e consomem informações como telefones e PCs são chamados de clientes, dispositivos que armazenam grandes quantidades de solicitações de dados e serviços são chamadas de servidores. A maioria das redes tem muito mais clientes que servidores.
+
+Às vezes, um dispositivo pode atuar como um cliente e um servidor. Um exemplo disso é um aplicativo de compartilhamento de arquivos em que os usuários conectar seus dispositivos para carregar e baixar os arquivos uns dos outros. Não há servidor separado nesse exemplo. O dispositivo de cada usuário atua como um cliente e um servidor. Outras vezes, um servidor pode atuar como um cliente para alguns serviços e um servidor para os outros. Por exemplo, um servidor de arquivos fornece arquivos para um cliente mas é um cliente de serviços de tempo para se certificar de que tem o tempo correto. 
+
+As redes são criadas e configuradas de muitas maneiras diferentes usando servidores, computadores e cabos. Há também dispositivos de hardware especiais disponíveis que ajudam a tornar as redes mais eficientes. Alguns dos dispositivos mais comuns incluem:
+
+Hub -  é um dispositivo que permite que os nós se comuniquem entre si. Cada nó conectado ao hub pode enviar ou receber informações por meio desse hub. No entanto, um hub não pode reconhecer quem está enviando as informações ou quem deve recebê-las, portanto, ele repete todos os pacotes de dados que recebe para que todos os nós conectados a ele recebam esses dados, incluindo o nó que enviou as informações. Isso pode causar muito tráfego desnecessário, especialmente em redes maiores que enviam e recebem mais informações. Em geral os hubs já não são muito utilizados pois se tornaram equipamentos obsoletos.
+Switch ou Comutador -   é um hub (um dispositivo de rede centralizador/agregador) que tem a capacidade adicional de controlar o fluxo do tráfego de rede lendo as informações de endereço de cada pacote de dados. Um switch monitora quais Nós (pontos da rede) estão conectados diretamente a ele, e envia pacotes de dados apenas para um nó quando o pacote de dados é endereçado a esse nó. Isso reduz bastante o tráfego de rede desnecessário. Os switches também podem enviar e receber ao mesmo tempo, o que os torna mais rápidos que os hubs. Os switches economizam largura de banda e fornecem maior segurança, impedindo que usuários não autorizados acessem pacotes de dados.
+Bridge - é um dispositivo que conecta duas redes de computadores separadas e permite a comunicação entre elas. Bridges (pontes) não se preocupam em entender o protocolo de comunicação de rede. Ele apenas reconhece e considera os meios físicos. Assim, o tráfego só existirá em uma rede de ponte se as duas redes forem logicamente iguais (uma mesma LAN, por exemplo). Assim, ao contrário de um roteador, uma ponte é incapaz de distinguir redes; eles só podem ser usados quando você pretende conectar redes do mesmo tipo. Em geral as bridges já não são muito utilizadas pois se tornaram equipamentos obsoletos.
+Roteador - passa informações entre duas redes, como uma rede doméstica e a Internet, uma LAN e uma WAN. Um roteador pode ser com fio ou sem fio. Os roteadores funcionam com hubs e comutadores para que os nós em diferentes redes possam se conectar de maneira perfeita. Os roteadores são mais inteligentes que pontes porque tomam decisões mais inteligentes; isto é, um roteador determina a maneira mais rápida de passar informações entre duas redes, o que geralmente é o caminho mais curto possível. Eles enviam apenas um pacote para o destino pretendido, eliminando tráfego desnecessário. Em contraste, as pontes sacrificam o gerenciamento e o desempenho de chamadas, transmitindo pacotes automaticamente a todos os computadores em uma rede.
+Gateway - conecta duas redes juntas. Pode ser um software, isto é, um aplicativo de gateway instalado em um servidor ou um dispositivo de hardware real. Quando duas redes querem se conectar, elas devem ter gateways que forneçam pontos de saída e entrada para os computadores das duas redes se comunicarem. Um roteador é basicamente o mesmo que um gateway, mas com funcionalidade adicional; isto é, um roteador determina o caminho mais curto possível para enviar dados entre dois computadores.
+Repetidor - é um dispositivo que repete sinais através de uma conexão de rede para amplificar a intensidade do sinal, de modo que os nós que estão mais distantes ainda possam se conectar ao sinal. Isso é útil em grandes edifícios.
+Host ou Dispositivo - Na rede, um host é um dispositivo endereçável (identificável pela rede) que envia e recebe 
+informações por um propósito. Isso inclui dispositivos individuais, como PCs, laptops, impressoras, roteadores, 
+smartphones, sensores, câmeras e atuadores. Observe que esses dispositivos podem ser tanto hardware 
+real quanto instâncias virtualizadas (software).
+Todos os dispositivos em rede requerem algum hardware eletrônico para fornecer o ponto de conexão ao meio de rede
+ que está sendo usado. PCs e laptops costumam ter os componentes eletrônicos incorporados ou instalados no corpo 
+do dispositivo. Para uma conexão de rede cabeada, geralmente há um soquete RJ45 (plugue) ethernet, ou menos 
+comumente um soquete de fibra ótica. Este hardware é conhecido como placa de interface de rede (NIC).
+
+Plataformas menores, como tablets, smartphones e outras "coisas" conectadas, geralmente não têm espaço físico ou dimensões para incluir um conector de cabo, como um soquete RJ45. Esses dispositivos podem ter um soquete USB para se conectar a um dispositivo grande o suficiente para conter um soquete RJ45 de tamanho normal. Geralmente, esses dispositivos de fator de forma menores usam conectividade de rede sem fio e possuem um pequeno chip eletrônico que emite os sinais (ondas eletromagnéticas).
+
+Alguns outros conceitos importantes em Redes de Comunicação
+
+Datagramas ou Pacotes – O que torna as comunicações de dados e as redes únicas é que o fluxo de dados é dividido em partes menores. Cada uma dessas partes de dados (uma coleção de muitos bits) é genericamente chamado de Datagrama. Cada datagrama tem um rótulo (cabeçalho) contendo informações sobre os dados que carrega. Quando um datagrama é transmitido, os dispositivos ao longo do caminho de comunicação examinam as informações no cabeçalho e tomam decisões de comutação e encaminhamento com base nessas informações.
+Comutação – A comutação é o processo de interligar dois ou mais pontos entre si. No caso de telefones, as centrais telefônicas comutam (interligam) dois terminais por meio de um sistema automático, seja ele eletromecânico ou eletrônico. O termo comutação surgiu com o desenvolvimento das Redes Públicas de Telefonia e significa alocação de recursos da rede (meios de transmissão, etc.) para a comunicação entre dois equipamentos conectados àquela rede, em geral a Comutação por Circuitos. Mais recentemente as Redes trouxeram avanças com a Comutação por pacote, que, ao contrário da primeira, na comutação por pacotes o tamanho dos blocos de transmissão é definido pela rede. Em consequência, a mensagem a ser transmitida deve ser quebrada em unidades menores (pacotes). Ao quebrar a mensagem em pacotes, a rede pode transmitir os pacotes de uma mesma mensagem por vários caminhos diferentes, otimizando os recursos da rede. A desvantagem é que os pacotes podem chegar na ordem trocada, necessitando da criação de mecanismos de ordenamento.
+Redes Convergentes - Tradicionalmente, as redes de comunicação usavam diferentes tecnologias para cada tipo diferente de serviço de comunicações. Isso resultou em uma organização com várias infra-estruturas de rede separadas, cada uma operando com padrões diferentes e exigindo que tecnologias diferentes fossem implantadas e gerenciadas. No século XXI, os avanços tecnológicos significam que todos esses diferentes serviços de comunicação podem agora ser combinados e transportados por uma única infraestrutura de rede de dados. As redes convergentes resultantes proporcionam economias econômicas, eficiência de energia, escalabilidade e flexibilidade para conectar muitas outras coisas.
+Endereçamento - Para permitir que clientes e servidores ou qualquer outro dispositivo na rede se comuniquem, os hosts de envio e recebimento devem ser capazes de identificar um ao outro. Para obter essa comunicação de dados, um requisito de endereçamento se faz necessário. Como os endereço de nossas residências para recebermos mensagens no correio. Em geral, nos referenciamos esse endereçamento como “endereço IP”, por conta do protocolo de comunicação utilizado na internet para a troca de informações que utiliza os datagramas.
+Largura de Banda – é a capacidade especificada (ou máxima ideal) de um meio para transportar dados. A largura de banda digital mede a quantidade de dados que podem fluir de um lugar para outro em um determinado período de tempo. A largura de banda é normalmente medida em kilobits por segundo (kb/s), megabits por segundo (Mb/s) ou gigabits por segundo (Gb/s). A largura de banda prática de uma rede é determinada por: As propriedades da mídia física e, as tecnologias escolhidas para transmitir e detectar os sinais na mídia.
+Taxa de Transferência - é a medida da transferência real de bits na mídia para um determinado período. A  taxa de transferência geralmente não corresponde à largura de banda máxima especificada de uma implementação da camada física. Fatores que influenciam a taxa de transferência incluem: a quantidade de tráfego, o tipo de tráfego e a latência (atraso) criada pelo número de dispositivos de rede entre a origem e o destino. Em um conjunto de redes ou rede com vários segmentos, o rendimento não pode ser mais rápido do que o link mais lento no caminho da origem ao destino.
+ 
+
+ 
+
+Atividades Extra
+
+Vídeo sobre Lançamentos de Cabos Submarinos  https://www.youtube.com/watch?v=k5rmchMHyq8 
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+Livros:
+
+Redes de Computadores – Uma Abordagem de Sistemas. Peterson, Larry e Davie, Bruce. Editora Elsevior. Tradução da 3ª Edição.
+
+Cisco CCNA – Guia de Certificação do Exame #640-607. Odom, Wendell. Cisco Press. Alta Books.
+
+Redes e Sistemas de Comunicação de Dados. Stallings, William. Editora Campus. Tradução da 5ª Edição
+
+ 
+
+Web-learning:
+
+Disciplina: Redes de Computadores (Univesp - Universidade Virtual do Estado de São Paulo) @ https://www.youtube.com/watch?v=v8vxTtT2S_0&list=PLxI8Can9yAHc-_dZ6nsfoon08i2-4OvEk
+
+IT Support: Networking Essentials @ https://courses.edx.org/courses/course-v1:Microsoft+CLD260x+1T2019/course/ 
+
+IoT Networks and Protocols @ https://courses.edx.org/courses/course-v1:CurtinX+IOT3x+3T2018/course/
+
+Introduction to Open Source Networking Technologies @ https://www.edx.org/course/introduction-to-software-defined-networking-technologies 
+
+NFV Acceleration: An Introduction to OPNFV @ https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS164x+1T2018/course/
+
+1. Qual é meio dos sinais elétricos?
+R: Fio básico de cobre.
+Exp:
+
+2. São exemplos de Hosts em uma Rede de Comunicação:
+R: Qualquer dispositivo que solicitam e consomem informação.
+Exp:
+
+3. Os datagramas são:
+R: Um conjunto de bits.
+Exp:
