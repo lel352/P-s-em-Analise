@@ -1,0 +1,207 @@
+Arquitetura de Aplicações Rodando na Nuvem
+Benefícios da computação em nuvem
+
+A computação em nuvem é uma grande mudança em relação à forma tradicional como as empresas pensam sobre os recursos de TI. Por que a computação em nuvem é tão popular? Aqui estão seis razões comuns pelas quais as organizações estão se voltando para os serviços de computação em nuvem:
+
+Custo - A computação em nuvem elimina a despesa de capital da compra de hardware e software e, em seguida, configura e executa datacenters locais - os racks de servidores, a eletricidade ininterrupta para energia e resfriamento e os especialistas em TI para gerenciar a infraestrutura. Acrescenta-se rapidamente.
+Rapidez - A maioria dos serviços de computação em nuvem é fornecida por autoatendimento e sob demanda, portanto até mesmo grandes quantidades de recursos de computação podem ser provisionados em minutos, geralmente com apenas alguns cliques do mouse. Isso proporciona flexibilidade às empresas e elimina a pressão do planejamento da capacidade.
+Escala global - Os benefícios dos serviços de computação em nuvem incluem a capacidade de dimensionar de forma elástica. Na nuvem, isso significa fornecer a quantidade certa de recursos de TI - por exemplo, mais ou menos poder de computação, armazenamento e largura de banda - exatamente quando necessário, e a partir da localização geográfica correta.
+Produtividade - Os datacenters locais geralmente exigem muito “armazenamento e empilhamento” - configuração de hardware, atualização de software e outras tarefas demoradas de gerenciamento de TI. A computação em nuvem elimina a necessidade de muitas dessas tarefas, portanto, as equipes de TI podem gastar tempo em metas de negócios mais importantes.
+Performance - Os maiores serviços de computação em nuvem são executados em uma rede mundial de datacenters seguros que são regularmente atualizados para a última geração de hardware de computação rápido e eficiente. Isso oferece vários benefícios em um único datacenter corporativo, incluindo redução da latência de rede para aplicativos e maiores economias de escala.
+Confiabilidade - A computação em nuvem torna o backup de dados, a recuperação de desastres e a continuidade de negócios mais fáceis e menos dispendiosas, porque os dados podem ser espelhados em vários sites redundantes na rede do provedor de nuvem.
+Embora a computação em nuvem ofereça vários benefícios, a criação de aplicativos para a nuvem requer uma abordagem diferente.
+
+ 
+
+Projetando Aplicativos em Nuvem Requer Mentalidade Diferente
+
+Existem vários fatores que você precisará considerar ao projetar seu aplicativo em nuvem:
+
+Clientes anteriormente conectados a aplicativos através da rede local da empresa e agora são frequentemente obrigados a se conectar pela Internet pública. A internet pública irá introduzir maior latência, largura de banda reduzida e é menos confiável.
+A demanda no aplicativo era relativamente pequena e estável, e a carga não mudava muito e era razoavelmente previsível. A demanda se tornou cada vez mais dinâmica com cargas muito maiores em aplicativos.
+Os datacenters geralmente atendem a um único locatário ou empresa e agora atendem a vários inquilinos. O ambiente multilocatário vem com seu próprio conjunto de desafios, como o "problema do vizinho barulhento". O aplicativo pode estar compartilhando recursos, como discos físicos ou de rede. Embora estejam isolados, a carga de um deles pode impactar o outro.
+As operações exigiam um grande número de pessoas altamente especializadas. Tudo, desde o espaço físico até o fornecimento de energia, HVAC, rede, hardware de servidor e sistema operacional necessário à equipe para gerenciá-lo. Essas coisas podem ser gerenciadas por meio de uma API na nuvem, e a automação pode ser usada para fornecer confiabilidade e reduzir a sobrecarga operacional.
+A escala foi tratada aumentando os recursos em hardware muito caro e especializado (scale up). Na nuvem, isso é conseguido distribuindo a carga por um grande número de máquinas de mercadorias (scale out).
+Falha foi menos provável, e foi gerenciado através do uso de hardware altamente especializado. Os aplicativos em nuvem, no entanto, são construídos em hardware comum que provavelmente falhará.
+A perda de máquinas foi um evento catastrófico. Perder uma única máquina geralmente significava que a aplicação não estava disponível e impedia que a empresa continuasse a operar até que ela fosse consertada. A perda de máquinas é esperada com aplicativos em nuvem e eles são projetados para serem resilientes a essas condições.
+ 
+
+Uma abordagem diferente é necessária ao arquitetar aplicativos econômicos e de alto desempenho para a nuvem que sejam resistentes a falhas.
+
+ 
+
+Abraçando a falha
+
+Construir um aplicativo confiável na nuvem é diferente da criação de um aplicativo confiável em um ambiente corporativo. Embora, historicamente, você possa ter adquirido hardware de última geração para escalar, em um ambiente de nuvem, é necessário dimensionar em vez disso. Custos para ambientes de nuvem são mantidos baixos através do uso de hardware de commodity. Em vez de se concentrar na prevenção de falhas e na otimização do tempo médio entre falhas, nesse novo ambiente, o foco muda para o tempo médio de restauração. O objetivo é minimizar o efeito de uma falha. Abrace o fato de que falhas acontecerão e planeje lidar com elas.
+
+Aqui estão alguns motivos pelos quais uma instância de serviço pode falhar ou parar:
+
+Desenvolvedor - Exceção não tratada, causada por algo que o desenvolvedor não esperava e não manipulava. A ordem natural dos eventos é que o serviço registre a exceção e termine. O desenvolvedor analisa os logs e executa ações corretivas no código para evitar a exceção no futuro ou para lidar com isso de maneira mais elegante. Este é um processo iterativo.
+DevOps - Reduzir o número de instâncias de serviço. Quando o orquestrador desativa as instâncias, é possível que a instância que está sendo interrompida não possa ser encerrada de maneira elegante e a solicitação que estava sendo processada falhe.
+DevOps - A atualização do código de serviço para uma nova versão também pode fazer com que a instância não seja encerrada normalmente. Uma instância de serviço pode estar processando uma solicitação no momento em que ela é retirada para upgrade, resultando nessa instância sendo processada novamente.
+Orquestrador - Mover o código de serviço de uma máquina para outra. O trabalho do orquestrador é garantir que o serviço esteja funcionando e, ao fazê-lo, pode decidir encerrar uma instância e movê-la para outra peça de hardware.
+Força maior - Falha de hardware, como com a fonte de alimentação, ventiladores de superaquecimento, disco rígido, controlador de rede, roteador ou cabo de rede defeituoso, entre outros.
+Força maior - Interrupções do datacenter devido a desastres naturais ou ataques.
+ 
+
+É raro que um serviço ou região inteira sofra uma interrupção, mas até esses eventos devem ser planejados. Ao arquitetar aplicativos para a nuvem, você deve:
+
+Suponha que falhas irão acontecer e projetar para resiliência.
+Evite pontos únicos de falha por redundância.
+ 
+
+Supondo que as falhas ocorrerão e que as máquinas ficarão inativas, os aplicativos não devem depender de uma única máquina para continuar operando. Uma analogia popular usada para descrever como devemos pensar nos servidores é a analogia “animais de estimação versus gado” - a noção de tratar servidores como gado, não animais de estimação. Eles fazem parte de um rebanho, quase idêntico, e quando ficam doentes, os substituímos por outro em vez de recuperá-los. Se algum servidor na organização é conhecido pelo nome e rotineiramente causa dor quando está inativo, então é provável que ele seja tratado como um animal de estimação.
+
+ 
+
+Durante a fase de design, você deve executar uma análise de modo de falha (FMA - failure mode analysis). O objetivo da FMA é identificar possíveis pontos de falha e definir como o aplicativo responderá a essas falhas.
+
+Como o aplicativo detectará esse tipo de falha?
+
+Como o aplicativo responderá a esse tipo de falha?
+
+Como você registrará e monitorará esse tipo de falha?
+
+Projete aplicativos de auto-recuperáveis
+
+Projete um aplicativo para ser auto recuperável quando ocorrerem falhas. Isso requer uma abordagem em três frentes:
+
+Detectar falhas.
+Responda a falhas graciosamente.
+Registre e monitore falhas para fornecer informações operacionais.
+ 
+
+Como você responde a um tipo específico de falha pode depender dos requisitos de disponibilidade do seu aplicativo. Algumas recomendações na hora de pensar em falhas:
+
+Repetir operações com falha - Falhas transitórias podem ocorrer devido à perda momentânea de conectividade de rede, uma conexão perdida do banco de dados ou um tempo limite quando um serviço está ocupado. Desenvolva a lógica de “nova tentativa” em seu aplicativo para lidar com falhas transitórias.
+Proteger serviços remotos com falha (padrão de projeto de “disjuntor”) -  É aconselhável tentar novamente após uma falha transitória, mas se a falha persistir, você poderá acabar com muitos requisitores que estiverem atingindo um serviço com falha. Isso pode levar a falhas em cascata como solicitações de backup. Use o padrão de projeto de disjuntor para falhar rapidamente (sem fazer a chamada remota) quando uma operação é provavelmente falha.
+Isolar recursos críticos (padrão de bulkhead). Falhas em um subsistema podem às vezes em cascata. Isso pode acontecer se uma falha fizer com que alguns recursos, como encadeamentos ou soquetes, sejam liberados em tempo hábil, levando à exaustão de recursos. Para evitar isso, particione um sistema em grupos isolados, para que uma falha em uma partição não derrube todo o sistema.
+Execute o nivelamento de carga - Os aplicativos podem experimentar picos repentinos no tráfego que podem sobrecarregar os serviços no back-end. Para evitar isso, use o padrão de nivelamento de carga baseado em fila para enfileirar itens de trabalho a serem executados de forma assíncrona. A fila atua como um buffer que iguala os picos na carga.
+Failover - Se uma instância não puder ser alcançada, efetue failover para outra instância. Para coisas sem estado, como um servidor da Web, coloque várias instâncias atrás de um balanceador de carga ou de um gerenciador de tráfego. Para coisas que armazenam estado, como um banco de dados, use réplicas e failover. Dependendo do repositório de dados e de como ele é replicado, isso pode exigir que o aplicativo lide com a consistência eventual.
+Compensar transações com falha - Em geral, evite transações distribuídas porque elas exigem coordenação entre serviços e recursos. Em vez disso, use transações de compensação para desfazer qualquer etapa já concluída.
+Use pontos de verificação em transações de longa duração - Os pontos de verificação podem fornecer resiliência se uma operação de longa execução falhar. Quando a operação é reiniciada (por exemplo, ela é selecionada por outra máquina virtual), ela pode ser retomada a partir do último ponto de verificação.
+Degrade graciosamente - Às vezes você não pode contornar um problema, mas pode fornecer uma funcionalidade reduzida que ainda é útil. Considere um aplicativo que mostra um catálogo de livros. Se o aplicativo não puder recuperar a imagem em miniatura da capa, poderá mostrar uma imagem de espaço reservado. Subsistemas inteiros podem ser não-críticos para o aplicativo. Por exemplo, em um site de comércio eletrônico, a exibição de recomendações de produtos é provavelmente menos importante do que o processamento de pedidos.
+Acelere os clientes - Às vezes, um pequeno número de usuários cria uma carga excessiva, o que pode reduzir a disponibilidade do seu aplicativo para outros usuários. Nessa situação, acelere o cliente por um determinado período de tempo. Veja o padrão de limitação para mais informações.
+Bloquear maus atores - Só porque você estrangula um cliente, isso não significa que o cliente estava agindo de forma maliciosa. Significa apenas que o cliente excedeu sua cota de serviço. Mas se um cliente consistentemente exceder sua cota ou se comportar mal, você poderá bloqueá-lo. Defina um processo fora de banda para o usuário solicitar a obtenção de desbloqueio.
+Use a eleição do líder - Quando você precisar coordenar uma tarefa, use a eleição de líder para selecionar um coordenador. Dessa forma, o coordenador não é um ponto único de falha. Se o coordenador falhar, um novo será selecionado. Em vez de implementar um algoritmo de eleição de líder a partir do zero, considere uma solução pronta para uso, como o Apache ZooKeeper.
+Teste com injeção de falhas - Com muita frequência, o caminho do sucesso é bem testado, mas não o caminho da falha. Um sistema pode ser executado em produção por um longo tempo antes que um caminho de falha seja exercido. Use a injeção de falhas para testar a resiliência do sistema em falhas, seja disparando falhas reais ou simulando-as.
+Abraçar a engenharia do caos - A engenharia do caos amplia a noção de injeção de falhas ao injetar aleatoriamente falhas ou condições anormais em instâncias de produção.
+ 
+
+Orquestradores
+
+Os orquestradores automatizam o ciclo de vida e o gerenciamento de sistemas e serviços. O ciclo de vida 
+consiste em criar e destruir as máquinas (virtuais ou físicas), monitorar a integridade dos recursos 
+implementados e implementar e executar o código de serviço. O orquestrador também gerencia a rede, para que a 
+comunicação entre suas máquinas seja isolada, coordene a distribuição da largura de banda entre os diferentes
+ locatários, entre outras tarefas.
+
+Os fornecedores de nuvem usam orquestradores para fornecer níveis variados de automação e serviços, como
+ infraestrutura como serviço (IaaS), plataforma como serviço (PaaS), contêiner como um serviço e até funções
+ como um serviço. Os orquestradores de fornecedores de nuvem são expostos por meio de uma API.
+
+A orquestração é bastante ampla e costuma ser usada para descrever o gerenciamento de clusters, o agendamento de tarefas de computação e o provisionamento e desprovisionamento de recursos.
+
+Orquestração geralmente consiste em:
+
+Provisionamento - Esse é o processo de colocar novos recursos on-line e preparar esses recursos para executar o trabalho. Isso pode estar criando uma nova máquina virtual e configurando o sistema operacional ou criando e configurando a rede.
+Gerenciamento de cluster - Isso envolve o envio de tarefas para máquinas, adição e remoção de máquinas e gerenciamento de processos ativos.
+Agendamento - Este é o processo de executar um serviço específico em máquinas específicas em um cluster.
+ 
+
+Em alguns casos, vários orquestradores serão usados. O orquestrador de um fornecedor de nuvem pode gerenciar o provisionamento de serviços e servidores gerenciados ao implantar ou dimensionar um cluster. Um orquestrador de cluster pode ser usado para gerenciar contêineres e processos em execução dentro do cluster.
+
+ 
+
+Regiões, zonas de disponibilidade e domínios de falha
+
+Os fornecedores de serviços em nuvem geralmente criam infraestrutura em torno de regiões e zonas de disponibilidade. Isso permite implementações de aplicativos altamente disponíveis que podem ser localizadas perto dos clientes que consomem os aplicativos.
+
+Uma região, para fins de planejamento, é uma região geográfica do planeta com vários datacenters potencialmente próximos e em rede. Esses datacenters são às vezes chamados de zonas de disponibilidade. Uma zona de disponibilidade tem sua própria energia e rede independentes. Está configurado para ser um limite de isolamento. Se uma zona de disponibilidade ficar inativa, a outra continuará funcionando. As zonas de disponibilidade são normalmente conectadas umas às outras por meio de redes de fibra ótica privadas muito rápidas.
+
+Dentro da zona de disponibilidade, as máquinas virtuais (VMs) são implantadas em máquinas, que são organizadas em racks. Cada rack tem seu próprio roteador. As máquinas virtuais em uma única máquina física podem executar vários contêineres.
+
+Quando uma solicitação recebida chega ao terminal, geralmente é entregue primeiro a um balanceador de carga para rotear o tráfego para uma instância de um serviço. O objetivo é executar o código em diferentes VMs que não estejam próximas umas das outras para reduzir a chance de um único ponto de falha. A unidade de um único ponto de falha é chamada de domínio de falha. Com essa hierarquia, quando:
+
+Uma região cai, tudo dentro da região está em baixo.
+
+Uma zona de disponibilidade desce, tudo dentro da zona de disponibilidade é perdido.
+
+Um rack desce, os PCs estão perdidos.
+
+Um PC cai, as VMs estão perdidas.
+
+Você pode garantir serviços mais robustos implantando-os em toda essa hierarquia de domínio de falha. Conforme você sobe na hierarquia, a probabilidade de perder o domínio da falha fica menor. Ou seja, perder toda a região é menos provável do que perder um PC. Se você estiver preocupado que uma região possa ser um ponto único de falha, considere distribuir serviços para várias regiões.
+
+A comunicação intra-serviço é normalmente usada para replicação de dados. Alguns desses serviços precisam replicar dados, especialmente se as instâncias forem implantadas em domínios de falha diferentes. Conforme você sobe nessa hierarquia, a latência entre esses domínios de falha aumenta. Por exemplo, a latência para replicar dados entre duas regiões é maior que entre duas zonas de disponibilidade. De outra perspectiva, se você estiver replicando entre duas VMs, a comunicação será muito rápida; no entanto, perder o PC é mais provável.
+
+ 
+
+Atividade Extra
+
+Na nossa primeira lição falamos que a Nuvem é Global e Interconectada. Agora que entedemos um pouco mais sobre os datacenter e o conceito de Regiões e Zonas de Disponibilidade, faça um estudo você mesmo, sobre como os principais fornecedores de computação em nuvem organizam suas infraestruturas globais.
+
+ 
+
+Amazon - https://aws.amazon.com/about-aws/global-infrastructure/ 
+
+Google - https://cloud.google.com/about/locations/ 
+
+Microsoft - https://azure.microsoft.com/en-us/global-infrastructure/regions/ 
+
+IBM - https://www.ibm.com/cloud/data-centers/ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+Livros:
+
+Computação em Nuvem |  Manoel Veras Sousa de Neto | Editora: BRASPORT
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Manoel-Veras-Sousa-ebook/dp/B016P42YUI/ 
+
+ 
+
+Certificação Cloud Essentials: GUIA PREPARATÓRIO PARA O EXAME CLO-001 | Yuri Diógenes e‎ Manoel Veras | Editora: Novaterra
+
+https://www.amazon.com.br/Livro-Certifica%C3%A7%C3%A3o-Cloud-Essentials-PREPARAT%C3%93RIO-ebook/dp/B00X4BIM02/ 
+
+ 
+
+Computação em Nuvem Cloud Computing. Tecnologias e Estratégias | Brian J. S. Chee e Curtis Franklin Jr. | Editora: MBOOKS 
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Computing-Tecnologias-Estrat%C3%A9gias/dp/8576802074/ 
+
+ 
+
+Computação em Nuvem: O Que Você Realmente Precisa Saber | OPUS SOFTWARE | Editora: Opus Software
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Realmente-Precisa-Saber-ebook/dp/B01E9TC8X4/ 
+
+ 
+
+Cloud Computing: Planejando a sua Jornada | Daniel Rosa | Editora: Daniel Rosa - Auto Publicação
+
+https://www.amazon.com.br/Cloud-Computing-Planejando-sua-Jornada-ebook/dp/B075GZHCZM/ 
+
+ 
+
+Web-learning:
+
+Architecting Distributed Cloud Applications @ https://courses.edx.org/courses/course-v1:Microsoft+DEVOPS200.9x+1T2019/course/
+
+
+1. Sobre Orquestração podemos dizer?
+R: Controla a Elasticidade e a Escala dos serviços no nível de IaaS, PaaS e também SaaS.
+Exp:
+
+2. Quais são Domínios de Falha dentro de uma Datacenter de um provedor de Serviços em Nuvem?
+R: Zona de Disponibilidade, Racks, PCs e VMs.
+Exp:
+
+3. Para construir App com o mindset da Nuvem devemos utilizar quais conceitos principais?
+R: Todas as alternativas anteriores.
+Exp:

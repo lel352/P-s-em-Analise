@@ -1,0 +1,159 @@
+Definição de serviços cliente-servidor
+Arquitetura Cliente X Servidor
+
+A expressão de cliente-servidor é muito utilizada em TI. Nesse contexto, chama-se cliente ao dispositivo que exige determinados serviços a um servidor. A ideia de servidor, entretanto, refere-se ao equipamento que presta serviços aos computadores conectados a ele através de uma rede.
+
+O conceito de cliente-servidor refere-se, portanto, a um modelo de comunicação que vincula vários dispositivos informáticos através de uma rede. O cliente, nesse contexto, faz solicitações de serviços ao servidor, responsável por atender a esses requisitos.
+
+Com essa arquitetura, as tarefas são distribuídas entre os servidores (que fornecem os serviços) e os clientes (que exigem esses serviços). Por outras palavras: o cliente solicita ao servidor um recurso, que fornece uma resposta.
+
+Este tipo de modelo permite distribuir a capacidade de processamento. O servidor pode ser executado em mais de um equipamento e ser mais de um programa. De acordo com os serviços que presta, pode ser chamado de servidor web, servidor de correio etc.
+
+Em redes estruturadas com o modelo cliente-servidor, os clientes centralizam diferentes aplicações e recursos no servidor. O servidor, por sua vez, garante que esses recursos estão disponíveis sempre que um cliente os exigir.
+
+É importante mencionar que grande parte dos serviços da Internet obedece à arquitetura cliente-servidor. O servidor da web disponibiliza para o cliente os sites, que o cliente acessa através de seu navegador. Dessa forma, o servidor hospeda os dados que o cliente solicita através do navegador instalado em seu computador.
+
+A principal ideia por trás da arquitetura cliente-servidor é estruturar o sistema como um conjunto de processos cooperativos (servidores) que oferecem serviços aos processos de usuário (clientes). No modelo cliente-servidor a comunicação entre processos se dá exclusivamente através da troca de mensagens. Isto torna o modelo adequado à implementação de sistemas distribuídos, uma vez que os mecanismos de comunicação podem ser desenhados para permitir a troca de mensagens entre processos executados em nodos distintos.
+
+Geralmente o modelo cliente-servidor faz uso de protocolos de comunicação simples do tipo requisição/resposta. A fim de obter um serviço, um cliente envia uma requisição ao servidor. Este, por sua vez, executa as operações associadas ao serviço e envia uma resposta ao cliente, contendo dados ou um código de erro caso o serviço não possa ser executado.
+
+Figura 1 – Modelo cliente-servidor.
+Figura 1 – Modelo cliente-servidor.
+
+A Figura 1 denota uma característica marcante na arquitetura cliente-servidor, a organização em camadas. Esta característica ao mesmo tempo em que a necessidade de integração de conhecimento para o desenvolvimento da solução, para não dizer que dificulta, torna a solução muito mais versátil e eficiente em todos os sentidos. Abordaremos estes e outros detalhes mais aprofundadamente nos vídeos, vamos aproveitar aqui para tratar de outros assuntos também importantes e correlatos.
+
+ 
+
+Protocolo TCP/IP
+
+Protocolos
+
+Regras que regulam a comunicação;
+Oferecem diversos níveis de confiabilidade.
+ 
+
+TCP/IP
+
+Transport Control Protocol/Internet Protocol;
+Cada estação possui um endereço que a identifica: Endereço IP.
+ 
+
+TCP/IP - Classes de Endereços
+
+Dentro de uma rede TCP/IP, cada micro recebe um endereço IP único que o identifica na rede. Um endereço IP é composto de uma sequência de 32 bits, divididos em 4 grupos de 8 bits cada. Cada grupo de 8 bits recebe o nome de octeto. Veja que 8 bits permitem 256 combinações diferentes.
+De acordo com a faixa de valores do primeiro octeto, os endereços de IP são divididos em classes;
+De acordo com a classe, pode-se subdividir o endereço entre rede e estação.
+Tabela 1 – Classes de IPs.
+Tabela 1 – Classes de IPs.
+
+Navegador (Cliente) WWW (World Wide Web)
+
+Navegador ("Browser") é um software que permite "folhear" documentos hipermídia distribuídos na rede. O browser é o lado cliente na arquitetura cliente-servidor definida pelo WWW. Existem diversos servidores WWW, que, através do protocolo HTTP fornecem páginas (documentos hipermídios) escritas em HTML. A forma de visualizar estas páginas é através de browsers e eles são muitos (NCSA Mosaic, Lynx, MacWeb, WinWeb, Cello etc.). Na verdade, os browsers WWW conhecem não somente o protocolo HTTP, mas outros como Gopher e NNTP (news), para dar suporte a outras aplicações de rede.
+
+ 
+
+Servidor WWW
+
+Um servidor WWW programa que fica a espera de requisições de usuários (browsers) pedindo por documentos HTML ou informações de outros tipos (arquivos de imagens, sons, etc). Também trata as requisições de realização de serviços (executados pelo servidor, na máquina do servidor) através de scripts (p.ex.), bem como mantém estatísticas sobre acessos. O protocolo utilizado é o HTTP, como não poderia deixar de ser. O servidor WWW tem domínio sobre a base de informações mantidas naquele sítio e permite inclusive, controle de acesso para documentos, com autorização de senhas e outras restrições. Outros servidores implementam transações seguras, com o emprego de recursos de criptografia.
+
+ 
+
+URL - Uniform Resource Locator
+
+Uniform Resource Locator - URL é a forma padrão de designação de documentos pela qual é possível acesso a estes através da Internet, já que este nome é único. Por exemplo, de qualquer ponto do mundo é possível referenciar a home page Descomplica pelo URL abaixo:
+
+ 
+
+http://www.descomplica.com.br
+
+ 
+
+Através do URL, é possível especificar a máquina (www), o domínio (descomplica.com.br), o arquivo que contém o documento (index.html), e o protocolo pelo qual ele será acessado (http).
+
+Outros formatos de URL existem para denominar outras formas de acesso a elementos da Internet (por exemplo, arquivos em FTP ou Gopher, artigo na Usenet ou registros de dados em uma base de dados qualquer).
+
+ 
+
+HTML - Hypertext Markup Language
+
+O HTML, Linguagem de Formatação de Hipertexto, é fruto do "casamento" dos padrões HyTime e SGML. Há vários padrões, veja a seguir.
+
+HyTime - Hypermedia/Time-based Document Structuring Language: Hytime (ISO 10744:1992) - padrão para representação estruturada 
+de hipermídia e informação baseada em tempo. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (áudio, vídeo, etc.), conectados por webs ou hiperlinks.
+
+O padrão HyTime é independente dos padrões de processamento de texto em geral. Ele fornece a base para a construção de sistemas hipertexto padronizados, consistindo de documentos que alicam os padrões de maneira particular.
+
+SGML - Standard Generalized Markup Language: Padrão ISO 8879 de formatação de textos: não foi desenvolvido para hipertexto, mas torna-se conveniente para transformar documentos em hiper-objetos e para descrever as ligações.
+
+SGML não é padrão aplicado de maneira padronizada: todos os produtos SGML têm seu próprio sistema para traduzir as etiquetas para um particular formatador de texto.
+
+DTD - Document Type Definition: define as regras de formatação para uma dada classe de documentos. Um DTD ou uma referência para um DTD deve estar contido em qualquer documento conforme o padrão SGML.
+
+É uma coleção de estilos, ainda muito limitados, usados para definir os vários componentes de um documento WWW. A HTML preocupa-se com o conteúdo do documento e não com com sua aparência ou estilo. Um documento HTML não precisa, necessariamente, ser usado com HTTP ou apresentado por um browser WWW. Pode ser usado para correio eletrônico hipertexto, sistema de news, e em qualquer lugar onde um sistema básico de hipertexto seja necessário.
+
+Os browsers, além de prover as funções de rede para recuperar documentos dispersos, são formatadores HTML. Quando você carrega um documento HTML em um browser, ele lê (passa por um parser) as informações HTML e formata o texto e as imagens na tela de acordo com as informações contidas no documento formatado em hipertexto. Estes incluem vários níveis de cabeçalho, listas, menus, formatação de estilos de texto, etc.
+
+HTTP - Hypertext Transfer Protocol: HyperText Transfer Protocol - HTTP é um protocolo padronizado para transferência, através da rede, de arquivos que contém documentos hipermídia. Além de um protocolo para transferência de hipertexto, HTTP é um protocolo para acesso à informação com eficiência necessária para realizar saltos de acordo com a exigência dos hipertextos. HTTP transfere principalmente documentos HTML, mas na verdade está aberto para suportar um ilimitado e extensível conjunto de formatos. É o protocolo mais popular entre os suportados por URLs.
+
+URLs do tipo HTTP seguem a forma básica do URL:
+
+ 
+
+http://www.descomplica.com.br
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+Saiba mais sobre Serviços cliente-servidor. Assista ao vídeo disponível no link (https://www.youtube.com/watch?v=L5BlpPU_muY), aproveite! Ah! A legenda em português disponível no vídeo.
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+TANENBAUM, A.S. Redes de Computadores. 5. ed. São Paulo: Editora Pearson Universidades, 2011.
+
+1. (Concurso 2018 - Fundo de Previdência dos Servidores do Município de Aparecida de Goiânia - GO (APARECIDAPREV/GO) – Observe as afirmações abaixo sobre arquitetura cliente x servidor e assinale a alternativa INCORRETA
+R: Servidor é o dispositivo que exige determinados serviços a um servidor. Já o cliente, entretanto, refere-se ao equipamento que presta serviços aos computadores conectados a ele através de uma rede
+Exp: A alternativa está absolutamente errada. Servidor fornece o serviço solicitado pelo cliente
+
+2. (CONCURSO - 2018 - Companhia de Entrepostos e Armazéns Gerais de São Paulo - SP (CEAGESP/SP) - Analista de Sistemas I) – Observe as afirmações abaixo e depois assinale a alternativa correta
+
+I) Navegador (“Browser”) é um software que permite “folhear” documentos hipermídia distribuídos na rede. O browser é o lado cliente na arquitetura cliente-servidor definida pelo WWW
+
+II) Um servidor WWW programa que fica a espera de requisições de usuários (browsers) pedindo por documentos HTML
+
+III) URL é a forma padrão de designação de documentos pela qual é possível acesso a estes através da Internet, já que este nome é único
+
+IV) HTPL é um protocolo padronizado para transferência de textos: não foi desenvolvido para hipertexto, mas torna-se conveniente para transformar documentos em hiper-objetos e para descrever as ligações
+R: Somente as alternativas I, II e III estão corretas
+Exp:I – Correta, II – Correta, III – Correta e IV – Errada, HyperText Transfer Protocol - HTTP é um protocolo padronizado para transferência, através da rede, de arquivos que contém documentos hipermídia. Além de um protocolo para transferência de hipertexto, HTTP é um protocolo para acesso à informação com eficiência necessária para realizar saltos de acordo com a exigência dos hipertextos
+
+3. Leia as alternativas abaixo e assinale a alternativa onde a afirmação é correta:
+R: TCIPv8 – é o acrônimo para Transport Control Internet Protocol version 8
+Exp:  Acrônimo - palavra formada pela inicial ou por mais de uma letra de cada um dos segmentos sucessivos de uma locução, TCIPv8 – é o acrônimo para Transport Control Internet Protocol version 8
+
+4. Tsendo a afirmação:
+
+“Padrão para representação estruturada de hipermídia e informação baseada em tempo. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (áudio, vídeo, etc.), conectados por webs ou hiperlinks”
+
+Assinale a alternativa correta para qual o texto se refere:
+R: HyTime
+Exp:
+
+5. Assinale a alternativa errada para protocolos TCP/IP
+R: São programas que permite gerar um HTML
+Exp: Protocolos TCP/IP definitivamente não são programas!
+
+6. Observe as afirmações abaixo e assinale a alternativa incorreta:
+R: Clientes de e-mail: Centralizam mensagens eletrônicas e as liberam para servidores que as solicitem
+Exp: Não existe Cliente de e-mail, a descrição corresponde ao Servidor de e-mail
+ 

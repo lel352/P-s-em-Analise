@@ -1,0 +1,153 @@
+MicroServiços - A Nuvem trabalhando por nós
+Visão geral de microserviços
+
+Uma arquitetura de microserviços consiste em uma coleção de serviços pequenos e autônomos. Cada serviço é isolado e deve implementar um único recurso de negócio.
+
+De certa forma, microserviços são a evolução natural da arquitetura orientada a serviços (SOA), mas existem diferenças entre microserviços e SOA. Aqui estão algumas características definidoras de um microserviço:
+
+Em uma arquitetura de microserviços, os serviços são pequenos, independentes e fracamente acoplados.
+Cada serviço é uma base de código separada, que pode ser gerenciada por uma pequena equipe de desenvolvimento.
+Os serviços podem ser implantados de forma independente. Uma equipe pode atualizar um serviço existente sem recriar e reimplementar o aplicativo inteiro.
+Os serviços são responsáveis ​​por persistir seus próprios dados ou estado externo. Isso difere do modelo tradicional, no qual uma camada de dados separada lida com a persistência de dados.
+Os serviços se comunicam entre si usando APIs bem definidas. Os detalhes da implementação interna de cada serviço estão ocultos de outros serviços.
+Os serviços não precisam compartilhar a mesma pilha, bibliotecas ou estruturas de tecnologia.
+ 
+
+No exemplo abaixo, um aplicativo de comércio eletrônico simples pode colocar os recursos de pedido e estoque do aplicativo em serviços autônomos separados. Isso dá às equipes que possuem cada serviço individual a flexibilidade de liberar atualizações independentemente das outras equipes. Atualizações para um serviço podem ser enviadas sem ter que coordenar as versões com o outro serviço. Cada serviço pode usar diferentes pilhas e escalar independentemente. O serviço de inventário, por exemplo, pode adotar a versão mais recente do Java Runtime para resolver um problema de desempenho que afeta apenas o mesmo. Isso não exigiria que o serviço de pedidos fizesse as alterações necessárias para suportar esta versão do Java Runtime e coordenar uma liberação.
+
+
+Razões para dividir um monólito em vários serviços
+
+É certamente possível incluir todo o código de um aplicativo em um único serviço e implantar essa solução monolítica em vários servidores. Existem, no entanto, algumas razões válidas para decompor o aplicativo em serviços menores.
+
+Escalando independentemente (balanceando custo com velocidade):
+
+Serviços individuais podem ser dimensionados de forma independente, com recursos que correspondam melhor às suas necessidades. Com um aplicativo monolítico, tudo é executado no mesmo tamanho e número de instâncias de computação. Ao decompor um recurso de aplicativo em um serviço separado, é possível dimensionar o serviço de forma independente e até implantá-lo em diferentes tamanhos de instâncias de computação.
+
+Um aplicativo da Web de compartilhamento de fotos permite que os usuários carreguem fotos e as compartilhem com amigos e familiares. Nesse cenário, muitas vezes é necessário criar miniaturas de imagens para reduzir os dados necessários para visualizar uma coleção de fotos, criando uma melhor experiência do usuário. O aplicativo pode gerar um conjunto de miniaturas quando as imagens estão sendo carregadas e pode até exigir muita CPU para concluir o trabalho. O recurso de geração de miniaturas é necessário apenas ao carregar imagens. O serviço de miniaturas pode ser dimensionado quando as imagens estiverem sendo carregadas e devolvidas depois que os uploads e a geração de miniaturas estiverem concluídos.
+
+
+Suportando diferentes pilhas de tecnologia:
+
+Como desenvolvedores, devemos ser livres para escolher um idioma ou estrutura que queremos, dependendo de nossas habilidades ou das necessidades do serviço. Em alguns serviços, você pode valorizar os benefícios de desempenho do C ++ acima de tudo. Em outros serviços, a facilidade de desenvolvimento gerenciado em C # ou Java pode ser mais importante. Em alguns casos, pode ser necessário usar uma biblioteca de parceiros específica, tecnologia de armazenamento de dados ou meios de expor o serviço aos clientes.
+
+Um aplicativo de compartilhamento de fotos foi criado no Node.js e os desenvolvedores gostariam de usar um componente que só está disponível com uma tecnologia diferente. O componente possui os recursos necessários para suportar um tipo de imagem específico. A equipe pode criar o recurso internamente ou reescrever todo o aplicativo usando a tecnologia suportada. Na verdade, pode ser melhor decompor o recurso em um serviço separado implementado usando a tecnologia suportada pelo componente, em vez de migrar todo o aplicativo melhor atendido pela tecnologia existente.
+
+
+Dois ou mais clientes, quando os clientes adotam novos recursos à vontade:
+
+Recursos de um aplicativo podem ser comuns em vários serviços ou aplicativos. Para incentivar a reutilização e reduzir custos, as organizações muitas vezes criaram bibliotecas comuns. Essas bibliotecas são compartilhadas entre equipes e as tecnologias de gerenciamento de pacotes são usadas para gerenciar as dependências e a distribuição. Pode ser mais fácil encapsular a funcionalidade em um serviço que uma equipe pode atualizar independentemente sem precisar distribuir novas versões de um pacote.
+
+Um aplicativo da Web de compartilhamento de fotos usa um componente de miniatura para gerar imagens em miniatura. A organização decide lançar um serviço de compartilhamento de vídeo que também precisa gerar miniaturas de quadros de vídeo. O serviço de compartilhamento de vídeo pode implementar o recurso ou consumir a biblioteca por meio de outros serviços de gerenciamento de pacotes. Ao implementar esse recurso como um serviço e garantir a compatibilidade com versões anteriores, os serviços de compartilhamento de fotos e vídeos podem usar esse recurso facilmente. A equipe responsável pelo serviço de miniaturas pode liberar independentemente das equipes de compartilhamento de foto e vídeo.
+
+
+Gerenciando dependências conflitantes:
+
+Assim como as linguagens e estruturas de aplicativos têm dependências, seus recursos geralmente têm dependências comuns em bibliotecas compartilhadas. A situação surge quando a implementação de um recurso de um aplicativo precisa depender de uma versão mais recente de uma biblioteca. Isso significa que todos os recursos do aplicativo precisam depender da nova versão da biblioteca. Pode ser caro para alguns recursos atualizar suas dependências em uma versão mais recente. Você pode evitar isso decompondo o recurso em um serviço separado.
+
+Um aplicativo da Web de compartilhamento de fotos depende de uma biblioteca compartilhada. Os recursos de visualização da Web e os recursos de geração de miniaturas do aplicativo têm dependência da biblioteca compartilhada. Depois de algum tempo, o serviço de miniaturas precisa ser atualizado para a versão mais recente da biblioteca para ativar um novo recurso ou porque um bug foi corrigido em uma parte da funcionalidade da biblioteca. Os recursos de visualização de fotos não precisam dessa funcionalidade, e as interfaces mudaram o suficiente para exigir um trabalho considerável para adotar a nova versão. Ao implantar os recursos de miniatura do aplicativo em seu próprio serviço, uma versão diferente da biblioteca pode ser usada.
+
+
+Escalonamento automático
+
+O escalonamento automático é o processo de alocação dinâmica de recursos para atender aos requisitos de desempenho. À medida que o volume de trabalho aumenta, um aplicativo pode precisar de recursos adicionais para manter os níveis de desempenho desejados e satisfazer os SLAs. À medida que a demanda diminui e os recursos adicionais não são mais necessários, eles podem ser desalocados para minimizar os custos.
+
+O escalonamento automático aproveita a elasticidade dos ambientes hospedados na nuvem, reduzindo potencialmente a sobrecarga de gerenciamento. Isso reduz a necessidade de um operador monitorar continuamente o desempenho de um sistema e tomar decisões sobre a adição ou a remoção de recursos.
+
+Existem duas maneiras principais que um aplicativo pode dimensionar:
+
+Escala vertical. Também chamado de escalonamento para cima e para baixo, isso envolve a alteração da capacidade de um recurso. Por exemplo, você pode mover um aplicativo para um tamanho de VM maior. O dimensionamento vertical geralmente requer que o sistema fique temporariamente indisponível enquanto está sendo reimplantado. Portanto, é menos comum automatizar o dimensionamento vertical.
+Escala horizontal. Também chamado de dimensionamento e entrada, isso significa adicionar ou remover instâncias de um recurso. O aplicativo continua sendo executado sem interrupção, à medida que novos recursos são provisionados. Quando o processo de provisionamento estiver concluído, a solução será implementada nesses recursos adicionais. Se a demanda cair, os recursos adicionais podem ser encerrados de forma limpa e desalocada.
+ 
+
+Muitos fornecedores de nuvem suportam o dimensionamento automático da infraestrutura horizontal.
+
+Uma estratégia de escalonamento automático geralmente envolve os seguintes componentes:
+
+Sistemas de instrumentação e monitoramento nos níveis de aplicativo, serviço e infraestrutura. Esses sistemas capturam as principais métricas, como tempos de resposta, comprimentos de filas, utilização da CPU e uso da memória.
+Lógica de tomada de decisão que avalia essas métricas em relação a limites ou planejamentos predefinidos e decide se deve escalar.
+Componentes que escalam o sistema.
+Testar, monitorar e ajustar a estratégia de escalonamento automático para garantir que ela funcione conforme o esperado.
+ 
+
+Métricas e disparadores de escalonamento automático comuns incluem:
+
+Monitore as métricas de aplicativos, como tamanhos de bancos de dados, número de inquilinos ou comprimentos de filas. Os tamanhos das filas podem ser facilmente monitorados e os recursos ampliados ou reduzidos dependendo das mensagens que precisam ser processadas em uma fila.
+Monitorar o uso de recursos do sistema, como a carga da CPU ou o comprimento médio da fila de solicitação do servidor da web. Se a métrica de uso de recursos atingir um limite predeterminado, aja de acordo, aumentando ou diminuindo o número de instâncias.
+Aumentar ou diminuir a escala com base em uma programação. Há um perigo nisso, em que a carga real naquele momento pode ser diferente da antecipada, e o número de instâncias em execução pode não ser apropriado (como em, há muitos ou poucos).
+Escale o número de nós em um cluster com base em um agendador de cluster. Um orquestrador responsável pelo gerenciamento de serviços e contêineres em um cluster pode acionar um evento de escala para o orquestrador que gerencia o pool de clusters para adicionar mais nós ao pool.
+
+Uma solução de escalonamento automático pode usar uma combinação de métricas e acionadores. Por exemplo, um aplicativo pode ser configurado para ser executado com um número maior de instâncias mínimas e máximas durante os horários de pico e dimensionado entre esses limites usando várias métricas do sistema.
+
+ 
+
+Serviços de escala em um cluster
+
+Ao executar serviços em um cluster, há dois aspectos diferentes a serem considerados no escalonamento automático:
+
+As máquinas que compõem o cluster (instâncias de máquina).
+Os serviços em execução no cluster (instâncias de serviço).
+ 
+
+Um orquestrador pode precisar dimensionar o número de instâncias de serviço para atender a uma demanda maior e encontrar um limite de recurso no cluster. Isso exigirá que o cluster seja dimensionado e as máquinas provisionadas e adicionadas ao cluster. Como as instâncias de serviço em um cluster são reduzidas, pode ser que as máquinas possam ser removidas do cluster e desprovisionadas para reduzir custos.
+
+ 
+
+Atividade Extra
+
+Um artigo muito interessante mostrando justamente o desenvolvimento de Aplicações e sistemas de TI que se baseiam na nuvem: Implementing Cloud-Native Enterprise Applications with Open-Source Software @ https://dzone.com/articles/implementing-cloud-native-enterprise-applications 
+
+Referência Bibliográfica
+
+ 
+
+Livros:
+
+Computação em Nuvem |  Manoel Veras Sousa de Neto | Editora: BRASPORT
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Manoel-Veras-Sousa-ebook/dp/B016P42YUI/ 
+
+ 
+
+Certificação Cloud Essentials: GUIA PREPARATÓRIO PARA O EXAME CLO-001 | Yuri Diógenes e‎ Manoel Veras | Editora: Novaterra
+
+https://www.amazon.com.br/Livro-Certifica%C3%A7%C3%A3o-Cloud-Essentials-PREPARAT%C3%93RIO-ebook/dp/B00X4BIM02/ 
+
+ 
+
+Computação em Nuvem Cloud Computing. Tecnologias e Estratégias | Brian J. S. Chee e Curtis Franklin Jr. | Editora: MBOOKS 
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Computing-Tecnologias-Estrat%C3%A9gias/dp/8576802074/ 
+
+ 
+
+Computação em Nuvem: O Que Você Realmente Precisa Saber | OPUS SOFTWARE | Editora: Opus Software
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Realmente-Precisa-Saber-ebook/dp/B01E9TC8X4/ 
+
+ 
+
+Cloud Computing: Planejando a sua Jornada | Daniel Rosa | Editora: Daniel Rosa - Auto Publicação
+
+https://www.amazon.com.br/Cloud-Computing-Planejando-sua-Jornada-ebook/dp/B075GZHCZM/ 
+
+ 
+
+Web-learning:
+
+ 
+
+Architecting Distributed Cloud Applications @ https://courses.edx.org/courses/course-v1:Microsoft+DEVOPS200.9x+1T2019/course/
+
+
+1. Qual a principal razão para Dividir Aplicações monolíticas em Microserviços?
+R: Todas as anteriores.
+Exp:
+
+2. Quem controla os Microserviços rodando na Nuvem?
+R:Orquestrador.
+Exp: 
+
+3. Sobre os MicroServiços:
+R: Utilizam banco de dados próprios.
+Exp:

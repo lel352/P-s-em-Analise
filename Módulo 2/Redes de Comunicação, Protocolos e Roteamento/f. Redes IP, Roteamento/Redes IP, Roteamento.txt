@@ -1,0 +1,105 @@
+Redes IP e Roteamento
+Modelo TCP/IP
+
+O modelo em camadas TCP/IP (protocolo de controle de transporte / protocolo da Internet - Transport Control Protocol/Internet Protocol) implementa os princípios de particionamento e abstração do modelo OSI, conforme aplicado a um conjunto específico de protocolos. Onde OSI é um modelo conceitual, o TCP / IP é um modelo funcional. O TCP / IP não define padrões físicos - faz uso de padrões existentes. Mas, para facilitar a explicação, a maioria das pessoas adicionam a camada física à camada de acesso à rede do modelo TCP/IP. Também conhecido como Conjunto de Protocolos da Internet é o modelo conceitual e o conjunto de protocolos de comunicação usados na Internet e em redes de computadores semelhantes. É comumente conhecido como TCP/IP porque os protocolos fundamentais no conjunto são o protocolo TCP e o protocolo IP. O conjunto de protocolos TCP/IP fornece comunicação de dados de ponta a ponta, especificando como os dados devem ser empacotados, endereçados, transmitidos, roteados e recebidos. Essa funcionalidade é organizada em quatro camadas de abstração, que classificam todos os protocolos relacionados de acordo com o escopo da rede envolvida. Do menor para o maior, as camadas são a camada de link, contendo métodos de comunicação para dados que permanecem dentro de um único segmento de rede (link); a camada de internet, fornecendo internetworking entre redes independentes; a camada de transporte, lidando com a comunicação de host para host; e a camada de aplicação, fornecendo troca de dados de processo a processo para aplicativos. Os padrões técnicos subjacentes ao conjunto TCP/IP e seus protocolos constituintes são mantidos pela IETF (Internet Engineering Task Force).
+
+ 
+
+Benefícios do protocolo TCP/IP
+
+O TCP/IP sempre foi considerado um protocolo bastante pesado, exigindo muita memória e hardware para ser utilizado. Com o desenvolvimento das interfaces gráficas, com a evolução dos processadores e com o esforço dos desenvolvedores de sistemas operacionais em oferecer o TCP/IP para as suas plataformas com performance igual ou às vezes superior aos outros protocolos, o TCP/IP se tornou um protocolo indispensável. Hoje ele é tido como “The Master of the Network” (O Mestre das Redes), pois a maioria das LANs exige a sua utilização para acesso ao mundo externo. O TCP/IP oferece alguns benefícios, dentre eles:
+
+Padronização: um padrão, um protocolo roteável que é o mais completo e aceito protocolo disponível atualmente. Todos os sistemas operacionais modernos oferecem suporte para o TCP/IP e a maioria das grandes redes se baseia em TCP/IP para a maior parte de seu tráfego.
+Interconectividade: uma tecnologia para conectar sistemas não similares. Muitos utilitários padrões de conectividade estão disponíveis para acessar e transferir dados entre esses sistemas não similares, incluindo FTP (File Transfer Protocol) e Telnet (Terminal Emulation Protocol).
+Roteamento: permite e habilita as tecnologias mais antigas e as novas a se conectarem à Internet. Trabalha com protocolos de linha como P2P (Point to Point Protocol) permitindo conexão remota a partir de linha discada ou dedicada. Trabalha como os mecanismos IPCs e interfaces mais utilizados pelos sistemas operacionais, como sockets do Windows e NetBIOS.
+Protocolo Robusto: escalável, multiplataforma, com estrutura para ser utilizada em sistemas operacionais cliente/servidor, permitindo a utilização de aplicações desse porte entre dois pontos distantes.
+Internet: é através da suíte de protocolos TCP/IP que obtemos acesso à Internet. As redes locais distribuem servidores de acesso à Internet (proxy servers) e os hosts locais se conectam a estes servidores para obter o acesso à Internet. Este acesso só pode ser conseguido se os computadores estiverem configurados para utilizar TCP/IP.
+
+Unidades de dados do protocolo
+
+Na camada de aplicação, os dados existem como arquivos ou fluxos que são então divididos em partes e rotulados como datagramas, pois os dados são preparados para serem transmitidos pela mídia de rede. 
+
+Em cada camada, os datagramas têm características específicas e são genericamente conhecidos como PDUs (Protocol Data Units). Os principais paralelos estão nas camadas Transporte e Rede.
+
+
+Roteamento
+
+Roteamento é o processo que implementa a comutação de pacotes. Quando os pacotes atravessam uma rede, cada roteador que o pacote encontra, examina o cabeçalho do pacote e toma decisões de comutação de pacotes com base no endereço de rede de destino e nas regras de encaminhamento configuradas no roteador. O roteamento é um processo de camada de rede (camada da Internet) que usa endereços IPv4 e IPv6.
+
+Um roteador é geralmente um dispositivo de computação especializado que possui várias interfaces e executa software de roteamento especializado; mas o roteamento pode ser realizado por qualquer dispositivo de rede com o hardware e software necessários.  Na camada Rede (Internet), cada pacote é encaminhado da origem para o destino através da Internet por cada roteador pelo qual o pacote passa.
+
+Um roteador examina o endereço IP de destino de cada pacote que recebe e encaminha o pacote de acordo com as informações em sua tabela de roteamento. Cada roteador faz sua decisão de roteamento de forma independente para cada pacote. O roteador lidará com o pacote de três maneiras:
+
+Se houver uma rota na tabela de roteamento que corresponda ao endereço de rede do endereço IP de destino do pacote, ela encaminhará o pacote para o "próximo salto" especificado.
+Se não houver uma rota listada que corresponda ao endereço de rede do pacote e uma rota padrão estiver disponível, ela encaminhará o pacote para a rota padrão (na esperança de que o próximo roteador tenha uma rota de rede mais específica para o pacote).
+Se não houver uma rota listada que corresponda ao endereço de rede do pacote e uma rota padrão não estiver disponível, ela descartará o pacote.
+Protocolos de Roteamento
+
+Um protocolo de roteamento específica como roteadores se comunicam uns com os outros, a distribuição de informações que permite selecionar rotas entre quaisquer dois nós em uma rede de computadores. Algoritmos de roteamento determinam a escolha específica da rota. Cada roteador tem um prévio conhecimento somente das redes ligadas diretamente ao mesmo. Um protocolo de roteamento compartilha estas informações entre os vizinhos imediatos, e, em seguida, em toda a rede. Desta forma, os roteadores adquirem conhecimento sobre a topologia da rede. As características específicas dos protocolos de roteamento incluem a forma pela qual eles evitam loops de roteamento, a forma que eles selecionam as rotas preferenciais, usando informações sobre custos de saltos, o tempo necessário para alcançar a convergência de roteamento, sua escalabilidade, e de outros fatores. Embora existam muitos tipos de protocolos de roteamento, três grandes classes são muito utilizados em redes IP:
+
+Protocolos de gateway Interior tipo 1, o estado de ligação de protocolos de roteamento, tais como OSPF e is-is
+Protocolos de gateway Interior tipo 2, a distância de roteamento de vetor de protocolos, tais como o Protocolo de Informações de Roteamento, RIPv2, IGRP.
+Exterior gateway protocolos de roteamento são protocolos utilizados na Internet para troca de informações de roteamento entre Sistemas Autônomos, como o Border Gateway Protocol (BGP), o Caminho de Roteamento de Vetor de Protocolo. Exterior gateway protocols não deve ser confundido com o Exterior Gateway Protocol (EGP), um obsoleto protocolo de roteamento.
+ 
+
+ 
+
+Atividades Extra
+
+Assista os Vídeos e aprenda mais sobre as Redes IP:
+
+Modelo OSI e o Encapsulamento dos Dados @ https://www.youtube.com/watch?v=0NUOHaqAh9w
+Introdução ao roteamento de pacotes IP (NIC.br)  @ https://www.youtube.com/watch?v=y9Vx5l-th9Y
+ 
+
+Introdução ao roteamento de pacotes IP (NIC.br)  @ https://www.youtube.com/watch?v=y9Vx5l-th9Y
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+Livros:
+
+Redes de Computadores – Uma Abordagem de Sistemas. Peterson, Larry e Davie, Bruce. Editora Elsevior. Tradução da 3ª Edição.
+
+Cisco CCNA – Guia de Certificação do Exame #640-607. Odom, Wendell. Cisco Press. Alta Books.
+
+Redes e Sistemas de Comunicação de Dados. Stallings, William. Editora Campus. Tradução da 5ª Edição
+
+ 
+
+Web-learning:
+
+Disciplina: Redes de Computadores (Univesp - Universidade Virtual do Estado de São Paulo) @ https://www.youtube.com/watch?v=v8vxTtT2S_0&list=PLxI8Can9yAHc-_dZ6nsfoon08i2-4OvEk
+
+IT Support: Networking Essentials @ https://courses.edx.org/courses/course-v1:Microsoft+CLD260x+1T2019/course/ 
+
+IoT Networks and Protocols @ https://courses.edx.org/courses/course-v1:CurtinX+IOT3x+3T2018/course/
+
+Introduction to Open Source Networking Technologies @ https://www.edx.org/course/introduction-to-software-defined-networking-technologies 
+
+NFV Acceleration: An Introduction to OPNFV @ https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS164x+1T2018/course/ 
+
+
+1. Com base nesta pequena topologia de rede composta por 04 Redes distintas e 03 roteadores, responda as perguntas abaixo a respeito das tabelas de roteamento composta por três colunas: Endereço de Rede, Interface de Saída, Número de Saltos.
+
+
+Na perspectiva do roteador A, como fica escrita a linha da tabela de roteamento para a Rede 10.3.0.0?
+R: 10.3.0.0, S0, 1
+Exp
+
+2. Com base nesta pequena topologia de rede composta por 04 Redes distintas e 03 roteadores, responda as perguntas abaixo a respeito das tabelas de roteamento composta por três colunas: Endereço de Rede, Interface de Saída, Número de Saltos.
+
+
+Na perspectiva do roteador B, como fica escrita a linha da tabela de roteamento para a Rede 10.2.0.0?
+R: 10.2.0.0, S0, 0
+Exp
+
+3. Com base nesta pequena topologia de rede composta por 04 Redes distintas e 03 roteadores, responda as perguntas abaixo a respeito das tabelas de roteamento composta por três colunas: Endereço de Rede, Interface de Saída, Número de Saltos.
+
+
+Na perspectiva do roteador C, como fica escrita a linha da tabela de roteamento para a Rede 10.1.0.0?
+R: 10.1.0.0, S0, 2
+Exp

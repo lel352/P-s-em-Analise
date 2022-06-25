@@ -1,0 +1,149 @@
+Fontes e Armazenagem de Dados
+Dispositivos de Armazenamento em Massa
+
+Em um computador toda a informação que não pode ser perdida quando a máquina é desligada deve ser guardada, armazenada, em memórias genericamente conhecidas como memórias de armazenamento em massa ou memórias secundárias. Trata-se de um tipo de memória dita não volátil, pois tem a capacidade de preservar seu conteúdo mesmo quando o dispositivo não é alimentado por eletricidade. Exemplos deste tipo de memórias são os discos rígidos (HDDs) tradicionais, os SSDs (Solid State Disk – Disco de estado sólido), pen drives de grande capacidade, HDDs externos, mídias óticas como DVDs, Blue Rays etc.
+
+Neste curso vamos tratar apenas dos dispositivos mais comumente encontrados nos computadores atuais, o HDD e o SSD, pois, em um futuro não muito distante estes últimos substituirão completamente os primeiros.
+
+ 
+
+HDD
+
+HDDs (Hard Disk Drives) são dispositivos encontrados nos computadores há muito tempo. Trata-se do dispositivo de armazenamento que possui a melhor relação custo/(unidade de armazenamento), ou seja, é a maneira mais barata de armazenar um grande volume de informação.
+
+Dentre os fabricantes destes dispositivos destacam-se Seagate, Western Digital, Samsung e a japonesa Hitachi. Na especificação de um HDD deve-se levar em conta os seguintes aspectos:
+
+(a)      Formato:     Os HDDs estão disponíveis nos formatos de 2.5” e 3.5”, veja Figura 1 (b) e (c) respectivamente. Estes tamanhos referem-se ao diâmetro do disco (mídia / prato), ver Figura 1 (a) onde são gravadas as informações. HDDs de mesmo formato possuem as mesmas dimensões externas e isto define as exigências do seu local de instalação. Existe a possibilidade de se instalar HDDs de 2.5” em locais destinados aos de 3.5”, para tanto, deve-se utilizar adaptadores. Os HDDs de 2.5” destinam-se a dispositivos portáteis como, por exemplo, notebooks já os de 3.5” destinam-se aos desktops.
+
+(b)      Capacidade:          A capacidade refere-se ao espaço disponível no dispositivo para o armazenamento de informação. Os HDDs de 2.5” de maior capacidade na atualidade disponibilizam 2 TB de espaço enquanto os de 3.5” podem chegar a até 12 TB ou mais. Um bom (não excelente!) Notebook costuma estar equipado com um HDD de 1TB enquanto um bom desktop costuma estar equipado com um HDD de 4 TB. Desktops possuem a flexibilidade de permitir a instalação de mais de um HDD, com isso, o usuário não precisará trocar o HDD original ou antigo para a instalação de um novo, isto raramente acontece em notebooks.
+
+(c)      Velocidade do HDD:       Durante o funcionamento o(s) prato(s) do HDD executa(m) um movimento de rotação, quanto mais rápido este movimento maior é a capacidade de leitura e gravação do dispositivo.  A rapidez do movimento de rotação é medida em RPM (Rotações Por Minuto), tipicamente a velocidade de um HDD de 2.5” é de 5400 RPM e a de um HDD de 3.5” é de 7200 RPM, ou seja, tipicamente um HDD de 3.5” é mais veloz que um de 2.5”.
+
+(d)      Peso: Tipicamente os HDDs de 2.5” são mais leves que os HDD de 3.5 polegadas. Os HDDs de 3.5” podem possuir pesos diferentes, pois, podem possuir diferentes quantidades de pratos em seu interior a depender de sua capacidade.
+
+(e)      Cache:         Em um HDD a real velocidade de leitura e gravação nos pratos é baixa e isto se deve principalmente a sua característica mecânica, pois, os pratos devem girar para permitir a sua leitura. Com o intuito dar agilidade aos procedimentos de leitura e gravação de dados nestes HDDs uma memória semicondutora (eletrônica) de alta velocidade foi acrescentada aos dispositivos, trata-se da memória cache. Dependendo da qualidade e do preço do HDD mais ou menos memória cache pode estar disponível. Para entender como a memória cache funciona vamos considerar um exemplo, imagina que você tenha executado um comando de gravação de um arquivo no disco, você colou um arquivo no Windows Explorer, se este arquivo é menor do que a memória cache ele é transferido rapidamente para ela e é como se ele tivesse sido rápida e completamente gravado no disco, mas não foi, na verdade ele foi transferido para cache aos poucos ele será de fato gravado no disco. Um bom HDD de 2.5” possui pelo menos 128 MB de cache enquanto um bom HDD de 3.5” possui 256 MB.
+
+(f)       Interface: A interface refere-se a maneira como o HDD se comunica com sistema, trataremos deste tema um pouco mais adiante.
+
+A Figura 1 apresenta em (b) e (c) os parâmetros discutidos anteriormente para dois modelos comerciais de HDDs.
+
+Figura 1 – HDD.
+Figura 1 – HDD.
+
+HDDs para uso corporativo
+
+ 
+
+Digamos que você esteja pensando em trabalhar no segmento corporativo, o que mais você precisa saber sobre HDDs tradicionais? Assim, como todos os outros elementos voltados para o segmento corporativo, os HDDs também possuem características especiais, tomemos como base o HDD Seagate Exos X18. Trata-se de um HDD voltado principalmente para aplicação em Data Centers, Servidores e Workstations. Na figura 2 podemos encontrar uma imagem deste HDD há também uma tabela com a comparação de algumas das especificações que o distingue do modelo Seagate da Figura 1.
+
+Figura 2 – HDD X18.
+Figura 2 – HDD X18.
+
+Como pode ser observado na Figura 2, o HDD EXOS X18 embora opere através de uma interface (SATA 12Gb/s), possua a mesma quantidade de memória cache (256 MB) e mais algumas outras especificações semelhantes apresenta um desempenho superior ao modelo BarraCuda e que envolvem velocidade e segurança. Quanto a questão da velocidade o Exos X18 possui velocidade sustentada de leitura e escrita, esta última não mostrada, superiores ao modelo BarraCuda, além disso, a latência média, tempo para iniciar um procedimento de leitura ou escrita é menos no Exos X18, obviamente tudo isto impacta em seu desempenho. Sob o aspecto da segurança destaca-se a maneira como os parâmetros são apresentados, no Exos X18 são valores exatos enquanto no BarraCuda são valores aproximados, no caso do Exos X18 isto se faz necessário devido às exigências do mercado corporativo.
+
+Muitas outras características diferem ainda ambos os modelos, dentre elas destaca-se algoritmos de prevenção e correção de erros e mecanismos para aumentar a eficiência energética, porém, aprimoramentos particulares e patenteados da própria Seagate e não convém entrar em detalhes quanto a estas características.
+
+ 
+
+SSDs
+
+Os SSDs (Solid State Disks – Discos de Estado Sólido) representam a evolução dos HDDs. Nos SSDs a informação é guardada em Chips e não em pratos na forma de pequenos imãs (dipolos) como nos HDDs tradicionais, devido a esta diferença os SSDs não possuem partes móveis e por isso dispõem de possibilidades evolutivas muito maiores do que os HDDs tradicionais. Nos SSDs, assim como nos HDDs a informação não é perdida quando o dispositivo deixa de ser alimentado eletricamente. Consideremos na forma de itens as vantagens dos SSDs sobre os HDDs:
+
+(a)      Velocidade de leitura:     Nos SSDs a leitura e a escrita são feitas de forma totalmente eletrônica e com isso eles as executam de maneira mais rápida, portanto, são mais rápidos.
+
+(b)      Consumo de energia:     Devido a sua natureza completamente eletrônica, não possuindo motores, os SSDs consomem menos energia, isto favorece sua aplicação em dispositivos operados por baterias como, por exemplo, Notebooks. Favores também sua aplicação mesmo em desktops, após a eficiência energética é algo almejado em todos os segmentos.
+
+(c)      Segurança de dados:      Por não possuírem partes móveis são menos vulneráveis à choques mecânicos (pancadas, impactos). Os HDDs são altamente vulneráveis a este tipo de ocorrência que pode tornar ilegível a informação gravada em sua mídia.
+
+(d)      Evolução:    Os SSDs tiram grande vantagem dos aprimoramentos na fabricação de Chips, com isso, sua capacidade, economia energética e velocidade aumentam rapidamente.
+
+ Além do preço por unidade de armazenamento disponível que é sempre maior que o observado nos HDDs, uma desvantagem salta aos olhos nos SSDs, a capacidade de recuperação de dados em um dispositivo danificado. Na maioria das vezes nos HDDs para a recuperação dos dados basta a utilização de um programa específico, eventualmente torna-se necessário a substituição da placa lógica e em situações extremas pode-se encaminhar o HDD para empresas especializadas que retiram a mídia (os pratos) do HDD e, em equipamentos especializados, tentam resgatar a informação ali contida.  Nos SSDs quase sempre a recuperação dos dados envolve seu encaminhamento para empresas especializadas e, quando é possível, este procedimento costuma ser muito caro!
+
+A Figura 3 (a) apresenta um SSDs aberto e em (b) um HDD também aberto, note a “simplicidade” de sua construção interna de um SSD.
+
+Figura 3 – HDD vs SSD
+Figura 3 – HDD vs SSD
+
+Interface de conexão para memórias de Armazenamento em massa interno
+
+As interfaces de comunicação, também chamadas de interfaces de conexão ou ainda simplesmente barramentos, definem a maneira como os dispositivos conectam-se ao computador, e mais, definem como se dará a troca de dados entre o dispositivo e o computador.  Elas evoluem ao longo do tempo adicionando melhorias que vão desde aumento na velocidade de troca de dados até melhorias na segurança e simplicidade. Para a conexão dos HDDs a último tipo de interface desenvolvida foi a SATA III ou SATA 6.0 Gb/s (SATA = Serial Advanced Technology Attachment), a Figura 4 (a) mostra um conector SATA no HDD tradicional e um conector SATA na placa mãe, um cabo que também é mostrado na Figura 4 (a) conectado a estes conectores conecta os dispositivos. Esta interface assim como as versões anteriores atendiam as necessidades particulares da comunicação com HDDs e desde seu surgimento em 2009 até o surgimento dos SSDs ela não sofreu mais atualizações, na verdade houve o surgimento do conector eSATA. Esta estagnação deve-se ao fato de os HDDs não terem necessitado de aumento na capacidade de troca de dados com o sistema, pois, não evoluíram neste sentido.
+
+Quando os SSDs surgiram eles passaram a se conectar ao computador por meio desta interface exatamente da mesma maneira que os HDDs, ou seja, seguindo as mesmas regras de comunicação. (Figura 4 (b)), porém, com a rápida redução no tamanho dos SSDs eles exigiram novos tipos de conectores, especificamente projetados para eles, assim surgiram os conectores mSATA e M.2, este último com mais de uma versão (Figura 4 (b)).
+
+ 
+
+Figura 4 – Interfaces.
+Figura 4 – Interfaces.
+
+Não foi somente os conectores que tiveram que evoluir para atender às necessidades dos SSDs, como estes dispositivos aumentavam constantemente suas velocidade de troca de dados uma nova interface teve que ser criada, ou adaptada para eles. Com isto surgiu a interface PCIe, esta adaptação veio por meio da conexão direta dos SSDs ao barramento PCI express, daí o termo PCIe e ela já está sua versão 4.0. Esta conexão permite aos SSDs trocar dados a uma taxa de 16 Gb/s, lembre-se que o SATA III estava em 6 Gb/s! Uma última evolução na interface dos SSDs com o computador veio do estabelecimento de regradas para a troca de dados adaptadas às exigências dos SSD, pois as regras anteriores tinham derivado das exigências dos HDDs, com isso surgiu o padrão NVMe e eles ficaram ainda mais rápidos, eficientes e seguros!
+
+Apenas para se ter uma ideia o HD SEAGATE EXOS X18 consegue uma taxa sustentada de leitura de dados de 270 MB/s, um SSD Spectrix S40G da linha XPG da fabricante ADATA qua possui 2 TB de espaço pode atingir velocidade de leitura sustentada de até 3.500 MB/s, quase 13 vezes mais! Seu preço atual é de R$ 2.590,00 enquanto o EXOS X18 custa R$ 4.262,42 oferecendo 9 vezes mais espaço!
+
+ 
+
+Dispositivos de Entrada de Dados
+
+São dispositivos que permitem ao usuário entrar com informação no computador, porém como uma placa de rede WiFi também nos permite entrar com dados no computador e não é considerada um clássico dispositivo de entrada de dados a definição de dispositivos de entrada carece de mais algum elemento em sua definição, isto se faz da seguinte maneira: “São dispositivos que convertem uma informação de significado imediato para o usuário em um código binário, ou seja, codificam”. Eles também são conhecidos como periféricos de entrada de dados, pois, tipicamente estão na periferia, ao redor do computador, conectado ao mesmo por meio de cabos, ou via interface sem fio, sobre as quais falaremos em momento oportuno. Como exemplos de dispositivos de entrada de dados, temos o scanner que pode vir integrado à uma impressora na forma de um multifuncional, a câmera, o microfone que deve operar ou não em conjunto com uma placa de áudio, o teclado etc. Consideremos alguns destes dispositivos.
+
+ 
+
+Dispositivos de Saída de Dados
+
+São dispositivos que fazem exatamente o contrário dos dispositivos de entrada, ou seja, transforma códigos quadrados em arquivos dentro do computador em informação de significado imediato.  Para que isto seja possível, como acontece com os dispositivos de entrada, eles devem contar com drivers que estabelecem a conexão de dados entre eles, o S.O. e os aplicativos que os utilizam. A Figura XX, apresenta esta ideia.
+
+Exemplos clássicos de dispositivos de saída de dados são (a) monitor, (b) caixa de som e (c) impressoras. Como exemplo mais modernos podemos citar (a) impressora 3D, (b) os óculos de realidade virtual e (c) o óculos de realidade estendida.
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+Produto novo! Será que vai pegar? Assista ao vídeo disponível no link (https://www.youtube.com/watch?v=N5faA2MZ6jY) e aproveite!
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+STALLINGS, W. Arquitetura e Organização de Computadores. 10. ed. São Paulo: Editora Pearson Universidades, 2017.
+
+TANENBAUM, A.S. Organização Estruturada de Computadores. 6. ed. São Paulo: Editora Pearson Universidades, 2013.
+
+
+
+1. (Modificada de: COPESE - UFPI - 2020 - ALEPI - Consultor Legislativo - Tecnologia da Informação) Em relação a hardware, assinale a opção INCORRETA
+R: O SSD (Solid-State Drive), ou unidade de estado sólido, é um tipo de dispositivo, sem partes móveis, para armazenamento não volátil de dados digitais, que pode substituir a memória RAM
+Exp: O SSD não vem para substituir a memória RAM, mas sim, o HDD
+
+2. (COVEST-COPSET - 2019 - UFPE - Assistente de Tecnologia da Informação) A principal finalidade de um SSD (Solid-State Drive) é:
+R: armazenamento não volátil de dados digitais
+Exp: De fato, a principal finalidade de um SSD é o armazenamento (guardar) não volátil (que não se perde quando o computador é desligado) de dados digitais (informações)
+
+3. (Modificado de: COMPERVE - 2020 - TJ-RN - Técnico de Suporte Sênior) Como resultado da evolução tecnológica, o SSD (Solid State Disk) hoje possui diferentes padrões de conexão com a placa mãe. São padrões de conexão do SSD:
+R: SATA e mSATA
+Exp: De fato os SSD podem utilizar conexões SATA, mSATA e M.2 para se conectarem com a placa mãe
+
+4. (FUNCERN - 2018 - Consórcio do Trairí - RN - Técnico em Informática) O padrão SATA é uma tecnologia que foi criada no ano de 2000 e veio para substituir seu antigo padrão de interface PATA. Esse padrão se refere ao hardware:
+R: Disco Rígido
+Exp: O padrão SATA refere-se ao padrão de comunicação entre HDD (Disco Rígido) e SSD (Discos de estado sólido) com o sistema
+
+5. (Fundação de Estudos e Pesquisas Socioeconômicos (FEPESE) - Técnico de Informática 2019) Identifique os componentes de hardware que podem ser considerados sistemas de entrada e saída
+
+Impressora
+Teclado
+Disco rígido
+Monitor
+Mouse
+Assinale a alternativa que indica todos os itens corretos:
+R: São corretos apenas os itens 1, 2, 4 e 5
+Exp: O item 3 é um dispositivo de armazenamento em massa, todos os outros (1, 2, 4 e 5) são dispositivos de entrada ou saída
+
+6. (INAZ do Pará - 2014 - BANPARÁ - Médico do Trabalho) Periféricos são dispositivos que fazem a comunicação do computador com o meio externo. Podem ser de Entrada, Saída ou Entrada/Saída. Assinale a alternativa correta:
+R: Caixa Acústica e Impressora Matricial: são periféricos de Saída
+Exp: De fato, caixa acústica e impressora matricial, se enquadram na categoria de periféricos de saída, pois transmitem informações de significado imediato ao usuário

@@ -1,0 +1,76 @@
+Lógica e Protocolos
+Padrões e Protocolos de Redes 
+
+Desde a década de 1950, tem havido inúmeros fabricantes e fornecedores de computadores e comunicações, cada um deles desenvolvendo e implementando seus próprios sistemas de hardware e software. O fato de que hoje muitos desses sistemas diferentes podem se comunicar com sucesso é devido à aplicação de padrões e protocolos acordados. Padrões abertos e protocolos encorajam interoperabilidade, competição e inovação. 
+
+Os protocolos são normalmente implementados por software, e são tipicamente descritivos, em vez de prescritivos. Um protocolo pode especificar o que deve acontecer mas não explicitamente como isso vai acontecer. Por exemplo, um protocolo pode especificar a sequência de etapas para executar um determinado tipo de comunicação, ou o tamanho - número de bits - de uma mensagem do sistema requerida. Mas não especificará a linguagem de programação a ser usada, nem o sistema operacional no qual ele será executado. 
+
+Isso permite que diferentes fornecedores implementem o protocolo em diferentes plataformas, mantendo a interoperabilidade dessas plataformas, porque todo mundo está seguindo o mesmo protocolo. Plataformas que não obedecem a um protocolo específico não irá se comunicar com sucesso com sistemas que seguem esse protocolo. 
+
+Diferentemente dos protocolos, os padrões geralmente são descritivos e prescritivos. Os padrões também são geralmente aplicados a sistemas de computador e comunicação hardware, e não ao software. Um determinado padrão pode especificar, por exemplo, as dimensões de um cabo conector, o número e tipo de condutores elétricos no cabo, a forma precisa dos sinais elétricos para ser comunicado através dos condutores, como sinais serão gerados e detectados, o desempenho de transporte de dados do cabo sob certas condições. A conformidade com o padrão de rede garante que o usuário de um dispositivo ou sistema irá executar as especificações declaradas e será compatível com outros dispositivos que também cumprem com esse padrão. Então, quem determina esses padrões e protocolos? 
+
+Padrões e protocolos de rede são desenvolvidos e publicados por organizações da indústria de redes e grupos de trabalho. Algumas dessas organizações são muito técnicas, enquanto outros podem ser mais regulatórios ou consultivos em sua natureza. As organizações envolvidas com o desenvolvimento da publicação de padrões e protocolos da internet também são de âmbito internacional para facilitar a interoperabilidade global da qual a internet confia. O IEEE, ou Instituto de Engenheiros Elétricos e Eletrônicos, é responsável pelos padrões de rede, como os relacionados para a tecnologia de rede local, ethernet 802.2 e 802.3, e para tecnologias de rede de área local sem fio Wi-Fi 802.11. 
+
+Porque os padrões do IEEE são muito técnicos e prescritivos, o desenvolvimento de novas normas requer o acordo de numerosos engenheiros profissionais que representam muitos fornecedores de vários países. O processo de aprovação pode ser muito longo. Outro corpo de padrões - a UIT, União Internacional de Telecomunicações, é a agência das Nações Unidas que coordena informações internacionais e padrões de tecnologia de comunicação, que são aplicados - entre outros áreas - cabos submarinos de longa distância e comunicação via satélite. 
+
+A Associação da Indústria de Telecomunicações, TIA, representa fabricantes e fornecedores de redes de comunicação global através do desenvolvimento de padrões. Novos protocolos de rede propostos geralmente são enviados, geralmente por um fornecedor, no rascunho como um pedido de comentário, ou RFC, para a Força-Tarefa de Engenharia da Internet, IETF. Os RFCs de rascunho são revisados e desenvolvidos em colaboração pelos membros do IEFT até que uma aprovação consensual seja alcançada e o RFC é publicado em sua forma final. 
+
+De acordo com o espírito original da internet como uma comunicação aberta plataforma, o desenvolvimento e publicações de RFCs é aberto e público, como mostrado no site da IETF RFC, IET.org. O IETF é uma agência da Internet Society, que também inclui entidades como a internet atribuída autoridade numérica, coordenação global de serviços de nomes de domínio, IP versão 4 e 6 abordando através de registros regionais, ICAN, ou a Corporação da Internet para Nomes e Números Atribuídos, uma coordenação global de manutenção e procedimentos - espaço de domínio, domínio nomes, et cetera, na internet. O World Wide Web Consortium, ou W3C, é a principal organização internacional para a world wide web. Para as organizações da Internet das Coisas, como a IoT World Alliance e as alianças de IoT de cada país, eles trabalham para desenvolver a interoperabilidade entre o fornecedor IoT, hardware, e sistemas. No entanto, muitos desses sistemas ainda não foram padronizados. Então, como podemos ver, existem muitos corpos de padrões em todo o mundo. Os principais deles são provavelmente o IEEE para nossas especificações de hardware, e o IETF para os padrões de internet. No entanto, a maioria desses padrões interligam e muitas vezes, existe, por exemplo, um padrão IEEE que tem um equivalente no ITU. 
+
+Então, qual é o propósito dos protocolos? Um protocolo é um conjunto de regras e diretrizes acordadas para comunicar informações. Nem sempre estamos cientes do fato, mas os protocolos são usados extensivamente na comunicação humana. Para uma comunicação humana bem-sucedida, alguns protocolos com os quais devemos concordar inclua o idioma que usaremos Inglês, neste caso a forma -- verbal, escrita, assinatura, a mídia-- vamos fazer uma chamada de vídeo, um telefonema? Vai ser rádio, jornal, mensageiro, outras formas? O formato da mensagem. É uma carta comercial, memorando interno, postagem de mídia social? O momento das respostas - precisamos de uma resposta imediata? Existe um intervalo de tempo aceitável entre as respostas? E como a comunicação é terminada. Os protocolos de rede fornecem as regras e expectativas equivalentes para comunicações de dados. 
+
+Tipos básicos de protocolos de rede 
+
+Um protocolo é um conjunto de regras. Os protocolos de rede definem as regras que governar como a comunicação funciona entre dispositivos de rede. Qualquer dispositivo que queira se comunicar ou compartilhar com outro dispositivo nessa rede, tem que ter regras ou protocolos que correspondam. Os dispositivos não poderão se comunicar com cada outro, se eles não tiverem o mesmo conjunto de protocolos. Por exemplo, se um usuário quisesse imprimir algo de seu laptop para uma impressora sem fio, o laptop, a impressora sem fio e o roteador sem fio essa rede teria que ter todos o mesmo protocolo de rede, de modo que o comando para impressão pode ser entendida e concluída. Felizmente para nós da rede, protocolos foram padronizados por anos. Um protocolo comum em redes domésticas e em a Internet é o protocolo TCP/IP. Este conjunto de protocolos já existem por muito anos. Significa “Controle de Transmissão Protocolo / protocolo da Internet “ (Transmission Control Protocol/Internet protocol). O TCP ou Transmission Control Protocol, divide um arquivo ou mensagem em pequenos pacotes. O protocolo da Internet envia esses pacotes de um só lugar para outro através da Internet. O protocolo TCP então remonta os pacotes na extremidade de recepção. Para que isso funcione, todos os dispositivos envolvidos precisam ter o protocolo TCP/IP tanto no lado da origem como no lado da recepção. Isso inclui laptops, roteadores, modems você nomeia. TCP e IP são dois protocolos de o conjunto de protocolos TCP / IP. Existem outros protocolos dentro desse conjunto que gerenciar outras funções, como resolução de nomes e endereços, segurança e muito mais. 
+
+ 
+
+ 
+
+Atividades Extra 
+
+Quer saber mais o tráfego na Internet no Brasil. Acompanhe em http://www.ix.br/ 
+
+Acompanhe as notícias sobre as regulamentações da internet no Brasil em https://www.nic.br/
+
+ 
+
+ 
+
+Referência Bibliográfica 
+
+Livros: 
+
+Redes de Computadores – Uma Abordagem de Sistemas. Peterson, Larry e Davie, Bruce. Editora Elsevior. Tradução da 3a Edição. 
+
+Cisco CCNA – Guia de Certificação do Exame #640-607. Odom, Wendell. Cisco Press. Alta Books. 
+
+Redes e Sistemas de Comunicação de Dados. Stallings, William. Editora Campus. Tradução da 5a Edição 
+
+ 
+
+Web-learning: 
+
+Disciplina: Redes de Computadores (Univesp - Universidade Virtual do Estado de São Paulo) @ https://www.youtube.com/watch?v=v8vxTtT2S_0&list=PLxI8Can9yAHc-_dZ6nsfoon08i2-4OvEk 
+
+IT Support: Networking Essentials @ https://courses.edx.org/courses/course- v1:Microsoft+CLD260x+1T2019/course/ 
+
+IoT Networks and Protocols @ https://courses.edx.org/courses/course-v1:CurtinX+IOT3x+3T2018/course/ 
+
+Introduction to Open Source Networking Technologies @ https://www.edx.org/course/introduction-to-software-defined-networking-technologies 
+
+NFV Acceleration: An Introduction to OPNFV @ https://courses.edx.org/courses/course- v1:LinuxFoundationX+LFS164x+1T2018/course/ 
+
+
+
+1. São exemplos de funções básicas dos protocolos?
+R: Todas as anteriores .
+Exp:
+
+2. São exemplos de técnicas e tecnologias de Redes de Acesso?
+R: ADSL, LTE, FTTH.
+Exp:
+
+3. São exemplos de protocolos de Rede?
+R: DHCP, HTTP e IP.
+Exp:

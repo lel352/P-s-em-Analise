@@ -1,0 +1,125 @@
+Computadores e Sistema Computacional
+Arquitetura de Computadores
+
+Arquitetura de computadores é uma clássica matéria presente nos cursos de graduação e pós-graduação em áreas correlatas à ciência computacional. Esta matéria apresenta ao estudante os elementos básicos de um computador e de um sistema computacional, seus princípios de funcionamento, seu processo evolutivo e seu futuro. Neste curso não abordaremos o aspecto evolutivo, além disso, limitaremos o estudo dos computadores e sistemas computacionais à alguns de seus elementos básicos dando particular ênfase ao computador. Preparado para começar?
+
+ 
+
+Computador
+
+Com o passar do tempo o computador mudou sua forma de se apresentar à nós, hoje temos computadores integrados, isto é, fazendo parte de muitos objetos da nossa vida cotidiana, assim, ele não se apresenta mais simplesmente como aquela máquina que fica em uma escrivaninha de nossa casa ou de nosso trabalho, porém, tomaremos como base neste curso aquela máquina e quando desejamos nos referir a computadores específicos seremos explícitos. Pois bem, um computador é um dispositivo destinado ao processamento de informação. Ele deve ser capaz de receber uma informação (dados) de entrada, processar a informação e apresentar o resultado do processamento, veja Figura 1.
+
+Figura 1 - Computador e sua função.
+Figura 1 - Computador e sua função.
+
+Nos computadores as informações podem vir de muitas fontes, dizemos dispositivos de entrada de dados, para o processamento da informação é necessária uma CPU (Unidade Central de Processamento), para apresentar o resultado necessitamos de dispositivos de saída, precisamos ainda de memórias para armazenar e manipular os dados, discutiremos todos estes elementos em momentos oportunos.
+
+ 
+
+Informação
+
+Convém aqui definir o que é a informação. A informação corresponde a sequências de 0’s e 1’s (ditos níveis lógicos) em uma quantidade definida e que codifica alguma coisa. Na Figura 2 (a) a sequência ‘0001 1100’, de 0’s e 1’s, foi enviada pelo teclado, após um processamento comandado por um programa (MS Word) o resultado do processamento é apresentada na tela, isto com a ajuda (interface) do Driver da placa de vídeo (NVIDIA Driver). Apenas para formalizar, cada 0 e cada 1 presente no código enviado pelo teclado corresponde ao que chamamos de bit, trata-se da menor quantidade de informação possível, em informática e um grupamento de 8 bits, como é o caso, é chamado de Byte. Veja Figura 2 (b).
+
+A informação pode ir além de um código para identificar um caractere como visto anteriormente. Ela pode codificar a cor de um ponto, chamado de pixel, em uma imagem. Veja Figura 2 (c).
+
+Figura 2 - Informação e seu processamento.
+Figura 2 - Informação e seu processamento.
+
+Sistema computacional
+
+Frequentemente fazemos referência não somente ao computador quando analisamos sistemas de TI (Tecnologia da Informação) esta referência mais abrangente trata do Sistema Computacional o qual, além do computador e de seus acessórios (Hardware) envolve os usuários (Peopleware) e os programas executados pela máquina (Software). A Figura 3 apresenta os elementos de um sistema computacional, obviamente esta disciplina tem como principal elemento de estudo o hardware, eventualmente se aventurando pelo software. Para cada um dos vértices da pirâmide a área de TI possui profissionais especializados, porém, nos últimos tempos têm se exigido que os profissionais, de maneira geral, sejam capazes de lidar com mais de um vértice ao mesmo tempo, tal exigência deve-se ao fato de uma preocupação constante com a satisfação do cliente com o software ou solução entregue, há metodologias de desenvolvimento nas quais todos os componentes da equipe participam de todas as decisões.
+
+Figura 3 - Sistema Computacional.
+Figura 3 - Sistema Computacional.
+
+Tipos de Computadores
+
+Antes de tratarmos dos componentes internos de um computador convém aqui falarmos um pouco sobre os tipos de computadores. Há na verdade uma discussão muito grande sobre como separar (classificar) os tipos de computadores, pois, a cada ano estas máquinas apresentam-se para nós de novas formas, e ainda, como evoluem muito rapidamente uma máquina que antes tinha uma aplicação específica logo passa a ser de uso quase geral, ou seja, servindo para muitas outras finalidades além daquela originalmente planejada.   Dito isto, neste tópico nos baseamos em uma visão mais clássica sobre a classificação dos computadores focando mais em computadores pessoais e de uso corporativo de baixo desempenho. Vamos lá?
+
+Computadores pessoais: Trata-se do tipo de computador mais conhecido por todos e também o tipo com o maior número de variações (subtipos). São usados para atender necessidades computacionais pessoais, preferencialmente de uma única pessoa, porém, são largamente utilizados por famílias inteiras e também muito presentes em corporações, notadamente para aplicações mais simples. Consideremos alguns subtipos deste tipo de computador:
+
+(a)      Desktops:    Trata-se do tradicional computador pessoal de mesa, pode ser montado (configurado) sob medida para a(s) aplicação(ões) desejada(s), por exemplo, pode destinar-se a navegação pela internet, para edição de texto e apresentações, para a edição de vídeos, como plataforma para a execução de jogos etc.  Mesmo após sua aquisição possui grande capacidade de integração de novos recursos ou upgrades (melhorias) de suas capacidades. Em um passado não tão distante já foi sinônimo de computador pessoal, porém, com o aprimoramento de outros subtipos atualmente enfrenta grande concorrência.
+
+(b)      Notebooks: Trata-se da versão portátil do desktop. Possui como grande vantagem justamente a portabilidade, ou seja, a possibilidade de ser levado com facilidade pelo usuário onde quer que ele vá. Possui ainda a capacidade de operar desconectado da rede elétrica, pois dispõe de uma bateria. Já é comum pessoas e famílias abrirem mão do desktop e possuírem apenas notebooks. Possui como grande desvantagem a baixa capacidade de upgrade, assim, acabam se tornando obsoletos mais rapidamente que os desktops. É importante observar ainda que, embora existam notebooks com os mais variados graus de desempenho, quando comparamos estes subtipos de computadores com um desktop equivalente quase sempre o desktop possuir menor preço, ou seja, se você não precisa da portabilidade será mais barato e vantajoso investir em um desktop, sobretudo quando é necessário alto desempenho.
+
+(c)      Celulares:    Os celulares são os computadores pessoais de maior sucesso da última década e prometem continuar como tal por muito tempo. Estes dispositivos originalmente eram telefones com funcionalidades de computadores, porém, uma empresa de computadores percebeu que deveria inverter a ordem das coisas, ou seja, os tornou computadores pessoais com funcionalidades de telefone. Literalmente a cada dia eles adquirem novas funcionalidades sobretudo com o advento dos serviços em nuvem, falaremos mais sobre estes serviços um pouco mais adiante. Atualmente o mercado oferece telefones celulares com variados graus de desempenho, temos inclusive a iniciativa, não original diga-se de passagem, da Motorola em tornar o telefone celular um desktop, trata-se da plataforma “Ready For” disponível inicialmente apenas para o smartphone Motorola Edge+, a qual permite usar um telefone Android como um desktop, veja Figura 4. Os celulares são computadores pessoais com altíssimo grau de portabilidade, capazes de se conectar naturalmente às redes de dados oferecidas pelas companhias de telefonia celular e operados por bateria. Tipicamente não possuem capacidade de upgrade, salvo a possibilidade de acrescentar cartões de memória para aumentar o espaço para armazenamento em massa, quando comparados com notebooks de preço semelhante possuem menor desempenho e, por fim, estão sujeitos às limitações da tela de pequenas dimensões.
+
+ 
+
+Figura 4 – Tipos de computadores pessoais.
+Figura 4 – Tipos de computadores pessoais.
+
+Computadores corporativos: Trata-se de computadores utilizados por empresas e que se distinguem dos computadores pessoais, também utilizados neste ambiente. Consideremos os seguintes subtipos:
+
+(a)      Workstation (Estação de trabalho):    São computadores com capacidade de processamento de cálculos e gráficos superiores aos comuns, sendo aplicados principalmente para usos profissionais específicos, tais como arquitetura, desenho industrial, criação de filmes 3D etc. Não se trata simplesmente de um desktop "turbinado", pois são feitos para atender a uma finalidade específica. Em termos de hardware, a principal característica da workstation é sua construção modular. Isso permite configurar cada parte desses computadores de forma independente. Além disso, cada componente é projetado tendo em vista a expansão dos elementos. Um exemplo disso é a fonte de alimentação da HP Z840, uma workstation da HP, enquanto ela tem capacidade de 1.125 W, as de PCs comuns têm em torno de 380 W, é verdade que computadores pessoais mais incrementados podem até chegar a isso, porém em uma workstation isso não chega a ser algo fabuloso! Com esta fonte a workstation suporta dois processadores Intel Xeon E5-2600 v3 (até 18 núcleos), e agora sim estamos falando de algo exclusivo! As Workstations presam também pela segurança. Uma característica comum das Workstations é a possibilidade de instalação de mais de uma CPU, outra é a estabilidade durante sua operação, para tanto os componentes exigem desenvolvimento aprimorado e nunca operam no limite de suas capacidades, a Figura 5 em (a) mostra uma workstation pode dentro, note que ela não possui “frescuras”!
+
+(b)      Servidores: Segundo a definição da Wikipedia “servidor é um software ou computador, com sistema de computação centralizada que fornece serviços a uma rede de computadores, chamada de cliente”, obviamente estamos mais interessados quando o termo se refere à um hardware (máquina). Os servidores podem fornecer várias funcionalidades, muitas vezes chamado de "serviços", tais como a partilha de dados ou de recursos do sistema entre vários clientes, ou mesmo oferecer um serviço computacional de alto desempenho para um, vários ou mesmo milhares de clientes, assim, um único servidor pode servir vários clientes, e um único cliente pode usar vários servidores. Um processo cliente pode ser executado no mesmo dispositivo ou pode se conectar através de uma rede para um servidor em um dispositivo diferente, teremos uma aula especificamente reservada para este assunto! A Figura 5 em (b) apresenta uma foto de servidores da Wikipédia montados em Rack. Dada sua aplicação específica de fornecer serviços, é comum que servidores não disponham de periféricos de entrada como, por exemplo, teclado, e mesmo de saída como, por exemplo, monitore, estes dispositivos até podem ser acoplados ao servidor, porém, é mais comum acessá-los por mor meio de serviços de rede locais ou remotos. Apenas para finalizar e destacando o fato de muitas vezes um servidor ser observado mais sob o ponto de vista do software, uma workstation ou um computador pessoal, mesmo sendo este um telefone celular, podem oferecer serviços de servidor.
+
+Figura 5 – Computadores corporativos.
+Figura 5 – Computadores corporativos.
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+Que tal vermos uma aplicação realmente crítica para os computadores, repare como software e hardware estão fortemente relacionados.
+
+Assista ao vídeo disponível no link (https://www.youtube.com/watch?v=N5faA2MZ6jY) o vídeo oferece a opção de legenda com tradução, aproveite!
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+STALLINGS, W. Arquitetura e Organização de Computadores. 10. ed. São Paulo: Editora Pearson Universidades, 2017.
+
+TANENBAUM, A. S. Organização Estruturada de Computadores. 6. ed. São Paulo: Editora Pearson Universidades, 2013.
+
+1. (IMA - 2013 - Câmara Municipal de Governador Edson Lobão - MA - Assessor Jurídico Parlamentar) O sistema computacional ou sistema de processamento de dados é composto por:
+R: Hardware, software, peopleware
+Exp: O sistema computacional é um sistema coordenado que funciona como uma estrutura organizada, composto por três partes básicas: Hardware – parte física (todos os dispositivos físicos); Software – parte Lógica (Instruções, programas,…) e Peopleware – Parte humana (pessoas envolvidas com o sistema)
+
+Prof. Maria Alice Albuquerque Rosa
+
+2. (MS CONCURSOS - 2016 - Prefeitura de Itapema - SC - Técnico Contábil) – O computador é uma máquina com uma grande capacidade para processamento de informações, tanto no volume de dados quanto na velocidade das operações que realiza sobre esses dados. Basicamente, o computador é organizado em três funções, as quais são: entrada de dados, processamento de dados e saída de dados
+
+De acordo com o texto, marque a alternativa que preenche as lacunas corretamente:
+
+____________ é o nome que se dá para a parte física do computador. É tudo que você pode tocar (mouse, teclado, componentes em geral)
+
+____________ é o nome que se dá a toda parte lógica do computador
+R: Hardware - Software
+Exp: A parte física do computador corresponde ao Hardware e abrange todos os componentes de uma máquina, a parte lógica corresponde ao software, conjunto de instruções logicamente ordenadas com uma função específica
+
+3. Uma empresa de TI está envolvida com um grande projeto de software, para levar o projeto adiante ela selecionou I – Programadores; II – Analistas de banco de dados; III – Tecnólogos em infraestrutura de Redes; IV – Funcionários da empresa cliente para ajudar no levantamento de requisitos de software do sistema. Sabendo que um sistema computacional é composto por (1) – Hardware, (2) – Software e (3) – Peopleware. Assinale a alternativa que correlaciona corretamente os componentes do sistema computacional aos profissionais selecionados:
+R: (1) III; (2) I e II; (3) IV
+Exp: Tecnólogos em infraestrutura de Redes (III) lidam com Hardware. Programadores (I) cuidam da parte de software (2), Analistas de banco de dados (II) também lidam com software (2). O representante do cliente (IV) fará as vezes do usuário, portanto deve ser relacionado a Peopleware (3).
+
+4. (IESES - 2011 - PM-SC - Soldado da Polícia Militar) Sobre Hardware, Software e Peopleware é correto afirmar que:
+
+I. Hardware é todo o equipamento do computador, ou seja, a impressora, o mouse, a placa Mãe e o Sistema Operacional
+
+II. Software são os programas que utilizamos em um computador
+
+III. A planilha eletrônica é um exemplo de Software Aplicativo
+
+IV. Peopleware é a parte humana que se utiliza das diversas funcionalidades dos sistemas computacionais, seja este usuário um Analista de sistema ou, até mesmo, um simples cliente que faz uma consulta em um caixa eletrônico
+
+A sequência correta é:
+R: Apenas as assertivas II, III, e IV estão corretas
+Exp: O Sistema Operacional não é um Hardware, mas sim, um software. Todas as outras assertivas estão corretas
+
+5. (Modificado de: PaqTcPB - 2010 - IPSEM - Agente Administrativo) Dentre os elementos presentes em um sistema computacional uma delas corresponde ao próprio computador e aos equipamentos que estão conectados a ele e outra a todos os programas que nós utilizamos. Assinale a alternativa que contém as denominações destas duas partes, respectivamente:
+R: Hardware e software
+Exp:O computador e os elementos conectados a ele representam a parte física do computador, portanto trata-se do Hardware, os programas que nós utilizamos é a parte lógica do computador, ou seja, o Software
+
+6. Modificado de: Planejar Consultoria - 2016 - SAAE de Valença - BA - Auxiliar Administrativo) O sistema computacional é composto por hardwares, softwares e peopleware. Os softwares compreendem o sistema operacional, programas e aplicativos, e lógicas. Já a definição de hardware é:
+R: A parte física do computador por completo, ou seja, os componentes físicos que permitem o acesso e a interação entre a máquina e o homem além daqueles destinados ao processamento, armazenamento e transmissão das informações
+Exp: O Hardware compreende absolutamente toda a parte física do computador, tudo que podemos tocar!

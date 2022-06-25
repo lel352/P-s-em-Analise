@@ -1,0 +1,87 @@
+Resumo e Como Continuar
+Essa aula foi um resumo geral sobre como evoluímos nos conceitos de Computação da Nuvem.
+
+Consulte os materiais e aulas anteriores como referência.
+
+ 
+
+Atividades extra
+
+ 
+
+1. Os principais fornecedores de computação na Nuvem oferecem soluções de Computação Fog e EDGE como base para soluções de Internet das Coisas. Explore alguns dos produtos oferecidos nesta área:
+
+https://aws.amazon.com/greengrass/
+https://aws.amazon.com/lambda/edge/ - Veja que interessante a Computação Serverless é levada para a Borda.
+https://cloud.google.com/iot-edge/ - Aqui por exemplo, recursos de Inteligência artificial e Aprendizado de Máquina também estão presentes na Computação de Borda.
+https://azure.microsoft.com/en-gb/services/iot-edge/  
+ 
+
+2. Leitura Adicional - Um novo modelo organizacional: Crafting the Cloud Native Organization @ https://medium.com/@cote/crafting-the-cloud-native-organization-d565bd1b3aac 
+
+
+Leitura Adicional - Oportunidades Verticais com a Internet das Coisas: Keep calm and automate to unlock the opportunity in the vertical Internet of Things @ https://techcrunch.com/2017/09/28/keep-calm-and-automate-to-unlock-the-opportunity-in-the-vertical-internet-of-things/ 
+
+Referência Bibliográfica
+
+ 
+
+Livros:
+
+Computação em Nuvem |  Manoel Veras Sousa de Neto | Editora: BRASPORT
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Manoel-Veras-Sousa-ebook/dp/B016P42YUI/ 
+
+ 
+
+Certificação Cloud Essentials: GUIA PREPARATÓRIO PARA O EXAME CLO-001 | Yuri Diógenes e‎ Manoel Veras | Editora: Novaterra
+
+https://www.amazon.com.br/Livro-Certifica%C3%A7%C3%A3o-Cloud-Essentials-PREPARAT%C3%93RIO-ebook/dp/B00X4BIM02/ 
+
+ 
+
+Computação em Nuvem Cloud Computing. Tecnologias e Estratégias | Brian J. S. Chee e Curtis Franklin Jr. | Editora: MBOOKS 
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Computing-Tecnologias-Estrat%C3%A9gias/dp/8576802074/ 
+
+ 
+
+Computação em Nuvem: O Que Você Realmente Precisa Saber | OPUS SOFTWARE | Editora: Opus Software
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Realmente-Precisa-Saber-ebook/dp/B01E9TC8X4/ 
+
+ 
+
+Cloud Computing: Planejando a sua Jornada | Daniel Rosa | Editora: Daniel Rosa - Auto Publicação
+
+https://www.amazon.com.br/Cloud-Computing-Planejando-sua-Jornada-ebook/dp/B075GZHCZM/ 
+
+ 
+
+Web-learning:
+
+ 
+
+IT Support: Cloud Fundamentals @ https://courses.edx.org/courses/course-v1:Microsoft+CLD263x+1T2019/course/
+
+Architecting Distributed Cloud Applications @ https://courses.edx.org/courses/course-v1:Microsoft+DEVOPS200.9x+1T2019/course/
+
+Cloud Computing Concepts @ https://www.coursera.org/learn/cloud-computing/home/welcome
+
+IT Support: Cloud Fundamentals @ https://courses.edx.org/courses/course-v1:Microsoft+CLD263x+1T2019/course/
+
+Architecting Distributed Cloud Applications @ https://courses.edx.org/courses/course-v1:Microsoft+DEVOPS200.9x+1T2019/course/
+Cloud Computing Concepts @ https://www.coursera.org/learn/cloud-computing/home/welcome
+
+
+1. De acordo com o vídeo e com o que aprendemos, o que é computação ubíqua?
+R: Um conceito de máquinas falando com máquinas.
+Exp: 
+
+2. De acordo com o vídeo e com o que aprendemos, qual é a infraestrutura que potencializa a Internet das Coisas:
+R: Conectividade e Nuvem.
+Exp:
+
+3. De acordo com o vídeo e com o que aprendemos, a internet das Coisas usa que padrões de computação?
+R: Todas as anteriores.
+Exp:

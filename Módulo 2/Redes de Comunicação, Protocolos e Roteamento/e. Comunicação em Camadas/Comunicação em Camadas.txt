@@ -1,0 +1,78 @@
+Comunicação em Camadas
+Introdução aos modelos de rede em camadas
+
+Os modelos de rede em camadas dividem os diferentes processos de comunicação de rede em domínios, camadas ou níveis separados, mas conectados. Essa estrutura ou diagrama em camadas ajuda com:
+
+Compreender como funcionam as partes e o todo das redes;
+O desenvolvimento de novos recursos e processos de rede;
+Resolução de problemas de rede, separando os processos para simplificar a detecção de falhas.
+Modelo OSI
+
+O modelo de Interconexão de Código Aberto (Open Source Interconnect - OSI) foi concebido pela Organização Internacional de Normalização (ISO) como uma estrutura conceitual que caracteriza as funções de comunicação de qualquer sistema de rede. Ao particionar um sistema de comunicação em camadas funcionais, a estrutura interna subjacente e a tecnologia que implementam o sistema não precisam ser consideradas. Seu objetivo é permitir a interoperabilidade de diversos sistemas de comunicação com protocolos padrão. O modelo é representado com sete camadas definidas:
+
+Camada 7 - Fornece conectividade de ponta a ponta para humanos e coisas, permitindo uma interface e acesso à rede de dados.
+Camada 6 - Fornece representação comum dos dados transferidos entre os serviços da camada de aplicativo, incluindo estruturas de dados, tipos de arquivo e criptografia.
+Camada 5 - Fornece serviços para a camada de apresentação, organizando o diálogo e gerenciando a troca de dados.
+Camada 4 - Define serviços para segmentar, transferir e remontar os dados para comunicações individuais entre dispositivos finais.
+Camada 3 - Fornece serviços para trocar as partes individuais dos dados pela rede entre os dispositivos finais identificados.
+Camada 2 - Descreve métodos para troca de quadros de dados entre dispositivos em uma mídia comum. 
+Camada 1 - Descreve os meios mecânicos, elétricos, funcionais e de procedimento para ativar, manter e desativar as conexões físicas para transmissão de bits entre o dispositivo de rede.
+ 
+
+ 
+
+Atividades Extra
+
+Assista os vídeos abaixo para saber mais sobre Endereços IP.
+
+01 - Os endereços IP não são todos iguais - parte 1 (NIC.br) @ https://www.youtube.com/watch?v=jnuHODaLcO8 
+
+02 - Os endereços IP não são todos iguais - parte 2 @ https://www.youtube.com/watch?v=63M61wttuMk
+
+ 
+
+03 - O que é o IPv6, em português claro (NIC.br) @ https://www.youtube.com/watch?v=_JbLr_C-HLk
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+Livros:
+
+Redes de Computadores – Uma Abordagem de Sistemas. Peterson, Larry e Davie, Bruce. Editora Elsevior. Tradução da 3ª Edição.
+
+Cisco CCNA – Guia de Certificação do Exame #640-607. Odom, Wendell. Cisco Press. Alta Books.
+
+Redes e Sistemas de Comunicação de Dados. Stallings, William. Editora Campus. Tradução da 5ª Edição
+
+ 
+
+Web-learning:
+
+Disciplina: Redes de Computadores (Univesp - Universidade Virtual do Estado de São Paulo) @ https://www.youtube.com/watch?v=v8vxTtT2S_0&list=PLxI8Can9yAHc-_dZ6nsfoon08i2-4OvEk
+
+ 
+
+IT Support: Networking Essentials @ https://courses.edx.org/courses/course-v1:Microsoft+CLD260x+1T2019/course/ 
+
+IoT Networks and Protocols @ https://courses.edx.org/courses/course-v1:CurtinX+IOT3x+3T2018/course/
+
+Introduction to Open Source Networking Technologies @ https://www.edx.org/course/introduction-to-software-defined-networking-technologies 
+
+NFV Acceleration: An Introduction to OPNFV @ https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS164x+1T2018/course/
+
+1.Qual destes é um endereço IP válido?
+R: 65.123.44.87
+Exp:
+
+
+2. Um endereço de máscara de rede IPv4 como 255.255.240.0, pode ser representado por qual prefixo de rede?
+R: /20
+Exp:
+
+
+3. Quantos bits de rede são necessário para representar o endereço de máscara de rede IPv4 como 255.255.0.0?
+R:16
+Exp:

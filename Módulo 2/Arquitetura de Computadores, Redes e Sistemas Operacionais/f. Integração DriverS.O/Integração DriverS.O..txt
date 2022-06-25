@@ -1,0 +1,142 @@
+Integração Driver/S.O.
+Oque é um Sistema Operacional?
+
+Um programa que atua como um intermediário entre os usuários e o hardware;
+
+Um conjunto de programas que controla os recursos do computador e provê a base sobre a qual as aplicações são escritas.
+
+O sistema operacional (ou simplesmente S.O. ou ainda S.O.) é o programa responsável pelo controle e coordenação do hardware durante a execução dos vários programas de aplicação para os usuários que utilizam o sistema computacional. Desta forma, podemos afirmar que o S.O. é um conjunto de módulos de software que regem os recursos do sistema, resolvendo seus conflitos, simplificando o uso da máquina e aperfeiçoando seu desempenho global.
+
+Assim, o S.O. atua como mediador entre o hardware e os programas (aplicativos) utilizados pelo usuário (Ver Figura 1).
+
+Figura 1 – Estrutura de um sistema de computação típico.
+Figura 1 – Estrutura de um sistema de computação típico.
+
+Objetivos de um sistema Operacional
+
+Executar programas de usuário para solucionar seus problemas mais facilmente;
+Tornar o computador conveniente ao uso;
+Utilizar o hardware de maneira eficiente;
+Compartilhar os recursos de um sistema computacional entre os vários usuários.
+ 
+
+Serviços do Sistema Operacional
+
+Uma abordagem comum para definir o S.O. é aquela que entende que este software é uma extensão da máquina, fornecendo mais serviços para os aplicativos e outros programas básicos. Mas, além disso, ele também pode ser considerado um “administrador” e “fornecedor de recursos”. Ele cuida de todos os recursos que estão disponíveis no computador, permitindo ao usuário utilizar a máquina (hardware + S.O.) de maneira amigável. Isso é fundamental em qualquer S.O., tornando-se muito mais crítico em S.O. que permite mais de um usuário (multi-usuário) ao mesmo tempo.
+
+ 
+
+Tipos de Serviços do Sistema Operacional
+
+O S.O. fornece um ambiente para a execução de programas, através de serviços para os programas e para os usuários desses programas. Alguns serviços não se preocupam apenas em tornar a máquina mais amigável para o usuário, mas também, mais eficiente e seguro.  Esse é o caso dos serviços oferecidos nos sistemas que permitem vários usuários compartilhando todos os recursos da máquina. Apesar da forma como esses serviços são oferecidos variarem de S.O. para S.O., existem algumas classes de serviços que são comuns em todos eles. Exemplos:
+
+Execução de programas - O S.O. é o responsável pelo carregamento dos programas na memória principal da máquina e executá-los. O programa é o responsável pelo término de sua própria execução;
+
+Operações de entrada/saída - Durante a sua execução, um programa pode ter necessidade de se comunicar com meios externos à máquina. Esta operação recebe o nome de Entrada/Saída (E/S), ou Input/Output (I/O), e pode envolver qualquer dispositivo de E/S (monitor, teclado etc.). Como um programa não pode executar estas operações diretamente, o S.O. é o responsável por fornecer meios para isso;
+
+Manipulação de sistema de arquivos - Os usuários de uma máquina precisam ter acessos a arquivos pelo nome para saber se eles existem, para apagá-los ou até para nomeá-los. Um programa em execução necessita realizar a leitura ou escrita de um arquivo qualquer. O S.O. é o responsável por gerenciar o sistema de arquivos da máquina. Este gerenciamento inclui a alocação de espaço no dispositivo de armazenamento (disco rígido ou SSD), a busca otimizada a um determinado arquivo e o armazenamento de todas as informações necessárias sobre cada arquivo.
+
+Detecção de erros - O S.O. é o responsável por detectar erros possíveis que podem comprometer a execução de qualquer programa e a segurança da máquina. Esses erros podem envolver o próprio processador, a memória principal (acesso a uma área proibida), os dispositivos de entrada/saída (falta de papel na impressora), ou até mesmo o programa do usuário (uma divisão por zero). Para cada tipo de erro, o sistema operacional tem uma ação apropriada para garantir a exatidão e a consistência do processo de execução.
+
+Alocação de recursos - O S.O. é o responsável pela alocação dos diversos recursos em sistemas com um ou mais usuários. Esses recursos incluem a memória principal, o próprio processador (CPU), arquivos e os dispositivos de I/O. A alocação deve ser feita da forma mais eficiente possível para não prejudicar o desempenho do sistema.
+
+Proteção - O sistema operacional é o responsável pela proteção a todo o sistema computacional. Essa proteção se torna necessária tanto em sistemas monousuários quanto em sistemas multiusuários. A única diferença é a sua complexidade. Quando vários usuários (sistema multiusuário) estão usando o sistema, a execução de um programa não pode interferir na execução de outro. Além disso, o próprio sistema operacional deve ser protegido de erros cometidos pelos usuários.
+
+ 
+
+Constituição de um Sistema Operacional
+
+O S.O. é constituído por um Kernel, ou núcleo, e um conjunto de Programas de sistema, que executam operações simples, mas que juntos gerenciam todo o sistema computacional. Se não existisse o Kernel, todo software desenvolvido deveria saber se comunicar com os dispositivos do computador de que precisasse.
+
+Quando temos um Sistema Operacional, é ele quem precisa saber lidar com os dispositivos, sabendo "falar" com a placa de som, a internet etc. Desta forma, um software que seja feito para funcionar neste sistema não precisará de informações específicas do equipamento. Ao invés disso, ele chamará Função do kernel e o S.O. é que fará a comunicação, repassando os resultados.
+
+ 
+
+Kernel
+
+Kernel é o núcleo do S.O.. Ele representa a camada mais baixa de interface com o Hardware, sendo responsável por gerenciar os recursos do sistema computacional em sua totalidade.
+
+Observe a Figura 2, nela vemos a representação gráfica da comunicação dos componentes de um sistema de computação e a relação de importância do Kernel.
+
+Figura 2 – Representação de associação do Kernel com o Sistema Computacional
+Figura 2 – Representação de associação do Kernel com o Sistema Computacional
+
+É no Kernel que estão definidas funções para operação com periféricos (mouse, teclado, caixa de som, impressoras, etc.), gerenciamento de memória etc. Em resumo, o Kernel é um conjunto de programas que fornece para os programas de usuário (aplicativos) uma interface para utilizar os recursos do sistema.
+
+Quanto à sua arquitetura, o kernel pode ser: a) monolítico - em um único bloco, com todas as funcionalidades carregadas na memória; ou b) modular - com os módulos específicos para cada tarefa carregados opcionalmente, dinamicamente.
+
+Como você já sabe, o Kernel é a parte mais importante do S.O., pois, sem ele, a cada programa novo que é criado, seria necessário que o programador se preocupasse em escrever as funções de entrada/saída, de impressão etc., em baixo nível, causando um aumento do trabalho. Mas, como o Kernel já fornece a interface para que os programas possam acessar os recursos do sistema de um nível mais alto e de forma transparente, fica resolvido o problema. Quando há periféricos ou elementos de um sistema computacional que o Kernel não cobre, então se faz necessário escrever a comunicação entre estes, os chamados drivers.
+
+ 
+
+Drivers: O driver é um programa que faz a comunicação do S.O. com o Hardware, caso o Kernel não possua suporte para determinado dispositivo de Hardware. Resumidamente, são módulos de código específicos para acessar os dispositivos físicos. Existe um driver para cada tipo de dispositivo, como discos rígidos IDE, SCSI, portas USB, placas de vídeo, etc. Muitas vezes o driver é construído pelo próprio fabricante do hardware e é fornecido em forma compilada (em linguagem de máquina) para ser acoplado ao restante do sistema operacional.
+
+Código de inicialização: a inicialização do hardware requer uma série de tarefas complexas, como reconhecer os dispositivos instalados, testá-los e configurá-los adequadamente para seu uso posterior. Outra tarefa importante é carregar o núcleo do sistema operacional em memória e iniciar sua execução.
+
+Programas utilitários: são programas que facilitam o uso do sistema computacional, fornecendo funcionalidades complementares ao núcleo, como formatação de discos e mídias, configuração de dispositivos, manipulação de arquivos (mover, copiar, apagar), interpretador de comandos, terminal, interface gráfica, gerência de janelas, etc.
+
+ 
+
+Principais tipos de sistemas operacionais
+
+ 
+
+Mono e multitarefa: Um S.O. é multitarefa quando permite a execução simultânea de vários programas ao mesmo tempo, caso contrário ele é do tipo monotarefa.
+
+Rede: um sistema operacional de rede deve possuir suporte à operação em rede, ou seja, a capacidade de oferecer às aplicações locais recursos que estejam localizados em outros computadores da rede, como arquivos e impressoras.
+
+Distribuído: em um sistema operacional distribuído, os recursos de cada máquina estão disponíveis globalmente, de forma transparente aos usuários.
+
+Multi-usuário: um sistema operacional multi-usuário deve suportar a identificação do “dono” de cada recurso dentro do sistema (arquivos, processos, áreas de memória, conexões de rede) e impor regras de controle de acesso para impedir o uso desses recursos por usuários não autorizados.
+
+Desktop: um sistema operacional “de mesa” é voltado ao atendimento do usuário doméstico e corporativo para a realização de atividades corriqueiras, como edição de textos e gráficos, navegação na Internet e reprodução de mídias simples. Suas principais características são a interface gráfica, o suporte à interatividade e a operação em rede. Exemplos de sistemas desktop são o Windows XP, MacOS X e Linux.
+
+Servidor: um sistema operacional servidor deve permitir a gestão eficiente de grandes quantidades de recursos (disco, memória, processadores), impondo prioridades e limites sobre o uso dos recursos pelos usuários e seus aplicativos.
+
+Embarcado: é construído para operar sobre um hardware com poucos recursos de processamento, armazenamento e energia. Aplicações típicas desse tipo de sistema aparecem em telefones celulares, controladores industriais e automotivos, equipamentos eletrônicos de uso doméstico (leitores de DVD, TVs, fornos-micro-ondas, centrais de alarme, etc.). Como exemplos de S.O.s embarcados podemos citar o Android, Linux (customizado para esta aplicação) e Windows 10 Core.
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+História do Sistema Operacional, vamos saber mais. Assista ao vídeo disponível no link (https://www.youtube.com/watch?v=9rC9GilX1Io), aproveite!
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+STALLINGS, W. Arquitetura e Organização de Computadores. 10. ed. São Paulo: Editora Pearson Universidades, 2017.
+
+TANENBAUM,A.S. Organização Estruturada de Computadores. 6. ed. São Paulo: Editora Pearson Universidades, 2013.
+
+1. Concurso 2018 - Fundo de Previdência dos Servidores do Município de Aparecida de Goiânia - GO (APARECIDAPREV/GO) - Analista de Tecnologia da Informação) Os sistemas operacionais, ao longo do tempo, foram desenvolvidos para atender os hardwares e separados em diferentes tipos. O tipo de sistema operacional conhecido por possuir grandes restrições de consumo de energia e de memória e que, na maioria das vezes, pode realizar apenas uma função é conhecido como sistemas operacionais de:
+R: sistemas embarcados
+Exp: O sistema embarcado é o mais crítico, pois, muitos deles são utilizados em dispositivos que utilizam baterias, que tem uma quantidade de energia limitada (até a próxima recarga), assim, o seu uso restrito em questão de energia utilizada pelo hardware
+
+2. (CONCURSO - 2018 - Companhia de Entrepostos e Armazéns Gerais de São Paulo - SP (CEAGESP/SP) - Analista de Sistemas I) – Sistema operacional é o programa que:
+R: Gerencia recursos computacionais, tornando possível a comunicação entre softwares aplicativos e hardware (parte física)
+Exp: O S.O. possui muitas funções, talvez esta seja uma das mais importantes, gerenciar recursos de hardware e permitir a comunicação entre hardware e software
+ 
+3. Leia as alternativas abaixo e assinale a alternativa onde a afirmação é correta:
+R: Alocação de recursos - O S.O. é o responsável pela alocação dos diversos recursos em sistemas com um ou mais usuários. Esses recursos incluem a memória principal, o próprio processador (CPU), arquivos e os dispositivos de I/O. A alocação deve ser feita da forma mais eficiente possível para não prejudicar o desempenho do sistema
+Exp: Alocar corresponde a compartilhar, oferecer, integrar. Neste caso, os recursos de hardware ao usuário
+
+4. Abaixo temos várias afirmações sobre Kernel. Assinale a alternativa correta:
+R:Ele representa a camada mais baixa de interface com o Hardware, sendo responsável por gerenciar os recursos do sistema computacional em sua totalidade
+Exp: Kernel é o núcleo do S.O… Ele representa a camada mais baixa de interface com o Hardware, sendo responsável por gerenciar os recursos do sistema computacional em sua totalidade
+
+5. Leia as afirmações abaixo e assinale a alternativa correta sobre Sistema Operacional Embarcado:
+R: Aplicações típicas desse tipo de sistema aparecem em telefones celulares, controladores industriais e automotivos, equipamentos eletrônicos de uso doméstico (leitores de DVD, TVs, fornos-micro-ondas, centrais de alarme, etc.)
+Exp: De fato, o S.O. embarcada é aquele instalado em equipamentos com baixo poder de processamento e muitas vezes operados por baterias
+
+6. Assinale a alternativa correta sobre kernel:
+R: Monolítico e modular
+Exp: De fato, um kernel pode ser monolítico - em um único bloco, com todas as funcionalidades carregadas na memória; ou modular - com os módulos específicos para cada tarefa carregados opcionalmente, dinamicamente

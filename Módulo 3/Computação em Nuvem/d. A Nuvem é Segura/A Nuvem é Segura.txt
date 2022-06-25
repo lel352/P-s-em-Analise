@@ -1,0 +1,168 @@
+Segurança na Nuvem
+Definições Gerais
+
+A segurança da computação em nuvem ou, mais simplesmente, a segurança na nuvem refere-se a um amplo conjunto de políticas, tecnologias, aplicativos e controles utilizados para proteger IP, dados, aplicativos e serviços virtualizados e a infraestrutura associada da computação em nuvem. É um subdomínio de segurança de computadores, segurança de rede e, mais amplamente, segurança de informações.
+
+A computação em nuvem e o armazenamento de dados remotos fornecem aos usuários recursos para armazenar e processar seus dados em data centers de terceiros. As organizações usam a nuvem em vários modelos de serviço diferentes (como SaaS, PaaS e IaaS) e modelos de implantação (privado, público, híbrido e comunitário). As preocupações de segurança associadas à computação em nuvem se dividem em duas grandes categorias: problemas de segurança enfrentados pelos provedores de nuvem (organizações que fornecem software, plataforma ou infraestrutura como serviço via nuvem) e problemas de segurança enfrentados por seus clientes (empresas ou organizações). que hospedam aplicativos ou armazenam dados na nuvem). 
+
+A responsabilidade é compartilhada, no entanto. O provedor deve garantir que sua infraestrutura seja segura e que os dados e aplicativos de seus clientes sejam protegidos, enquanto o usuário deve tomar medidas para fortalecer sua aplicação e usar senhas fortes e medidas de autenticação.
+
+ 
+
+Autenticação na nuvem
+
+Os usuários devem ser identificados para usar serviços de nuvem. Existem várias maneiras de fornecer serviços de autenticação, dependendo da situação.
+
+As organizações podem manter seus recursos internos de computação separados dos serviços baseados em nuvem. Os usuários fornecem um nome de usuário e senha para recursos internos e um nome de usuário e senha diferentes para recursos baseados em nuvem. Isso é simples de configurar e gerenciar, mas exige que o usuário lembre pelo menos duas combinações diferentes de nome de usuário e senha, e para quais serviços são necessários. Por exemplo, uma organização pode fazer com que seus usuários usem sua conta do Active Directory (AD) local para recursos locais e forneça uma conta separada dos softwares como serviço que utilizam (uma conta para o Office365, outra para o G Suite, outra para ERP, outra para o CRM, etc).
+
+A maioria dos usuários se sente mais à vontade usando apenas um conjunto de credenciais de nome de usuário e senha. Esta é uma maneira comum de acessar recursos internos - cada recurso é identificado no AD e o usuário recebe acesso a ele. Eles só precisam do conjunto de credenciais do AD para obter acesso a qualquer recurso do AD. As organizações podem estender isso a recursos não-confiáveis ​​do AD configurando Single Sign On (SSO), tornando a identificação e a autenticação transparentes para o usuário.
+
+O SSO faz uso de um mecanismo de autenticação federada que ajuda a verificar a identidade do usuário. Você pode estar familiarizado com o uso de sua conta do Facebook ou Google+ para autenticar-se em outro site aparentemente não relacionado. Você pode usar esses tipos de credenciais para fazer login em várias páginas e serviços diferentes. Esse é um tipo de federação: você confia no Facebook para identificá-lo e autenticá-lo e, se o provedor de serviços da Web também confiar no Facebook para identificá-lo e autenticá-lo, ele não precisará de seu próprio sistema de autenticação, mas dependerá de terceiros ( neste caso, o Facebook).
+
+Organizações de nível corporativo baseadas na Microsoft (muito comum, por exemplo) usam o ADFS (Serviços de Federação do Active Directory) e as organizações menores podem simplesmente usar uma conta da Microsoft. Dessa maneira, as organizações podem habilitar o SSO para seus recursos locais e seus recursos baseados em nuvem.
+
+O SSO é mais fácil para os usuários e pode ser mais seguro porque as organizações podem adicionar autenticação multifator, como verificação por texto ou chamada telefônica ou até mesmo impressão digital.
+
+ 
+
+Gestão de Privacidade
+
+Ao publicar informações em sites de redes sociais, você deve reconhecer que os dados estão sendo armazenados em um ou mais servidores que podem estar localizados em qualquer lugar. Se você está postando informações pessoais no Facebook ou atualizando seus links de negócios no LinkedIn, esses dados são armazenados em algum lugar. Da mesma forma, se uma organização usa serviços em nuvem, o armazenamento e a localização de seus dados se tornam mais importantes devido à privacidade de dados, exigências legais ou regulamentares.
+
+Uma organização que considera armazenar dados na nuvem deve entender os requisitos legais e regulamentares de seus dados, bem como as expectativas de privacidade dos clientes, e se os serviços oferecidos por um provedor de serviços de nuvem atendem a esses requisitos.
+
+Questões a serem consideradas por uma organização considerando o armazenamento de dados na nuvem incluem:
+
+Em qual país / região os dados serão armazenados?
+Por quanto tempo os dados serão armazenados?
+O provedor de serviços garante locais não apenas de dados primários, mas também de dados de backup?
+O provedor de serviços pode ser forçado a permitir o acesso aos dados dos clientes por meio de canais legais?
+ 
+
+Quando os dados se enquadram em restrições regulatórias ou de conformidade, a escolha da implantação na nuvem (seja privada, pública ou híbrida) depende da confiança de que o provedor é totalmente capaz de suportar os requisitos do cliente.
+
+É possível que uma organização implemente controles de segurança adicionais que atendam aos requisitos regulamentares ou legais, mesmo quando a Infraestrutura como Serviço (IaaS) subjacente ou a Plataforma como Serviço (PaaS) não atende totalmente a esses mesmos requisitos. Mas a gama de controles adicionais que podem ser adicionados por uma organização é limitada e não pode bloquear todas as lacunas em alguns serviços de nuvem pública. O esforço envolvido no monitoramento e manutenção de controles adicionais de segurança pode ser proibitivo.
+
+As organizações globais precisam garantir que todos os serviços implantados na nuvem sejam usados ​​de acordo com as leis e regulamentos em vigor para os funcionários, subsidiárias estrangeiras e clientes. As leis de proteção de dados são diferentes em todo o mundo e as organizações devem estar cientes das leis que dizem respeito aos funcionários em todos os seus locais.
+
+A localização principal dos dados e quaisquer locais de backup devem ser conhecidos para garantir que essas leis e regulamentos sejam seguidos. Muitas vezes, os locais de backup precisam ser determinados. Por exemplo, a Amazon.com Inc. possui grandes datacenters nos Estados Unidos e na Irlanda, o que poderia causar problemas se eles fossem usados ​​como centros de backup para determinados tipos de dados.
+
+As leis de proteção de dados dos Estados membros da União Europeia (UE), bem como de outras regiões, são extremamente complexas e possuem vários requisitos definitivos. A transferência de dados pessoais para fora dessas regiões precisa ser tratada de maneiras específicas. Por exemplo, a UE exige que o coletor de dados, ou controlador de dados, informe os indivíduos quando os dados serão enviados e processados ​​em uma região fora da UE. O controlador de dados e o processador final também devem ter contratos aprovados pela Autoridade de Proteção de Dados com antecedência. Os Estados Unidos e a UE têm um acordo recíproco, e o destinatário dos EUA precisa auto certificar seus procedimentos de dados registrando-se no Departamento de Comércio dos EUA. O Brasil ainda carece de regulamentações mais sofisticadas mas vem evoluindo com o “Marco Civil da Internet”, Lei N° 12.965 de 2014 e a Lei Geral de Proteção de Dados Pessoais (LGPDP), Lei nº 13.709 de 2018.
+
+O gerenciamento de privacidade é uma consideração importante para organizações globais, ou para aqueles com uma base de clientes global, ao identificar serviços de nuvem apropriados e provedores de serviços em nuvem.
+
+ 
+
+Conformidade
+
+A conformidade é principalmente sobre rastreamento e monitoramento de acesso a dados; isto é, garantir controles adequados sobre quem tem acesso a ativos, que nível de acesso eles têm e como esses níveis são mantidos. A conformidade com as regulamentações legais é um requisito para a maioria das organizações e é comprovada por meio de auditorias bem-sucedidas. A computação em nuvem muitas vezes dificulta que as organizações garantam o cumprimento das regulamentações governamentais e do setor, especialmente se elas ou seus clientes abrangem várias regiões globais com as regulamentações diferentes.
+
+Se a organização opera nos Estados Unidos, no Canadá ou na União Europeia, eles estão sujeitos a vários requisitos normativos. Essas leis podem estar relacionadas a onde os dados são armazenados ou transferidos, incluindo o quão bem esses dados são protegidos de um aspecto de confidencialidade. Algumas leis se aplicam a mercados específicos, como o Ato de Portabilidade e Responsabilidade de Seguro de Saúde dos Estados Unidos (HIPAA) para o setor de saúde por exemplo, ou a CLT (conjuntos de leis trabalhistas) no Brasil. No entanto, as organizações geralmente armazenam informações relacionadas à saúde sobre funcionários individuais, o que significa que essas organizações podem ter que cumprir a HIPAA, mesmo que não estejam operando no mercado de assistência médica. Todas as organizações devem avaliar cuidadosamente seu armazenamento de dados para determinar quais regulamentos devem ser obedecidos para fins de gerenciamento de conformidade.
+
+A falha em proteger adequadamente os dados pode ter sérias consequências, incluindo o potencial de multas de um ou mais órgãos reguladores do governo ou do setor. Tais multas podem ser substanciais e potencialmente prejudiciais para um negócio pequeno ou médio. Por exemplo, a indústria de cartões de pagamento pode impor multas por violações à sua conformidade.
+
+Leis ou regulamentos geralmente especificam quem dentro de uma empresa deve ser responsabilizado e responsável pela precisão e segurança dos dados.
+
+A conformidade com as regulamentações é normalmente assegurada por meio de auditoria, em que as organizações devem declarar quais etapas de conformidade estão adotando e fornecer evidências de conformidade. A novidade relativa do ambiente de nuvem pública torna as auditorias extremamente difíceis e, às vezes, impossíveis, por isso muitas organizações mantêm dados confidenciais em ambientes de nuvem privada ou em servidores tradicionais em uma rede segura.
+
+O gerenciamento de conformidade pode ser uma tarefa enorme e requer o entendimento do tipo de dados armazenados, a localização do armazenamento e quais regulamentos se aplicam a partir de quais regiões globais. No entanto, as complexidades do gerenciamento de conformidade também podem impedir que algumas organizações aproveitem a computação em nuvem, ou seja, a flexibilidade exigida de uma organização sobre onde os dados são armazenados e como são movidos pode superar os maiores benefícios de usar a nuvem, incluindo escalabilidade rápida, capacidade de recuperação e acessibilidade.
+
+Leis semelhantes podem ser aplicadas em diferentes jurisdições legais e podem diferir bastante daquelas aplicadas em cada país. Os usuários de serviços em nuvem geralmente precisam estar cientes das diferenças legais e regulamentares entre as jurisdições. Por exemplo, os dados armazenados por um provedor de serviços de nuvem podem estar localizados, por exemplo, em Cingapura e espelhados nos EUA. 
+
+Muitos desses regulamentos exigem controles específicos (como controles de acesso e trilhas de auditoria fortes) e exigem relatórios regulares. Os clientes da nuvem devem garantir que seus provedores de nuvem atendam adequadamente a esses requisitos conforme apropriado, permitindo que cumpram suas obrigações, pois, em grande medida, eles permanecem responsáveis.
+
+Continuidade de negócios e recuperação de dados - Os provedores de nuvem têm planos de continuidade de negócios e recuperação de dados para assegurar que o serviço possa ser mantido em caso de desastre ou emergência e que qualquer perda de dados seja recuperada. [23] Esses planos podem ser compartilhados e revisados ​​por seus clientes, idealmente alinhados aos arranjos de continuidade dos clientes. Exercícios conjuntos de continuidade podem ser apropriados, simulando uma grande falha na Internet ou no fornecimento de eletricidade, por exemplo.
+Log e trilha de auditoria - Além de produzir logs e trilhas de auditoria, os provedores de nuvem trabalham com seus clientes para garantir que esses logs e trilhas de auditoria sejam adequadamente protegidos, mantidos pelo tempo que o cliente exigir e sejam acessíveis para fins de investigação.
+Requisitos exclusivos de conformidade - Além dos requisitos aos quais os clientes estão sujeitos, os datacenters usados ​​pelos provedores de nuvem também podem estar sujeitos a requisitos de conformidade. A utilização de um provedor de serviços de nuvem (CSP) pode levar a preocupações adicionais de segurança em relação à jurisdição de dados, pois os dados de clientes ou inquilinos podem não permanecer no mesmo sistema, no mesmo datacenter ou mesmo na nuvem do mesmo provedor. Por exemplo, o regulamento GDPR da União Europeia introduziu novos requisitos de conformidade para os dados dos clientes.
+Além dos problemas de segurança e conformidade enumerados acima, os provedores de nuvem e seus clientes negociaram termos de responsabilidade (estipulando como incidentes que envolvem perda ou comprometimento de dados serão resolvidos, por exemplo), propriedade intelectual e final de serviço (quando dados e as aplicações são finalmente devolvidas ao cliente). Além disso, há considerações para a aquisição de dados da nuvem que podem estar envolvidos em litígios. Esses problemas são discutidos em acordos de nível de serviço (SLA).
+
+ 
+
+Proteção de Dados
+
+As organizações que usam ambientes de nuvem devem considerar como protegerão os dados em repouso e em trânsito. Acredita-se que os dados em trânsito estejam mais em risco do que os dados em repouso, mas recentes violações de dados enfatizaram a importância de proteger os dados em repouso também.
+
+A criptografia é uma ferramenta importante para proteger dados em movimento e dados em repouso. A escolha de um algoritmo de criptografia forte e a definição de uma boa política de gerenciamento de chaves são essenciais para o uso bem-sucedido da criptografia. As organizações devem definir uma política de segurança que englobe a geração, armazenamento, distribuição, recuperação e destruição de chaves de criptografia.
+
+A maioria das ofertas de provedores de serviços em nuvem inclui a opção de criptografar os dados em repouso e em trânsito e fornecer sua própria infraestrutura de gerenciamento de chaves (KMI – Key Management Infrastructure). Organizações que desejam ambientes mais seguros podem criar e gerenciar seu próprio KMI, incluindo opções para armazenamento seguro de chaves.
+
+As organizações também devem considerar o Gerenciamento de Direitos. Usando o Rights Management, você pode controlar como os dados armazenados na nuvem podem ser usados ​​e quem pode acessá-los. Funciona muito bem com dados não estruturados, como documentos e arquivos armazenados na nuvem - pense no Google Drive, no Dropbox ou no OneDrive.
+
+Essas opções funcionam bem para ambientes de PaaS e IaaS, porque as organizações têm controle sobre como os dados são gerenciados. Ainda é importante automatizar a proteção de dados para garantir 100% de conformidade. A política de segurança da organização define quais dados precisam ser protegidos e como devem ser protegidos para minimizar os erros do usuário.
+
+Proteger dados em ambientes SaaS é muito mais difícil; Ele não pode ser automatizado facilmente porque a organização tem muito menos controle sobre como os dados são gerenciados nesses serviços. Algumas opções para resolver isso incluem:
+
+Use a criptografia do provedor de SaaS - Como os principais provedores de SaaS incluem opções para criptografar informações confidenciais, as organizações que confiam no provedor podem usar sua criptografia.
+Adicione sua própria criptografia - Os dados podem ser criptografados antes de serem enviados ao aplicativo SaaS, o que exigiria uma etapa extra para os usuários finais.
+Use um proxy de criptografia - Use um proxy de criptografia para criptografar e descriptografar os dados transferidos de e para o provedor. Esse proxy intercepta toda a comunicação com o aplicativo SaaS e criptografa e descriptografa dados confidenciais. Isso pode adicionar uma camada de segurança aos dados sem que o usuário final fique ciente disso. Qualquer alteração no SaaS pode causar problemas com essa técnica.
+Selecione o local de armazenamento - Alguns provedores de serviços em nuvem permitem que as organizações escolham onde seus dados serão localizados, optando por mantê-los no local ou em um data center específico. Isso também pode ser exigido pelos requisitos regulamentares de alguns países / regiões que proíbem o armazenamento de dados confidenciais em locais estrangeiros que não são de sua jurisdição.
+ 
+
+Atividade Extra
+
+ 
+
+Saiba mais sobre os conceitos que trabalhamos nesta aula:
+
+Cyber-security Framework for Multi-Cloud Environment @ https://medium.com/taslet-security/cyber-security-framework-for-multi-cloud-environment-e7d35fd32bd6 
+O que é DevOps @ https://pt.wikipedia.org/wiki/DevOps 
+ 
+
+Referência Bibliográfica
+
+ 
+
+Livros:
+
+Computação em Nuvem |  Manoel Veras Sousa de Neto | Editora: BRASPORT
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Manoel-Veras-Sousa-ebook/dp/B016P42YUI/ 
+
+ 
+
+Certificação Cloud Essentials: GUIA PREPARATÓRIO PARA O EXAME CLO-001 | Yuri Diógenes e‎ Manoel Veras | Editora: Novaterra
+
+https://www.amazon.com.br/Livro-Certifica%C3%A7%C3%A3o-Cloud-Essentials-PREPARAT%C3%93RIO-ebook/dp/B00X4BIM02/ 
+
+ 
+
+Computação em Nuvem Cloud Computing. Tecnologias e Estratégias | Brian J. S. Chee e Curtis Franklin Jr. | Editora: MBOOKS 
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Computing-Tecnologias-Estrat%C3%A9gias/dp/8576802074/ 
+
+ 
+
+Computação em Nuvem: O Que Você Realmente Precisa Saber | OPUS SOFTWARE | Editora: Opus Software
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Realmente-Precisa-Saber-ebook/dp/B01E9TC8X4/ 
+
+ 
+
+Cloud Computing: Planejando a sua Jornada | Daniel Rosa | Editora: Daniel Rosa - Auto Publicação
+
+https://www.amazon.com.br/Cloud-Computing-Planejando-sua-Jornada-ebook/dp/B075GZHCZM/ 
+
+
+ 
+
+Web-learning:
+
+IT Support: Cloud Fundamentals @ https://courses.edx.org/courses/course-v1:Microsoft+CLD263x+1T2019/course/
+
+ 
+
+Architecting Distributed Cloud Applications @ https://courses.edx.org/courses/course-v1:Microsoft+DEVOPS200.9x+1T2019/course/
+
+
+1. Considerando os modelos e domínios que definem a computação na Nuvem, suas tecnologias e os usuários, em quais cenários devemos aplicar os conceitos de Segurança?
+R: A segurança é um item transversal em Computação da Nuvem atingindo todos os níveis de trabalho.
+Exp:
+ 
+2. Quem são os agentes da Responsabilidade Compartilhada nos requisitos de Segurança em Computação em Nuvem?
+R: Provedores, Organizações e os Usuários finais.
+Exp:
+
+3. São tecnologias e/ou metodologias de controle de segurança quem podem ser utilizados em sistemas em Nuvem?
+R: Autenticação de dois fatores e Criptografia.
+Exp:
+

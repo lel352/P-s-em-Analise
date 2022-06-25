@@ -66,7 +66,7 @@
         2. Entendendo Poder da Engenharia Social
         3. Minimizando Impactos com Backups
         4. Entendendo a Segurança do Data Center Profissional
-        5. Rede Wireless e os Seus Riscos
+        5. Rede Wireless e os Seus Riscos 
         6. Case de Sucesso: O Ataque do Vírus Ransomware
         7. A Política de Segurança
         8. LGPD, Lei 13.709/2018 - Lei Geral da Proteção de Dados
@@ -81,12 +81,50 @@
         7. Dividindo as Redes
         8. Tecnologia Emergente
 
-    * Arquitetura de Computadores, Redes e Sistemas Operacionais
+    * Arquitetura de Computadores, Redes e Sistemas Operacionais - Prof: Nivaldo Zafalon Junior
+        1. Computadores e Sistema Computacional
+        2. Fontes e Armazenagem de Dados
+        3. Dados: Processamento e Transmissão
+        4. Uma visão geral
+        5. Aspectos de segurança
+        6. Integração Driver/S.O.
+        7. Definição de serviços cliente-servidor
+        8. Aplicações práticas
 
 3. Módulo 3
-    * Computação em Nuvem
-    * Análise de Sistemas de Informação
-    * Desenvolvimento de Sistemas de Informação
+    * Computação em Nuvem - Prof: Marcos Paulo Rodrigues
+        1. Como começou e Por quê?
+        2. Conceitos Básicos
+        3. Ofertas de Serviços da Nuvem
+        4. A Nuvem é Segura?
+        5. O Mindset da Nuvem
+        6. A Nuvem trabalhando por nós
+        7. Tudo na Nuvem
+        8. Resumo Final
+
+    * Análise de Sistemas de Informação - Prof: Michele Lisboa Silveira
+        1. Principais características dos SI
+        2. Banco de dados e infraestrutura
+        3. Linguagens de programação
+        4. Softwares de otimização e simulação
+        5. Metodologias para desenvolver softwares
+        6. Aplicações e linguagens Front end
+        7. Aprendendo Java na prática
+        8. Gerenciamento em projetos de segurança.
+
+
+
+    * Desenvolvimento de Sistemas de Informação - Prof: Fabio Machado de Oliveira
+        1. Introdução ao desenvolvimento de sistemas de informação
+        2. Ferramentas de desenvolvimento de sistema de informação
+        3. Estruturas de dados avançadas
+        4. Modelagem de dados
+        5. Banco de dados
+        6. Linguagens formais e autômatos
+        7. Estruturas discretas
+        8. Tópicos avançados    
+
+
     * Computação e Inteligência Artificial
 
 4. Conteúdo Bônus

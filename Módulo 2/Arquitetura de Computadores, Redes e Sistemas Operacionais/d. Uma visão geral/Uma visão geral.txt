@@ -1,0 +1,128 @@
+Uma visão geral
+Monitoramento de Hardware
+
+O monitoramento de hardware pode ser feito em dois níveis, a saber, o monitoramento de baixo nível e o monitoramento crítico. Nesta aula trataremos do monitoramento de baixo nível.
+
+ 
+
+A importância do monitoramento de Hardware
+
+O monitoramento de hardware é de fundamental importância principalmente no ambiente corporativo, isto é, em empresas. Ele também é importante para usuários domésticos, porém, devido ao pouco conhecimento dos usuários domésticos torna-se difícil implantar esta cultura de forma ampla, assim, no ambiente doméstico apenas usuários bem informados e com algum conhecimento de hardware podem tirar proveito desta boa prática. Já estudamos em aulas anteriores os principais hardwares presentes em um computador, tratamos principalmente dos computadores pessoais, continuaremos por este caminho, mas lembre-se, a maioria dos computadores corporativos não passam de computadores pessoais!
+
+ 
+
+Identificando os componentes presentes em um computador
+
+ 
+
+I)        Windows 10
+
+Não trataremos de versões anteriores ao Windows 10, embora muitas delas ainda estejam em uso, é muito provável que em pouco tempo quase não tenhamos usuários sérios dependendo destas versões, você pode discordar, é apenas minha opinião!
+
+A maneira mais tradicional de visualizar os componentes de hardware de um computador com S.O. Windows é acessando o Gerenciador de Dispositivos. Para tanto abra a caixa de pesquisa (digitando simultaneamente “Windows+S”, em seguida digite “Gerenciador de Dispositivos”, depois selecione o ícone do Gerenciador de Dispositivos que aparece como mostrado na Figura 1 (a). Na Figura 1 (b) é apresentada a tela de todos os dispositivos de hardware presentes no computador, selecionando o dispositivo e clicando com o botão direito do mouse você tem acesso à uma série de opções, dentre elas a Figura 1(d) mostra a seleção de propriedades para uma das placas de vídeo presentes no computador. Nesta caixa você é capaz de verificar se há atualizações de Driver disponíveis e, se for o caso, proceder a instalação, desabilitar o dispositivo etc.
+
+Figura 1 – Gerenciador de dispositivos.
+Figura 1 – Gerenciador de dispositivos.
+
+II)       No LINUX - Ubuntu
+
+O Ubuntu possui um equivalente ao Gerenciador de dispositivos do Windows, trata-se da interface gráfica de usuário “System Information”. Para acessá-lo você deve digitar hardinfo no terminal ou chamando de Dash (Alt + F2), obviamente você deve tê-lo instalado! A Figura 2 apresenta um exemplo de sua aparência.
+
+Figura 2 – System Information.
+Figura 2 – System Information.
+
+Monitoramento de utilização de recursos
+
+Como estamos ainda em um momento inicial sobre o acesso às informações de hardware dos computadores, que tal darmos uma olhadinha em uma ferramenta bem simples e bacana para observarmos o estado de utilização de recursos da máquina? Sim, vamos lá então...
+
+ 
+
+I)        Windows 10
+
+No Windows 10, e outros uma boa opção para termos uma ideia sobre a utilização dos recursos de um computador é através do Gerenciador de Tarefas, para acessá-lo basta pressionar as teclas “Ctrl + Alt + Del”, em seguida selecione "Gerenciador de Tarefas”, veja Figura 3(a). Na Figura 3(b) temos em destaque a primeira aba da janela do Gerenciador de Tarefas, nela podemos observar o consumo de CPU, memória, disco, rede, GPU, o mecanismo de GPU (GPU utilizada), o uso de energia e a tendência do uso de energia de cada aplicativo, processo em segundo plano e processo do Windows em execução no computador.
+
+Figura 3 – Gerenciador de tarefas - Processos.
+Figura 3 – Gerenciador de tarefas - Processos.
+
+Nas Figura 3 (c) é mostrado o que podemos conseguir com esta ferramenta, ao ordenarmos exibição pelo consumo de CPU, percebe-se que o processo Diebold Nixdorf – Protection Module está consumindo muita CPU da máquina. Diante desta situação um usuário fez uma reclamação ao site Reclame Aqui e aparentemente teve ajuda dos desenvolvedores do processo para resolver seu problema, veja na Figura 3 (e).
+
+Na Figura 4 temos em destaque a segunda aba da janela do Gerenciador de Tarefas, nela podemos observar com mais detalhes o uso de recursos com computador, mais especificamente o uso da CPU (a) e do WiFi (b), também é possível observar o uso dos dispositivos de armazenamento em massa, Disco 0 e 1 além das GPUs 0 e 1.
+
+Figura 4 – Gerenciador de tarefas – Desempenho.
+Figura 4 – Gerenciador de tarefas – Desempenho.
+
+I)        No LINUX - Ubuntu
+
+O Linux Ubuntu possui uma interface gráfica de usuário semelhante ao Gerenciador de Arquivos do Windows e nomeada por “System Monitor” (Monitor de Sistema), seu acesso se faz da mesma maneira, ou seja, pressionando simultaneamente as teclas “Ctrl + Alt + Del”. Na Figura 5 temos em destaque a segunda aba da janela do System Monitor, nela podemos observar com mais detalhes o uso de recursos do computador pelos aplicativos e processos.
+
+Figura 5 – System Monitor.
+Figura 5 – System Monitor.
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+Que tal aprendermos a monitorar um computador GAMER?
+
+Assista ao vídeo disponível no link (https://www.youtube.com/watch?v=mu-PRt_LbhM) o vídeo oferece a opção de legenda com tradução, aproveite!
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+Central de suporte Microsoft Para Windows. Disponível em https://support.microsoft.com/pt-br/windows?ui=pt-BR&rs=pt-BR&ad=BR. Acesso em 24/04/2021.
+
+Manual Reference Pages  - monitorix.conf. Disponível em https://www.monitorix.org/documentation.html. Acesso em 24/04/2021.
+
+
+1. Sobre a importância do monitoramento de hardware assinale a alternativa errada:
+R: Embora seja importante tanto para computadores pessoais quanto corporativos, porém, é mais importante para computadores pessoais, pois, as empresas dispõem de técnicos próprios para dar manutenção em caso de falhas
+Exp: É mais importante para corporações, pois, os impactos de máquinas que não estejam funcionando dentro das especificações podem ir desde interrupção das atividades, até perda de mercado, de receita e processos
+
+2. FCC - 2007 - TRE-MS - Analista Judiciário - Área Judiciária) O Gerenciador de dispositivos do Windows tem, dentre as suas funções, a atribuição de: 
+R: atualizar o software de dispositivos de hardware
+Exp: De fato, uma das funções do Gerenciador de Dispositivos é atualizar o Driver dos dispositivos
+
+3. (Modificado de: FCC - 2014 - SABESP - Advogado) No Windows 10, em português, Ana recebeu as seguintes tarefas:
+
+Verificar se os componentes de hardware do computador estão funcionando corretamente
+Alterar as definições da configuração de hardware, caso necessário
+Identificar os drivers de dispositivos carregados para cada dispositivo e obter informações sobre cada driver
+Habilitar, desabilitar e desinstalar dispositivos, caso necessário
+Para executar estas tarefas Ana deve utilizar qual programa do Sistema Operacional?
+R:Gerenciador de Dispositivos
+Exp:De fato, é o Gerenciador de Dispositivos que permitirá a Ana realizar todas as tarefas solicitadas
+
+4.No Linux a CGI equivalente ao Gerenciador de dispositivos do Windows é
+R:System Information
+Exp:System Information é o equivalente ao Gerenciador de Dispositivos do Windows. Você pode acessá-lo via interface gráfica ou prompt de comando. Permite, entre outras coisas, a identificação dos dispositivos presentes no computador
+
+5.Considera as seguintes funcionalidades desejadas:
+
+i) Identificação dos dispositivos presentes em um computador;
+
+ii) Acompanhamento do estado de utilização básico de um recurso de hardware do computador;
+
+iii) Identificação de dispositivos com problemas de drivers;
+
+iv) Identificação de quanto um aplicativo está consumindo de memória;
+
+Consideremos agora os seguintes recursos do S.O. Windows 10:
+(I) Gerenciador de dispositivos
+(II) Gerenciador de tarefas
+
+Assinale a alternativa que relaciona CORRETAMENTE as funcionalidades desejadas aos recursos apresentados:
+R:(I) i e iii / (II) ii e iv
+Exp:O Gerenciador de dispositivos permite identificar os componentes de hardware instalados em um computador, além de permitir a atualização de seus drivers e configurações de hardware, já o Gerenciador de tarefas permite acompanhar, de maneira, simples, a utilização dos recursos de hardware além de permitir a interrupção da execução de aplicativos e processos
+
+6. (Modificada de: AOCP - 2015 - FUNDASUS - Médico - Pneumologia) Considerando o Sistema Operacional Windows, o Gerenciador de Tarefas permite que?
+R: o usuário visualize os processos em execução e o quanto estão consumindo de recursos
+Exp: Entre as funções do Gerenciador de Tarefas está a de permitir o acompanhamento dos processos em execução e o quanto eles estão utilizando de recursos computacionais

@@ -1,0 +1,107 @@
+Dividindo Redes
+Sub-rede
+
+Uma sub-rede é uma subdivisão lógica de uma rede IP. A subdivisão de uma rede grande em redes menores resulta num tráfego de rede reduzido, administração simplificada e melhor performance de rede. Dispositivos que pertencem a uma sub-rede são endereçados com um grupo de bit mais significativo comum e idêntico em seus endereços IP. Isto resulta na divisão lógica de um endereço IP em dois campos, um número de rede ou prefixo de roteamento e o restante do campo ou identificador de host. O campo restante é um identificador para uma interface de hospedeiro ou rede específicos.
+
+O prefixo de roteamento pode ser expressado em notação de Classless Inter-Domain Routing (CIDR) escrito como o primeiro endereço de uma rede, seguido por um caractere barra (/), e finalizando com o comprimento de bit do prefixo. Por exemplo, 192.168.1.0/24 é o prefixo da rede IPv4 começando no endereço fornecido, possuindo 24 bits aplicados para o prefixo de rede e os restantes 8 bits reservados para endereçamento de hospedeiro. A especificação de endereço IPv6 2001:db8::/32 é um bloco de endereço amplo com 296 endereços, possuindo um prefixo de roteamento de 32 bits.
+
+Para IPv4, uma rede pode ser caracterizada por sua máscara de subrede ou máscara de rede, que é a máscara de bit que quando aplicada por uma operação de lógica AND para qualquer endereço IP na rede, produz o prefixo de roteamento. Máscaras de sub-rede também são expressadas na notação ponto-decimal como um endereço. Por exemplo, 255.255.255.0 é a máscara de sub-rede para o prefixo 192.168.1.0/24. Para criar sub-redes, qualquer máquina tem que ter uma máscara de sub-rede que define qual parte do seu endereço IP será usada como identificador da sub-rede e qual será usada como identificador dos hosts.
+
+Máscaras de sub-rede
+
+Uma máscara de sub-rede também conhecida como subnet mask ou netmask, é uma bitmask de 32 bits, que permite dividir uma rede específica em sub-redes menores, tornando mais efetivo o uso de um determinado espaço de endereço IP. Normalmente, as máscaras de sub-rede são representadas com quatro números entre 0 e 255, separados por pontos, ou, menos comum, como oito dígitos na representação hexadecimal.
+
+A máscara 255.255.255.0 (em hexadecimal 0xffffff00 ou 11111111.11111111.11111111.00000000, em binário), por exemplo, indica que os três primeiros octetos do endereço correspondem à sub-rede e o quarto octeto aos hosts.
+
+Motivações para criar sub-redes
+
+As sub-redes não são a única forma para ultrapassar problemas de topologia, mas são uma forma eficaz para ultrapassar esses mesmos problemas ao nível do software do TCP/IP.
+
+As razões topológicas para criar sub-redes incluem:
+
+Ultrapassar limitações de distância. Alguns hardwares de rede têm limitações de distância rígidas. Como, por exemplo, o comprimento máximo de um cabo ethernet é de 100 metros. O comprimento total de uma ethernet é de 2.500 metros, para distâncias maiores usamos roteadores. Cada cabo é uma ethernet separada.
+Interligar redes físicas diferentes. Os roteadores podem ser usados para ligar tecnologias de redes físicas diferentes e incompatíveis.
+Filtrar tráfego entre redes. O tráfego local permanece na sub-rede.
+As sub-redes também servem outros propósitos organizacionais:
+
+Simplificar a administração de redes. As sub-redes podem ser usadas para delegar gestão de endereços, problemas e outras responsabilidades.
+Reconhecer a estrutura organizacional. A estrutura de uma organização (empresas, organismos públicos, etc.) pode requerer gestão de rede independente para algumas divisões da organização.
+Isolar tráfego por organização. Acessível apenas por membros da organização, relevante quando questões de segurança são levantadas.
+Isolar potenciais problemas. Se um segmento é muito favorável é pouco viável, podemos fazer dele uma sub-rede.
+Tabelas sub-rede IPv4
+
+O IPv4 suportaria mais de 4 bilhões de endereços IP.
+
+
+Para organizar esses endereços a internet utiliza Classes de endereço com o intuído de criar uma certa hierarquia na configuração lógica da rede.
+
+Endereço de classe A:
+
+
+Endereço de classe B:
+
+
+Endereço de classe C:
+
+
+As redes privadas (LANs) em geral utilizado os endereços de classe C juntamente com a subdivisão em Sub-Redes.
+
+ 
+
+ 
+
+Atividades Extra
+
+Vídeos informativos sobre planejamento de Endereços IP em Redes de Comunicação:
+
+Como fazer um bom plano de endereçamento IP - parte 1 (NIC.br) @ https://www.youtube.com/watch?v=h74MVDgfYV8 
+
+ 
+
+Como fazer um bom plano de endereçamento IP - parte 2 @ https://www.youtube.com/watch?v=8GjMjZFUMSk 
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+Livros:
+
+Redes de Computadores – Uma Abordagem de Sistemas. Peterson, Larry e Davie, Bruce. Editora Elsevior. Tradução da 3ª Edição.
+
+Cisco CCNA – Guia de Certificação do Exame #640-607. Odom, Wendell. Cisco Press. Alta Books.
+
+Redes e Sistemas de Comunicação de Dados. Stallings, William. Editora Campus. Tradução da 5ª Edição
+
+ 
+
+Web-learning:
+
+Disciplina: Redes de Computadores (Univesp - Universidade Virtual do Estado de São Paulo) @ https://www.youtube.com/watch?v=v8vxTtT2S_0&list=PLxI8Can9yAHc-_dZ6nsfoon08i2-4OvEk
+
+IT Support: Networking Essentials @ https://courses.edx.org/courses/course-v1:Microsoft+CLD260x+1T2019/course/ 
+
+IoT Networks and Protocols @ https://courses.edx.org/courses/course-v1:CurtinX+IOT3x+3T2018/course/
+
+Introduction to Open Source Networking Technologies @ https://www.edx.org/course/introduction-to-software-defined-networking-technologies 
+
+NFV Acceleration: An Introduction to OPNFV @ https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS164x+1T2018/course/ 
+
+1. Para praticarmos ainda mais os conceitos de Sub-Redes, utilize como referência o endereço IP genérico 192.168.0.254, e responda a pergunta abaixo. Para ajudar você pode utilizar a Calculadora IP disponível em http://calculadoraip.com.br/ ou qualquer outra de sua preferência.
+
+Se o endereço de 192.168.0.254 utilizar uma máscara de subrede 255.255.255.0, qual será o Endereço da Rede que vai pertencer esse endereço?
+R: 192.168.0.0
+Exp:
+
+3. Para praticarmos ainda mais os conceitos de Sub-Redes, utilize como referência o endereço IP genérico 192.168.0.254, e responda a pergunta abaixo. Para ajudar você pode utilizar a Calculadora IP disponível em http://calculadoraip.com.br/ ou qualquer outra de sua preferência.
+
+Se o endereço de 192.168.0.254 utilizar agora uma máscara de subrede 255.255.255.128, qual será o Endereço da Rede que vai pertencer esse endereço ?
+R: 192.168.0.128
+Exp:
+
+3. Para praticarmos ainda mais os conceitos de Sub-Redes, utilize como referência o endereço IP genérico 192.168.0.254, e responda a pergunta abaixo. Para ajudar você pode utilizar a Calculadora IP disponível em http://calculadoraip.com.br/ ou qualquer outra de sua preferência.
+
+Se o endereço de 192.168.0.254 utilizar agora uma máscara de subrede 255.255.255.128, qual será o Endereço disponível para o primeiro host?
+R: 192.168.0.129
+Exp:

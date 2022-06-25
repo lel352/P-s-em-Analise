@@ -1,0 +1,110 @@
+Softwares de otimização e simulação
+Modelagem de Dados
+
+A modelagem é utilizada em diferentes organizações a fim de representar possíveis cenários e auxiliar na tomada de decisões. Com a utilização de técnicas de otimização, é possível identificar a alocação ideal de recursos, máquinas e equipamentos, a quantidade de itens a serem produzidos, entre outras decisões que possam minimizar custos ou maximizar lucros, dependendo da situação desejada. Para que um problema de otimização seja resolvido, existem restrições, como por exemplo a demanda máxima de um produto, a quantidade de horas trabalhadas em um dia ou o número de operadores disponíveis. Para desenvolver um modelo de otimização é necessário definir o objetivo e as restrições, utilizando a programação matemática, ou simplesmente, equações matemáticas. O primeiro passo para se obter uma otimização é estabelecer relações entre os dados de uma determinada situação. Vamos ver um exemplo:
+
+Uma fábrica de computadores produz 2 modelos de computador: A e B. O modelo A fornece um lucro de R$ 180,00 e B um lucro de R$ 300,00. O modelo A requer, na sua produção, um gabinete pequeno e uma unidade de disco. O modelo B requer 1 gabinete grande e 2 unidades de disco. Existem no estoque: 60 unidades do gabinete pequeno, 50 do gabinete grande e 120 unidades de disco. Pergunta-se: qual deve ser o esquema de produção que maximiza o lucro?
+
+Neste caso, devemos escrever o modelo matemático que represente o problema. Este modelo contém três elementos, denominadas variáveis de decisão, função objetivo e restrições. As variáveis de decisão são as quantidades de computadores dos modelos A e B, que podem ser chamadas simplesmente de A, B. A função objetivo, é o lucro, matematicamente descrita por:
+
+Lucro = 180 A + 300 B.
+
+As restrições deste problema estão associadas às limitações de número de peças em estoque, denominadas gabinete pequeno, gabinete grande e disco. Sendo assim, as restrições podem ser definidas como:
+
+(Gabinete pequeno) A ≤ 60.
+
+(Gabinete grande) B≤ 50.
+
+(Disco) A+ 2B ≤ 120.
+
+Para encontrar a resolução deste problema vamos utilizar uma ferramenta do Microsoft Excel denominada Solver. Para ativar essa ferramenta, clique em Ferramentas + Suplementos e ative o Solver. Observe como o problema é modelado no Microsoft Excel.
+
+
+Usando o Arena em Simulação
+
+Simulação é uma palavra que recebe várias definições, mas é de conhecimento geral que, quando alguém “simula” algo, está reproduzindo ou imitando alguma coisa. A simulação reproduz o comportamento dinâmico de sistemas como células produtivas, transporte e armazenagem, siderurgia, centrais de atendimento telefônico, entre outros. Permitindo medir seu desempenho e testar novas situações. Um dos softwares amplamente utilizado para realizar simulação é o Arena. Este sistema tem um conjunto de blocos (ou módulos) que são utilizados para descrever uma aplicação real. Esses blocos funcionam como comandos de uma linguagem de programação como o Fortran, Cobol, VB, Delphy, etc. Obviamente foram projetados sob a ótica da simulação e, por isso, facilitam muito a tarefa de programação (PRADO e YAMAGUCHI, 2019).
+
+Para simplificar o processo de construção de modelos, o ARENA usa uma interface gráfica para o usuário (ou GUI – Graphical User Interface), que automatiza o processo e reduz a necessidade do teclado pois o mouse é a ferramenta principal utilizada.
+
+ 
+
+Aplicação no Arena
+
+Considere o seguinte problema:
+
+Navios chegam a um porto a um intervalo de EXPO (8) horas e gastam TRIA (3,5,10) horas para descarregar. Faça o diagrama de blocos e submeta-o ao ARENA. Simule 8760 horas (1 ano).
+
+Neste caso, observe como fica representado o diagrama de blocos no Arena após a simulação.
+
+
+A representação indica que no período de um ano, 1152 navios entraram no porto para realizar o processo de descarga. No momento final da simulação, haviam 4 navios na fila e 1148 navios completaram o processo de descarga. O software Arena disponibiliza um relatório com as informações detalhadas da simulação, que permitem identificar que a taxa de ocupação do porto foi de 78,65%, enquanto a fila atingiu um valor máximo de 10 navios em espera. O tempo médio de espera na fila foi de 10 horas. A partir dessa resposta, é possível identificar que a capacidade do porto deve ser aumentada, uma vez que os tempos de espera e o tamanho da fila são longos. O experimentador poderia simular o que aconteceria caso fossem inseridos novos pontos de descarga.
+
+
+
+Atividade Extra
+
+Ficou curioso sobre como funciona o Arena? Acesse o link a seguir e faça a instalação da versão estudante em sua máquina.
+
+https://www.paragon.com.br/arena-academico-student/
+
+Para aprender mais sobre os módulos e funcionalidades do Arena, sugere-se a leitura do livro intitulado “Usando o Arena em Simulação” dos autores Darci Prado e Magno Yamaguchi.
+
+ 
+
+Referência Bibliográfica
+
+PRADO, D; YAMAGUCHI, M. Programação Linear Série Pesquisa Operacional. 7ª ed. Nova Lima: Falconi Editora, 2016.
+
+ 
+ 
+PRADO, D; YAMAGUCHI, M. Usando o Arena em Simulação. 6ª ed. Nova Lima: Falconi Editora, 2019.
+
+ 
+
+STAIR, R.M; REYNOLDS, G.W. Princípios de Sistemas de Informação. São Paulo: Cengage Learning, 2018.
+
+1 Um problema de otimização é formado por:
+R: Variáveis, função objetivo e restrições
+Exp: Um problema de otimização é formado por variáveis, função, objetivo e restrições. Exemplo: Letra a. A letra a é a alternativa correta, pois é a única que se encaixa na estrutura proposta para este material de apoio
+
+2. A respeito dos problemas de otimização, analise as afirmações seguintes.
+
+I – Para encontrar a resposta, o programador deverá implantar um código complexo utilizando a linguagem Java.
+II – O primeiro passo é descrever corretamente um modelo que represente o problema.
+III – O Arena é um software que resolve problemas de relações matemáticas.
+IV – O Microsoft Excel Solver é uma ferramenta que permite encontrar as variáveis para maximizar ou minimizar a função objetivo.
+R: II e IV, somente
+Exp:A primeira afirmativa está incorreta, afinal, softwares de otimização, como o Microsoft Excel possuem uma interface simples, que não exige comandos de programação. A terceira afirmativa está incorreta, pois o Arena é um software que realiza simulação de diferentes cenários, permitindo identificar taxa de ocupação, tempo e tamanho de filas.
+
+3. Uma fábrica produz dois tipos de produtos: standard (ST) e luxo (LX). Cada modelo ST requer 4 horas de corte e 2 horas de polimento; cada modelo LX requer 2 horas de corte e 5 horas de polimento. A fábrica possui 2 cortadoras e 3 polidoras. Sabendo-se que a semana de trabalho da fábrica é de 40 horas e que cada modelo ST dá um lucro de R$ 3,00 e cada modelo LX um lucro de R$ 4,00 e que não há restrições de demanda, assinale a alternativa correta.
+R: A função objetivo deve maximizar o lucro
+Exp: Trata-se de um problema de otimização cuja função objetivo é descrita pela maximização do lucro. Sendo assim, deve-se determinar as variáveis ST e LX para encontrar o lucro máximo. Veja o modelo completo:
+Maximizar:
+Lucro = 3 ST + 4 LX
+Restrições:
+Tempo disponível no corte: 4 ST + 2 LX ≤ 80
+Tempo disponível no polimento: 2 ST + 5 LX
+
+4. A respeito da simulação de sistemas produtivos, é correto afirmar que:
+R: Permitem estimativas de tempo de espera na fila e tamanho de filas
+Exp: A simulação de sistemas produtivos fundamenta-se em técnicas estatísticas e permite analisar estimativas relacionadas às teorias de filas.
+
+5. Uma refinaria de petróleo deseja encontrar a maneira ótima de cumprir um contrato de fornecimento de gasolina de aviação e gasolina comum. Segundo esse contrato, deve-se fornecer diariamente um mínimo de 1.000 barris de gasolina de aviação (A) e 2.000 barris de gasolina comum ©. A unidade que se responsabilizará pela entrega tem uma capacidade máxima de produção de 10.000 barris por dia, indistintamente. As gasolinas devem ser transportadas até seus depósitos, cujas distâncias da unidade são 10 milhas e 30 milhas, respectivamente. A capacidade máxima de transporte da refinaria é de 186.000 barris x milha. Sabendo-se que a gasolina de aviação dá um lucro de R$ 1,00 e a comum R$ 2,00, assinale a alternativa correta.
+Fonte: PRADO, D; YAMAGUCHI, M. Programação Linear Série Pesquisa Operacional. 7ª ed. Nova Lima: Falconi Editora, 2016.
+R: Este problema apresenta restrições de capacidade máxima de produção, capacidade mínima de produção e capacidade de transporte dos barris por milha
+Exp: Observe como o problema de otimização pode ser escrito:
+Maximizar: Lucro = A + 2C
+Restrições:
+Capacidade máxima de produção: A + C ≤ 10000
+Capacidade mínima de produção: A ≥ 1000 B ≥ 2000
+Capacidade de transporte: 10 A + 30 B ≤ 186000
+Sendo assim, a alternativa correta indica as seguintes restrições: capacidade máxima de produção, capacidade mínima de produção e capacidade de transporte dos barris por milha.
+
+6. A simulação é uma técnica utilizada para reproduzir o comportamento dinâmico de sistemas como células produtivas, transporte e armazenagem, siderurgia, centrais de atendimento telefônico, entre outros, permitindo medir seu desempenho e testar novas situações. A respeito das vantagens da simulação, analise as afirmações seguintes:
+
+I – Dispensa a coleta de dados.
+II – Permite a análise de vários cenários de interesse.
+III – Exige o mínimo de tempo de replicação para obter a melhor resposta.
+IV – Dispensa a necessidade de análise da validade do modelo.
+R: II, somente
+Exp: A primeira afirmativa é falsa, pois o primeiro passo para uma simulação é a coleta de dados, afinal, as análises são fundamentadas em estatística de dados. A terceira afirmativa é falsa, pois quanto maior o tempo de replicação da simulação, melhores serão as análises. A última afirmativa é falsa, pois nem sempre a simulação apresenta um cenário viável de implantação para as empresas.

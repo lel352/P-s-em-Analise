@@ -1,0 +1,147 @@
+Dados: Processamento e Transmissão
+OProcessamento dos dados
+
+Já vimos de onde vem os dados, como eles são armazenados e como eles são exibidos. Mas e quanto ao seu processamento, quem executa? Nesta aula responderemos a esta pergunta e mais algumas outras que provavelmente já devem estar passando pela sua cabeça! Em um computador os dados são processados, o que equivale a dizer manipulados ou modificados pelo processador, em particular pela Unidade Central de Processamento (UCP) também pela sua sigla em inglês CPU (Central Unit Processor) presente em seu interior. Atualmente a maioria dos computadores contam com a ajuda de GPUs para o auxiliar no processamento de dados, especialmente se os dados a serem processados envolverem a execução de algoritmos de IA (Inteligência Artificial) ou então processamento gráfico, isto é, de imagens estáticas ou em movimento (filmes). Antes de serem processados digamos, pela CPU, os dados que podem vir de diversas fontes como por exemplo, dos dispositivos de armazenamento em massa ou de interfaces de comunicação como, por exemplo, uma interface WiFi, precisam ser colocados na Memória Principal, também conhecida como memória RAM (Random Acess Memory – Memória de Acesso Randômico). Esta memória permitirá um acesso mais rápido aos mesmos e dará agilidade à manipulação. Vamos então tratar de cada um destes elementos separadamente.
+
+ 
+
+Memória RAM - Características Gerais
+
+Trata-se de uma memória de acesso mais rápida que a dos dispositivos de armazenamento em massa. Ela é do tipo volátil, ou seja, perde seu conteúdo quando o computador é desligado. Sua função é armazenar os dados e os programas que estão sendo executados pelo computador naquele instante ou que foram usados a pouco tempo e, tenha certeza, são muitos!
+
+Atualmente um bom computador pessoal possui pelo menos 16 GB deste tipo de memória, já não é raro máquinas de uso pessoal com 32 GB embora ainda sejam comercializadas, para esta finalidade, máquinas com apenas 4 GB, fuja correndo de uma máquina destas! Ainda com relação a quantidade de memória RAM é importante observar que a capacidade máxima de um computador depende da quantidade de slots (locais de instalação dos pentes) disponíveis na máquina e do sistema operacional utilizado. Sobre os sistemas operacionais, para efeito de comparação e focando apenas em máquinas de 64 bits, a Tabela 1 apresenta alguns exemplos.
+
+Tabela 1 – Memória RAM suportada por alguns Sistemas Operacionais
+Tabela 1 – Memória RAM suportada por alguns Sistemas Operacionais
+
+Memória RAM – Tipos e parâmetros
+
+Atualmente as memórias RAMs estão disponíveis aos consumidores em dois tipos, a saber, as DDR3 e as DDR4. Muito em breve devem chegar ao mercado as do tipo DDR5, talvez no momento em que você estiver lendo este material elas já estejam disponíveis! Neste texto não trataremos das memórias do tipo DDR3, pois, muito em breve elas serão completamente abandonadas, assim, convém entender um pouco das memórias DDR4 e compará-las com as especificações já conhecidas das do tipo DDR5. Consideremos separadamente cada parâmetro que as diferem:
+
+(a)      Clock – Trata-se de um sinal de controle que oscila entre dois níveis lógicos, o 0 e o 1, que que marca o momento para a troca de dados entre a memória e os dispositivos que têm acesso à ela. Sua unidade é o Hz e seus múltiplos, por exemplo, GHz. Uma memória que opera em 1.000 MHz é capaz de permitir a troca de dados 2 x 1.000.000.000 vezes em um segundo, a multiplicação pelo fator 2 deve-se ao fato de a memória ser capaz de trocar dados duas vezes durante uma oscilação completa. Obviamente memórias com clocks maiores são melhores. Quanto ao clock as memórias DDR4 podem chegar a 4.266 MHz já as DDR5, a especificação inicial assume que deverão atingir 6.400 MHz, porém, fabricantes já apostam em 8.400 MHZ.
+
+(b)      Capacidade – As memórias RAMs possuem sua capacidade limitada pela capacidade dos chips que são usados na construção dos módulos (pentes). No caso das DDR4 os chips atingem no máximo a capacidade de 8 GB (1 GB). Ainda com relação aos computadores pessoais é possível comprar pentes com até 32 GB de memória, porém, são muito caros e provavelmente será mais interessante comprar mais de um pente com menor capacidade. Já as memórias DDR5, segundo a especificação, possuem chips que podem atingir a capacidade de 64 GB (8 GB) e, com isso, os pentes com 32 GB deixaram de ser apenas um sonho para a maioria! Ainda com relação à capacidade deve-se observar que para o segmento de computadores corporativos de alto desempenho como, por exemplo, servidores pentes de maior capacidade estão disponíveis. Um exemplo disso é o recente lançamento de um ente de memória RAM da SAMSUNG com a incrível capacidade de 512 GB de memória DDR5, um único pente!
+
+(c)      Consumo – A memória RAM é um componente de um computador tão intensamente acessado e utilizado quando a CPU, por isso, sempre que ela sofre uma melhoria em termos de consumo verifica-se que o impacto é claramente perceptível. As memórias DDR4 já tiveram um grande avanço neste sentido com relação às memórias DDR3, a redução no consumo foi principalmente devido à redução na tensão de alimentação que passou de 1,5 V para 1,2 V. Já nas DDR5 segundo a especificação inicial a tensão de alimentação deverá ficar em 1,1 V e novamente teremos uma redução no consumo de eletricidade.
+
+(d)      Outros parâmetros: Diversos outros parâmetros diferem as memórias umas das outras, dentre eles os tempos de latência e o tamanho do Burst Length, todos eles impactam no desempenho da memória, porém, para finalizarmos o assunto é conveniente falar um pouco das memórias registradas. Tais memórias são conhecidas como memórias ECC (Error Correction Check – Checagem para correção de erros) e são usadas em sistemas críticos e de alto desempenho como, por exemplo, servidores. Nestas memórias todo valor armazenado possui bits de validação que são transmitidos juntamente com o próprio dado e permite a validação da informação transmitida, além disso, os bits adicionais permitem em muitas situações a recuperação da informação caso ela seja corrompida por algum problema.
+
+ 
+
+Processador - Características Gerais
+
+A processador é tido como o principal componente de um computador, isto é realmente verdade, porém o computador simplesmente não funcionaria sem outros de seus componentes, ou então mesmo tendo um bom processador  pode ter um baixo desempenho caso os outros componentes não tenham sido bem dimensionados ou escolhidos, ou seja, para um computador adequado não basta um bom processador! Dito isso, um processador é um circuito integrado dentro do qual existem muitos elementos, atualmente até mesmo GPUs! Dentre estes componentes destacam-se a CPU e a memória cache. Vamos conhecer um pouco a CPU, trata-se do dispositivo destinado ao processamento dos dados e, para isso, deve contar com a ajuda de um programa. Como mostrado na Figura 1, um programa inicialmente é um código fonte escrito em uma linguagem qualquer, após a compilação ou a interpretação dá origem às instruções, que são códigos numéricos reconhecidos pela CPU e que dizem o que ela deve fazer naquele momento. A figura também mostra o fluxo de dados para a execução de um programa, onde, tanto o programa (em linguagem de máquina – códigos) quanto os dados (arquivo sobre o qual o programa está trabalhando) são primeiramente enviados para a memória RAM, em seguida para a memória cache e finalmente tratados pela CPU. A figura simplifica um processo muito complexo ela omite a participação do S.O. controlando o acesso à CPU dentre muitas outras coisas, ou seja, ela representa apenas superficialmente tudo o que acontece durante a execução de um programa e o consequente processamento de dados.
+
+Figura 1 – Processo de execução
+Figura 1 – Processo de execução
+
+CPUs – Componentes básicos
+
+Internamente uma CPU possui alguns elementos básicos para auxiliar em seu funcionamento, dentre estes elementos podemos destacar:
+
+(a)      Decodificador de instruções (DI): Já vimos que a instrução é um código, este código precisa ser decodificado (traduzido) para ser executado, o responsável por esta ação é o decodificador de instruções, um circuito eletrônico que após a execução de seu trabalho ajusta os parâmetros de entrada da Unidade de Controle que cuidará de efetivamente executar a instrução.
+
+(b)      Unidade de Controle (UC): De posse de sinais vindo do decodificador de instruções ela direciona os sinais de clock e aplica parâmetros de controle em diversos outros dispositivos internos à CPU (circuitos) para eles na ordem e no momento certo executem suas funções.
+
+(c)      Unidade lógica e aritmética (ULA): Quando a instrução necessita da execução de uma operação matemática (aritmética) ou lógica esta unidade, sob o comando da UC realiza a operação.
+
+ 
+
+CPUs – Tipos e parâmetros
+
+(a)      Clock – Novamente trata-se de um sinal de controle que oscila entre dois níveis lógicos, o 0 e o 1, e que no caso de um processador sincroniza as operações internas do mesmo, pode inclusive marcar o momento para a troca de dados entre a memória cache e a CPU e entre a memória cache e a memória RAM. Sua unidade é o Hz e seus múltiplos, por exemplo, GHz. Para CPUs com mesma arquitetura quanto maior a frequência do clock maior o desempenho da mesma. O aumento da frequência de clock já foi uma das principais estratégias dos desenvolvedores de CPUs para aumentar seu desempenho, porém, quando a frequência atingiu algo em torno de 2 ou 3 GHz novos aumentos passaram ser difíceis de serem conseguidos e, isto exigiu uma nova abordagem para aumentar o desempenho dos processadores.
+
+(b)      Núcleos e threads – Uma das abordagens adotada pelos desenvolvedores para aumentar o desempenho de um processador foi incluir em seu projeto mais de uma CPU, o que corresponde aos núcleos e ainda, dividir cada CPU em threads o que confere a cada CPUs funcionar virtualmente como mais de uma CPU. Para que tudo isto funcione o sistema operacional deve estar preparado para usar estes recursos, além disso, os programas devem ser desenvolvidos de modo a permitir a sua execução por mais de um thread. É importante observar que quando um programa é executado ele é executado em um único núcleo e pode ou não usar mais de um thread, os threads de um mesmo núcleo nunca executam programas diferentes, assim, um processador com dois núcleos pode em um dado instante executar mais de um programa e isto é muito importante na computação atual, pois, a todo instante em uma máquina dezenas de programas estão sendo executados. Quanto maior a quantidade de núcleos e threads muito provavelmente maior será a eficiência de um processador.
+
+(c)      Memória cache – Trata-se de uma memória volátil e de altíssima velocidade localizada dentro do processador e dividida em dois módulos, a chache de programa apara onde vão as instruções de um programa que será executado pela CPU e a cache de dados para onde vão os dados que serão tratados pelo programa. Na memória cache ficam os dados e programas que serão imediatamente tratados pela CPU, após este tratamento eles são enviados para a memória RAM e ficam até o momento de serem novamente tratados.  A memória cache, tanto de dados como de programa é dividida em bancos assim, temos os bancos L1, L2 etc. Quanto menos o índice do nome do banco (1 no caso de L1 e 2 no caso de L2) mais rápida é a memória. O uso desta memória de altíssima velocidade garante que não faltarão informações para a CPU trabalhar, o que certamente aconteceria caso estas informações viessem diretamente da memória RAM. Quanto maior a quantidade de memória cache melhor será o desempenho de um processador.
+
+(d)      Conjunto de instruções – Como já vimos as instruções são códigos que dizem à CPU o que ela deve fazer, o qual não vimos ainda é que por trás de cada instrução existe um circuito digital responsável por sua execução. Frequentemente quando um novo processador é lançado ele traz dentre suas melhorias a capacidade de executar novas instruções que, de uma única vez, faz o trabalho que antes exigia a execução de muitas instruções, obviamente isto traz ganho de desempenho, porém, isto só é realmente atingido se o compilador que transformou o programa em código de máquina estiver preparado para usar essas novas instruções, ou então se a máquina virtual, responsável pela interpretação do programa estiver preparada para também usar estas novas instruções. Normalmente novas instruções surgem quando os projetistas de processadores percebem que um tipo de operação(ões) está sendo muito demandada pelos programas, este é o caso, por exemplo, de operações envolvendo a execução de algoritmos de IA (Inteligência Artificial), devido a crescente aplicação destes algoritmos os projetistas de processadores já começam a pensar em criar instruções voltadas para otimizar a execução destes algoritmos.
+
+(e)      Gerações: Os processadores evoluem ao longo do tempo. Nestas evoluções muitos elementos da estrutura interna dos processadores mudam um destes elementos pode ser a capacidade de executar novas instruções. Para pôr ordem a estas evoluções anualmente os desenvolvedores apresentam novas gerações. De uma geração para outra a maneira como ele executa as instruções pode mudar, mesmo que novas instruções não sejam acrescentadas, dizemos que ele possui uma nova microarquitetura. Dentro de uma mesma geração podem existir processadores com mais de uma microarquitetura.  Além da microarquitetura, gerações diferentes podem oferecer recursos diferentes, normalmente evoluções de recursos anteriores como é o caso de suporte a barramentos de comunicação PCIe 5.0 que estão começando a aparecer nos processadores.
+
+(f)       GPUs integradas – Com o aprimoramento das técnicas de fabricação dos CIs (Circuitos Integrados) a quantidade de transistores que podem ser colocados dentro dos mesmos aumenta a cada ano, muito devido à diminuição do tamanho deste componente que serve como “tijolo” para a construção dos circuitos lógicos dentro do processador. Aproveitando-se da possibilidade de se colocar mais transistores dentro do processador, os desenvolvedores resolveram ali colocar além da CPU, da memória cache e demais alguns outros módulos como, por exemplo, controlador de acesso à memória, GPUs. Atualmente muitos processadores possuem em seu interior o componente principal de uma placa gráfica, a GPU. Tipicamente as GPUs presentes nos processadores são de baixo desempenho e compartilham a memória RAM da máquina, porém, como muitos consumidores, talvez a maioria, não precisam de GPUs de alto desempenho esta solução acaba sendo uma vantagem para ambos, os fabricantes de processadores que vendem o processador e a GPU e o consumidor que paga menos no produto integrado do que pagaria caso resolvesse comprar cada um deles separadamente!
+
+(g)      Segurança: Os desenvolvedores de processadores procuram acrescentar aos seus produtos capacidades das mais variadas, uma delas é a inclusão de GPUs aos mesmos, outras referem-se à segurança de dados. Plataformas Intel hoje dispõem do hardware-enabled Intel® que aumenta a proteção e permite que o ecossistema (sistema computacional) aprimore a defesa contra as ameaças modernas e em desenvolvimento. Segundo a Intel “O modelo herdado de software que protege software não é capaz de acompanhar a evolução das ameaças contra a segurança, a proteção e a privacidade digitais”. A solução proposta pela Intel está presente diretamente dentro do processador e visa proteger todas as camadas da pilha de computação (hardware, firmware, sistemas operacionais, aplicações, redes e a cloud).
+
+(h)      Monitoramento: Monitorar o desempenho e a carga de trabalho dos sistemas computacionais é de fundamental importância para gestores de sistemas críticos, pois, caso a carga de trabalho atinja o limite ou, por algum motivo, o desempenho seja prejudicado os serviços podem ser comprometidos, já imaginou se os servidores da VISA entrarem em uma sobrecarga inesperada! Atentos a este problema e percebendo uma oportunidade a Intel dotou seus processadores de recursos coletivamente chamados de monitoramento de desempenho de hardware (por exemplo, PMU, PEBS, LBR). Esses recursos são usados pelo software de ajuste de desempenho, como o Intel VTune Amplificador, para analisar o desempenho do software e permitem ao administrador do sistema atuar em um problema antes que ele ocorra.
+
+ 
+
+BIOS - Características Gerais
+
+Quando seu computador é inicializado o primeiro programa a ser executado não é o S.O, mas sim, a BIOS (Basic Input Output System – Sistema básico de entrada e saída). Trata-se de um programa residente em uma memória flash localizada em sua placa mãe e é responsável pelas seguintes funções:
+
+(a)      Executar o POST – O POST (Power-On Self-Test – Autoteste de inicialização) é um teste de hardware executado para verificar se os principais componentes do computador estão funcionando corretamente.  Quando algum erro em algum componente é verificado, bips são emitidos pelo alto-falante. É possível identificar o erro pelo tipo de bip.
+
+(b)      Na BIOS é possível ligar ou desligar hardwares onboard presentes no sistema, diferentemente do desligamento feito por software pelo S.O. quando desligado na BIOS o hardware onboard deixa de consumir energia.
+
+(c)      Na BIOS é possível configurar o funcionamento de muitos recursos com computador, dentre eles a frequência do clock da placa de vídeo e do processador, habilitar ou não mais de um núcleo de processadores multicores.
+
+(d)      Aspectos de segurança básicos e avançados também podem ser configurados na BIOS.
+
+ 
+
+A BIOS possui uma interface de usuário que pode ser acessada na inicialização do computador pressionando determinadas teclas do teclado, as mais comumente utilizadas são <DEL>, <F2> e <F12>. Durante a execução da BIOS na inicialização do computador é comum aparecer uma orientação escrita na tela do computador dizendo qual tecla deve ser pressionada para entrar na sua interface de usuário, esta orientação não é comum em notebooks.
+
+O programa da BIOS pode ser atualizado caso haja uma versão nova, a atualização pode corrigir erros da versão anterior, lembre-se que ela é um programa, ou adicionar compatibilidade com dispositivos que não haviam sido criados no momento de seu desenvolvimento. A atualização da BIOS deve ser evitada quando os erros que serão corrigidos não afetam o funcionamento do sistema, às vezes esses erros aparecem apenas quando um determinado dispositivos é acrescentado ao sistema, ou mesmo quando a compatibilidade com os novos dispositivos não lhe interessa, pois, você não pretende colocá-los em seu computador. A atualização da BIOS é um processo crítico e se algo der errado durante o procedimento existe a possibilidade de o computador precisar de assistência técnica.
+
+A Figura 2 apresenta o momento de entrada na interface de usuário da BIOS e as opções disponíveis, com destaque para a o ajuste de performance com a possibilidade de desabilitar suporte a processadores multicores.
+
+Figura 2 - BIOS
+Figura 2 - BIOS
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+Que tal vermos uma aplicação para processadores voltados para aplicação de Inteligência Artificial? Assista ao vídeo disponível no link (https://www.youtube.com/watch?v=w4z2Ov2_0F8) o vídeo oferece a opção de legenda com tradução, aproveite!
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+STALLINGS, W. Arquitetura e Organização de Computadores. 10. ed. São Paulo: Editora Pearson Universidades, 2017.
+
+TANENBAUM, A. S. Organização Estruturada de Computadores. 6. ed. São Paulo: Editora Pearson Universidades, 2013.
+
+
+
+1. (INSTITUTO AOCP - 2019 - UFFS - Técnico de Tecnologia da Informação) Considerando o conceito de uma CPU, esta é dividida em subunidades principais. A unidade responsável por administrar o processamento de instruções e transferência de dados internos de uma parte do processador para outra é denominada
+R: unidade de controle (UC)
+Exp: De fato a Unidade de Controle (UC) é a responsável por controlar todo o processo de execução da instrução, isto inclui, administrar o processamento de instruções e transferência de dados internos de uma parte do processador para outra
+
+2. (UFCG - 2019 - UFCG - Assistente de Tecnologia da Informação) O termo destacado em: “computador de 64 bits”, está se referindo a qual componente de um computador?
+R: Processador
+Exp: De fato, um dos parâmetros através do qual os processadores podem ser classificados ou diferenciados refere-se ao tamanho da instrução com a qual conseguem trabalhar, este tamanho é dado em bit como, por exemplo, 64 bit
+
+3. (COPESE - UFJF - 2017 - UFJF - Técnico de Tecnologia da Informação) Assinale a sentença INCORRETA com relação a computadores pessoais:
+R: A forma de acessar o software de configuração da BIOS e poder configurar os hardwares de um PC é através da tecla DEL durante a inicialização, procedimento em comum a todos os PCs
+Exp: Nem sempre a tecla solicitada para entrar na configuração da BIOS é a tecla DEL
+
+4. (INAZ do Pará - 2017 - DPE-PR - Técnico em Informática) Quando é ligado o microcomputador, o primeiro software que é carregado é a BIOS da placa-mãe, que faz a contagem da memória RAM, realiza a detecção rápida dos dispositivos instalados e, por fim, carrega o sistema operacional através de um dispositivo. Este procedimento inicial é chamado de:
+R: POST
+Exp:  De fato, uma das funções da BIOS é executar o POST (Power-On Self-Test – Autoteste de inicialização) neste teste é feito a contagem da memória RAM, realiza a detecção rápida dos dispositivos instalados e, por fim, carrega o sistema operacional através de um dispositivo
+
+5. (Modificado de: INSTITUTO CIDADES - 2009 - UNIFESP - Analista de Tecnologia da Informação) Marque a alternativa CORRETA acerca de Memória RAM Dinâmica:
+R:Perde seu conteúdo quando o computador é desligado
+Exp: De fato, a memória RAM perde seu conteúdo quando o computador é desligado, dizemos que é uma memória volátil
+
+6. Considere as seguintes afirmações relacionadas a componentes de um computador:
+
+I) O processador possui em seu interior somente uma CPU
+
+II) A memória cache está localizada fora do processador e destina-se a guardar dados que não cabem no HDD
+
+III) A memória RAM é uma memória menos rápida que a memória cache, porém, está disponível em maior quantidade
+
+Assinale a alternativa que apresenta apenas a(s) afirmação(ões) verdadeira(s)
+R: Somente a III
+Exp: Somente a afirmação III é verdadeira, a memória RAM está disponível em quantidades muitas vezes (mais de 100x) maior que a memória cache, a qual fica dentro do processador e possui velocidade (clock) muito maior

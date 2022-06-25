@@ -1,0 +1,140 @@
+Aplicações práticas
+Oque é DevOps?
+
+O termo DevOps deriva da junção das palavras development e operations, onde em português une o desenvolvimento de software com as operações das tecnologias.
+
+O DevOps é uma cultura na área de engenharia de Software que aproxima os desenvolvedores de software (Dev) e os operadores do software / administradores do 
+sistema (Ops), com característica principal de melhorar a comunicação dos dois papéis dentro de um projeto e defender a automação 
+e monitoramento em todas as fases da construção de um software (desde a integração, teste, liberação para implantação, ao gerenciamento de infraestrutura), 
+auxilia empresas no gerenciamento de lançamento de novas versões, padronizando ambientes em ciclos de desenvolvimento menores, frequência de
+ implantação aumentada, liberações mais seguras, em alinhamento próximo com os objetivos de negócio.
+
+Figura 1 – Logo do DevOps.
+Figura 1 – Logo do DevOps.
+
+A cultura DevOps auxilia empresas no gerenciamento de lançamento de novas versões, estimulando a comunicação entre os dois papéis. Eventos podem ser acompanhados com maior facilidade, assim como o controle de processos documentados e emissão de relatórios granulares. Empresas com problemas no processo de liberação/implantação de novas versões, normalmente possuem automação, mas querem maior flexibilidade para gerenciar e conduzir esse processo - sem precisar editar tudo na linha de comando. Idealmente, essa automação deve ser disparada por recursos não operacionais, em ambientes específicos que não estejam "em produção". O desenvolvedor ganha maior controle sobre o ambiente, e o administrador do sistema maior entendimento sobre os aplicativos.
+
+Processos simples se tornam claramente articulados, através do DevOps. O objetivo é automatizar a maior quantidade possível de processos operacionais.
+
+Integrações DevOps visam a entrega de produtos, testes de qualidade, desenvolvimento de características e releases de manutenção, de modo a incrementar a confiança e segurança, desenvolvimento rápido e ciclos de desenvolvimento. Muitas das ideias (e pessoas) envolvidas com a cultura DevOps vieram dos movimentos de Gerenciamento de sistemas empresariais e Desenvolvimento Ágil de Software.
+
+ 
+
+Como funciona o DevOps?
+
+Com a implementação de um modelo de DevOps, as equipes de desenvolvimento e operações não ficam mais separadas. Às vezes, essas duas equipes são combinadas em uma só. Os engenheiros trabalham durante o ciclo de vida inteiro do aplicativo, da fase de desenvolvimento e testes à fase de implantação e operações, e desenvolvem várias qualificações não limitadas a uma única função.
+
+Em alguns modelos de DevOps, as equipes de controle de qualidade e segurança também podem aumentar sua integração com o desenvolvimento, as operações e todo o ciclo de vida dos aplicativos. Quando a segurança é a prioridade de todos em uma equipe de DevOps, isso é denominado às vezes DevSecOps.
+
+Essas equipes usam práticas para automatizar processos que historicamente sempre foram manuais e lentos. Eles usam uma pilha de tecnologia e ferramentas que os ajudam a operar e desenvolver aplicativos de modo rápido e confiável. Essas ferramentas também ajudam os engenheiros a realizar tarefas independentemente (por exemplo, implantação de código ou provisionamento de infraestrutura) que normalmente exigiria a ajuda de outras equipes, e isso aumenta ainda mais a velocidade da equipe.
+
+ 
+
+Quais são os benefícios do DevOps?
+
+ 
+
+Velocidade - Opere em alta velocidade para que você possa trazer inovações para os seus clientes mais rapidamente, adaptar-se melhor a mercados dinâmicos e tornar-se mais eficiente na geração de resultados comerciais. O modelo de DevOps permite que as suas equipes de desenvolvedores e operações atinjam esses resultados. Por exemplo, os microsserviços e a entrega contínua permitem que as equipes assumam a responsabilidade sobre os serviços e, então, lançam atualizações para eles mais rapidamente.
+
+Entrega rápida - Aumente a frequência e o ritmo de lançamentos para poder inovar e melhorar seu produto mais rapidamente. Quanto mais rápido você puder lançar novos recursos e corrigir erros, maior será a sua agilidade para responder às necessidades dos clientes e criar vantagem competitiva. A integração e a entrega contínuas são práticas que automatizam o processo de lançamento de software, da fase de criação à fase de implantação.
+
+Confiabilidade - Garanta a qualidade das atualizações de aplicativos e alterações de infraestrutura para que você possa entregar com confiança em um ritmo mais rápido, sem deixar de manter uma experiência positiva para os usuários finais. Use práticas como a integração e a entrega contínuas para testar se cada uma das alterações funcionam e são seguras. As práticas de monitoramento e registro em log ajudam você a permanecer informado sobre a performance em tempo real.
+
+Escala - Opere e gerencie seus processos de infraestrutura e desenvolvimento em escala. A automação e a constância ajudam você a gerenciar sistemas complexos ou dinâmicos com eficiência e risco reduzido. Por exemplo, a infraestrutura como código ajuda você a gerenciar seus ambientes de implantação, teste e produção de modo repetido e mais eficiente.
+
+Colaboração melhorada - Crie equipes mais eficientes em um modelo cultural de DevOps, que enfatiza valores como propriedade e responsabilidade. As equipes de desenvolvedores e operações colaboram de perto, compartilham muitas responsabilidades e combinam seus fluxos de trabalho. Isso reduz ineficiências e economiza tempo (por exemplo, períodos de transferência reduzidos entre desenvolvedores e operações, desenvolvimento de código que considera o ambiente em que é executado).
+
+Segurança - Opere rapidamente enquanto mantém o controle e preserva a conformidade. Você pode adotar o modelo de DevOps sem sacrificar a segurança usando políticas de conformidade automáticas, controles minuciosos e técnicas de gerenciamento de configuração. Por exemplo, usando a infraestrutura e a política como código, você pode definir e acompanhar a conformidade em escala.
+
+ 
+
+Por que o DevOps é importante?
+
+O software e a Internet transformaram o mundo e seus mercados, do comércio ao entretenimento e ao sistema bancário. O software já não apenas sustenta uma atividade empresarial, na verdade ele tornou-se um componente integral de cada parte de uma empresa. As empresas interagem com seus clientes por meio de softwares disponibilizados como serviços ou aplicativos online, e em todos os tipos de dispositivos. Elas também usam o software para aumentar a eficiência operacional ao transformar cada parte da cadeia de valor, como logística, comunicação e operações. Assim como as empresas de mercadorias físicas transformaram a maneira de projetar, criar e disponibilizar produtos por meio de automação industrial no século 20, as empresas de hoje devem transformar a maneira como criam e disponibilizam software.
+
+As empresas que usam um modelo de DevOps, independentemente de sua estrutura organizacional, têm equipes que supervisionam o ciclo de vida completo de desenvolvimento e infraestrutura como parte das suas responsabilidades.
+
+ 
+
+Práticas de DevOps
+
+Existem algumas práticas essenciais que ajudam as empresas a inovar mais rapidamente por meio da automação e da simplificação dos processos de desenvolvimento de software e gerenciamento de infraestrutura. A maioria dessas práticas são realizadas com ferramentas.
+
+Uma prática fundamental é a execução de atualizações muito frequentes, porém pequenas. É assim que as empresas inovam mais rapidamente para os seus clientes. Geralmente, essas atualizações são mais incrementais por natureza do que as atualizações ocasionais executadas de acordo com as práticas de lançamento tradicionais. As atualizações frequentes, porém, pequenas, diminuem o risco de cada implantação. Essas atualizações ajudam as equipes a analisar erros mais rapidamente, pois elas conseguem identificar a última implantação que provocou o erro. Embora o ritmo e o tamanho das atualizações sejam variáveis, as empresas que usam o modelo de DevOps implantam atualizações com uma frequência muito maior do que as que utilizam práticas de desenvolvimento de software tradicionais.
+
+As empresas também podem usar uma arquitetura de microsserviços para tornar seus aplicativos mais flexíveis e viabilizar inovações mais rapidamente. Juntas, essas práticas ajudam as empresas a disponibilizar atualizações mais rápidas e confiáveis aos seus clientes. Abaixo são apresentadas as práticas mais importantes de DevOps.
+
+ 
+
+Integração contínua - A integração contínua é uma prática de desenvolvimento de software em que os desenvolvedores, com frequência, juntam suas alterações de código em um repositório central. Depois disso, criações e testes são executados. Os principais objetivos da integração contínua são encontrar e investigar erros mais rapidamente, melhorar a qualidade do software e reduzir o tempo necessário para validar e lançar novas atualizações de software.
+
+Entrega contínua - A entrega contínua é uma prática de desenvolvimento de software em que alterações de código são criadas, testadas e preparadas automaticamente para liberação para produção. Ela expande com base na integração contínua, pela implantação de todas as alterações de código em um ambiente de teste e/ou ambiente de produção, após o estágio de criação. Quando a integração contínua for implementada adequadamente, os desenvolvedores sempre terão um artefato de criação pronto para ser implantado, e que passou por um processo de teste padronizado.
+
+Microsserviços - A arquitetura de microsserviços é uma abordagem de projeto para a criação de um aplicativo único como um conjunto de pequenos serviços. Cada serviço é executado em seu próprio processo e se comunica com outros serviços por meio de uma interface bem definida usando um mecanismo leve, geralmente uma interface de programação de aplicativo (API) baseada em HTTP. Os microsserviços são criados em torno dos recursos empresariais, e cada serviço tem uma finalidade única. Você pode usar estruturas ou linguagens de programação diferentes para gravar microsserviços e implantá-los independentemente como um único serviço ou um grupo de serviços.
+
+Infraestrutura como código - A infraestrutura como código é uma prática em que a infraestrutura é provisionada e gerenciada usando técnicas de desenvolvimento de código e software, como controle de versão e integração contínua. O modelo controlado por API da nuvem permite que desenvolvedores e administradores de sistema interajam com a infraestrutura de modo programático e em escala, em vez de precisarem instalar e configurar manualmente os recursos. Portanto, os engenheiros podem dialogar com a infraestrutura usando ferramentas baseadas em código e tratá-la de modo similar ao código do aplicativo. Como são definidos por código, infraestrutura e servidores podem ser implantados rapidamente usando padrões normativos, atualizados com os patches e as versões mais recentes ou duplicadas várias vezes.
+
+Gerenciamento de configuração - Os desenvolvedores e os administradores de sistema usam código para automatizar o sistema operacional e a configuração do host, as tarefas operacionais e muito mais. O uso do código torna as alterações de configuração repetidas e padronizadas. Isso isenta os desenvolvedores e os administradores de sistemas de ter que configurar manualmente sistemas operacionais, aplicativos de sistemas ou software do servidor.
+
+Política como código - Com a infraestrutura e a sua configuração codificada com a nuvem, as empresas podem monitorar e aplicar a conformidade de modo dinâmico e em escala. Portanto, a infraestrutura, que é descrita pelo código, pode ser acompanhada, validada e reconfigurada de modo automático. Isso facilita para as empresas administrarem as alterações de recursos e garantir que as medidas de segurança foram aplicadas adequadamente de modo distribuído (por exemplo, segurança de informações ou conformidade com PCI-DSS ou HIPAA). Isso permite que as equipes de uma empresa operem em uma velocidade maior, pois recursos fora de conformidade podem ser sinalizados automaticamente para serem investigados em mais detalhes ou, até mesmo, ter sua conformidade restabelecida de modo automático.
+
+Monitoramento e registro em log - As empresas monitoram métricas e logs para ver como a performance do aplicativo e da infraestrutura afeta a experiência do usuário final do seu produto. Ao capturar, categorizar e analisar dados e logs gerados pelos aplicativos e pela infraestrutura, as empresas compreendem como as alterações ou atualizações afetam os usuários, o que proporciona um esclarecimento sobre as causas raiz dos problemas ou das alterações inesperadas. Como os serviços devem estar disponíveis 24/7 e a frequência de atualização do aplicativo e da infraestrutura aumenta, o monitoramento ativo torna-se cada vez mais importante. A criação de alertas ou a execução de análise em tempo real desses dados também ajuda as empresas a monitorar de modo mais proativo seus serviços.
+
+Comunicação e colaboração - O aumento da comunicação e da colaboração em uma empresa é um dos principais aspectos culturais do DevOps. O uso das ferramentas de DevOps e da automação do processo de entrega de software estabelece a colaboração ao unir fisicamente os fluxos de trabalho e as responsabilidades de desenvolvimento e operações. Baseando-se nisso, essas equipes definem normas culturais sólidas com relação ao compartilhamento de informações, além de facilitar a comunicação por meio do uso de aplicativos de chat, sistemas de acompanhamento de problemas ou projetos, e wikis. Isso ajuda a agilizar a comunicação entre desenvolvedores, operações e até mesmo outras equipes, como marketing ou vendas, permitindo que todas as partes da empresa se alinhem mais estreitamente às metas e aos projetos.
+
+Ferramentas de DevOps - O modelo de DevOps depende de ferramentas eficazes para ajudar as equipes a implantar de modo rápido e confiável, como também inovar para os seus clientes. Essas ferramentas automatizam tarefas manuais, ajudam as equipes a gerenciar ambientes complexos em escala e a manter engenheiros no controle da alta velocidade que é permitida pelo DevOps.
+
+ 
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+Saiba mais sobre DevOps com foco em monitoramento. Assista ao vídeo disponível no link (https://www.youtube.com/watch?v=Z_GTtWzoHOA), aproveite!
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+TANENBAUM, A.S. Redes de Computadores. 5. ed. São Paulo: Editora Pearson Universidades, 2011.
+
+MACHADO, F.N.R. Análise e gestão de requisitos de software: onde nascem os sistemas. 3. ed. São Paulo: Editora Érica, 2016.
+
+Ferramentas e software DevOps. IBM. Disponível em https://www.ibm.com/br-pt/cloud/devops. Acesso em 24/04/2021.
+
+
+1. Leia as afirmações abaixo e assinale a alternativa INCORRETA sobre DevOps:
+R: É uma cultura na área administrativa e obsoleta que tenta aproximar os desenvolvedores de software (Dev) e os operadores do software / administradores do sistema (Ops). Foi substituída pela metodologia Ágil
+Exp: Definitivamente DevOps não é uma cultura na área administrativa, mas sim, na área de engenharia de Software
+ 
+2. Assinale a alternativa CORRETA sobre como deve funcionar o DevOps:
+R: As equipes de desenvolvimento e operações não ficam mais separadas. Às vezes, essas duas equipes são combinadas em uma só. Os engenheiros trabalham durante o ciclo de vida inteiro do aplicativo, da fase de desenvolvimento e testes à fase de implantação e operações, e desenvolvem várias qualificações não limitadas a uma única função
+Exp: De fato, na filosofia DevOps, as equipes de desenvolvimento e operações não ficam mais separadas. Às vezes, essas duas equipes são combinadas em uma só. Os engenheiros trabalham durante o ciclo de vida inteiro do aplicativo, da fase de desenvolvimento e testes à fase de implantação e operações, e desenvolvem várias qualificações não limitadas a uma única função
+
+3.Leia as alternativas abaixo e assinale a alternativa onde a afirmação é correta para os benefícios do DevOps:
+R: Velocidade, entrega rápida, confiabilidade, escala, colaboração melhorada e segurança
+Exp: Dentre os benefícios proporcionados pelo DevOps destacam-se velocidade de desenvolvimento, isto leva a uma entrega rápida, devido ao monitoramento tem-se uma melhor confiabilidade, devido a organização da equipe é possível ganhos em escalabilidade, ainda devido a organização da equipe ganha-se em colaboração e, com tudo isso, vem a segurança
+
+4. Leia as alternativas abaixo e assinale a alternativa INCORRETA para as afirmações abaixo, que citam algumas das práticas de DevOps:
+R: Escala e segurança de log
+Exp: Escala não é uma prática
+
+5. Considere o seguinte texto:
+
+“O software e a Internet transformaram o mundo e seus mercados, do comércio ao entretenimento e ao sistema bancário. O software já não apenas sustenta uma atividade empresarial, mas parte dele. As empresas interagem com seus clientes por meio de softwares disponibilizados como serviços ou aplicativos online, e em todos os tipos de dispositivos, bem como, utilizam software na logística, comunicação e operações. As empresas que usam um modelo de DevOps, independentemente de sua estrutura organizacional, têm equipes que supervisionam o ciclo de vida completo de desenvolvimento e infraestrutura como parte das suas responsabilidades.”
+
+Segundo o texto analise as afirmações a seguir e assinale a ERRADA:
+R: Com relação à questão da supervisão, pode-se dizer que ela é caracterizada pela eleição de um desenvolvedor que se tornará responsável por verificar se os critérios estabelecidos estão sendo observados
+Exp: A questão da supervisão não tem nada a ver com a eleição de um desenvolvedor ou coisa parecida, absurdo!
+
+6. Acerca de DevOps, assinale a opção correta:
+R: Atividades típicas em DevOps compreendem teste do código automatizado, automação de fluxos de trabalho e da infraestrutura e requerem ambientes de desenvolvimento e produção idênticos
+Exp: De fato, atividades típicas em DevOps compreendem teste do código automatizado, automação de fluxos de trabalho e da infraestrutura e requerem ambientes de desenvolvimento e produção idênticos

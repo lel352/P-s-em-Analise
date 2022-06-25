@@ -1,0 +1,141 @@
+Aspectos de segurança
+Monitoramento Crítico
+
+Sobretudo para aplicações corporativas um monitoramento mais aprofundado da utilização dos recursos de Hardware e do S.O. fazem-se necessários. É justamente este o objetivo desta aula, que tal começarmos agora? Sim, demorou…
+
+ 
+
+Monitoramento de CPU e memória
+
+Como visto na aula sobre memória RAM, interferências eletromagnéticas, oscilações de energia e outras ocorrências podem corromper os seus dados sobretudo se eles estiverem já na memória RAM ou na Cache, na verdade é até mais comum que os dados sejam corrompidos quando ele é transmitido felizmente mesmo que o sistema não possua memórias do tipo registrada é possível a detecção destas ocorrências e seu acompanhamento pode indicar que algo está errado com a máquina. Além destes erros de hardware erros de gerenciamento de memória também podem ocorrer e, neste caso o S.O. pode detectá-lo e indicar sua taxa de ocorrência, estes erros quase nunca comprometem o funcionamento do sistema, más, podem indicar que o estado de utilização da máquina em função dos aplicativos em execução demanda mais memória RAM. Uma versão mais sofisticada do Gerenciador de Tarefas está disponível no Windows e em outros S.O.’s, vejamos
+
+ 
+
+I)        Windows
+
+1.1)    Monitor de Recursos
+
+Trata-se, como já observado, de uma versão aprimorada do Gerenciador de Tarefas, para acessá-lo pesquise como ensinado na Aula 04 por “Monitor de Recursos”.
+
+A Figura 1 apresenta em (a) as informações disponíveis, como pode ser observado o Monitor de recurso apresenta um nível de informação muito mais detalhado sobre a utilização da máquina, no caso, a CPU. Logo que a tela principal para informações sobre a utilização da CPU é apresentada ela não mostra todas as opções disponíveis, assim, clicando com o botão direito do mouse no local indicado mais informações podem ser acessadas. Um grande diferencial deste recurso nativo do Windows é a possibilidade de visualizar de forma gráfica a participação de cada processo na utilização de cada recurso. Mais de um processo pode ser selecionado para visualizar a participação de um grupo de processos na utilização do recurso.
+
+Figura 1 – Monitor de recursos - CPU.
+Figura 1 – Monitor de recursos - CPU.
+
+Ainda na Figura 1, só que agora em (b), podemos observar a ocorrência de falhas graves na utilização da memória RAM. Estas falhas graves, também conhecida como falha de página, não afetam o funcionamento do sistema, e estão relacionadas ao gerenciamento de dados da memória, ocorrendo quando o endereço referenciado não está mais na memória física, ou seja, o dado não está mais na RAM, neste caso, o S.O deve localizá-lo provavelmente no HD, pois, pode ter sido permutado (transferido) para o arquivo de memória virtual (paginada no disco rígido) ou estar ainda no arquivo original em disco sendo provavelmente é este o caso, pois, na máquina em questão a memória virtual está desativada. Não é um erro de hardware. Um número alto de falhas graves pode explicar o baixo tempo de resposta de um aplicativo, pois ele aguarda mais pela leitura dos dados no disco do que na memória RAM. Para eliminar por completo o número de falhas graves/min só armazenando todos os dados dos processos ativos na memória RAM. Em resumo, quanto mais memória RAM, menor o número processos em execução!
+
+Na Figura 2, pode-se observar o detalhamento acerca da utilização da memória RAM pelos processos em execução, novamente, pode-se observar que o Monitor de Recursos é capaz de apresentar muito mais informações que o Gerenciador de Tarefas.
+
+Figura 2 - Monitor de recursos – RAM.
+Figura 2 - Monitor de recursos – RAM.
+
+1.2)    Monitor de Desempenho
+
+Trata-se de mais um recurso muito útil e nativo do Windows, para acessá-lo pesquise como ensinado na Aula 04 por “Monitor de Desempenho” ou ainda execute o comando “perfmon.msc” diretamente na caixa de pesquisa (perfmon – Monitor de performance – Monitor de desempenho). Esta ferramenta é utilizada no monitoramento do desempenho do computador ou outro dispositivo que esteja sendo executado pelo S.O. Através é possível visualizar como o Windows gerencia todos os recursos disponíveis no computador, permitindo que as informações fornecidas colaborem na investigação sobre possíveis problemas que surgem aleatoriamente, ou ainda, apontar para possíveis upgrades de hardware ou instalação/migração/substituição de softwares.
+
+Após a inicialização do Monitor de Desempenho selecione a opção Desempenho do Sistema, conforme mostrado na Figura 3(a) em (1). Ao ser iniciado o Monitor de Desempenho, apenas o gráfico do tempo do processador é monitorado, este parâmetro corresponde à porcentagem de tempo da CPU utilizada pelo sistema (S.O e todos os processos), fornecendo assim uma visão básica da utilização do processador.
+
+O gráfico do tempo de processador pode ser personalizado adicionando colunas entre vários outros elementos de medição. Mesmo que pouco intuitivo, tendo que descobrir suas competências, é possível desenvolver um ambiente de análise bem aprofundado por exemplo ao adicionar contadores que permitem detalhar outros dados. Este recurso está disponível ao clicar no ícone mostrado na Figura 3(b) em (1) onde é possível ver também a caixa de opções que se abre com esta ação, o item (2) da Figura 3(b) mostra que é possível expandir a exibição dos elementos ao clicar como indicado.
+
+ 
+
+Figura 3 – Monitor de desempenho.
+Figura 3 – Monitor de desempenho.
+
+A Figura 4(a) apresenta a seleção do monitor Processor Performance seguido de todos os indicadores. Os dados exibidos nesta seleção são bastante técnicos, por isso, provavelmente não são do conhecimento de todos, uma rápida pesquisa no Google pode trazer informações sobre estes dados e seus significados e importância. Em particular as interrupções/segundo correspondem ao número de interrupções solicitadas ao processador, cada interrupção faz com que o processador deixe de responder ao processamento dos processos em execução para atender ao dispositivo que à gerou (a chamada de interrupção), sendo que, usualmente estas chamadas de interrupções são geradas por componentes de hardware como controladores de unidades de armazenamento, dispositivos de rede entre outros.
+
+Figura 4 – Monitor de desempenho.
+Figura 4 – Monitor de desempenho.
+
+Várias maneiras de visualizar os dados estão disponíveis, inclusive há a possibilidade de geração de relatórios. A Figura 5 apresenta algumas destas opções bem como proceder para acessá-las.
+
+Figura 5 – Monitor de desempenho – Tipos de gráficos.
+Figura 5 – Monitor de desempenho – Tipos de gráficos.
+
+Na imensa lista, alguns contadores podem ser considerados como mais úteis, consideremos alguns deles:
+
+Processador » porcentagem de tempo do processador: é encontrado na lista de contadores nomeada Processadores. Exibe o tempo gasto pelo processador em suas diversas tarefas. Como exemplo e numa análise inicial é presumido que se seu valor permanecer regularmente acima de 80%, significa, que o processador não é suficientemente poderoso para atender tudo que está em execução, criando gargalos de processamento. Uma tentativa de solução inicial para este problema costuma envolver a substituição dos processos mais exigentes por versões menos exigentes, porém, é um tipo de problema que quase sempre exige a substituição do processador por um mais robusto, pode envolver também a adição de memória RAM.
+
+Memória » MBytes disponíveis: disponível na lista de contadores nomeada Memória. Permite a verificação do total de memória disponível. Quando o gráfico exibe uma quantidade de memória disponível correspondente a um nível inferior a 10% da quantidade total, tem-se a indicação de que não existe memória RAM suficiente para manter o sistema funcionando adequadamente. Novamente sugerindo aqui a possibilidade de aumentar o total desse tipo de memória.
+
+PhysicalDisk » Comprimento da Fila de Disco Atual e PhysicalDisk » porcentagem de tempo do Disco: dois contadores disponíveis na lista PhysicalDisk . Neste contador quando o comprimento atual da fila de disco permanecer maior que 2 e o tempo do disco permanecer travado em 100%, pode-se inferir uma lentidão no dispositivo de armazenamento ou a existência de um problema no dispositivo. É indicado investigar mais a situação e, persistindo o problema, pode ser necessária a substituição do dispositivo.
+
+Devido a imensa quantidade de contadores disponíveis convém deixar uma referência sobre onde buscar informações sobre cada um deles. A referência está no item [X] da bibliografia e é oficial da Microsoft.
+
+ 
+
+II)       LINUX
+
+Para um monitoramento mais completo da utilização do hardware em plataformas LINUX faz-se necessário a instalação de programas adicionais. Um destes programas têm chamado bastante a atenção dos usuários deste S.O., trata-se do Monitorix e ele está disponível em “https://www.monitorix.org”.
+
+Monitorix é um software gratuito, open Source, e leve destinada ao monitoramento do Sistema é desenhado para monitorar a maior quantidade de serviços e recursos do sistema possível.  Embora ele tenha sido desenvolvido para ser aplicado em servidores Linux/UNIX, devido a sua simplicidade e pequeno tamanho em disco pode ser usado em dispositivos embarcados.
+
+Ele consiste de dois programas, o coletor (collector), chamado de Monitorix o qual é um Perl daemon (processo de fundo – que não pode ser visto – executado por uma máquina multitarefa usado para executar mudanças administrativas ou monitorar serviços), o Monitorix é executado automaticamente. O outro programa é uma interface gráfica de usuário (CGI) “monitorix.cgi”. Ele inclui seu próprio servidor HTTP incluso para permitir a seleção e visualização de gráficos estatísticos.
+
+Como a própria proposta do projeto sugere muitos aspectos do funcionamento do hardware podem ser monitorados, uma lista completa de todos eles pode ser conferida em “https://www.monitorix.org/features.html”, vale a pena consultar!
+
+A Figura 6 apresenta a exibição na CGI de dados da memória e da CPU.
+
+Figura 6 – Monitorix.
+Figura 6 – Monitorix.
+
+Basicamente podemos conseguir com este programa tudo que conseguimos com o Monitor de Desempenho do Windows, inclusive no tocante às análises sobre o correto funcionamento do Hardware e a necessidade de intervenções.
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+Que tal conhecermos uma solução multiplataforma e open source para monitoramento? Assista ao vídeo disponível no link (https://www.youtube.com/watch?v=Jy9ixNmevRk). Divirta-se.
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+Central de suporte Microsoft Para Windows. Disponível em https://support.microsoft.com/pt-br/windows?ui=pt-BR&rs=pt-BR&ad=BR. Acesso em 24/04/2021.
+
+Manual Reference Pages  - monitorix.conf. Disponível em https://www.monitorix.org/documentation.html. Acesso em 24/04/2021.
+
+
+
+1. Sobre monitoramento avançado de hardware considere as seguintes afirmações
+
+I) pode ser feito apenas para computadores de uso corporativo
+
+II) pode ser feito tanto em computadores de uso corporativo quanto pessoal
+
+III) apenas o Sistema operacional Windows possui soluções voltadas para estas aplicações
+
+IV) disponível em todas as plataformas, muitas vezes pela aplicação de programas específicos
+
+Assinale a alternativa que analisa CORRETAMENTE e RESPECTIVAMENTE afirmações em V (Verdadeiro) e F (Falso):
+R: F, V, F e V
+Exp: Apenas as afirmações II e IV são verdadeiras, ou seja, (II) o monitoramento avançado de hardware pode ser feito tanto em computadores pessoais como corporativos, mesmo por que, muitos computadores corporativos não passam de computadores pessoais. (IV) Há disponibilidade de programas para todos os Sistemas Operacionais destinados ao monitoramento avançado de hardware
+
+2. Para Windows 10 assinale a alternativa que apresenta apenas afirmações CORRETAS sobre o monitoramento de hardware
+R: Além do Monitor de Recursos o Windows dispõe do Monitor de desempenho, juntos permitem um excelente nível de monitoramento para o computador
+Exp: De fato, o Monitor de Recursos e o Monitor de Desempenho são duas ferramentas nativas do Windows 10 e permitem um excelente grau de monitoramento do sistema
+
+3.(Modificado: FCC - 2016 - PGE-MT - Analista - Analista de Sistemas) Ao executar o programa Monitor de Recursos, o Analista terá acesso à janela do Monitor de Recursos
+R: na qual podem-se visualizar os gráficos de desempenho da CPU, Memória, Disco e Rede
+Exp: De fato, o Monitor de recursos é uma solução bastante completa para o monitoramento de recursos do computador. Isto inclui visualizar os gráficos de desempenho da CPU, Memória, Disco e Rede
+
+4. (Modificado: CESPE - 2017 - TRE-TO - Técnico Judiciário - Programação de Sistemas) No monitor de recursos do Windows 10, realiza-se o monitoramento do uso de CPU, de memória e de rede para cada
+R: processo
+Exp: Além de uma visão global sobre a utilização de recursos, o monitor de recursos permite a observação da utilização do hardware do computador com foco em processos, isto é, em programas que utilizam os recursos
+
+5. (FCC - 2019 - TJ-MA - Técnico Judiciário - Técnico em Informática - Software) Em um computador com o sistema operacional Windows 10, em português e em condições ideais, o comando perfmon.msc acessa o
+R: Painel de Configuração do Sistema, que permite ao usuário escolher quais programas devem inicializar automaticamente quando o computador é ligado 
+(ele da essa resposta mas ta errada, o ocorreto seria> Monitor de Desempenho, que exibe informações do processador, interface de rede e memória, dentre outros dados)
+Exp: O comando “perfmon.msc” executa o Monitor de Desempenho do Windows que exibe informações do processador, interface de rede e memória, dentre outros dados
+
+6. No Linux uma boa opção com CGI para monitoramento remoto de recursos de hardware de servidores pode ser o:
+R: Monitorix
+Exp: Embora o System Monitor permita o monitoramento de hardware e recursos ele só opera localmente, já o Monitorix oferece a opção de monitoramento remoto via Browser

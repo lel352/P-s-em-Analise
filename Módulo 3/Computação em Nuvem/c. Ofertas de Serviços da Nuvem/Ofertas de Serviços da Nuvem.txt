@@ -1,0 +1,162 @@
+Ofertas de Serviços na Nuvem
+IaaS
+
+A infraestrutura como serviço (IaaS) é uma forma de computação em nuvem que fornece recursos de computação virtualizada pela Internet. Ao fornecer uma oferta de IaaS, o provedor de serviços provisiona e gerencia tudo o que é necessário para hospedar máquinas virtuais (VMs), fornecer segurança e gerenciar comunicações. Para o cliente, o IaaS é uma infraestrutura de computação instantânea, provisionada e gerenciada pela Internet.
+
+Os clientes dos serviços de IaaS evitam as despesas e a complexidade de comprar e gerenciar seus próprios servidores físicos e outras infraestruturas de datacenter. Eles podem aumentar e diminuir rapidamente com a demanda e pagar apenas pelos recursos que usam, quando os usam. Os clientes criam sua própria rede na nuvem - criando as VMs necessárias para fornecer quaisquer serviços necessários, incluindo o Active Directory, o Exchange, o SQL e quaisquer serviços que sejam criados neles. Efetivamente, o cliente aluga os recursos para construir sua rede.
+
+As organizações usam o IaaS para ajudá-los em, por exemplo:
+
+Teste e desenvolvimento: Os ambientes de teste e desenvolvimento são rápidos de configurar e desmontar, permitindo o lançamento de novos aplicativos mais rapidamente. A escalabilidade do IaaS torna a criação e a desmontagem de vários ambientes de teste viáveis para mais organizações.
+Site de hospedagem: A execução de sites usando o IaaS pode ser mais barata do que o tradicional web hosting, em alguns casos específicos.
+Armazenamento, backup e recuperação: O IaaS pode simplificar o planejamento e o gerenciamento de sistemas de backup e recuperação.
+Computação de alto desempenho: A computação de alto desempenho ajuda a resolver problemas complexos que envolvem milhões de variáveis ou cálculos. Exemplos incluem previsões climáticas e meteorológicas, modelagem financeira e simulações de terremotos.
+Análise de Big Data: Conjuntos de dados maciços contêm padrões, tendências e associações potencialmente valiosos. Conjuntos de dados de mineração para identificar esses padrões ocultos requerem uma enorme quantidade de poder de processamento, o que o IaaS fornece.
+ 
+
+O IaaS fornece alguns dos seguintes benefícios aos clientes:
+
+Redução de custos: O IaaS elimina as despesas iniciais de configuração e gerenciamento de um datacenter no local e reduz os custos de manutenção da infraestrutura de rede.
+Melhor continuidade de negócios e recuperação de desastres: A IaaS pode assumir a responsabilidade de manter dados e aplicativos disponíveis, mesmo para organizações distribuídas globalmente. Isso reduz a necessidade de uma equipe de continuidade de negócios altamente treinada em todos os sites.
+Maior estabilidade, confiabilidade e suporte: Com o IaaS, não há necessidade de manter e atualizar software e hardware ou de solucionar problemas de equipamentos. Com o acordo adequado em vigor, o provedor de serviços garante que a infraestrutura seja confiável.
+Maior segurança: Com o contrato de serviço apropriado, um provedor de serviços de IaaS pode fornecer segurança para os aplicativos e dados de uma organização que podem ser melhores do que o que a organização pode obter internamente.
+Implementação mais rápida de novos aplicativos: Como a infraestrutura necessária para desenvolver e entregar aplicativos já está em vigor, as organizações podem levá-los aos usuários mais rapidamente.
+PaaS
+
+A plataforma como serviço (PaaS) é uma categoria de computação em nuvem que inclui os serviços de infraestrutura de rede fornecidos pela IaaS, além de um ambiente de desenvolvimento e implementação na nuvem. As ofertas de PaaS incluem recursos que permitem que as organizações entreguem tudo, desde aplicativos simples baseados em nuvem até aplicativos corporativos sofisticados habilitados para nuvem. Os recursos são adquiridos como assinatura e acessados ​​por meio de uma conexão segura com a Internet.
+
+A PaaS é projetada para suportar o ciclo de vida completo de aplicativos da Web: criação, teste, implementação, gerenciamento e atualização. Portanto, as ofertas de PaaS normalmente incluem middleware, ferramentas de desenvolvimento, serviços de business intelligence (BI) e sistemas de gerenciamento de banco de dados.
+
+Assim como o IaaS, o PaaS permite que as organizações evitem a despesa e a complexidade de comprar, implementar e gerenciar elementos de seu ambiente de rede. No caso da PaaS, o provedor de serviços fornece e gerencia as licenças de software, a infraestrutura de aplicativos subjacente e o middleware, as ferramentas de desenvolvimento e outros recursos.
+
+Ao usar um ambiente de PaaS, o cliente pode se concentrar no desenvolvimento de software e, em seguida, implantá-lo nos serviços gerenciados pelo provedor de serviços. Efetivamente, os clientes alugam a plataforma na qual desenvolver e implantar seu aplicativo.
+
+As organizações usam o IaaS para ajudá-los em, por exemplo:
+
+Fornecendo um ambiente de desenvolvimento: A PaaS fornece um ambiente para os desenvolvedores construírem enquanto desenvolvem aplicativos baseados em nuvem. As ofertas de serviços de PaaS incluem componentes de software integrados e recursos de nuvem, como escalabilidade, alta disponibilidade e capacidade de multilocação, reduzindo a quantidade de codificação que os desenvolvedores devem fazer.
+Business intelligence e Analytics: As ferramentas fornecidas como um serviço com PaaS permitem que as organizações analisem e explorem seus dados, encontrando insights e padrões e prevendo resultados para melhorar a previsão, decisões de design de produto, retornos de investimento e outras decisões de negócios.
+Serviços adicionais: Os provedores de PaaS podem oferecer outros serviços que aprimoram aplicativos, como fluxo de trabalho, diretório, segurança e agendamento.
+ 
+
+A PaaS oferece aos clientes alguns dos seguintes benefícios:
+
+Redução no tempo de desenvolvimento: As ferramentas de desenvolvimento de PaaS podem reduzir drasticamente o tempo necessário para criar novos aplicativos com os componentes de aplicativos integrados à plataforma, como fluxo de trabalho, serviços de diretório, recursos de segurança, pesquisa e assim por diante.
+Múltiplas plataformas: Alguns provedores de serviços oferecem opções de desenvolvimento para várias plataformas, como computadores, dispositivos móveis e navegadores, tornando os aplicativos multiplataforma mais rápidos e fáceis de desenvolver.
+Acesso a ferramentas de desenvolvimento sofisticadas: Um modelo de assinatura possibilita que indivíduos ou organizações usem softwares sofisticados de desenvolvimento e ferramentas de business intelligence e analytics que eles não poderiam comprar diretamente.
+Suporte para equipes de desenvolvimento distribuídas geograficamente: Como o ambiente de desenvolvimento é acessado pela Internet, as equipes de desenvolvimento podem trabalhar juntas em projetos, mesmo quando os membros da equipe estão em locais remotos.
+Gerencie com eficiência o ciclo de vida do aplicativo: A PaaS fornece todos os recursos necessários para oferecer suporte ao ciclo de vida completo dos aplicativos da Web: criação, teste, implementação, gerenciamento e atualização no mesmo ambiente integrado.
+ 
+
+A figura abaixo mostra exemplos de soluções de PaaS de diversos fornecedores para alguns tipos de indústrias. É como empresas de pesquisa de tecnologia publicar esses quadros:
+
+
+SaaS
+
+O software como serviço (SaaS) permite que os usuários se conectem e usem aplicativos baseados na nuvem pela Internet. Exemplos comuns são e-mail, calendário e ferramentas de escritório, como o Microsoft Office 365, G Suite da Google, o CRM da Salesforce e até o ERP da SAP, ou alguma outra ferramenta de produtividade de Tecnologia da Informação.
+
+O SaaS é uma solução de software completa que as organizações compram de um provedor de serviços de nuvem. Com o SaaS, o provedor de serviços gerencia tudo; as organizações alugam o uso de um aplicativo e os usuários se conectam a ele pela Internet, geralmente por meio de um navegador da web. A infra-estrutura subjacente, o middleware, o software do aplicativo e os dados do aplicativo são gerenciados inteiramente pelo provedor de serviços e localizados no data center do provedor de serviços. O provedor de serviços gerencia o hardware e o software, a segurança do aplicativo e os dados também.
+
+As organizações usam o SaaS para ajudá-los em, por exemplo:
+
+Acesso a aplicativos baseados em nuvem: Por meio do SaaS, as organizações podem alugar aplicativos de produtividade, como e-mail, colaboração e calendário, e aplicativos de negócios sofisticados, como gerenciamento de relacionamento com o cliente (CRM), planejamento de recursos empresariais e gerenciamento de documentos. As organizações pagam pelo uso desses aplicativos por assinatura ou de acordo com o nível de uso
+Acesso a serviços e recursos baseados em nuvem: Algumas organizações usam o SaaS para fornecer a maioria de seus serviços de TI. Outros usam o SaaS para complementar os recursos internos de TI.
+ 
+
+O SaaS fornece alguns dos seguintes benefícios aos clientes:
+
+Tenha acesso a aplicativos sofisticados: Para fornecer aplicativos SaaS aos usuários, as organizações não precisam comprar, instalar, atualizar ou manter nenhum hardware, middleware ou software. O SaaS torna os aplicativos empresariais sofisticados mais acessíveis para as organizações.
+Use o software cliente gratuito: Os usuários podem executar a maioria dos aplicativos SaaS diretamente de seu navegador da web sem precisar baixar e instalar qualquer software, embora alguns aplicativos exijam plug-ins. Isso significa que as organizações não precisam comprar e instalar softwares especiais para seus usuários.
+Suportar usuários móveis: O SaaS facilita o fornecimento de aplicativos e serviços para uma força de trabalho móvel; os usuários podem acessar aplicativos e dados SaaS de qualquer computador ou dispositivo móvel conectado à Internet. Os provedores de serviços geralmente fornecem aplicativos para diversas plataformas diferentes, que as organizações podem usar para fornecer acesso a seus usuários. As organizações não precisam gerenciar os problemas de segurança inerentes à computação móvel, porque essa tarefa é executada pelo provedor de serviços.
+Acesse dados de aplicativos de qualquer lugar: Com os dados armazenados na nuvem, os usuários podem acessar suas informações em qualquer computador ou dispositivo móvel conectado à Internet. E quando os dados do aplicativo são armazenados na nuvem, nenhum dado é perdido se o computador ou o dispositivo de um usuário falhar.
+ 
+
+Para finalizar, um outro quadro de referência com diversos provedores de serviços na nuvem.
+
+
+ 
+
+Atividade extra
+
+ 
+
+1. Logo na primeira aula falamos sobre o que a nuvem e como os datacenter são constituídos e agrupados para formar a infraestrutura robusta da Computação em Nuvem. Agora que você já sabe bem mais sobre a Nuvem, explore a oferta de serviços de Computação em Nuvem dos principais players e veja como suas localidades estão organizadas:
+
+https://cloud.google.com/about/locations/
+
+https://aws.amazon.com/about-aws/global-infrastructure/ 
+
+https://azure.microsoft.com/en-us/global-infrastructure/regions/ 
+
+ 
+
+2. Quer começar a trabalhar mais com a Nuvem? Aprenda o seu “Hello World” agora mesmo com os principais fornecedores de computação em nuvem:
+
+ 
+
+Amazon AWS - https://aws.amazon.com/pt/getting-started/tutorials/ 
+
+Microsoft Azure - https://azure.microsoft.com/pt-br/get-started/ 
+
+Google GCP - https://cloud.google.com/getting-started/?hl=pt-BR 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+Livros:
+
+Computação em Nuvem |  Manoel Veras Sousa de Neto | Editora: BRASPORT
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Manoel-Veras-Sousa-ebook/dp/B016P42YUI/ 
+
+ 
+
+Certificação Cloud Essentials: GUIA PREPARATÓRIO PARA O EXAME CLO-001 | Yuri Diógenes e‎ Manoel Veras | Editora: Novaterra
+
+https://www.amazon.com.br/Livro-Certifica%C3%A7%C3%A3o-Cloud-Essentials-PREPARAT%C3%93RIO-ebook/dp/B00X4BIM02/ 
+
+ 
+
+Computação em Nuvem Cloud Computing. Tecnologias e Estratégias | Brian J. S. Chee e Curtis Franklin Jr. | Editora: MBOOKS 
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Computing-Tecnologias-Estrat%C3%A9gias/dp/8576802074/ 
+
+ 
+
+Computação em Nuvem: O Que Você Realmente Precisa Saber | OPUS SOFTWARE | Editora: Opus Software
+
+https://www.amazon.com.br/Computa%C3%A7%C3%A3o-Nuvem-Realmente-Precisa-Saber-ebook/dp/B01E9TC8X4/ 
+
+ 
+
+Cloud Computing: Planejando a sua Jornada | Daniel Rosa | Editora: Daniel Rosa - Auto Publicação
+
+https://www.amazon.com.br/Cloud-Computing-Planejando-sua-Jornada-ebook/dp/B075GZHCZM/ 
+
+ 
+
+Web-learning:
+
+IT Support: Cloud Fundamentals @ https://courses.edx.org/courses/course-v1:Microsoft+CLD263x+1T2019/course/
+
+ 
+
+Architecting Distributed Cloud Applications @ https://courses.edx.org/courses/course-v1:Microsoft+DEVOPS200.9x+1T2019/course/
+
+
+Cloud Computing Concepts @ https://www.coursera.org/learn/cloud-computing/home/welcome
+
+
+1. Quais são os componentes exclusivos da Infraestrutura como Serviço?
+R: Instalações, Rede e Conectividade e Servidores.
+Exp:
+
+2. Quais são os componentes exclusivos da Plataforma como Serviço?
+R: Sistemas Operacionais e Ferramentas de Desenvolvimento.
+Exp:
+
+3. Quais são os componentes exclusivos da Software como Serviço?
+R: Apenas as Aplicações.
+Exp:

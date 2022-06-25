@@ -1,0 +1,151 @@
+Tecnologias Emergentes nas Redes de Comunicação
+Uma breve história da rede de código aberto (Open Source Networking)
+
+Os profissionais de rede sempre usavam ferramentas rígidas para executar funções~
+ de rede, como roteamento, firewall, comutação e balanceamento de carga. Vimos a
+ transformação de virtualização de TI para servidores. Usamos essas tecnologias e nos familiarizamos com servidores e virtualização de armazenamento. Você se lembra da evolução da virtualização de servidores em 2000? Nessa época, não sabíamos que a virtualização de servidores se tornará mainstream e teremos um ambiente totalmente virtualizado executando aplicativos corporativos. Os especialistas em servidores costumavam ter dispositivos de hardware de servidor com 2, 4 ou 8 processadores, um único sistema operacional executando um único aplicativo ou, em alguns casos raros, vários aplicativos, se pudessem.
+
+Quando a tecnologia de virtualização se tornou confiável e a virtualização de servidores surgiu, as empresas e outros setores começaram a migrar os servidores físicos para servidores virtuais. Atualmente, mais de 80% dos aplicativos estão sendo veiculados em um ambiente virtual. Em seguida, uma revolução semelhante também aconteceu com a indústria de armazenamento. Os especialistas em armazenamento costumavam ter armazenamento e matrizes de discos gigantes, cuidando do armazenamento de dados e da apresentação de armazenamento baseado em arquivos ou em blocos para os servidores. A virtualização de armazenamento criou outra revolução ao introduzir sistemas de arquivos distribuídos e aproximar o armazenamento do servidor, onde ele poderia usar um JBOD (Just Bunch Of Disks) e convertê-los em um sistema de armazenamento altamente disponível e robusto. Muitos novos produtos e fornecedores de virtualização de armazenamento apareceram no mercado e agora estão impulsionando o futuro do mercado de armazenamento.
+
+Se observarmos a revolução da virtualização de servidores e armazenamento, os dois têm algo em comum: eles desagregaram o hardware e o software para fornecer sistemas ágeis e flexíveis. Essa evolução na rede foi mais lenta porque a maioria dos dispositivos de rede tinha um hardware e software totalmente integrados. Semelhante a outros aparelhos eletrônicos, um dispositivo de rede também é baseado em um hardware e software separados que, na maioria dos casos, são integrados em uma única placa-mãe.
+
+
+Redes Legadas
+
+A rede legada é baseada nas tecnologias e produtos de rede atuais, que são produzidos pela maioria dos fornecedores de rede, como Cisco, HP, Juniper etc. Essas tecnologias normalmente têm um fator de forma comum, que é uma caixa, com várias portas de interface. Sob essas caixas, todos usam componentes e arquitetura similares, que são baseados em um processador de pacotes, uma CPU e sua memória, memória flash e um firmware de software.
+
+Na maioria dos roteadores e switches, a identificação desses componentes não é fácil para iniciantes. Como primeiro passo neste curso, você deve se lembrar deste princípio fundamental, que qualquer dispositivo de rede consiste dos seguintes componentes principais em seu chassi:
+
+Processador de pacotes e encaminhamento
+CPU, juntamente com RAM e flash
+Outros controladores, como um controlador de ventilador, porta de console, controlador de LED, controladores de interface, etc.
+Programas (Software).
+Depois de começar a pensar no dispositivo de rede como um sistema que integra totalmente os componentes acima, você pode iniciar o desacoplamento do dispositivo de rede, que é a base central de qualquer processo de rede aberta.
+
+Dispositivos de rede legados atualmente no mercado, como roteadores e switches, são vendidos como um pacote de hardware e software (esse software é armazenado na memória flash no diagrama a seguir). Isso significa, por exemplo, que você não pode comprar um roteador Cisco e instalar e executar o Juniper JunOS nele, ou vice-versa. O hardware e os sistemas operacionais são proprietários e não podem ser dissociados uns dos outros.
+
+
+Cada fornecedor criou seu próprio software e investiu na criação desse software proprietário. Cada fornecedor implementou protocolos de roteamento, como OSPF ou BGP, à sua maneira, de acordo com os padrões existentes. Alguns fornecedores que usaram um sistema operacional Linux ou BSD pegaram emprestados alguns protocolos de código aberto do Linux e os executaram em seus dispositivos. Dispositivos de rede legados são fechados, protegidos e executam funções fornecidas pelo fornecedor em seu software. Por exemplo, comutação de camada 2, roteamento de camada 3 e protocolos de roteamento em execução, como RIP e OSPF.
+
+Muitos de nós podem dizer que é assim que as redes que operam a Internet são projetadas e construídas e, como tal, este é um método comprovado para a execução de uma rede. Em termos de custo, você pode estar interessado em descobrir que um switch de 10G de 48 portas que é vendido no mercado por milhares de dólares realmente pode custar apenas menos de US $ 1000 para construir. Além disso, as atuais tecnologias disponíveis permitem que os fornecedores criem switches com portas 32 x 400G, com uma capacidade de comutação de 12,2 Tbps em uma única 1U.
+
+Na rede legada, temos dispositivos de rede autônomos, que estão executando protocolos de roteamento e usam esses protocolos para se comunicar uns com os outros. Eles usam o protocolo de roteamento link-state para construir uma visão de topologia da rede, e cada roteador ou switch faz o mesmo por conta própria. Não há uma visão única da rede; a visão é da perspectiva de cada dispositivo. Os protocolos de roteamento, como o BGP ou o OSPF, tomam decisões com base em uma visão em perspectiva desse determinado switch ou roteador. Mudar esse comportamento não é fácil, mas é possível através de roteamento baseado em políticas, o que, em geral, torna a rede mais complexa.
+
+Como a computação na nuvem afeta a rede?
+
+A mudança para a nuvem e a construção de nuvens privadas foi o principal fator de mudança para o setor de redes. Um ambiente de nuvem virtualiza os seguintes recursos:
+
+Computação
+Armazenamento
+Rede.
+Para obter a rede virtualizada, a comunidade começou a construir redes virtuais para executar principalmente as redes legadas existentes como uma sobreposição. É assim que o OpenStack Neutron ou o VMWare NSX ignoram a complexidade da rede de hardware. Tecnicamente, eles criaram uma rede de software elástica e flexível no topo da rede de hardware para superar as deficiências da rede de hardware. Por exemplo, em um ambiente de nuvem, cinco máquinas virtuais podem fazer parte de uma rede comum de VLAN e Camada 2, mas podem estar fisicamente localizadas em diferentes locais e em diferentes redes da Camada 3.
+
+De uma perspectiva de rede legada e tradicional, isso não é possível porque temos protocolos e padrões e RFCs que ditam que uma comunicação da Camada 2 entre dois dispositivos não pode se espalhar por uma rede da Camada 3. Portanto, a solução possível é usar encapsulações, criar um túnel VPN ou marcar os quadros com uma tag diferente da qual a rede saiba rotear o tráfego (ou seja, MPLS).
+
+Esse foi apenas o ponto de partida, mas a nuvem queria mais. Por exemplo, a nuvem queria criar um datacenter virtual com firewalls e balanceadores de carga. A rede tradicional não podia virtualizar os firewalls e os balanceadores de carga, pois todos eram aparelhos físicos. Eles poderiam lidar com o requisito implementando diferentes VLANs e algum tipo de particionamento, mas essa solução não era escalonável e não podia atender a uma alta frequência de alterações que a nuvem estava exigindo. Logo, as empresas perceberam que o NFV (Network Function Virtualization, ou Virtualização de Função de Rede) era a solução que virtualizava os firewalls e os balanceadores de carga.
+
+A nuvem levou a indústria de redes à virtualização e a um caminho para o controle central. Logo, começamos a ver o novo software de rede virtual vindo de fornecedores proprietários e fornecedores de código aberto. Por outro lado, grandes provedores de nuvem precisavam construir centros de dados massivos com milhares de servidores e comutadores de rede. O caso de negócios para comprar e usar dispositivos caros de rede de alto desempenho não funcionou para eles. Essas empresas de nuvem e Web 2.0 começaram a inovar e construir suas próprias engrenagens de rede. Por exemplo, o Facebook iniciou o Open Compute Project e doou seu design de hardware e software para o setor.
+
+Resumindo, a nuvem é o principal impulsionador da revolução da rede. Ele empurrou a rede para novos limites, tornou-se rápida, barata e controlável.
+
+Desagregação
+
+Como aprendemos anteriormente, um dispositivo de rede consiste em vários componentes que são fortemente integrados uns aos outros. Processadores de pacotes, CPU, RAM e flash fazem parte do mesmo dispositivo. Você deve se lembrar que há muito tempo, quando compramos um computador de uma marca como a IBM, ele veio com um hardware IBM e um sistema operacional IBM, como IBM DOS ou OS2, etc. Assim que a Microsoft começou a vender sistemas operacionais separadamente, mercado foi interrompido e alterado.
+
+Nossa atual indústria de rede é muito semelhante àqueles de antigamente, pois ainda estamos lidando com uma combinação de um sistema bloqueado de hardware e software. No mundo do servidor e computação, podemos comprar um servidor com CPU, memória e discos Intel ou AMD. Somos flexíveis para escolher o sistema operacional que queremos executar nesse servidor. Podemos escolher diferentes sabores do Linux ou até mesmo do Microsoft Windows, com base em nossos requisitos de aplicativo. Você pode se perguntar como podemos instalar um sistema Windows ou Linux no mesmo hardware ou como um sistema operacional Linux pode rodar e fornecer a mesma funcionalidade em um processador Intel Xeon e em CPUs diferentes, como o ARM.
+
+A resposta está na camada de abstração de hardware padrão que existe nesses servidores: o BIOS (Basic Input Output System). O BIOS é a peça chave que permite a comunicação básica entre o sistema operacional e o hardware subjacente. O BIOS ajuda o servidor ou computador a inicializar e executar um kernel do sistema operacional. Depois que o kernel é inicializado e executado, ele começa a se comunicar com o hardware por meio de métodos diferentes.
+
+Junto com a evolução do SDN e da rede aberta, começamos a ver switches bare metal com hardware de código aberto. Esses switches foram equipados com um sistema padrão do BIOS chamado ONIE (Open Network Install Environment). O ONIE é semelhante ao BIOS em computadores e permite que um sistema operacional seja instalado em um comutador ou roteador e assuma o controle do processamento do pacote de computadores. Desagregando o hardware e o software em dispositivos de rede, podemos instalar qualquer sistema operacional de rede em computadores bare-metal suportados: NOS (Network Operating Systems), como Pica8, Cumulus ou ONL (Open Network Linux) ou OpenSwitch. Isso não apenas nos permitiu desagregar o hardware do software em switches e roteadores de rede, mas também ajudou o setor a criar um software centralizado que pudesse controlar as redes. Os controladores SDN são um exemplo de tal software que gerencia as tabelas de encaminhamento de dispositivos de rede em uma rede.
+
+A desagregação é um conceito-chave para redes abertas. Ele permite que o setor crie produtos de software padrão para conduzir a rede.
+
+Caminhando para as Redes Modernas com a SDN
+
+As redes modernas trazem novos recursos valiosos, como o encaminhamento flexível de pacotes, gerenciamento centralizado, agnóstico de fornecedores, análise, desagregação e integração com plataformas de nuvem e orquestração.
+
+A definição atual e a maneira como a SDN (Software Defined Networking – Redes Definidas por Software) está posicionada na indústria de redes e no mercado é mais ou menos um modelo de “rip-and-replace” ou “de fábrica”. No entanto, isso não está correto, pois existem maneiras diferentes de construir uma rede SDN, como:
+
+“Rip-and-Replace” ou “ De fábrica” – Nesse método, as engrenagens de rede precisam ser substituídas por dispositivos habilitados para SDN puros. Um cluster de controlador SDN gerenciará os dispositivos de rede e se integrará a outras plataformas, como a virtualização. Exemplos: Cisco ACI, BigCloud Fabric da BigSwitch Networks. Em uma rede SDN tão pura, que é controlada por um controlador SDN, as tabelas de encaminhamento dos dispositivos de rede são gerenciadas pelo controlador SDN por meio de um protocolo como o OpenFlow. Os dispositivos de rede não executam nenhum protocolo de roteamento ou tomam qualquer decisão para encaminhar um pacote ou quadro. Em vez disso, todas as tabelas de hardware do switch são controladas pelo controlador SDN.
+Overlay – Esse método funciona com os controladores SDN que criam uma rede de sobreposição SDN sobre uma rede legada existente. A rede subjacente não tem conhecimento da rede de sobreposição. Exemplos: VMware NSX, OpenStack Neutron, Tungsten Fabric, etc. Os controladores SDN de sobreposição são integrados a plataformas de virtualização como VMware, Xen ou OpenStack para criar uma rede de sobreposição virtual para cargas de trabalho virtuais para comunicação entre si e com o mundo externo. As redes de sobreposição usam protocolos de encapsulamento, como o VXLAN, para construir redes virtuais.
+Híbrido – Este modelo funciona com equipamentos de rede que suportam o OpenFlow como um protocolo adicional dentro de sua pilha de software. Por exemplo, um switch pode executar o BGP e o OpenFlow juntos, permitindo que um controlador SDN substitua as tabelas de encaminhamento de pacotes do dispositivo de rede. Exemplos: Switches ativados pelo OpenFlow da Brocade, HP. O SDN híbrido reúne o valor de ambos os mundos (rede legada e SDN), pois funciona com protocolos como OpenFlow e BGP-PCEP.
+O impacto da SDN e da rede moderna para provedores de serviços é mais significativo, já que ela pode ajudar um provedor de serviços a implementar uma política de engenharia de tráfego flexível na rede principal do backbone. Isso permite que a rede principal encaminhe o tráfego da maneira que o provedor de serviços deseja, em vez da maneira que o protocolo de roteamento determina.
+
+Para facilitar a compreensão, dividiremos os projetos e produtos de rede abertos em diferentes grupos ou camadas. Usaremos um agrupamento de hierarquias, que começa do hardware aberto na parte inferior, até os aplicativos na camada superior e várias outras camadas intermediárias. Essa abordagem hierárquica nos ajudará a entender a interação de cada camada com os outros. Isso também nos ajudará a construir um caminho de aprendizado estruturado para redes abertas.
+
+
+Introdução à virtualização das funções de rede
+
+Neste parte, exploraremos a Network Function Virtualization (NFV), que complementa as iniciativas de SDN e nuvem. A NFV começou há alguns anos, depois que a virtualização se tornou um grande sucesso, e a rede começou a procurar a virtualização para criar roteadores flexíveis, balanceadores de carga e firewalls. Nos termos atuais do setor, o NFV é definido como virtualização de firewalls, IPS / IDS e balanceadores de carga. Essas funções foram servidas em aparelhos grandes e dedicados por muitos anos. Ninguém sabia que, um dia, todo o firewall com esse chassi grande seria virtualizado e executado como uma máquina virtual. Além de roteadores, firewalls e balanceadores de carga, existem outras funções de rede que já foram virtualizadas, como cache de conteúdo (por exemplo, proxy Squid), DNS, DHCP, IP-PBX, UC e AAA (Autenticação de Autorização). Essas funções de rede costumavam rodar em servidores dedicados. No entanto, eles foram virtualizados pelos administradores do sistema muito antes de o setor de rede perceber o valor da virtualização e de como usar o NFV.
+
+Alguns casos importantes de uso do NFV são:
+
+Provedores de serviço
+
+- No núcleo, virtualizando roteadores
+
+- Na borda, virtualizando CPE (Customer Premises Equipment)
+
+Empreendimentos
+
+- Descentralizar funções de rede, como firewall e balanceador de carga
+
+- Construindo microssegmentos e microsserviços
+
+Provedores de Nuvem e Datacenter
+
+- Construindo uma infraestrutura virtualizada para os inquilinos
+
+- Descentralizar funções de rede, como firewall e balanceador de carga.
+
+A coisa mais importante no NFV é ter arquivos de imagem de máquina virtual (dispositivos virtuais) das funções de rede para carregar em um ambiente de virtualização e criar uma função de rede. Em termos simples, você precisará ter um arquivo ISO ou OVF (Open Virtualization File) de um roteador ou firewall para gerar seu novo roteador virtual ou firewall.
+
+Vários produtos de código aberto e comerciais existem no mercado, e vamos revisar alguns deles neste capítulo. Abaixo você pode ver algumas funções de rede que podem ser fornecidas como NFV:
+
+
+Atividades Extra
+
+Artigo - Network Function Virtualization: Perspectivas, Realidades e Desafios @ http://www.dca.fee.unicamp.br/~chesteve/pubs/MC-SBRC14-NFV.pdf
+
+Artigo – Tudo sobre Orquestração e Cloud Computing @ https://www.adtsys.com.br/tudo-sobre-orquestracao-e-cloud-computing/
+
+Artigo  - Conheça a tecnologia SD-WAN @ 
+
+https://www.voipconsult.com.br/fortigate-sd-wan-fortinet/
+
+Estudo – APIs (Interface de Programação de Aplicações) @ https://en.wikipedia.org/wiki/Application_programming_interface e https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es
+
+Referência Bibliográfica
+
+Livros:
+
+Redes de Computadores – Uma Abordagem de Sistemas. Peterson, Larry e Davie, Bruce. Editora Elsevior. Tradução da 3ª Edição.
+
+Cisco CCNA – Guia de Certificação do Exame #640-607. Odom, Wendell. Cisco Press. Alta Books.
+
+Redes e Sistemas de Comunicação de Dados. Stallings, William. Editora Campus. Tradução da 5ª Edição
+
+Web-learning:
+
+Disciplina: Redes de Computadores (Univesp - Universidade Virtual do Estado de São Paulo) @ https://www.youtube.com/watch?v=v8vxTtT2S_0&list=PLxI8Can9yAHc-_dZ6nsfoon08i2-4OvEk
+
+IT Support: Networking Essentials @ https://courses.edx.org/courses/course-v1:Microsoft+CLD260x+1T2019/course/ 
+
+IoT Networks and Protocols @ https://courses.edx.org/courses/course-v1:CurtinX+IOT3x+3T2018/course/
+
+Introduction to Open Source Networking Technologies @ https://www.edx.org/course/introduction-to-software-defined-networking-technologies 
+
+NFV Acceleration: An Introduction to OPNFV @ https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS164x+1T2018/course/ 
+
+
+1. Quando observamos a novas arquiteturas de redes SDN, quais as principais camadas que suportam o entendimento da SDN?
+R: Infraestrutura, Controle e Aplicação.
+Exp:
+
+2. O(s) principal(is) aspecto(s) e vantagen(s) da Open Source Networking é?
+R: Desagregação do Hardware e do Softwar
+Exp:
+
+3. Em arquiteturas de Redes SDN e que utilizam NFV, existe uma tecnologia muito importante de comunicação no Controle e Alocação dos Recursos e na Orquestração das Funções. Qual é essa tecnologia?
+R: API (Interface de Programação de Aplicações).
+Exp:
