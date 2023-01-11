@@ -1,0 +1,23 @@
+NGFW - Next Generation Firewall
+Esta live foi elaborada para que você possa conhecer o conceito de NGFW, o firewall de próxima geração.
+
+ 
+
+Quando o conceito surgiu, tive muita dificuldade em entender que o método habitual estava defasado e assimilar que uma única ferramenta agruparia várias outras aplicações era como pensar em utopia, algo impensável e improvável..
+
+ 
+
+Pois bem, os firewalls de próxima geração, ou pelo nome original Next Generation Firewall, evoluíram a ponto de não só analisar os pacotes que trafegam através do firewall, os NGFW analisam aplicações, conteúdo, periculosidade do conteúdo, destino, prevê malwares, assim, quase que o super herói da infraestrutura.
+
+ 
+
+Além de fazer tudo isso ele é altamente escalável e fácil de configurar!
+
+1.Como são comercializados os NGFW, qual informação é considerada fundamental para seu dimensionamento?
+R:Volume de informação que será processada
+Exp:
+
+2. Se compararmos ao modelo OSI, os firewalls UTM e Web atuam nas camadas de enlace e rede. Em quais camadas podemos afirmar que os next Generation Firewalls atuam?
+R:Todas as camadas
+Exp:
+

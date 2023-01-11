@@ -1,0 +1,15 @@
+or anos, o Flash foi a tecnologia mais utilizada para a criação de conteúdos interativos para EAD. Mas, com a sua descontinuação, houve a necessidade de substituição por outro recurso que trouxesse os mesmos benefícios, além de acompanhar os avanços da WEB 2.0. Foi assim então que surgiu o H5P. 
+
+O H5P é uma ferramenta colaborativa, gratuita e openSource, baseada em JavaScript e HTML5 e foi idealizado com a intenção de facilitar a criação, partilha e reutilização de conteúdo HTML5 de forma mais interativa. 
+
+De acordo com o próprio site, o H5P já estava sendo utilizado em mais de 30 mil outros sites. Além disso, milhares de universidades, empresas, distritos escolares, escolas, exércitos e outras organizações também estavam fazendo uso da ferramenta. Alguns para MOOCs e outros projetos, outros de formas maiores, como uma ferramenta implementada em toda a organização. 
+
+O H5P facilita a criação e a integração de conteúdo interativo nos sites que utilizam a tecnologia do HTML5. Além disso, fornece uma variedade de conteúdo, totalizando atualmente 52 tipos distintos e que estão divididos em quatro categorias: Games, Multimídia, Questões e Mídia Social.
+
+1.O H5P é uma ferramenta colaborativa que facilita a criação e a integração de conteúdo interativo em sites e Ambientes Virtuais de Aprendizagem. Dentre as suas diversas vantagens de utilização, qual dos itens a seguir pode ser destacado?
+R:Uma comunidade de usuários em que todos podem compartilhar conhecimento, tipos de conteúdo e código
+Exp:
+
+2.O H5P representa o conceito de Microlearning (atividades curtas, com objetivos de aprendizagem específicos e rápidos). Qual dos itens a seguir não representa um dos recursos disponíveis no H5P.
+R:Moodle
+Exp:

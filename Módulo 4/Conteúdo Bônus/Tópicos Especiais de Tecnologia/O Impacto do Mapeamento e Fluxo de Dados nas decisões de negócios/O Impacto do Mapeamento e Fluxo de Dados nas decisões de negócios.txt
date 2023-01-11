@@ -1,0 +1,16 @@
+O Impacto do Mapeamento e Fluxo de Dados nas decisões de negócios
+A Gestão de Projetos ágeis vem se destacando no mundo corporativo e de forma relevante nos últimos anos. Isto em partes pela forma de se aprender o método Ágil: é fácil e prático! Isso mesmo, não demanda muito tempo o aprendizado.
+
+Sobre o projeto em si, existem várias provocações que podemos e faremos com você aqui no Descomplica, mas uma delas é que o Projeto vem para Responder a Perguntas de Negócio. Isso é muito importante, pois não podemos considerar o projeto como algo simples que, a partir do uso de técnicas de gestão, tudo sairá funcionando do outro lado.
+
+Compreender que a partir de ações como o Design Thinking e muito trabalho de entrevistas e conversas entre os envolvidos, teremos a famosa Pergunta de Negócios para que possa ser compreendido aqui o objetivo da entrega do projeto. 
+
+Esperamos todos que você goste do tema e procure adotar o Método Ágil para uma série de entregas que você pode fazer não só em Tecnologia da Informação, mas em várias outras frentes na empresa
+
+1.O negócio produz soluções para o mercado, o que é muito importante. Procurando traduzir a melhor forma possível de entregar resultados, as empresas investem em Gestão de Projetos para procurar:
+R:Compreender a pergunta de negócios e responder da melhor forma possível
+Exp:Associar o conceito de Gestão de Projetos para atender o mercado através de Perguntas de Negócios claras e diretas, faz todo sentido. As demais ações aqui colocadas não estão relacionadas exclusivamente com a Gestão de Projetos
+
+2.O cliente no centro de tudo parece ser o foco do desenvolvimento dos Métodos Ágeis. Em sua visão isso ocorre porque:
+R:O método ágil coloca o cliente no centro de tudo pois ele é participante da solução que será construída nos grupos de trabalho
+Exp:A participação do cliente é importante pois ele ajudará na formatação da solução, passo a passo com a empresa; produzindo a melhor solução para ambos. Isto se aplica em empresas que tem foco no cliente e ao mesmo tempo utilizando a técnica de gestão de projetos

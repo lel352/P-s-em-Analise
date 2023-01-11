@@ -1,0 +1,123 @@
+Computação e Inteligência Artificial
+Redes neurais artificiais (RNA)
+
+Redes neurais ou redes neurais artificiais são sistemas computacionais que tentam simular o comportamento dos neurônios do cérebro humano. Os neurônios se comunicam em redes, transmitindo informações entre eles.
+
+ 
+
+“Redes Neurais Artificiais são técnicas computacionais que apresentam um modelo matemático inspirado na estrutura neural de organismos inteligentes e que adquirem conhecimento através da experiência. Uma grande rede neural artificial pode ter centenas ou milhares de unidades de processamento; já o cérebro de um mamífero pode ter muitos bilhões de neurônios.” icmc.usp
+
+ 
+
+Um nó representa um neurônio que se comunica com outros através de diferentes camadas, formando uma rede com diversos caminhos possíveis. Cada entrada de dados pode ativar um nó que realiza um processamento e passa o sinal em diante. Essas ativações são baseadas nos dados de entrada com diferentes funções para cada caminho. As ativações dependem dos pesos de cada sinal dos nós encadeados e que aumentam cada vez que são ativados. Os caminhos com maior peso são os mais prováveis.
+
+Isso permite que um sistema como esse possa reconhecer uma imagem sua em uma rede social após milhares de experiências e reforços. O aprendizado profundo utiliza essas informações das redes neurais para decidir qual é a imagem mais provável de ser sua.
+
+ 
+
+“A maioria das redes neurais está totalmente conectada de uma camada para outra. Essas conexões são ponderadas; quanto maior o número, maior a influência que uma unidade tem sobre a outra, semelhante a um cérebro humano. Conforme os dados passam por cada unidade, a rede está aprendendo mais sobre os dados. Do outro lado da rede estão as unidades de saída, e é aí que a rede responde aos dados que foram processados.” Disponível em: https://www.oficinadanet.com.br/tecnologia/25007-o-que-sao-as-redes-neurais-artificiais
+
+ 
+
+A quantidade de neurônios depende do problema. A rede apresenta sempre uma camada de entrada e outra de saída. A quantidade de camadas internas, camadas ocultas, depende da implementação.
+
+Existem muitas possibilidades de arquitetura que diferem no propósito. Isso traz muitas possibilidades para implementações de projetos com redes neurais.
+
+ 
+
+Redes neurais em IA
+
+Os tipos de aprendizagem de máquina com redes neurais também subdividem-se em: aprendizado supervisionado, aprendizado não supervisionado e aprendizado por reforço.
+
+No aprendizado supervisionado é necessário treinar a rede neural com conjunto de dados rotulados disponíveis. Quanto mais informação é passada, melhor os pesos e melhor os resultados. O processo de treinamento vai ajustando os pesos. O ajuste dos pesos é dado pelo processo de backpropagation.
+
+ 
+
+Deep Learning
+
+Deep Learning ou aprendizado profundo é um ramo da aprendizagem de máquina (machine learning) que tem como base a utilização de redes neurais artificiais. Nessa abordagem, as máquinas tentam aprender de forma mais parecida com os humanos, utilizando  processamento de informações através de nós que representam neurônios. Esse sistema é possível hoje devido a uma complexa e forte rede de nuvens de dados que disponibiliza um número enorme de informações.
+
+No deep learning a imitação da forma de processamento do cérebro humano é utilizada para reconhecer objetos, vozes, imagens, traduzir idiomas e tomar decisões. No tratamento dos dados o aprendizado profundo das máquinas cria padrões que serão utilizados na tomada de decisão.
+
+Esses muitos dados vindos de diversas fontes demorariam muito para serem tratados um a um com o mesmo procedimento.  O aprendizado profundo utiliza redes neurais para criar níveis de validação desses dados.
+
+A deep learning  (DL) pode ser utilizada ainda para reconhecer uma fraude num cartão de crédito, por exemplo.
+
+O DL utiliza cascatas de diversas camadas de unidades de processamento não linear. Que faz a extração e transformação das características.
+
+A qualidade do conjunto de dados é fundamental para rendimentos satisfatórios.
+
+Para trabalhar com aprendizado profundo você pode começar com as seguintes ferramentas: Keras, Tensor Flow, Theano e CMTK.
+
+Deep learning aplicações
+
+- reconhecimento facial
+
+- reconhecimento de sentimentos
+
+- detecção de doenças
+
+- visão computacional: reconhecimento de objetos
+
+- reconhecimento de de falas
+
+- reconhecimento de manuscrito
+
+ 
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+ 
+
+Nessa atividade indico um vídeo que discute a perseguição étnica realizada contra uma minoria na China. Observe que não se trata de criar alguma imagem ruim dos chineses. Pesquise e encontrará problemas semelhantes na Alemanha e em outros países. O importante é perceber o amplo papel social do programador em aprendizagem de máquinas.
+
+Huawei testou sistema de reconhecimento facial contra minoria étnica Uigur (TV Cultura)
+
+https://www.youtube.com/watch?v=AlH88Cq-irc
+
+ 
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+ICMC-USP. Redes neurais artificiais. Disponível em: https://sites.icmc.usp.br/andre/research/neural/ acessado em 22/05/2021.
+
+1.Quantos aos ramos da inteligência artificial, podemos dizer que:
+R:o deep learning é um ramo do machine learning
+Exp:Letra a. A machine learning é um ramo da inteligência artificial e a deep learning é um ramo da machine learning
+
+2.(VUNESP - 2019 - UNICAMP - Jornalista) Segundo Leandro Pereira Morais (www.ipea.gov.br), “o momento atual é marcado pelo avanço expansivo, permanente e irreversível da CT&I, caracterizando o que especialistas no tema chamam, por exemplo, de “indústria 4.0”. Os principais pilares dessa “indústria” são:
+R:Internet das coisas, Big Data Analytics e Segurança
+Exp:Letra e. Deep learning está muito ligado a questões relacionadas à indústria 4.0. É importante entender bem essa relação. Podemos resumir os seguintes pontos para a Indústria 4.0: Big Data. Internet das Coisas, Cibersegurança, Realidade aumentada, Robôs autônomos, Simulações, Integração de sistemas, Manufatura aditiva e Computação em nuvem. Todos esses campos geram conjuntos de dados que devem ser trabalhados com redes neurais e deep learning
+
+3.Assinale a alternativa abaixo que afirma corretamente a associação de células do corpo animal com a inspiração que criou a base do deep learning:
+R:os neurônios, devido à semelhança da propagação de informações pela sinapse e a passagem de informação pelos nós 
+das redes neurais
+Exp:Letra e. A inspiração foi na forma com que os neurônios transmitem suas informações pela sinapse com outros neurônios
+
+4.Sobre as possíveis arquiteturas das redes neurais, é incorreto afirmar que:
+R:existem um total de 5 tipos de arquiteturas viáveis para projetos com redes neurais
+Exp:Letra d. Não existem limites para o tipo de estrutura. Tudo vai depender do projeto e de suas necessidades
+
+5.As alternativas abaixo estão entre as possíveis diretas aplicações de deep learning, exceto:
+R:reconhecimento facial
+Exp:Letra d. O que utilizamos para reconhecimento de transações financeiras são criptografadas como as funções hashes. O DL é utilizado somente para confirmar padrões de compra e permitir ou não a compra baseado nos padrões não na confirmação de valores e bens
+
+6.(FCC - 2016 - CREMESP - Analista de Comunicação) Segundo informa a central de ajuda do Facebook:
+
+As histórias que aparecem no Feed de Notícias são influenciadas por suas conexões e atividades no Facebook. Isso ajuda você a ver mais histórias que sejam do seu interesse, compartilhadas pelos amigos com quem você mais interage. O número de comentários e curtidas recebidos por uma publicação e o seu tipo (foto, vídeo, atualização de status) também podem torná-la mais propensa a aparecer no seu Feed de Notícias. Caso você ache que não está vendo histórias que gostaria de ver ou que está vendo aquelas que não gostaria de ver no seu Feed de notícias, é possível ajustar suas configurações
+
+Ao publicar uma notícia na página de uma instituição nesta rede social, quem postou:
+R:está limitado a critérios definidos previamente num algoritmo
+Exp:Letra d. O algoritmo do google não pode ser alterado pelos usuários. Não é um algoritmo aberto para edição ou visualização. Pelo contrário, é guardado com grande sigilo empresarial. No entanto, como trata-se de inteligência artificial com aprendizado de máquina que utiliza redes neurais, você pode alterar alguns pesos nas funções de buscas de feed. Pode zerar alguns pesos das variáveis

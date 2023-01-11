@@ -1,0 +1,165 @@
+Governança corporativa em TI
+Introdução à governança de TI (GTI)
+
+“Sistema de informação é um conjunto formado por pessoas, software, hardware, procedimentos e dados. O sistema de informação é responsável por difundir as informações através da organização” (O’ Brien, 2000)
+
+Contextualização de sistema de informações
+
+Essa é uma extensa e complexa expressão. Nos preocuparemos aqui em dar significado  a relação entre coleta de dados e inteligência.
+
+Figura 1. Disponível em: https://www.exponencialconcursos.com.br/tce-rs-comentarios-a-prova-de-analise-de-informacoes-sem-recursos
+Figura 1. Disponível em: https://www.exponencialconcursos.com.br/tce-rs-comentarios-a-prova-de-analise-de-informacoes-sem-recursos
+
+Figura 2. Disponível em: http://mobimais.com.br/blog/dados-informacao-conhecimento-ideia-e-sabedoria/
+Figura 2. Disponível em: http://mobimais.com.br/blog/dados-informacao-conhecimento-ideia-e-sabedoria/
+
+Para chegar à sabedoria ou inteligência e tomar as melhores decisões é necessário um longo percurso que começa com coleta de dados com qualidade e confiáveis, passando por boa análise que envolva muitas experiências e estimativa de possibilidades. Um bom gerenciamento de sistema de informações busca o correto e seguro armazenamento e disponibilização de dados e informações e acessibilidades a esses coerentes com os níveis gestão. O sistema é constituído por pessoas, hardwares, softwares, banco de dados, redes e procedimentos interligados.
+
+Cada sistema de informação ao ser elaborado e implantado em uma empresa necessita estar alinhado às políticas, regras e possíveis códigos de conduta da empresa. Da mesma forma que as pessoas que o sistema de informação gerará condutas e regras específicas que farão parte da governança corporativa.
+
+A governança de TI (GTI) é parte integrante da governança corporativa com ênfase em TI, ocupando um papel de destaque na integração e na gestão estratégica da empresa. Dessa forma, a GTI vai além do gerenciamento do sistema de informação porque não é utilizada  para alcançar uma meta específica da empresa, como aumento de vendas, cortes de custos, etc. A GTI é a gestão integrada que busca boas práticas de governança para o sistema de TI integrado à gestão.
+
+Vejamos a descrição do portal Venki:
+
+“A Governança de TI refere-se, na prática, à associação estruturada de um conjunto de diretrizes, responsabilidades, competências e habilidades, compartilhadas e assumidas dentro das empresas por executivos, gestores, técnicos e usuários de TI, objetivando controlar efetivamente os processos, garantir a segurança das informações, otimizar a aplicação de recursos e dar suporte para a tomada de decisões, tudo isso de forma alinhada com a visão, missão e metas estratégicas das organizações.”
+
+A governança em TI não é um comitê ou um departamento responsável pela gestão de TI.  Não é simplesmente uma gestão da eficiência das tecnologias da informação ou dos riscos das mesmas. Trata-se de um processo que entrega resultados de negócios. A governança de TI representa um conjunto de regras, regulamentos e políticas que assegurem a eficácia, segurança, controle e valor dos procedimentos do setor de TI e métodos para avaliar o desempenho do setor em estratégias de crescimento da empresa.
+
+Sistema de informação integrado
+
+Figura 3: Tipos de sistemas de informações. Disponível em: https://image.slidesharecdn.com/tecnologiagerendainformao-t03-tiposdesistemasdeinformaonasorganizaes-171218002226/95/tipos-de-sistemas-de-informao-nas-organizaes-2-638.jpg?cb=1513562014
+Figura 3: Tipos de sistemas de informações. Disponível em: https://image.slidesharecdn.com/tecnologiagerendainformao-t03-tiposdesistemasdeinformaonasorganizaes-171218002226/95/tipos-de-sistemas-de-informao-nas-organizaes-2-638.jpg?cb=1513562014
+
+Sistemas de informação integrado
+
+Um sistema corporativo integrado é também chamado de ERP. Vem do inglês Enterprise resource planning. As empresas podem comprar todo sistema ou adquirir módulos do ERP.
+
+ 
+
+Campos de governança e Frameworks de boas práticas em GTI
+
+Campos de governança
+
+Adquirir um bom sistema integrado e cuidar para sua correta implementação na empresa é importante. Contudo, os gestores não podem acreditar que bastam essas ações para receber desse sistema informações estratégicas para a corporação. Para esse papel a empresa deve implementar um mecanismo alinhado à governança corporativa, uma governança de TI. Resumidamente, podemos dizer que a governança em TI ocupa-se da valorização da marca da empresa utilizando TI.
+
+ 
+
+A governança de TI busca responder às seguintes questões:
+
+O que podemos alcançar através do uso de TI e o quanto os recursos de TI disponíveis podem ser alavancados para o benefício da organização em alinhamento com a governança corporativa?
+
+Existem cinco principais campos de foco da governança de TI corporativa: Alinhamento Estratégico, Entrega de Valor, Gerenciamento de Riscos, Gerenciamento de Recursos e Mensuração de Desempenho.
+
+Frameworks para boas práticas
+
+São estratégias e orientações elaboradas por especialistas na gestão industrial e utilizadas por milhares de corporações. As empresas utilizam frameworks de governança de TI para colaborar na manutenção de um sistema de informação eficiente e efetivo.
+
+ 
+
+- ITIL: gestão de serviços de TI
+
+Information Technology Infrastructure Library é um conjunto de práticas elaborado na década de 1980 pelo governo britânico para alinhar e padronizar os serviços de TI com as necessidades de uma empresa.
+
+- BSC: planejamento e desempenho
+
+A metodologia Balanced Scorecard  (Indicadores Balanceados de Desempenho) foi desenvolvida pelos professores de Harvard, Robert Kaplan e David Norton, em 1992, com o objetivo de melhorar os procedimentos de medição de desempenho.
+
+ 
+
+CICLO PDCA e COBIT5
+
+O CICLO PDCA tem como objetivo auxiliar a execução da estratégia. Com base para a melhoria contínua, o ciclo PDCA tem influência da obra “Discurso do método”, de Descartes.
+
+O ciclo PDCA foi elaborado em 1920 por Walter Shewhart  para desenvolver um controle de qualidade corporativo. De lá pra cá sofreu diversos aprimoramentos e hoje serve também como framework para GTI.
+
+“... é um método iterativo. Você deve estar se perguntando: o que é isso? É simples. É um tipo de processo que, a cada repetição, chega-se a um resultado diferente. Esses resultados, por sua vez, serão utilizados nas vezes seguintes de forma cumulativa.”  https://www.siteware.com.br/blog/metodologias/ciclo-pdca/
+
+ 
+
+COBIT5
+
+Control Objectives for Information and Related Technology
+
+Framework para boas práticas em governança e gestão de TI.
+
+“Diferentemente da ITIL, por exemplo, que tem foco mais tático e operacional e é direcionada aos 
+serviços de TI, o COBIT se concentra no nível estratégico e tem como principal objetivo alinhar as
+ estratégias de gestão e governança corporativa do empreendimento às do setor responsável pela administração dos 
+recursos tecnológicos da empresa. Para que isso seja possível, são usadas algumas medidas, como a auditoria de 
+processos, a melhoria das rotinas internas e o controle sobre a infraestrutura interna.”  https://www.kalendae.com.br/blog/cobit/
+
+ 
+
+O framework do COBIT 5 faz uma clara distinção entre Governança e Gerenciamento.
+
+Alinhamento com outras frameworks de sucesso no mercado, como ITIL, BSC entre outras.
+
+Figura 4: 7 categorias de habilitadores. Disponível em: https://www.dfconectado.com.br/cobit-5-quais-sao-as-7-categorias-de-habilitadores
+Figura 4: 7 categorias de habilitadores. Disponível em: https://www.dfconectado.com.br/cobit-5-quais-sao-as-7-categorias-de-habilitadores
+
+ 
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+Arquitetura de computadores discute a projeção e construção de máquinas computacionais. É importante compreender a evolução dos computadores e de  sua arquitetura para o entendimento dos avanços dos sistemas integrados e para compreensão de conceitos de inteligência artificial e internet das coisas que faremos mais à frente. Deixo abaixo dois links para uma revisão desses conceitos.
+
+Um vídeo de uma aula online da Univesp
+
+Sistemas de Informação - Aula 7 - Arquiteturas computacionais usadas por sistemas de informação? https://www.youtube.com/watch?v=AD6bhSdOU6c
+
+Arquitetura de Computadores (O que é, por que estudar) – Canalti
+
+https://www.canalti.com.br/arquitetura-de-computadores/arquitetura-de-computadores-o-que-e-por-que-estudar/
+
+ 
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+OLIVEIRA, W. O que é Governança de TI e qual a sua importância para a tomada de decisões nas empresas. Venki, 2015. Disponível em: https://www.venki.com.br/blog/governanca-de-ti/. Acesso em 9/05/2021.
+
+FANTINATO, M. Curso de Engenharia Univesp - Universidade Virtual do Estado de São Paulo. Disciplina: Sistemas de Informação (ISI-001). Disponível em:  https://www.youtube.com/playlist?list=PLxI8Can9yAHczVm37Sw-UssyYdd0FMyR0. Acesso em 9/05/2021.
+
+
+1.(CESPE - 2019 - SEFAZ-RS - Auditor Fiscal da Receita Estadual - Bloco I) O diretor de TI de determinado órgão implantou, de acordo com a ITIL v3, os processos voltados para gerenciar mudanças, gerenciar problemas e gerenciar a continuidade de serviço. Nessa situação, a implantação do COBIT 5 para as mesmas finalidades mencionadas seria:
+R:apropriada, pois esses processos também se encontram no COBIT
+Exp:Letra e. O Cobit foca no nível estratégico, mas abrange os processos de gerenciamento, tentando deixar bem claro a separação entre gestão e gerenciamento
+
+2.(CESPE - 2018 - SEFAZ-RS - Auditor Fiscal da Receita Estadual - Bloco I) O diretor de TI de uma empresa pública de pequeno porte deseja melhorar a governança e a gestão de TI dessa empresa. Nesse caso, a aplicação do COBIT 5:
+R:é admissível, pois esse guia pode ser utilizado em empresas de qualquer natureza e porte
+Exp:Letra d. O COBIT pode auxiliar como framework de boas práticas de governança em TI para empresas de qualquer porte e qualquer natureza
+
+3.(CESPE - 2019 - TCE RO - Analista de Tecnologia da Informação - Desenvolvimento de Sistemas) O COBIT possui um amplo conjunto de conceitos e elementos utilizados na boa governança de tecnologia da informação. Entre eles, destacam-se os princípios, os processos, as estruturas, a cultura, a informação, os serviços e as pessoas. Estes compõem o conceito de:
+R:habilitadores corporativos do COBIT
+Exp:Letra d. Essas são as categorias de habilitadores, como pode ser visto na figura no fim desse resumo
+
+4.(IADES - 2010 - CFA - Analista de Sistemas-adaptada) A partir do momento em que a atuação da TI começou a se envolver com o gerenciamento de valor para o negócio, implementando a Governança de TI, ela começa a se transformar em um parceiro de negócio, possibilitando não só o atendimento das demandas existentes, mas principalmente na criação de novas oportunidades de negócio. Neste estágio, busca-se a total integração entre os processos de TI e os processos do ciclo de vida do negócio, visando melhorar a qualidade dos produtos ou serviços prestados e do negócio. Em relação aos desafios enfrentados atualmente pelos gestores de TI, assinale a alternativa incorreta:
+R:Necessidade de padronização dos serviços de TI independente das necessidades futuras do negócio
+Exp:Letra a. A padronização dos serviços deve ser coerente com o plano estratégico da corporação e, por conseguinte, deve projetar o alinhamento com as necessidades futuras
+
+5.A maioria dos ciclos de vida de processos de negócios pode ser mapeada como um ciclo básico PDCA (Plan, Do, Check, Act) de Deming. Nesse ciclo básico:
+R:Planejar (Plan) é assegurar alinhamento do contexto de processos de negócio e do desenho de processos com os objetivos estratégicos da organização
+Exp:Letra a. Na fase planejar é o momento de escolher um processo a ser melhorado. Padrões são estabelecidos para realizar o alinhamento desse processo com a governança corporativa
+
+Prof. Lorena Almeida
+
+6.(COREN Administrador 2018-FUNPAR NC/UFPR ) Os Sistemas de Informações Gerenciais (SIG) apoiam os gerentes no monitoramento e no controle organizacional, fornecendo informações estruturadas sobre o seu desempenho. Já os Sistemas de Apoio à Decisão (SAD) apoiam os gerentes por meio de modelos analíticos aplicados a grandes quantidades de dados necessários para decisões estruturadas ou semiestruturadas (Laudon e Laudon, 2010). Tendo em vista as características dos sistemas de informação e de apoio à decisão necessários em uma organização, considere as seguintes afirmativas:
+
+Um gerente sênior deve utilizar um SAD para determinar metas de longo prazo
+Um gerente de nível médio deve utilizar um SAD para um orçamento departamental
+Um gerente operacional deve utilizar um SIG para aprovar um orçamento de capital
+Um gerente sênior deve usar um SAD e um SIG para determinar a elegibilidade de horas extras de um funcionário
+Assinale a alternativa correta:
+R:Somente as afirmativas 1 e 2 são verdadeiras
+Exp:Letra b. Um gerente operacional não toma decisões estratégicas e um gerente sênior não ocupa-se com gestão de um SIG

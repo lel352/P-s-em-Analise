@@ -1,0 +1,175 @@
+IOT na Indústria
+Internet das coisas (IOT)
+
+Interconexão de objetos físicos ou virtuais que, contendo tecnologia necessária,  comunicam-se em rede sem necessitar de humanos na intermediação. Mas, operando para realização de serviços para os seres humanos.
+
+Esses objetos podem estar em qualquer lugar ou setor, como na sua cozinha, no campo, num satélite, no seu carro, no marcapasso em seu coração, na indústria, no comércio, etc. Existem diversos campos de IoT desenvolvendo-se fortemente, como automação residencial, assistência média IoT, manufatura e logística, cidade smart, agricultura 4.0, IoT industrial, etc.
+
+Destacamos abaixo alguns elementos fundamentais para o funcionamento de um sistema IoT não trivial.
+
+- máquinas e objetos diversos:
+
+São objetos virtuais ou físicos colocados no sistema com a pretensão de realizar ações como: coletar dados, mover coisas, comunicar-se com outros objetos pela rede, receber dados, receber e enviar dados para a plataforma, para a nuvem ou para um banco de dados, entre outras operações.
+
+ - sensores e atuadores
+
+Os sensores transformam em sinais elétricos as medições do meio físico, temperatura, pressão, presença, posição, umidade, GPS, infravermelho, etc.
+
+Já os atuadores realizam o papel contrário: através de comandos elétricos realizam as ações no meio físico, como movimentação. Os controladores 
+recebem os sinais dos sensores para enviar os comandos para os atuadores. Esse fluxo de informação  deve ser preciso e contínuo para a continuidade do
+ fluxo industrial. Existe uma lógica de processamento que é alimentada pelos controladores.
+
+Figura 1. Disponível em: https://docplayer.com.br/docs-images/18/815513/images/6-0.jpg
+Figura 1. Disponível em: https://docplayer.com.br/docs-images/18/815513/images/6-0.jpg
+
+- Sistema de comunicação
+
+A rede de comunicação entre os aparelhos do sistema IoT possibilita a comunicação entre os diversos integrantes dos sistemas, aparelhos, plataforma, nuvem, banco de dados. Existem diferentes opções de comunicação, como fios, wifi, bluetooth com diferentes protocolos. Dentro dessa escolha deve-se levar em consideração para cada sistema a segurança, alcance, capacidade de envio de dados, a banda de operação, consumo, amplitude, etc.
+
+Entre as possibilidades de formas de comunicação entre os objetos da rede, destacamos três modelos: máquina-máquina (MM), máquina-nuvem (MN) e Máquina-Gateway (MG).
+
+ 
+
+- Software de processamento de dados.
+
+O processamento deve ser realizado pelo sistema ao serem coletadas informações de diferentes aparelhos. Esse processamento pode ocorrer na nuvem ou na plataforma, para operações serem encaminhadas com a análise dos dados coletados.
+
+Figura 2: Ecossistema IoT. Disponível em: https://abinc.org.br/cadeia-de-valor-de-iot/
+Figura 2: Ecossistema IoT. Disponível em: https://abinc.org.br/cadeia-de-valor-de-iot/
+
+Segurança IoT
+
+A segurança segue sendo uma das maiores preocupações das aplicações IoT devido a diversos ataques possíveis. O Ransomware é uma espécie de malware que cresceu com a expansão dos Sistemas integrados em rede. Trata-se de um sequestro de dados. Os dados são criptografados e os proprietários são proibidos de acessá-los até que se pague um resgate por eles. Muitas vezes esse resgate é pago em bitcoins. Os sequestradores podem ainda ameaçar divulgar os dados sigilosos da empresa caso não recebam o resgate exigido.
+
+ 
+
+Plataforma IoT
+
+A plataforma IoT é onde ocorre a gestão do sistema, com acesso aos softwares, configurações, acesso aos dados, análise dos dados e dos softwares de processamento e comunicação com a nuvem ou banco de dados.
+
+Além disso, muitas outras tecnologias podem ser integradas, como machine learning, deep learning, big data, etc.
+
+ 
+
+Plataforma de ativação de aplicativo
+
+Também conhecida como AEP, do inglês Application Enablement Platform. Essa plataforma é utilizada por empresas para gerenciar a comunicação com aplicativos que fornecem serviços. Empresas gigantes da tecnologia, como Amazon, Google, Microsoft ou IBM desenvolveram poderosas plataformas IoT integrando seus serviços e produtos.
+
+Muitas plataformas IoT estão bem desenvolvidas e utilizadas por diferentes empresas na indústria, como SAP, CISCO ou Siemens. O crescimento de algumas plataformas foi tão grande que muitas empresas colocaram suas plataformas na rede para oferecer o serviço para outras empresas. Existem muitas plataformas disponíveis para gerenciar seu sistema IoT.
+
+ 
+
+Industrial IoT
+
+Conecta máquinas, nuvem, estudos analíticos e pessoas para melhorar o desempenho industrial. a IoT na indústria vai muito além da ideia de economizar e diminuir custos em processos de manufatura ou operacionais. Ela oferece um mundo de possibilidades e transformações na gestão da empresa e da relação com seus consumidores.
+
+ 
+
+Redes de comunicação industrial
+
+São redes de controle com protocolos do sistema de informação e análises para tomadas de decisão que faz o fluxo de informações circular entre as máquinas. Com o aumento da automação industrial, implementar uma rede de comunicação industrial confiável amplia a eficiência dos processos industriais.
+
+ 
+
+CLPs e sistemas integrados
+
+“Controlador Lógico Programável (sigla CLP, do inglês: Programmable Logic Controller - PLC) é um computador especializado que desempenha funções de controle e, monitoramento de máquinas e de processos industriais de diversos tipos e níveis de complexidade, através de softwares específicos desenvolvidos pelo usuário (cada controlador possui o próprio software). “ Wikipedia
+
+Os CLPs são conectados a computadores que podem servir como plataforma de monitoramento ou inserido numa rede com outros CLPs e softwares de um sistema de informação integrado.
+
+ 
+
+EXEMPLO de sistema integrado com diversos controladores
+
+Miovison utiliza o serviço de AWS IoT da Amazon. A empresa atua no gerenciamento de transporte de milhares de cidades pelo mundo.
+
+https://aws.amazon.com/pt/solutions/case-studies/miovision/?c=i&sec=uc3
+
+ 
+
+“Deixando cidades mais inteligentes
+
+Usando sensores e análises inteligentes conectados, a Miovision possibilita que mais de 17.000 municípios em 50 países operem com mais inteligência, aumentando a capacidade, a segurança, a economia e a performance dos transportes. As soluções Spectrum e Scout, o hardware, as análises e os serviços da empresa são implantados em cruzamentos e ao longo de rodovias e transformam infraestruturas físicas em ativos de dados.”
+
+“Por exemplo, um município canadense procurava maneiras de agilizar a resposta a acidentes e incidentes de manutenção, aprimorar o planejamento do trânsito e reduzir custos operacionais. O município implementou o Miovision Spectrum, que conecta e otimiza semáforos em cidades, juntamente com vários corredores de trânsito. Para realizar essas melhorias, combinou transmissão de vídeo, dados de sensores e análises.”
+
+“Ajudamos os clientes a descobrir insights para otimizar o fluxo do tráfego nas rodovias”, afirmou Dave Bullock, diretor geral da Miovision
+
+ 
+
+Automação residencial, Saúde e Agricultura 4.0
+
+Integração e comunicação de aparelhos de uma residência. Com isso os residentes podem ter uma casa com aparelhos que respondem aos seus comandos com rapidez e eficiência. Com a gestão inteligente do sistema, muitas operações podem ser tomadas autonomamente pelos aparelhos. Os residentes podem ter aparelhos eletrodomésticos com mais funções, sistemas de iluminação mais inteligentes,  assistente virtual, decidir que aparelhos podem enviar mensagens para um sistema externo, entre outras funcionalidades. Nas residências existem ainda os serviços de IoT oferecidos por empresas para segurança e monitoramento.
+
+ 
+
+IoMT (Internet das Coisas Médicas)
+
+Sistemas interconectados trocando informações e disponibilizando dados dos pacientes aos médicos no exato momento das ocorrências podem revolucionar os cuidados médicos.
+
+ 
+
+Saúde e agricultura 4.0
+
+O conjunto de tecnologias disponíveis hoje para a agricultura torna essa indústria muito autônoma e eficiente. Sistemas interligados possibilitam a intercomunicação entre as partes e a melhoria dos processos.
+
+ 
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+Nessa aula apresentamos um exemplo de aplicação de IoT industrial com o serviço AWS da Amazon. Vale a pena percorrer a página abaixo da empresa que apresenta algumas aplicações e relatos de aplicações de sucesso tanto para IoT industrial quanto para automação residencial ou comercial.
+
+https://aws.amazon.com/pt/iot/
+
+ 
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+DASH, A.; PAL, S.; HEDGE, C.  Ransomware Auto-Detection In IoT Devices
+
+Using Machine Learning. 2019. Disponível em: https://www.semanticscholar.org/paper/Ransomware-Auto-Detection-in-IoT-Devices-using-Dash-Pal/a4f5af1c85bae92907e357a3d1f61a06395f8f59. Acesso em 14/05/2021.
+
+AWS IOT, Amazon.  Internet das Coisas Industrial. Disponível em: https://aws.amazon.com/pt/iot/solutions/industrial-iot/?c=i&sec=uc1 . Acesso em: 14/05/2021.
+
+PINELI, J. LEIA ISSO ANTES DE DECIDIR A PLATAFORMA IOT! Tudo sobre IOT, 2019. Disponível em: https://tudosobreiot.com.br/lei-isso-antes-de-decidir-a-plataforma-iot/.  Acesso em: 14/05/2021.
+
+1.Como podemos resumir a IoT?
+R:Interconexão de objetos que comunicam-se entre si, originando medidas e ações independente de ações humanas, realizando trabalho
+Exp:Letra a. Os objetos devem estar interconectados para realizar qualquer tarefa e para qualquer fim sem a necessidade de intervenção humana
+
+2.Em nosso curso citamos alguns elementos fundamentais para implementação de um sistema IoT, exceto:
+R:ERP
+Exp:Letra d. Não precisamos necessariamente de um sistema de informação integrado para termos um sistema IoT funcionando
+
+3.Os sensores e atuadores podem ter como função num sistema IoT, respectivamente:
+R:Medir dados físicos e transformar sinais elétricos em ações físicas
+Exp:Letra b. Os sensores realizam medida de propriedades físicas e transformam em sinais elétricos. Já os atuadores realizam o processo inverso
+
+4.Os Ransomwares são um tipo de malwares que cresceram com a expansão das plataformas IoT nas nuvens. Esse malware realiza uma espécie de:
+R:sequestro de dados
+Exp:Letra b. Ransomwares são malwares que sequestram os dados e exigem um resgate do proprietário para a devolução do acesso
+
+5.Uma plataforma IoT possibilita o acesso, controle e configuração dos processos da internet das coisas. As mais potentes oferecem seus serviços diretamente da nuvem. Para uma empresa que necessita desenvolver aplicativos e ter um ambiente para testá-lo qual seria o tipo de serviço em nuvem mais interessante para contratar?
+R:PaaS
+Exp:Letra a. O Plataforma como serviço é a melhor opção para desenvolvedores de aplicativos
+
+6.(CETREDE - 2019 - Prefeitura de São Gonçalo do Amarante - CE) Analise a afirmativa a seguir:
+
+Uma pesquisa identifica 30 ocupações que irão surgir na próxima década e evidencia que, por causa da inovação, os empregadores estão buscando um novo perfil de trabalhador. Uma pesquisa do SENAI, elaborada em 2019, identificou 30 profissões que vão surgir com a Indústria 4.0, evidenciando a relação entre as novas ocupações e as mudanças tecnológicas. A pesquisa mostra que um dos líderes da corrida que moderniza as indústrias no Brasil é o segmento automotivo. É a área onde os especialistas mais preveem impactos da 4ª Revolução Industrial. Na área de Tecnologia da Informação e Comunicação, irá se destacar o analista de ____________ (Internet das Coisas), que é responsável por obter, estudar e organizar dados para desenvolver aplicações com eles, usando conhecimentos de programação e análise de dados, concebendo soluções para diferentes problemas e proporcionando novos usos aos objetos do quotidiano
+Retirado e adaptado em 18/12/2019 do site: https://g1.globo.com
+
+Marque a alternativa que preenche corretamente a lacuna:
+R:IoT
+Exp:Letra a. Como vimos durante essa aula IoT vem do inglês “internet of things“ que em português traduzimos como “internet das coisas”

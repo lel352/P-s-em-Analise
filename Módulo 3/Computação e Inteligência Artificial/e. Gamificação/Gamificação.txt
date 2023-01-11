@@ -1,0 +1,135 @@
+Gamificação
+Princípios de Jogos Educacionais
+
+Jogos são atividades divertidas que, a partir de uma sequência de regras, ocorre interação e disputa entre adversários. O regulamento aponta os objetivos, as condições de empate e de vitória.
+
+Existem muitas experiências bacanas com jogos de tabuleiro. Contudo, geralmente estes não combinam os benefícios dos jogos com os objetivos de uma empresa ou de conteúdos que se pretende ensinar. Apesar disso, os jogos de tabuleiro ajudam no desenvolvimento do raciocínio   lógico, capacidade de superação de frustrações, persistência, habilidades de interação social, etc.
+
+A ludicidade envolve engajamento, prazer, diversão e atividades significativas. Entendendo a regra do jogo, seus objetivos e desafios a atividade pode ser lúdica para as pessoas. A gamificação utiliza os elementos dos jogos para atingir um engajamento em atividades que não são jogos.
+
+ 
+
+Dinâmica de jogos X Gamificação
+
+Os jogos envolvem uma disputa com vencedores. A gamificação envolve cumprir tarefas e missões para alcançar determinados objetivos reais. Tanto a dinâmica com jogos quanto a gamificação são utilizados hoje em diferentes ambientes, como educação, treinamento de funcionários, dinâmica de seleção de candidatos, esportes ou redes sociais.
+
+ 
+
+Jogos de aplicativos
+
+O desenvolvedor da atividade com gamificação deve ficar atento para alguns detalhes sobre a utilização de jogos e gamificação:
+
+- tentar distinguir jogos de gamificação
+
+- diferenciar dinâmicas com pontuações de gamificação
+
+- identificar qual é o modelo interessante para o tema a ser tratado
+
+- não tentar competir com os jogos preferidos das pessoas
+
+- limitação na produção de gráficos digitais
+
+- cuidados ao  tentar reproduzir jogos famosos
+
+- identificar as etapas de um design de games
+
+Gamificação ou ludificação é a utilização de elementos, designs e princípios de games em contextos distintos. Games são os jogos eletrônicos. Com essa prática pode-se alcançar metas reais de maneira mais motivadora. Os objetivos são mudar o comportamento das pessoas ou a motivação para a aprendizagem, consumo, respostas, etc. Para isso, as características de diversão e prazer associadas à práticas de jogos é muito importante.
+
+ 
+
+“A gamificação tem sido aplicada com sucesso em diversas frentes de negócios: para reduzir a rotatividade de funcionários e melhorar sua participação em treinamentos; aumentar as vendas; condensar o tempo de ligações de call center; ampliar a quantidade e a qualidade dos feedbacks de clientes” https://viddia.com.br/gamificacao-passo-a-passo-ead/
+
+ 
+
+Vantagens da gamificação:
+
+- Aprender de forma divertida
+
+- aprender a superar obstáculos
+
+- lidar com frustrações
+
+- trabalho colaborativo
+
+- adquirir novos comportamentos
+
+ 
+
+Design de Jogos
+
+Design de jogos é o trabalho de desenvolvimento de jogos, utilizando os corretos elementos e técnicas de jogos para alcançar os objetivos almejados com o público adequado. Para elaborar uma atividade gamificada precisamos buscar a adequada combinação de elementos de jogos.
+
+Os pesquisadores Kevin Werbach e Dan Hunter  classificaram esses elementos em: dinâmicas, mecânicas e componentes. Para eles essas categorias devem colaborar para a gamificação da temática. Organizadas em ordem decrescentes de abstração, um componente pode ligar-se a uma ou mais mecânicas e estas podem estar cada uma ligadas a uma ou mais dinâmicas.
+
+A escolha dos elementos deve ser adequada à temática e ao campo de trabalho que se quer  promover.
+
+Possíveis aplicações de gamificação: treinamento de pessoal, processos seletivos, marketing e educação.
+
+Exemplo que passei por processo seletivo: criar uma estrutura que permitisse que ovos fossem estocados num local bem alto e depois que eles pudessem ser deslocados sem quebrar para o solo.
+
+Exemplo de sucesso: Duolingo - ensino de idiomas com gamificação.
+
+Na empresa: seleção de funcionários, integração, formação. Com atividades em que o RH pode observar e analisar o alinhamento aos valores da empresa e distribuir novos pensamentos institucionais. Com a gamificação essa formação pode ser mais prazerosa e possibilitar maior engajamento dos colaboradores.
+
+Muitas tarefas rotineiras ou até mesmo cotidianas podem ser implementadas com gamificação. Essa ação pode tornar o ambiente de trabalho mais agradável e ampliar a interação entre os funcionários da empresa.
+
+Produções em gamificação: Logus, ARKOS, Game de leitura, Nike, Waze, Google local guide.
+
+ 
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+Algumas lives nas redes de streaming são ótimas formas de verificar os seus estudos com as práticas de quem está no campo de trabalho ou de pesquisa.
+
+Veja no link abaixo a live: Educação Corporativa e Gamificação: o que esperar do mercado de trabalho.
+
+https://www.youtube.com/watch?v=DoakaGR4H18
+
+ 
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+COSTA, A.C.S. & Marchiori, P.Z. Gamificação, elementos de jogos e estratégia: uma matriz de referência. InCID: R. Ci. Inf. e Doc., Ribeirão Preto, v. 6, n. 2, p. 44-65, set. 2015/fev. 2016. DOI: 10.11606/issn.2178-2075.v6i2p44-65
+
+WERBACH, K.; HUNTER, D. For the win: how game thinking can revolutionize your
+
+business. Philadelphia: Wharton Digital Press, 2012.
+
+
+1.Complete a frase: “Entendendo a regra do jogo, seus objetivos e desafios a atividade pode ser:
+R:prazer, engajamento e diversão
+Exp:Letra a. Como dito em nosso resumo, a ludicidade envolve engajamento, diversão e prazer
+
+2.Estão entre as recomendações de atenção do desenvolvedor de atividades com gamificação, exceto:
+R:tentar competir com os jogos preferidos das pessoasWx
+Exp:Letra b. A recomendação é oposta: não tentar competir… Esses jogos têm equipes desenvolvedoras muito fortes que entregam um material muito bem acabado. Competir com eles em relação aos recursos do jogo é difícil
+
+3.Dentre as opções assinale aquela que só apresenta elementos de jogos da categoria das dinâmicas:
+R:Aquisição de recursos, turnos e feedback
+Exp:Letra a. Somente a alternativa A apresenta elementos que fazem parte da categoria “mecânica”
+
+4.Dentre as opções assinale aquela que só apresentam elementos de jogos das categorias componentes ou dinâmicas:
+R:Níveis, narrativa e missão
+Exp:Letra c. Níveis e missão são da categoria componentes e narrativa é dinâmica
+
+5.Realizar atividades com metas reais utilizando gamificação apresenta algumas vantagens, exceto:
+R:vender mais
+Exp:Letra e. Vender mais pode ser vantagem de diversos tipos de dinâmicas. Não está diretamente relacionada com as características da gamificação. Embora possa ser utilizada para alcançar isso como meta
+
+6.(Colégio Pedro II - 2019 - Colégio Pedro II - Professor - Informática Educativa - Adaptada) A gamificação se constitui na utilização da mecânica dos games em cenários non games, criando espaços de aprendizagem mediados pelo desafio, pelo prazer e entretenimento (ALVES et al, 2014, p. 76)
+
+Os autores da afirmativa acima também compreendem espaços de aprendizagem como distintos cenários, escolares e não escolares, que potencializam o desenvolvimento de habilidades cognitivas. Dessa forma, considerando os elementos presentes na mecânica dos games, como desafios, objetivos, níveis, sistemas de feedback e recompensas, são criadas situações que mobilizam e engajam os sujeitos para a realização de determinadas ações. Assim, a gamificação surge como uma possibilidade de conectar a escola ao universo dos jovens, mantendo o foco na aprendizagem. Assinale a estratégia de gamificação que promove a motivação e o engajamento em diversos cenários de aprendizagem, mas que NÃO se aplica às práticas educacionais:
+R:A premiação é a recompensa pela tarefa ou subtarefa realizada. Normalmente, elas são ilustradas com medalhas, “novas vidas” ganhas, recompensas financeiras e compensações por notas, entre outras possibilidadesx'
+Exp:Letra b. Na educação o espírito competitivo não deve ser incentivado. Ali é um ambiente para as pessoas aprenderem a colaborar e crescer juntos. A competição pode ser incentivada em ambientes com profissionais adultos, como disputa por vendas, com premiações por comissões, por exemplo

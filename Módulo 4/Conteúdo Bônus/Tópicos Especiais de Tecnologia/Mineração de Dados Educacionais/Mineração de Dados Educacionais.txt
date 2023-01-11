@@ -1,0 +1,22 @@
+Mineração de Dados Educacionais
+Embora seja temerário fazer generalizações, podemos afirmar que a digitalização de processos, que diz respeito a todas as dimensões da vida da sociedade moderna, é um marco inicial de uma era que está reorientando a práxis social. De fato, a situação sociocultural vivida hoje nos oferece vários sinais de que estamos no início de mais uma revolução industrial, ou seja, um período de transição tecnológica. Nesse sentido, contudo, verifica-se que em uma economia digital os profissionais precisam ser rápidos e flexíveis. Na prática, a digitalização dos processos visa garantir que as organizações ou profissionais tomem decisões estratégicas guiadas por dados, adaptem rapidamente os negócios às exigências do mercado e satisfaçam as necessidades ou desejos dos clientes. No entanto, a consciência crítica recomenda prudência perante a digitalização promovida pelas novas tecnologias da informação e comunicação, pois parece claro que o digital é em geral, segundo tudo indica, uma nova realidade para as organizações. Sendo assim, nesta live, analisaremos porque a informação é um recurso fundamental no mundo moderno. Após esse apontamento, analisaremos como, a partir da digitalização dos processos, o uso da análise de dados é imprescindível para apoiar a tomada de decisão. Por fim, veremos que, se o futuro é cada vez mais curto, a digitalização não é só um processo útil, mas urgente. 
+
+
+1.Leia o excerto a seguir:
+
+“Atualmente, o cenário mundial apresenta um enorme avanço tecnológico em diversas áreas (econômica, educacional, científica, institucional e etc.) e um grande volume de dados que necessita ser analisado com o auxílio de ferramentas computacionais direcionadas a cada contexto de aplicação. […] Para obter o estudo e manipulação do conhecimento surgiu a área de Descoberta de Conhecimento em Base de Dados (KDD) que vem ganhando destaque através das comunidades científicas e ambientes organizacionais.” (FEITOSA, 2013, p. 19-20)
+
+Fonte: FEITOSA, Rodrigo Miranda. Uma aplicação de mineração de dados para recomendação social. 2013. 154 f. Dissertação (Mestrado em Engenharia de Eletricidade) - Universidade Federal do Maranhão, São Luís, 2013.
+
+Com base no exposto e nos conhecimentos apresentados sobre a digitalização dos processos, assinale a alternativa correta que apresenta o termo que descreve um conjunto de métodos para detectar conhecimento útil e interpretável para apoiar a tomada de decisão:
+R:Mineração de dados
+Exp:
+
+2.Leia o excerto a seguir:
+
+“Davenport e Prusak (2003) adotam uma definição abrangente e bem estruturada: “conhecimento é uma mistura fluida de experiência condensada, valores, informação contextual e insight experimentado, a qual proporciona uma estrutura para a avaliação e incorporação de novas experiências e informações. Ele tem origem e é aplicado na mente dos conhecedores”. A pesquisadora Angeloni (2008) declara que o conhecimento não é sinônimo de acúmulo de informações, mas um agrupamento articulado delas por meio de legitimação empírica, cognitiva e emocional, englobando a noção de “compreensão” das dimensões da realidade.” (FEITOSA, 2013, p. 19)
+
+Fonte: FEITOSA, Rodrigo Miranda. Uma aplicação de mineração de dados para recomendação social. 2013. 154 f. Dissertação (Mestrado em Engenharia de Eletricidade) - Universidade Federal do Maranhão, São Luís, 2013.
+
+Com base no exposto e nos conhecimentos apresentados sobre descoberta de conhecimento em base de dados, assinale a alternativa correta que indica o tipo de conhecimento que o sujeito adquiriu através da vivência, ou seja, pela experiência:
+R:Conhecimento tácito

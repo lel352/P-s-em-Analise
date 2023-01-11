@@ -1,0 +1,143 @@
+Conceitos fundamentais em Machine Learning
+“Aprendizado é qualquer processo pelo qual um sistema melhora sua performance pela experiência” Herbert Alexander Simon
+
+Uma máquina com inteligência artificial seria uma máquina capaz de aprender com as interações com o meio, resolver problemas utilizando a lógica e planejar ações.
+
+Entendemos que resolver um problema significa seguir uma sequência de ações que levem de um estado inicial a um estado final que alcance o objetivo do problema. A solução para esse problema é chamada de ótima quando tem o menor custo. Esse custo pode ser tempo, energia, dinheiro, etc. Depende do problema.
+
+Tipos simples de problemas: montar um quebra-cabeça, resolver palavras cruzadas,  jogar xadrez ou encontrar um caminho.
+
+Para todos esses tipos de problemas a máquina deve sair de um estado inicial, planejar e executar ações, testar o objetivo e avaliar os custos.
+
+Aplicações Possíveis para IA: veículos autônomos, sistemas de recomendações na internet, sistema de geoprocessamento, jogos, etc.
+
+Com essa descrição imagino que tenham pensado: então o GoogleMaps utiliza inteligência artificial! Verdade. A Google fez parcerias entre a equipe do Maps e da Alphabet. Essa última é uma sessão de IA da empresa. A melhoria nas previsões de rotas em São Paulo foi de 23%. Nesse novo sistema não são levados em conta somente o histórico do trânsito nas rotas, mas dados como ruas asfaltadas e informações atualizadas de engarrafamentos.
+
+Vamos dividir a inteligência artificial em dois tipos:
+
+Forte → Simular o modo de pensar humano
+
+Fraca → Resultado inteligente
+
+E uma outra divisão seriam os aspectos do comportamento das máquinas que se assimilaria aos humanos.
+
+Campos de estudos IA:
+
+1. Pensar como humanos → Campo de estudos cognitivos, com a psicologia
+
+2. Pensar de forma racional → Campo da lógica matemática
+
+3. Agir como humanos → comportamento que pode ser avaliado com o teste de Turing
+
+4. Agir de forma racional
+
+Turing propôs em 1950 uma mudança de foco. Em lugar de verificar se a máquina poderia “pensar” como humano, poderíamos verificar se ela pode se comportar como um humano. Assim criou o teste de comportamento.
+
+Destacamos as habilidades que a máquina deve apresentar para simular um comportamento humano:
+
+- Processamento de linguagem natural
+
+- representação do conhecimento humano
+
+- raciocínio automático
+
+- Aprendizado de máquina
+
+ Machine learning (aprendizado de máquina)
+
+“… [machine learning é] uma área de Inteligência Artificial que tem como objetivo desenvolver técnicas computacionais que permitam a predição e o aprendizado de determinados comportamentos ou padrões automaticamente a partir de experiências acumuladas por exemplos e problemas anteriores.” (Mitchell, 1997).
+
+A máquina é capaz de aprender coisas. A máquina recebe as informações, faz previsões e toma decisões que tornam-se modelos sem terem sido programadas para isso.  É como se a máquina estivesse desenvolvendo seu próprio algoritmo.
+
+Alguns exemplos de utilização em tarefas e problemas: classificação, customização,  filtro de e-mails, sistemas de recomendações (filmes, livros, músicas, produtos, etc),   reconhecimento de voz ou facial, pontuação de créditos, visão computacional,  telefonemas spams, veículos autônomos e diagnósticos médicos.
+
+“Como o sucesso de um algoritmo de aprendizagem depende do dado utilizado, o aprendizado de máquina está inerentemente relacionado à análise e estatística dos dados. Mais amplamente, técnicas de aprendizagem são métodos dirigidos por dados combinando conceitos fundamentais em ciência da computação com ideia de estatística, probabilidade e otimização.” Mohri.
+
+Tipos de aprendizagem de máquina: supervisionado, não supervisionado e aprendizagem por reforço.
+
+No aprendizado supervisionado busca-se correlações entre variáveis retiradas de exemplos para prever os valores de uma variável dependente.  Os dados dos exemplos são testados e correlacionados para encontrar uma maneira de chegar a uma variável Y, dadas algumas variáveis Xs. É necessário um agente externo, um “professor” para fornecer os dados organizados.
+
+Dadas as distribuições (a1, b1, c1,..., Y1)...(an, bn, cn,..., Yn) buscamos uma correlação para encontrar novos valores de Yi, dados os valores das variáveis ai, bi, ci,... Ou seja, a máquina deve prever que padrões de entrada levam aos resultados esperados. São dados anotados com a previsão.
+
+Como exemplo podemos pensar no trabalho de uma estação meteorológica com aprendizado de máquinas. A estação pode ter diversos medidores de grandezas do meio ambiente como a=velocidade do vento, b=temperatura, c=umidade do ar, d=pressão, e = radiação solar, … e uma variável aleatória T = precipitação. Os dados seriam resultados de medidas dessas variáveis durante milhares de dias. A inteligência de máquina através dessas relações tenta mapear os dados para descobrir quando vai ter chuva, Y, a partir dos valores das outras variáveis. O sucesso é conseguir um mapeamento que acerte a maioria das vezes, com boa acurácia.
+
+Pense em como seria um outro exemplo para a compra suspeita com um cartão de crédito. A máquina deve automaticamente decidir se autoriza ou não a compra de acordo com os padrões de compras dos clientes e de outras compras. Pense também nos filtros de spams.
+
+No aprendizado não supervisionado a máquina recebe diversos dados não relacionados e busca alguma similaridades, alguma estrutura nesses dados.
+
+Por exemplo, num portal de filmes, a máquina tenta indicar filmes para você baseada em dados que ela têm dos filmes e relaciona-os para indicar filmes com variáveis semelhantes. Então, se você escolher uma comédia com animais e muita sujeira, a máquina vai tentar verificar outros filmes que tenham algumas palavras-chaves. A seleção de músicas de uma streaming é outro exemplo.
+
+Outro exemplo é relacionar os dados das compras de um mercado e verificar que produtos costumam ser comprados juntos. Dessa forma, não sabemos um padrão de consumidor de antemão, mas pode indicar produtos que são comprados geralmente juntos. A inteligência vai perceber e acrescentar produtos que são novos no mercado e passaram a fazer parte daquele conjunto. Outro exemplo é a indicação de amigos possíveis na rede social.
+
+Voltamos ao nosso exemplo do início. Uma máquina com padrão supervisionado poderia ser utilizada para oferecer serviços, produtos, palavras, etc para determinado cliente de padrões conhecidos. Dessa forma, um robô de uma pessoa, já saberia o que oferecer para seu humano quando esse disser que vai assistir futebol ou que vai a um enterro.
+
+Agora, imagine que esse cliente entre em uma loja para comprar algo e a máquina que o atende não o conheça ou não tenha dados suficientes para conhecer seus costumes. Ela não teria resultados associados às variáveis de entrada com boa qualidade. Então, utiliza-se uma máquina com padrão não supervisionado. Essa máquina analisa os produtos que o cliente está comprando e sugere produtos que já foram previamente relacionados pelo banco de dados das compras anteriores.
+
+Aprendizagem por reforço
+
+Framework para aprender como interagir com o meio ambiente através de experiências. O agente, aprendiz, interage com o meio e recebe recompensas a cada ação tomada como respostas. O agente busca maximizar as recompensas que recebe do meio. A cada ação o agente recebe duas informações: a recompensa e seu estado no meio. A recompensa está diretamente relacionada à tarefa e à sua meta correspondente. Muitas vezes o meio varia de acordo com as ações do agente. Isso tornou mais difícil alcançar o objetivo.
+
+A aprendizagem por reforço, diferentemente do aprendizado supervisionado ou o não supervisionado, não precisa de qualquer supervisão humana.
+
+Perceba que o aprendizado por reforço é mais semelhante à forma de aprendizagem humana, pois existe uma relação de causa e efeito, uma incerteza e metas a alcançar.
+
+Dois possíveis tipos de problemas:
+
+O modelo do meio é conhecido. Para esse caso, para o agente maximizar as recompensas ele só precisa de um plano.  Modelo do meio desconhecido. Nesse caso o agente enfrenta um problema de aprendizagem. O agente tem que aprender com as informações da recompensa e do estado para formar uma política de ação.
+
+Deep Reinforcement Learning
+
+A experiência criada com as muitas interações com o meio são utilizadas com deep learning para otimizar as próximas interações.
+
+ 
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+Exemplo: A inteligência artificial AlphaGo venceu o campeão mundial de Go. Um jogo chinês com grau de dificuldade maior que o xadrez.
+
+“O AlphaGo analisou milhões de jogos e depois praticou muito contra si mesmo para atingir esse resultado”
+
+https://deepmind.com/research/case-studies/alphago-the-story-so-far
+
+ 
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+MOHRI, M.; ROSTAMIZADEH, A. & Talwalkar, A. Foundations of Machine Learning. 2Ed, Massachusetts, MIT Press, 2018.
+
+
+1.No aprendizado de máquinas o computador aprende por experiência e cria seus próprios códigos para resolver de forma otimizada alguns problemas. Entre os problemas simples que citamos que podemos explorar para desenvolver aprendizagem de máquina estão:
+R:montar um quebra-cabeça, resolver palavras cruzadas, jogar xadrez e encontrar um caminho
+Exp:Letra a. Em nosso texto citamos como problemas simples para resolução, Montar um quebra-cabeça, resolver palavras cruzadas, jogar xadrez e encontrar um caminho
+
+2.Em nosso texto dividimos a inteligência artificial em dois tipos, forte e fraca. Que estão respectivamente associados aos conceitos:
+R:simular o modo de pensar humano e resultado inteligente
+Exp:Letra d. Em nosso texto dividimos em Forte → Simular o modo de pensar humano e Fraca → Resultado inteligente
+
+3.Em nosso texto destacamos 4 campos da inteligência artificial. Entre eles não está o:
+R:Sentir as emoções humanas
+Exp:Letra b. Sentir emoções humanas não está entre os campos de IA que destacamos
+
+4.Turing desenvolveu um método para que um examinador identifique se um examinado seria um ser humano ou uma máquina. O objetivo deste teste de Turing seria verificar se o robô consegue:
+R:comportar-se como um humano
+Exp:Letra d. Alan Turing propôs em 1950 uma mudança de foco. Em lugar de verificar se a máquina poderia “pensar” como humano, poderíamos verificar se ela pode se comportar como um humano. Assim criou o teste de comportamento
+
+5.Considere o seguinte processo de treinamento de máquina: a máquina recebe de um “treinador” diversos dados rotulados com uma saída aleatória. Por exemplo, recebe as variáveis (a, b, c, d, e) e uma variável independente associadas a essas entradas. Esse processo repete-se com milhares de dados. Esse treinamento pode estar relacionado ao aprendizado de máquina:
+R:supervisionado
+Exp:Letra b. A expressão que se adequa é o treinamento supervisionado, por tratar de treinar a máquina com dados rotulados
+
+6.De acordo com a aprendizagem por reforço, na figura acima quais seriam os passos repetidos pelo rato até encontrar o caminho:
+R:ação, receber recompensa e estado do meio
+Exp:Letra b. Na interação com o meio, o agente faz a ação e aguarda para receber a recompensa e o estado do meio

@@ -1,0 +1,120 @@
+Meios de Transmissão
+Nesta aula, tratamos de como as informações são transmitidas, começando pela modulação, que é o processo no qual a informação transmitida numa comunicação é adicionada a ondas eletromagnéticas. 
+
+O transmissor adiciona a informação em uma onda especial de tal forma que poderá ser recuperada na outra parte através de um processo reverso chamado demodulação.
+
+A maioria dos sinais, da forma como são fornecidos pelo transmissor, não podem ser enviados diretamente através dos canais de transmissão. 
+
+Então é necessário modificar esse sinal através de uma onda eletromagnética portadora, cujas propriedades são mais convenientes aos meios de transmissão.
+
+Basicamente, a modulação consiste em fazer com que um parâmetro da onda portadora mude de valor de acordo com a variação do sinal modulante. 
+
+Com base nas características de ondas, existem diferentes tipos de modulações digitais:
+
+ 
+
+ASK - Modulação em Amplitude
+FSK - Modulação em Frequência
+PSK - Modulação em Fase
+ 
+
+Partindo ao meio físico, vários meios físicos podem ser usados para realizar a transmissão. Cada um tem seu próprio nicho em termos de largura de banda, retardo, custo e facilidade de instalação e manutenção, começando pelos cabos metálicos.
+
+O meio de transmissão mais antigo e ainda mais comum é o par trançado. Um par trançado consiste em dois fios de cobre encapados, que em geral têm cerca de 1 mm de espessura. Os fios são enrolados de forma helicoidal, assim como uma molécula de DNA. 
+
+O segundo tipo de cabo metálico é o cabo coaxial.
+
+ 
+
+O cabo coaxial tem melhor blindagem que os pares trançados, e assim pode se estender por distâncias mais longas em velocidades mais altas.
+
+Um cabo coaxial consiste em um fio de cobre esticado na parte central, envolvido por um material isolante. O isolante é protegido por um condutor cilíndrico, geralmente uma malha sólida entrelaçada. O condutor externo é coberto por uma camada plástica protetora.
+
+O próximo meio de transmissão é a comunicação Wi-Fi.
+
+O termo comunicação sem fio foi utilizado como duas formas na história da comunicação e cada forma com dois significados diferentes.
+
+ 
+
+É utilizada por produtos certificados que pertencem à classe de dispositivos de rede local sem fios (WLAN) baseados no padrão IEEE 802.11. Por causa do relacionamento íntimo com seu padrão de mesmo nome, o termo Wi-Fi é usado frequentemente como sinônimo para a tecnologia IEEE 802.11.
+
+ 
+
+O padrão Wi-Fi opera em faixas de frequências que não necessitam de licença para instalação e/ou operação.
+
+ 
+
+As frequências são livres de licença, o usuário não paga nenhuma taxa, mas são permitidos apenas equipamentos que tenham sido analisados, avaliados e obtido um certificado de homologação, sendo que esses equipamentos recebem um selo de identificação da agência.
+
+ 
+
+O terceiro tipo de meio de transmissão apresentado foi a fibra ótica.
+
+ 
+
+Mesmo confinada a um meio físico, a luz transmitida pela fibra óptica proporciona o alcance de taxas de transmissão 
+(velocidades) elevadíssimas, da ordem de 109 à 1010 bits por segundo (cerca de 40Gbps), com baixa taxa de atenuação por 
+quilômetro. 
+
+ 
+
+Como a luz se propaga no interior de um meio físico, sofrendo ainda o fenômeno de reflexão, ela não 
+consegue alcançar a velocidade de propagação no vácuo, que é de 300.000 km/segundo, sendo esta velocidade
+ diminuída consideravelmente.
+
+ 
+
+Para realizar a transmissão de dados em uma fibra óptica, é preciso utilizar equipamentos especiais que contenham um foto emissor, ou seja, um aparelho que possa transformar sinais elétricos em pulsos de luz. Assim os pulsos de luz passam a representarem valores
+ digitais binários correspondentes aos dados.
+
+ 
+
+A principal diferença na comparação de um cabo de fibra óptica e um de par trançado, além do material 
+empregado, é a velocidade da transferência das informações e a ausência de interferências eletromagnéticas.
+
+ 
+
+ 
+
+ 
+
+Atividade extra
+
+
+Livro: Cabeamento Estruturado de Paulo Sergio Marin. Editora Érica.
+
+De forma objetiva, prática e com linguagem acessível, este livro apresenta o conceito e os subsistemas de cabeamento estruturado, a normalização, os meios de transmissão, os espaços de telecomunicações e redes, as práticas de instalação, certificação e testes do cabeamento instalado, bem como as noções sobre interferência eletromagnética, blindagem e aterramento.
+
+ 
+
+ 
+Referência Bibliográfica
+
+
+KUROSE, J. F.; ROSS, K. W. Redes de computadores e a internet. 6.ed. Pearson: 2013
+
+TANENBAUM, A. S.; WETHERAL, D. Redes de computadores. 5.ed. Pearson: 2011
+
+1.Entre os processos de modulação citados, qual é técnica empregada para a transmissão de informações em banda larga?
+R:FSK
+Exp:A letra e é a alternativa correta. Esta técnica permite a transmissão de informações em banda-larga de forma eficiente sendo amplamente utilizada em diversas aplicações, como: TV Digital, Modens, redes 4G, etc.
+
+2.Entre as categorias de cabos metálicos do tipo “par trançado”, qual é a categoria mais utilizada e que possivelmente é a que você utiliza em casa?
+R:Cat 5
+Exp:A letra a é a alternativa correta. É a mais utilizada, pois possui com qualquer placa de rede. A categoria reconhecida pela TIA atualmente é a CAT5e, que pode ser usado para frequências até 125 MHz.
+
+3.Se compararmos a fibra ótica com cabos metálicos, qual vantagem a fibra ótica tem em relação ao “par metálico”?
+R:Livre de interferências eletromagnéticas
+Exp:A letra c é a alternativa correta. O fator mais preocupante dos cabos de par trançado é a interferência eletromagnética, sendo este seu mais ponto fraco.
+
+4.As comunicações sem fio consistem na transferência de dados e informações sem a utilização de cabos. Entre as vantagens e desvantagem podemos afirmar que uma grande vantagem é:
+R:As redes Wi-Fi possuem a capacidade de atender um número maior de usuários com a penas um concentrador
+Exp:A letra c é a alternativa correta. As redes wifi possuem a capacidade de atender um número maior de usuários sem necessidade de mais equipamentos, no caso de uma comunicação com fio, seriam necessários mais cabos para mais usuários e seriam também limitados ao número de portas disponíveis no concentrador, sendo necessários mais concentradores para expandir rede.
+
+5.O cabo coaxial consiste em um fio de cobre esticado na parte central, envolvido por um material isolante. Qual a maior vantagem da utilização deste modelo de cabo, mesmo sendo considerado uma tecnologia antiga?
+R:Blindagem
+Exp:A letra e é a alternativa correta. O cabo coaxial tem melhor blindagem que os pares trançados, e assim pode se estender por distâncias mais longas.
+
+6.A fibra ótica foi um dos componentes essenciais para esta evolução, Um sistema de transmissão composto por três componentes fundamentais: a fonte de luz, o meio de transmissão e o detector. Quando o detector converte a luz em pulso elétrico?
+R:Em contato com a luz transmitida
+Exp:A letra b é a alternativa correta. Quando instalamos uma fonte de luz em uma extremidade de uma fibra óptica e um detector na outra, temos um sistema de transmissão de dados unidirecional que aceita um sinal elétrico, converte o sinal e o transmite por pulsos de luz. Quando a extremidade de recepção, no caso o detector entra em contato com a luz emitida, a saída é reconvertida em um sinal elétrico

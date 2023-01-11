@@ -1,0 +1,29 @@
+Live: Formação Profissional a partir do Ensino Hibrido
+Aformação profissional, no mundo contemporâneo, passou a ser um dos principais pilares para o desenvolvimento econômico de uma nação. A busca pela qualificação profissional da população é uma das principais plataformas e promessas de “candidatos a cargos públicos” de diferentes espectros políticos. Tal busca gera um questionamento importante: qual é a melhor forma de qualificar profissionalmente os “integrantes” da população economicamente ativa? Neste contexto, diversos níveis de ensino (Ensino Técnico Secundário, Ensino Superior e Pós-graduação) passaram a ser considerados como primordiais para a qualificação profissional da população.
+
+Destaca-se que os cursos de formação/qualificação profissional aderentes aos objetivos e a cultura corporativa passaram a desempenhar um papel de grande relevância (cursos ofertados pelas empresas por meio de universidades corporativas). No ambiente corporativo, é necessário, inicialmente, definir de maneira clara quais são objetivos estratégicos da empresa e, a partir deste levantamento, desenvolver nos profissionais que fazem parte do corpo de colaboradores da empresa as competências que levarão ao atingimento dos objetivos estratégicos corporativos.
+
+O desenvolvimento de programas de qualificação profissional muitas vezes é renegado no ambiente corporativo, tendo em vista que em diversos momentos ele é compreendido como atividade com custo elevado, direcionando os colaboradores a buscarem formação/qualificação profissional fora do ambiente corporativo (mais precisamente no ambiente acadêmico). Entretanto, o desenvolvimento tecnológico, e o respectivo surgimento de recursos tecnológicos voltados ao processo formativo, que possibilitem a oferta de programas de treinamento que demandem um menor grau de investimento. A utilização de plataformas tecnológicas (plataformas de ensino-aprendizagem) no mundo corporativo possibilita a consolidação de um modelo formativo conhecido como Blended Learnin (modelo de aprendizagem híbrida).
+
+A redução dos custos com treinamentos corporativos, principalmente com custos de deslocamentos, locação e/ou ocupação de espaço físico, alimentação, entre outros custos, fortaleceu o investimento das grandes empresas no desenvolvimento de programas de formação profissional direcionados as competências profissionais necessárias para o sucesso do negócio. Neste sentido, o blended learning também traz economia nos processos de atualização profissional, sendo mais fácil colocar os conteúdos novos nas plataformas online e, assim, evitando gastos com a chegada de novos colaboradores ou com reciclagem dos colaboradores que já estão na empresa, além de permitir o desenvolvimento de um processo de atualização sistemática de todos os colaboradores.
+
+Destaca-se que os currículos corporativos, neste modelo híbrido de formação, podem incluir aulas em laboratórios de experimentação, oficinas e webconferências, mas também podem ser fortalecidos pela comunicação instantânea existente no ambiente corporativo atual, na qual as informações são compartilhadas de maneira rápida.
+Podemos perceber que a metodologia híbrida de ensino e aprendizagem, permite maior autonomia para os colaboradores de uma determinada empresa, que podem aprofundar seus estudos de acordo com a sua disponibilidade de tempo e, também, podem buscar informações adicionais com os responsáveis pelo programa de treinamento, visando o seu aperfeiçoamento em temáticas relevantes para a sua atuação.
+
+1.(Questão Adaptada – CESPE 2015) Assinale a alternativa que completa corretamente as lacunas do texto abaixo.
+
+Blended learning é uma modalidade de _______que combina a aprendizagem face a face com a __________ mediada pela Internet. Adoção dessa modalidade de aprendizagem requer o redesenho de cursos e a _______ do tempo gasto em sala de aula. Tais cursos não eliminam completamente a sala de aula, apenas reduzem a sua ocorrência.
+R:ensino; aprendizagem; redução.
+Exp:
+
+2.(Questão Adaptada - UFLA – 2018) Para Valente (2014), as tecnologias digitais de informação e comunicação (TDIC) proporcionaram importantes mudanças na educação a distância, que, até o início dos anos 1980, era baseada no material impresso produzido e enviado aos alunos. Com as tecnologias digitais foram criadas diversas modalidades de ensino a distância, inclusive o ensino híbrido (blended learning).
+
+Sobre o ensino híbrido, assinale a alternativa INCORRETA:
+R:Sala de aula invertida é uma modalidade na qual os conteúdos são estudados on-line durante as aulas; a sala de aula passa a ser o local para trabalhar os conteúdos diretamente com a mediação do professor, realizando atividades práticas como resolução de problemas e projetos, discussão em grupo, laboratórios etc
+Exp:
+
+3.Assinale a alternativa que melhor define o conceito de Blended learning.
+R:Blended learning é uma modalidade de ensino que combina a aprendizagem face a face com a aprendizagem mediada por recursos tecnológicos.
+Exp:
+
+

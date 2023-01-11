@@ -1,0 +1,14 @@
+Práticas de pesquisa para projetos de Engenharia de Software.
+Em um projeto de Engenharia de Software, existem diversas análises que precisam ser executadas para tomada de decisões para o desenvolvimento ou evolução de um software. Para apoiar estas necessidades de análises, podemos contar com boas práticas de pesquisa que apoiam a execução de atividades e incorporam na conclusão de resultados de análise estratégica para um ganho efetivo na produtividade, confiança e qualidade no desenvolvimento de um projeto de Engenharia de Software.
+
+
+Alguns artefatos são indicados para apoiar a organização e sequência das etapas de um projeto como a declaração de escopo, diagramas de UML e para apoiar essa criação e manter a premissa de organização, nesta live poderemos conhecer algumas técnicas que poderão ser utilizadas na prática por quem gerencia ou participa de um projeto de software.
+
+1. Com base no conteúdo estudado, podemos considerar uma ótima técnica para especificar, inspecionar e investigar informações junto aos stakeholders de um projeto?
+R:Técnica dos 5 por quês?
+Exp:A letra C é a alternativa correta, pois a técnica dos 5 por quês?, é a mais proposital para especificar, inspecionar e investigar informações junto aos stakeholders de um projeto.
+
+2.Qual fator podemos considerar primordial para mitigar problemas e facilitar a gestão de prazo e custo de qualquer projeto, seja de software, pesquisa ou ambos?
+R:Organização
+EXP:A letra B é a alternativa correta pois a organização é considerada a premissa básica do gestor de qualquer tipo de projeto.
+

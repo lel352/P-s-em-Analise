@@ -1,0 +1,19 @@
+Live: 24/06/2020 - Smart cities: a Internet das Coisas aplicada a uma Sociedade Inteligente e Sustentável
+As cidades podem ser vistas como uma complexa rede de componentes interligados, que constituem sua infraestrutura básica, como transporte, energia, comunicações, educação e saúde. Os desafios são imensos. Muitas cidades dispõem de uma infraestrutura obsoleta e inadequada para sustentar seu crescimento populacional e econômico. Todos estes desafios levam a uma crescente pressão nos gestores das cidades e sabemos que uma interrupção de qualquer serviço básico tem um impacto dramático no bem estar da população e na economia. Os avanços tecnológicos tem permitido que as cidades busquem soluções diferentes e inovadoras para estes problemas, como a Internet das Coisas. O objetivo desta palestra é apresentar aos alunos os principais conceitos, tecnologias e soluções criadas pela Internet das Coisas para tornar as cidades mais inteligentes e sustentáveis. 
+
+Para complementar o estudo sobre o assunto abordado na live, o livro ao qual a professora Gabriela Biondi escreveu um capítulo é de grande valor para entender melhor sobre o assunto: 
+
+
+Leia os capítulos 1 e 2: 
+
+http://www.sbrc2016.ufba.br/downloads/anais/MinicursosSBRC2016.pdf
+
+
+1. Qual o principal problema enfrentado com o aumento populacional nas regiões urbanas?
+R:Disputa por recursos naturais
+
+2.Qual alternativa NÃO apresenta um exemplo de administração conjunta de dados de um cidadão de uma cidade inteligente?
+R: A partir das notas do aluno avisar os pais que ele está reprovado
+
+3. Qual é o maior desafio para implementação de uma Cidade Inteligente?
+rR; Segurança

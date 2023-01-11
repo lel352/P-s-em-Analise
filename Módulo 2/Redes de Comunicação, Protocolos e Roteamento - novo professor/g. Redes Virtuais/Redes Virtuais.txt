@@ -1,0 +1,124 @@
+Redes Virtuais
+A   implantação   de   VLANs (Virtual   Local   Área   Network) tem   a   intenção   de segmentar uma rede lógica afim de aumentar o controle de tráfego da rede, diminuir o alcance de disseminação de pacotes de difusão (broadcast) e de pragas virtuais, melhorado assim o desempenho e a segurança de uma determinada rede.
+
+ 
+
+O crescimento desenfreado do tráfego de rede cria gargalos em determinados   pontos   da   estrutura, podendo   gerar
+   lentidão   ou   até   tornar   alguns   serviços indisponíveis temporariamente. Esta situação pode ser agravada
+ pela propagação de pacotes de difusão (broadcast) que em muitos casos consomem fatia considerável da banda de
+ um enlace de dados.
+
+ 
+
+Uma rede local (LAN) pode ser definida como uma área de comunicação de dados interligada de abrangência restrita e altas 
+taxas de transmissão, porém é mais comumente descrita como sendo um domínio de broadcast, isto porque, um pacote de
+ difusão lançado em uma rede local se dissemina para todos os pontos de acesso ativos.
+
+ 
+
+A Segmentação de Redes surgiu para, entre outros motivos, limitar a disseminação de broadcasts em uma rede local 
+e consiste em inserir dispositivos na rede (roteadores) que bloqueiam a passagem de pacotes de broadcasts quando 
+atravessam suas interfaces. Estes roteadores têm também a função de interligar diferentes LANs.
+
+ 
+
+Uma Vlan proporciona uma segmentação lógica da rede através de comutadores (bridges ou switches) que possuam 
+esta função. Um atributo importante das VLANs é o fato de poder usá-la “onde   existe   a necessidade de separar a
+ topologia lógica de segmentos de rede da topologia física”.
+
+ 
+
+Pode-se ativar duas VLANs em algumas portas de diferentes switches, fazendo com que estas se comportem   como 
+  duas   redes   separadas, sendo   assim, todos   os   pacotes   provenientes   de dispositivos membros 
+de uma Vlan somente serão encaminhados para as portas dos switches pertencentes a mesma Vlan.
+
+A implementação do conceito de VLANs torna o gerenciamento das redes locais mais flexíveis levando em consideração o fato de permitir que computadores possam fazer parte de uma ou outra Vlan sem que seja necessário alterar a organização física da rede. 
+
+ 
+
+Por outro lado, em sua configuração básica, computadores de uma Vlan não podem se comunicar com computadores de outra Vlan, da mesma forma como redes locais diferentes não podem se comunicar. 
+
+ 
+
+Assim também como nas redes locais, nas VLANs devem ser usados dispositivos roteadores para proporcionar a conectividade entre estas.
+
+ 
+
+A principal característica atribuída ao uso de VLANs é a possibilidade de se agrupar estações pertencentes a uma ou mais Lans físicas para se formar um único domínio de difusão ou Broadcast, garantindo a comunicação entre elas mesmo que façam parte de segmentos físicos diferentes.
+
+ 
+
+Em uma rede não segmentada, computadores, impressoras e outros dispositivos conectados disseminam uma grande quantidade de pacotes de difusão, seja por falhas na conexão dos cabos, mau funcionamento de placas de rede, ou até mesmo por protocolos e aplicações que geram este tipo de tráfego, podendo causar atraso no tempo de resposta e lentidão na rede local. 
+
+ 
+
+No modelo de VLANs, existe um domínio lógico de difusão por onde os pacotes de broadcast ou multicast são contidos e não se propagam a outras redes virtuais.
+
+ 
+
+Assim uma rede segmentada com VLANs cria vários subdomínios de difusão, diminuindo o tráfego de mensagens de difusão tanto na rede segmentada como na rede da organização em geral. A implementação de VLAN para segmentar uma rede melhora a performance.
+
+ 
+
+A implantação de redes virtuais pode ser aplicada de acordo com grupos de trabalhos ou setores mesmo que estes grupos estejam em localizações físicas distintas, garantindo assim a segmentação lógica da rede.
+
+ 
+
+As Vlans podem ser configuradas de três formas diferentes a fim de possibilitar que os dispositivos se conectem a elas: Configuração manual (ou estática), automática 
+(ou dinâmica) e semi­automática (ou semi­estática).
+
+ 
+
+Em um processo de comunicação, quando o tráfego de rede atravessa os comutadores, estes devem ser capazes 
+de identificar a quais Vlans os pacotes fazem parte. Esta identificação pode ser feita   
+através do reconhecimento dos frames.
+
+ 
+
+O quadro padrão Ethernet, após a inclusão da tagg Vlan sofre um acréscimo em seu tamanho máximo, passando de
+ 1518 para 1522 bytes e precisa ter o FCS (Frame Check Sequence) recalculado para não ser identificado como pacote corrompido por outros dispositivos de rede, e estes devem também possuir suporte para identificação de quadros Vlan, do contrário os pacotes serão descartados.
+
+ 
+
+ 
+ 
+Atividade extra
+
+Procure conhecer sobre o JUMBO FRAME, uma propriedade que manipulam o tamanho máximo dos pacotes, o MTU e quando pode ser empregado.
+ 
+ 
+ 
+
+Referência Bibliográfica
+
+
+KUROSE, J. F.; ROSS, K. W. Redes de computadores e a internet. 6.ed. Pearson: 2013
+
+TANENBAUM, A. S.; WETHERAL, D. Redes de computadores. 5.ed. Pearson: 2011
+
+ 
+
+1.Em uma rede não segmentada, computadores, impressoras e outros dispositivos conectados disseminam uma grande quantidade de pacotes de difusão, seja por falhas na conexão dos cabos, mau funcionamento de placas de rede, ou até mesmo por protocolos e aplicações que geram este tipo de tráfego, podendo causar atraso no tempo de resposta e lentidão na rede local. Organizando uma rede em VLANs como é dividida a rede?
+R:Em domínios de difusão
+Exp:A letra c é a alternativa correta. No modelo de VLANs, existe um domínio lógico de difusão por onde os pacotes de broadcast ou multicast são contidos e não se propagam a outras redes virtuais.
+
+2.A segurança é uma das características que mais é levada em conta quando se implementa Vlans, permitindo que dispositivos localizados em diferentes segmentos físicos e em uma mesma Vlan possam se comunicar sem que dispositivos fisicamente vizinhos tenham acesso. Quando os pacotes são transmitidos, quais nós ou endereços possuem acesso ao conteúdo do pacote?
+R:Somente o endereço de destino
+Exp:A letra e é a alternativa correta. Os pacotes transmitidos são entregues somente ao endereço de destino, assim dificultando a interceptação dos mesmos por qualquer host mal-intencionado.
+
+3.As Vlans podem ser configuradas de três formas diferentes a fim de possibilitar que os dispositivos se conectem a elas: Configuração manual (ou estática), automática(ou dinâmica) e semi­automática (ou semi­estática). Qual o maior benefício de executar uma configuração manual?
+R:Maior controle da VLAN
+Exp:A letra c é a alternativa correta. Esta modalidade proporciona um grau maior de controle e administração da VLAN. Em um procedimento de configuração manual de Vlan as configurações iniciais e todas as alterações posteriores de configuração são de responsabilidade do administrador.
+
+4.No processo de determinação de um Switch Root em uma rede com um Spannign Tree existente, os switchs trocam entre si BPDU’s (Bridge Protocol Data Unit) com o Bridge ID do switch, que consiste em dois subcampos chamados Bridge Priority e MAC Address para definir qual sera o switch raiz. Caso a rede seja uma rede nova, sem um switch raiz configurado manualmente, como os switchs se comportam ao iniciar o Spanning Tree?
+R:No início da negociação todos switches se autodenominam como sendo raiz
+Exp:A letra a é a alternativa correta. No início da negociação todos switches se autodenominam como sendo raiz, mas conforme a negociação entre eles ocorre, eles devolvem mensagens aceitando a eleição de um dispositivo com BID menor.
+
+5.O conceito de Vlan Trunking é definido pela norma IEEE 802.1ad e caracteriza-se por ser capaz de transportar tráfego de mais de uma Vlan no mesmo circuito. Em uma rede comutada, um tronco é um link ponto-a­ponto que suporta várias Vlans. Quais formas, uma porta de um dispositivo com Vlan Trunking podem ser configuradas?
+R:Modo Tronco e Modo Acesso
+Exp:A letra b é a alternativa correta. As portas podem ser configuradas em modo tronco, que permite a replicação das VLANs e em modo acesso, que permite o acesso ao conteúdo das VLANs.
+
+6.Em um método de configuração automática de Vlan os dispositivos são conectados e/ou desconectados automaticamente das redes virtuais por meio de critérios ou políticas previamente configuradas pelo administrador como por exemplo grupos de trabalho ou identificação do dispositivo ou usuário conectado. Este tipod e VLAN é suportado por qual tipo de rede?
+R:Redes de grande porte
+Exp:Este tipo de configuração é bem suportado em qualquer rede, mas é altamente recomendado para redes de grande porte por facilitar a administração e ser mais flexível.
+

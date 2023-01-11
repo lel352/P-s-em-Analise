@@ -1,0 +1,132 @@
+Funções hash e Blockchain
+Como podemos confiar em moedas digitais? Como garantir que alguém não vende a você o que já vendeu a outras pessoas? As transações precisam ser criptografadas. Para compreender como essas operações são muito seguras precisamos conhecer as funções hash.
+
+Uma função hash é utilizada para criptografar dados digitais sempre para um novo arquivo de mesmo comprimento fixo de saída. Os dados de um arquivo ou qualquer material digital são mapeados em uma tabela hash. Cada parte do material digital é transformada pela função hash em uma linha da tabela hash.  Esse processo entrega uma informação criptográfica que chamamos de valores hash, códigos hash, somas hash (hash sums), checksums ou simplesmente hashes.
+
+Recebe um valor de entrada e cria um determinado valor de saída. Deve ser única a saída é possível de alcançar igual valor de qualquer lugar que se rode a função a partir do mesmo valor de entrada.
+
+Principais utilizações de funções hash: encontrar elementos em bases de dados,  garantir a originalidade de arquivos, armazenar e enviar senhas e efetivar transações.
+
+Propriedades da função:  unidirecional,  saída de tamanho fixo e eficiência.
+
+Principais funções hash:
+
+Message Digest (MD). Exemplo:   MD5
+
+Secure Hash Function (SHA). Exemplos: SHA-256 e  SHA-1
+
+RACE Integrity Primitives Evaluation Message Diges (RIPEMD). Ex:   RIPEMD-160
+
+Whirpool
+
+Tiger
+
+Exemplo: Utilizando a função hash md5. Essa função cria sempre um número  hexadecimal como saída para qualquer entrada.
+
+Essas funções são geralmente irreversíveis (caminho único).
+
+Você pode fazer um ataque com força bruta, testando cada possível entrada.
+
+Muito útil para verificar a originalidade ou consistência de sistemas operacionais que baixamos pela internet, ou qualquer aplicativo.
+
+Vamos exemplificar com a verificação da originalidade de um sistema operacional baixado pela internet.
+
+Ao executar em um terminal Linux o comando seguinte em um diretório onde exista o arquivo testado,
+
+md5sum ubuntu-20.04.1-desktop-amd64.iso
+
+encontramos a hash: 77fc715a283e41d0ad33d6418a9ba128 
+
+Quando operamos a mesma função em um arquivo diferente:
+
+md5sum ubuntu-20.04-desktop-amd64.iso
+
+encontramos a hash: ea28c4fd933be55f9f01a5fa9e868490 
+
+Mais um exemplo.
+
+Suponha que eu realize um exercício com todos os alunos que participam de uma aula síncrona.
+
+Em determinado momento eu diga que esse exercício vai valer o sorteio de um livro.
+
+Todos precisam fazer o exercício e devem encontrar um string ou um número como resposta. Como não quero que a resposta de um influencie outro ou quero dar pontos para aqueles que responderem certo, mas em segundo ou terceiro pela ordem. Se por acaso a resposta for fubá, eu solicito que vocês me repassem a hash da função md5 na tela.
+
+Eu comparo com a hash que produzo aqui e ninguém na rede terá acesso à resposta certa nem saberá quem acertou.
+
+ 
+
+Moedas digitais
+
+Criptomoedas são moedas totalmente virtuais que funcionam como dinheiro na rede. No entanto, são globalizadas, 
+não são controladas pelos bancos tradicionais nem controladas por governos nacionais. Dessa forma descentralizada as criptomoedas não sofrem com as especulações sobre as moedas nacionais nem é submetida às leis dos países.
+
+Apesar disso, são valiosas e aceitas por muitas empresas na internet como forma de pagamentos de mercadorias e serviços.
+
+A criptomoeda mais conhecida é o bitcoin. Ela foi lançada em 2008  por um grupo, utilizando o nome Satoshi Nakamoto. A moeda valorizou muito de lá pra cá. O sistema de transações da bitcoin tem um processo de mineração por usuários na rede, validados com algoritmos que utilizam blockchain, tecnologia derivada das funções hashes. Sem intermediário, as transações com bitcoin são realizadas entre usuários na rede com a validação das transações através da mineração disputada por computadores que funcionam como nós na rede. Os mineradores, donos dos nós, ganham uma recompensa pelo trabalho.
+
+O bitcoin foi criado com valor baixo, mas valorizou muito de lá pra cá e ainda hoje tem preço volátil. No início a moeda só fez sucesso em trocas de materiais proibidos pela internet e na deep web. A plataforma Silk Road vendia drogas ilegais  pela rede, aceitando somente bitcoin como forma de pagamento. Isso valorizou bastante a criptomoeda que no início de 2011 custava apenas U$0,30 por cada bitcoin. O preço do bitcoin começou 2013 valendo U$13,00 e terminou esse ano em U$7711,00. Depois disso o crescimento se intensificou.
+
+Em abril de 2021 a moeda atingiu o incrível recorde de U$63 mil por bitcoin.
+
+ 
+
+Blockchain
+
+São blocos de informações criptografadas ligados em correntes. Esse sistema foi criado para dar segurança às transações na rede, impedindo que alguém pudesse vender duas vezes 1 BTC ou entregar um valor diferente do acordado.
+
+Cada bloco funciona como um caderno com informações financeiras mais a hash da última transação. A hash de cada bloco é derivada também da hash do bloco anterior, criando esse encadeamento.
+
+Os mineradores são os nós da rede de blockchain que verificam a validade das transações. Quando um nós encontra a hash correta recebe uma recompensa. Os outros nós têm o trabalho de confirmar se essa hash está correta.
+
+Devido ao grande crescimento do mercado com moedas criptográficas, hoje existem máquinas vendidas precisamente para esse tipo de trabalho, máquinas mineradoras.
+
+ 
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+Deixo como atividade extra uma viagem pela página de simulação de blockchain, utilizada na aula.
+
+https://andersbrownworth.com/blockchain/hash
+
+ 
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+NAKAMOTO, S. Bitcoin: A Peer-to-Peer Electronic Cash System. 2009. Disponível em: https://bitcoin.org/bitcoin.pdf. Acesso em 21/05/2021.
+
+
+1.(FEPESE - 2017 - PC-SC - Agente de Polícia Civil) No contexto de moedas virtuais, o Bitcoin mitiga o problema de gastar uma mesma moeda mais de uma vez (o problema de double-spending), empregando:
+R:Blockchain
+Exp:Letra a. Blockchain é a tecnologia empregada, um encadeamento de livros-caixas com criptografia com funções hashes
+
+2.Sobre as criptomoedas é correto afirmar que:
+R:As operações são validadas em uma espécie de banco descentralizado em diversos nós da rede
+Exp:Letra d. Existe uma rede de minerados representando cada nó de uma rede que funciona como banco descentralizado
+
+3.(Banco de Brasília - DF (BRB/DF) 2019) Com base nas características e nas possíveis aplicações para a blockchain, assinale a alternativa correta:
+R:A invenção da blockchain para uso no bitcoin tornou-o a primeira moeda digital a resolver o problema do gasto duplo sem a necessidade de envolver uma autoridade confiável ou servidor central como mediador. A blockchain remove a característica de reprodutibilidade infinita de um ativo digital
+Exp:Letra d. A blockchain traz a hash do bloco anterior, não do posterior. Não é base de dados pública nem centralizada. Se alguém conseguir alterar mais de 50% da rede conseguirá controlar a alteração. Essa tecnologia não é utilizada somente com criptomoedas
+
+4.Quanto às técnicas de criptografia, é correto afirmar que:
+R:As funções hashes são utilizadas para criptografar qualquer documento digital, dando como resultado algo de tamanho fixo
+Exp:Letra b. Funções hashes sempre têm saídas de mesmo comprimento. Além disso, são úteis para qualquer material digital
+
+5.Quanto à moeda digital bitcoin, é correto afirmar que:
+R:Têm transações confirmadas através de blockchain por mineradores na rede
+Exp:Letra d. As transações são confirmadas pela disputa de mineradores na rede. Sua criação foi por um grupo com nome Satoshi Nakamoto, em artigo publicado em 2008
+
+6.Observando o gráfico de evolução dos valores das moedas digitais, podemos concluir que:
+R:Ethereum representa uma ameaça ao domínio absoluto que o bitcoin manteve durante muito tempo
+Exp:Letra e. O gráfico mostra que no final do período representado o BTC cai de valor e o Ethereum sobe, aproximando-se do BTC

@@ -1,0 +1,105 @@
+Banco de dados
+Nesse módulo foram apresentados os conceitos de banco de dados, com destaque para os bancos de dados relacionais, que são amplamente utilizados e consolidados no mercado. Sequencialmente, discutiu-se as aplicações de banco de dados no contexto acadêmico e de mercado em por fim, foi vista uma nova tecnologia conhecida como NoSQL que rompeu com os modelos tradicionais de banco de dados relacionais.
+
+Banco de dados são coleções organizadas de dados que se relacionam de forma a criar algum sentido (informação) e dar mais eficiência durante uma pesquisa ou estudo científico.
+
+São de vital importância para empresas e há mais de duas décadas se tornaram a principal peça dos sistemas de informação e segurança.
+
+Um banco de dados é um conjunto de grupos de informações que estão relacionadas entre si de alguma maneira (por exemplo, por meio de campos comuns). Os grupos lógicos de informações poderiam incluir categorias como dados do cliente, informações sobre um pedido e dos produtos. Um sistema de gerenciamento de banco de dados (SGBD ou database management system – DBMS) é o software que cria e manipula esses bancos de dados.
+
+• Arquivos: Um arquivo de dados contém uma lista eletrônica de informações, que é formatada para uma determinada transação, e essas informações são modificadas e manipuladas por programas escritos para essas finalidades. Com frequência, os arquivos gerados por sistemas legados antigos estão em um formato exclusivo ou fechado (também denominado formato proprietário), ao passo que os novos sistemas usam um formato padrão como o CSV (comma separated value, em que os dados são separados por um caractere específico, como uma vírgula) ou delimitado por tabulações.
+
+ 
+
+• Arquivos de Consultas: Os SGBDs de usuários finais, como o Microsoft Access, fornecem suporte a bancos de dados de pequena escala usados para melhorar a produtividade pessoal, e os SGBD empresariais, como DB2, Jasmine, SQL Server e Oracle, podem gerenciar imensos volumes de dados e suportar aplicativos que controlam toda a empresa. Um SGBD de usuário final é significativamente mais barato e mais fácil para iniciantes que seu congênere empresarial, mas não possui os recursos ou as capacidades necessárias para fornecer suporte a sistemas críticos para o funcionamento da empresa ou de grande escala. Os SGBDs em código aberto também são populares, como o MySQL.
+
+ 
+
+Existem vários Modelos de Base de Dados:
+
+• Modelo Plano (ou tabular), 
+
+• Modelo em Rede, 
+
+• Modelo Hierárquico, 
+
+• Modelo Relacional, 
+
+• Orientado a objetos 
+
+• Objeto-Relacional.
+
+ 
+
+Nos bancos de dados relacionais as tabelas possuem um número estabelecido de colunas e um número variável de linhas, que contêm ocorrências de dados. A Structured Query Language (SQL) é a linguagem-padrão para o acesso de dados em tabelas e trabalha com tabelas completas, e não com os registros individuais das tabelas.
+
+Sistemas Gerenciadores de Bancos de Dados são usados em muitas aplicações, atravessando virtualmente a gama inteira de software de computador. Os Sistemas Gerenciadores de Bancos de Dados são o método preferido de armazenamento/recuperação de dados/informações para aplicações multiusuárias grandes onde a coordenação entre muitos usuários é necessária.
+
+NoSQL é um movimento que promove soluções de armazenamento de dados não relacionais. Ele é composto por diversas ferramentas que, de forma particular e específica, resolvem problemas como tratamento de grandes volumes de dados, execução de consultas com baixa latência e modelos flexíveis de armazenamento de dados, como documentos XML ou JSON.
+
+As tecnologias NoSQL não têm como objetivo substituir os bancos de dados relacionais, mas apenas propor algumas soluções que em determinados cenários são mais adequadas. Desta forma é possível trabalhar com tecnologias NoSQL e banco de dados relacionais dentro de uma mesma aplicação.
+
+Bancos de dados NoSQL são criados para modelos de dados específicos e têm esquemas flexíveis para a criação de aplicativos modernos. Os bancos de dados NoSQL são amplamente reconhecidos por sua facilidade de desenvolvimento, funcionalidade e performance em escala. Eles usam vários modelos de dados, incluindo documento, gráfico, chave-valor, memória e pesquisa.
+
+Os bancos de dados NoSQL usam diversos modelos para acessar e gerenciar dados, como documento, gráfico, chave-valor, em memória e pesquisa. Esses tipos de banco de dados são otimizados especificamente para aplicativos que exigem modelos de grande volume de dados, baixa latência e flexibilidade. Esses requisitos são atendidos mediante o relaxamento de algumas restrições de consistência de dados dos outros bancos.
+
+ 
+
+ 
+
+ 
+
+Atividade Extra
+
+Visando ampliar sua compreensão, assista o vídeo do canal código fonte TV, que apresenta e explica NoSQL.
+
+Link do vídeo: https://youtu.be/1B64oqE8PLs.
+
+ 
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+SOMMERVILLE, I. Engenharia de  Software, 9ª Edição. Pearson  Education, 2011.
+
+SOMMERVILLE, I. Software engineering 10th Edition. ISBN-10, 137035152, 18., 2015.
+
+VALENTE, M. T. Engenharia de Software Moderna (Livro Digital)., 2020.
+
+JEFFRIES, R.; ANDERSON, A.; HENDRICKSON, C. Extreme programming installed. Addison-Wesley Professional., 2001.
+
+REIS, E. (2011). The lean startup. New York: Crown Business, 27.   – MVP
+
+VALENTE, M. T. Engenharia de Software Moderna (Livro Digital). Disponível em: <https://engsoftmoderna.info/cap0.html>. Acesso em: 04 jun. 2021., 2020.
+
+O QUE é NoSQL?: Bancos de dados não relacionais de alta performance com modelos de dados flexíveis. Bancos de dados não relacionais de alta performance com modelos de dados flexíveis. Amazon. Aws, p. 1-1. ago. 2021. Disponível em: https://aws.amazon.com/pt/nosql/ . Acesso em: 07 ago. 2021.
+
+MARINHO, A. L. Análise e modelagem de sistemas, Person Education do Brasil, 2016.
+
+
+1. É um conjunto de grupos de informações que estão relacionadas entre si de alguma maneira. Os grupos lógicos de informações poderiam incluir categorias como dados do cliente, informações sobre um pedido e dos produtos:
+R: Banco de dados
+Exp: Letra e. A letra e é a alternativa correta, pois são coleções organizadas de dados que se relacionam de forma a criar algum sentido (informação) e dar mais eficiência durante uma pesquisa ou estudo científico. São de vital importância para empresas e há mais de duas décadas se tornaram a principal peça dos sistemas de informação e segurança
+
+2. Contém uma lista eletrônica de informações, que é formatada para uma determinada transação, e essas informações são modificadas e manipuladas por programas escritos para essas finalidades. Com frequência, os arquivos gerados por sistemas legados antigos estão em um formato exclusivo ou fechado:
+R: Arquivo de dados
+Exp: Letra a. A letra a é a alternativa correta, onde um banco de dados é um conjunto de grupos de informações que estão relacionadas entre si de alguma maneira (por exemplo, por meio de campos comuns). Os grupos lógicos de informações poderiam incluir categorias como dados do cliente, informações sobre um pedido e dos produtos. Um sistema de gerenciamento de banco de dados (SGBD ou database management system – DBMS) é o software que cria e manipula esses bancos de dados
+
+3. Está baseado em grupos de tabelas, cada uma apresentando uma chave primária — um campo, ou campos, cujo valor é diferente para cada linha da tabela. As tabelas são relacionadas entre si pela colocação da chave primária de uma tabela como uma chave estrangeira na tabela relacionada:
+R:Banco de dados relacional
+Exp: Letra b. A letra b é a alternativa correta, pois o banco de dados relacional é, atualmente, o tipo mais popular de banco de dados para o desenvolvimento de aplicações. Embora seja menos “eficiente em termos de máquina” que os bancos de dados legados, é muito mais fácil trabalhar com ele sob uma perspectiva de desenvolvimento. As tabelas possuem um número estabelecido de colunas e um número variável de linhas, que contêm ocorrências de dados. A Structured Query Language (SQL) é a linguagem-padrão para o acesso de dados em tabelas e trabalha com tabelas completas, e não com os registros individuais das tabelas
+
+4.É um movimento que promove soluções de armazenamento de dados não relacionais:
+R:NoSQL
+Exp: Letra e. A letra e é a alternativa correta, pois as tecnologias NoSQL não têm como objetivo substituir os bancos de dados relacionais, mas apenas propor algumas soluções que em determinados cenários são mais adequadas. Desta forma é possível trabalhar com tecnologias NoSQL e banco de dados relacionais dentro de uma mesma aplicação
+
+5.Resolvem problemas como tratamento de grandes volumes de dados, execução de consultas com baixa latência e modelos flexíveis de armazenamento de dados, como documentos XML ou JSON:
+R:NoSQL
+Exp:Letra a. A letra a é a alternativa correta, bancos de dados NoSQL são criados para modelos de dados específicos e têm esquemas flexíveis para a criação de aplicativos modernos. Os bancos de dados NoSQL são amplamente reconhecidos por sua facilidade de desenvolvimento, funcionalidade e performance em escala. Eles usam vários modelos de dados, incluindo documento, gráfico, chave-valor, memória e pesquisa
+
+6.De acordo com Aws (2021), os bancos de dados NoSQL são ideais para muitos aplicativos modernos, como dispositivos móveis, Web e jogos, que exigem bancos de dados:
+R:flexíveis, escaláveis, de alta performance e altamente funcionais
+Exp: Letra d. A letra d é a alternativa correta, segundo Aws (2021), “os bancos de dados NoSQL geralmente fornecem esquemas flexíveis que permitem um desenvolvimento mais rápido e interativo. os bancos de dados NoSQL geralmente são projetados para serem escalados horizontalmente usando clusters distribuídos de hardware, em vez de escalá-los verticalmente adicionando servidores caros e robustos. Alguns provedores de nuvem lidam com essas operações nos bastidores como um serviço totalmente gerenciado. o banco de dados NoSQL é otimizado para modelos de dados específicos (como documento, chave-valor e gráfico) e padrões de acesso que permitem maior performance do que quando se tenta realizar uma funcionalidade semelhante com bancos de dados relacionais. Por fim, os bancos de dados NoSQL fornecem APIs e tipos de dados altamente funcionais criados especificamente para cada um de seus respectivos modelos de dados.” (AWS, 2021, p.1)

@@ -1,0 +1,140 @@
+Para que possamos compreender com maior detalhe o panorama atual da sociedade que vivemos é muito importante discutirmos 3 pontos chaves, que nos ajudam a explicar este momento: o mundo VUCA, Indústria 4.0 e a Sociedade 5.0. Vamos lá?
+
+Mundo VUCA
+
+Um dos termos mais utilizados no contexto empresarial é o Mundo VUCA. Certamente, você pergunta: Qual é a origem do acrônimo VUCA? O que a sigla VUCA quer dizer? Qual o impacto do VUCA nos projetos?
+
+No livro os Líderes Fazem o Futuro (Tradução do Autor) do Bob Johasen, um renomado Futurista. No livro, Bob Johasen explica que a sigla surgiu com as forças militares norte americanas, em 1986, para explicar o cenário dos campos de batalha. Esta sigla tem uma utilidade que transcendem os campos de batalha. Se considerarmos o atual contexto mercadológico, ela define com clareza o espírito do tempo que estamos vivendo. 
+
+Mas você ainda se pergunta o que será o VUCA:
+
+V – VOLATILE – Volátil 
+
+U – UNCERTAIN -  Incerto
+
+C – COMPLEX – Complexo
+
+A -AMBIGUOUS – Ambíguo
+
+A volatilidade nos recorda que o mundo não é mais estável, que as coisas mudam frequentemente. A incerteza, nos provoca para compreender que o mundo tem uma baixa previsibilidade e que acontecimentos inesperados ocorrem a todo momento (em especial, se considerarmos o ambiente econômico-político brasileiro).
+
+A complexidade, nos força a entender, o valor da simplicidade e que as decisões cada vez mais devem considerar uma grande quantidade de informações e perspectivas. A ambiguidade demonstra que os caminhos mesmo que parecidos podem levar a resultados totalmente distintos, reforçando a importância da clareza. 
+
+As situações da vida em um mundo VUCA, mostram que o mundo tem forçado os líderes empresariais e a sociedade a pensar respostas que não foram imaginadas até o momento. Por exemplo, se considerarmos a complexidade: os veículos autônomos trouxeram uma grande discussão ética sobre quem será o culpado em um acidente: O motorista, a empresa que fez o veículo autônomo ou os engenheiros que projetaram o veículo. Nessa situação, certamente deve ser considerado os valores sociais de cada grupo em determinado contexto geográfico, bem como o impacto das regulamentações governamentais sobre este novo advento.
+
+Nessa perspectiva, as habilidades humanas como: resiliência, inovação, improvisação e adaptação, se mostram cada vez mais importantes.
+
+Indústria 4.0
+
+O tema indústria 4.0 é uma tema quente, ele traduz as novas tecnologias empregadas na digitalização da indústria e aumento de sofisticação/inteligência. A discussão começa em meados de 2009, com estudos que foram financiados pelo governo alemão, que tinham como enfoque principal aumentar a produtividade da indústria. 
+
+A primeira vez que o termo foi empregado foi em um evento em Hannover. Foram criados cinco grupos de trabalho que pesquisaram: (1) A Fábrica Inteligente; (2) O Ambiente Real; (3) O Ambiente Econômico; (4) Seres Humanos e o Trabalho; (5) O Fator Tecnologia. Dando origem ao relatório final: Recomendações para implementação da iniciativa estratégica da Indústria 4.0, em Abril de 2013.
+
+O tema ganhou notoriedade com o Prof. Klaus Schwa, que foi o fundador do Fórum Econômico Mundial, que escreveu o livro A Quarta Revolução Industrial em 2016.
+
+Em resumo, a Indústria 4.0 é a representação das grandes revoluções na Indústria:
+
+Revolução Industrial VAPOR (1760-1840): A revolução foi proporcionada por adventos como: Produção mecânica; Energia: água e vapor; Navios, Trens e Maquinários;
+
+Revolução Industrial ELÉTRICA (1890-1940): A revolução foi proporcionada por adventos como: Energia Elétrica; Divisão do Trabalho; Produção em Massa (Taylor, Ford).
+
+Revolução Industrial AUTOMAÇÃO (1960-1990): A revolução foi proporcionada por adventos como: Produção Automatizada; Eletrônica e Computação; MRP, ERP e Automatização.
+
+Revolução Industrial DIGITAL (2011-...): A revolução foi proporcionada por adventos como: Fábricas Inteligentes; Integração do Físico com o Digital; Tecnologias que impulsionam como: IoT, RFID, Cloud, Wifi, Impressoras 3D e 4D, AI, ML...
+
+Os benefícios para a Indústria tem um enorme impacto nas operações, possibilitando uma gestão muito mais sofisticada, como, por exemplo: Rastreabilidade em tempo real do processo produtivo; Manutenção Preditiva (Status da Máquina, Análise da Performance, Medição por sensores, diagnóstico de anormalidades...), entre muitas outras possibilidades. Levando a indústria para um patamar superior de maturidade em processos e operações.
+
+Sociedade 5.0
+
+Observando estas grandes mudanças tecnológicas e sociais, o Governo do Japão, em 2016, apresentou uma nova visão do que seria uma sociedade melhorada por meio da Tecnologia.
+
+A Indústria 4.0 focava de modo geral na melhoria de eficiência e eficácia da indústria por meio das novas tecnologias, já a Sociedade 5.0 coloca o “ser humano no centro dessa evolução”.
+
+Segundo o próprio, Governo do Japão (2016) a Sociedade 5.0 é:  Uma sociedade centrada no homem que equilibra o avanço econômico com a resolução de problemas sociais por um sistema que integra altamente o ciberespaço e o espaço físico.
+
+A Indústria 4.0 considera as revoluções industriais, no entanto, a Sociedade 5.0 considera os avanços sociais:
+
+Sociedade 1.0: Sociedade de Caça;
+
+Sociedade 2.0: Sociedade Agrícola;
+
+Sociedade 3.0: Sociedade Industrial;
+
+Sociedade 4.0: Sociedade da Informação;
+
+Sociedade 5.0: Nova Sociedade.
+
+Como há um limite para o que as pessoas podem fazer, a tarefa de encontrar as informações necessárias e analisá-las era um fardo, e o trabalho e o escopo de ação eram restritos devido à idade e aos diferentes graus de habilidade.  Além disso, devido a várias restrições em questões como a diminuição da taxa de natalidade e envelhecimento da população e o despovoamento local, era difícil responder adequadamente.
+
+A sociedade 5.0 é a resposta para estes anseios. A idéia é criar uma sociedade onde possamos resolver vários desafios sociais, incorporando as inovações da quarta revolução industrial em cada setor econômico e na vida social.
+
+Ao fazê-lo, a sociedade do futuro será aquela em que novos valores e serviços são criados continuamente, tornando a vida das pessoas mais confortável e sustentável. Esta é a sociedade 5,0, uma sociedade super inteligente.  O Japão tomará a liderança para realizar isto à frente do resto do mundo.
+
+A sociedade 5.0, entende que existem três níveis de mudança: 
+
+Reforma dos indivíduos: Aumente o poder dos indivíduos (Segurança para idosos e mulheres ter seu lifestyle). Pessoas no centro, participando com valores compartilhados;
+
+Reforma das empresas: Fornecer novos valores, produtividade e novos modelos de negócios promovendo inovação e globalização;
+
+Resolvendo problemas sociais: Criar futuros desejáveis, rico e vigoroso, e poder contribuir para resolver problemas/questões de escala global.
+
+A sociedade 5.0, discute que para a mudança aconteça são necessárias a queda de cinco barreiras:
+
+Barreira dos Ministérios e Agências: Formulação de estratégias de integração e melhoria do sistema governamental;
+
+Barreira Jurídica: Desenvolvimento de novas legislações que contemplem novas tecnologias e técnicas avançadas;
+
+Barreira das Tecnologias: Desenvolvimento do conhecimento tecnológico;
+
+Barreira dos Recursos Humanos: Engajar os cidadãos na nova sociedade e economia;
+
+Barreira da Aceitação Social: Integrar tecnologias avançadas e a sociedade;
+
+Em linhas gerais, estes 3 grandes adventos: Mundo VUCA, Indústria 4.0 e a Sociedade 5.0 nos ajudam a entender o momento que vivemos, e a explicar o mundo em transformação.
+
+ 
+
+ 
+
+Atividade extra
+
+Nome da atividade: Indústria 4.0: Preparados para revolução? 
+
+Este video descreve a pesquisa da Deloitte no Brasil sobre a Indústria 4.0
+
+Link para assistir a atividade: https://www.youtube.com/watch?v=DL-DS9A8nvE
+
+
+ 
+
+Referência Bibliográfica
+
+PMI – Project Management Institute. Um Guia do Conjunto de Conhecimentos em Gerenciamento de Projetos (Guia PMBoK – 6ª Edição). Pennsylvania: PMI – Project Management Institute, 2017.
+
+Guia do Scrum - Um guia definitivo para o Scrum: As regras do Jogo. Ken Schwaber e Jeff Sutherland. 2017
+
+MINTZBERG, H.; AHLSTRAND, B.; LAMPEL, J. Safári de estratégia: um roteiro pela selva do planejamento estratégico. Porto Alegre: Bookman. 2009.
+
+BAUMAN, Zygmunt.. Modernidade líquida. Rio de Janeiro: Zahar, 2001.
+
+BAUMAN, Zygmunt. Tempos líquidos. Zahar, 2007.
+
+BAUMAN, Zygmunt; PENCHEL, Marcus. Globalização: as conseqüências humanas. Rio de Janeiro: Jorge Zahar Editor, 1999.
+
+SCHWAB, Klaus. A quarta revolução industrial. Edipro, 2019.
+
+KELLY, Kevin. Inevitável: as 12 forças tecnológicas que mudarão nosso mundo. Alta Books Editora, 2018.
+
+
+1.A Sociedade 5.0 fala cinco barreiras que devem ser derrubadas, para a implantação. Qual destas opções não faz parte destas barreiras:
+R:Barreira da Conectividade
+Exp Embora a conectividade seja um ponto importante. Ela não é uma das barreiras. As cinco Barreiras são: Barreira dos Ministérios e Agências; Barreira Jurídica; Barreira das Tecnologias; Barreira da Aceitação Social; Barreira da Aceitação Social.
+
+
+2.Quanto a Indústria 4.0 é selecione a alternativa que melhor explica o conceito:
+R:Considera a integração do físico com o digital, criando uma cadeia de valor inteligente
+ExpInternet e tecnologias de apoio servem como espinha dorsal para integrar objetos físicos, atores humanos, máquinas inteligentes, linhas de produtos e processos para formar um novo tipo de Cadeia de valor inteligente, em rede e ágil.
+
+3.O acrônimo Mundo VUCA, nos ajuda a compreender o mundo. Das opções abaixo, qual delas é inadequada quanto a sigla VUCA?
+R:V de Velocidade
+Exp:O mundo VUCA é um mundo Volátil. Mesmo que a Velocidade seja um aspecto importante, não é um dos aspectos que define a sigla.

@@ -1,0 +1,26 @@
+Novos Meios de Comunicação de Dados
+Nesta aula conheceremos uma forma não-oficial de se classificar as tecnologias emergentes, pois não existe uma padronização a ser seguida quando o assunto é inovação.
+ 
+
+As novas tecnologias apresentadas visam não só melhorar a experiência do usuário, como também prove maior conectividade, maior desempenho e segurança, com redução de custos, maior desempenho e de forma sustentável.
+ 
+
+A primeira é a tecnologia MESH. Parece com o conceito de usar repetidores, mas funciona de forma totalmente diferente.
+ 
+
+A segunda tecnologia é o Li-Fi, do termo inglês "Light Fidelity", é uma tecnologia que emprega luz para transmitir dados em alta velocidade.
+ 
+
+A terceira tecnologia é a Powerline, também conhecido pela sigla PLC (Power Line Communication), nada mais é do que um dispositivo que funciona como um repetidor de sinal da sua internet dentro de casa através da rede elétrica.
+ 
+
+A quarta tecnologia são as Smart Grids, as redes elétricas inteligentes. A promessa das redes inteligentes é trazer benefícios para as distribuidoras, os consumidores e a sociedade.
+
+1.Em uma rede Powerline, para que o sinal de internet, por exemplo, seja transmitido para a rede elétrica, que dispositivo PLC é necessário para transmitir este sinal?
+R:Injetor
+Exp:A letra b é a alternativa correta. Para que o sinal de uma rede de dados seja distribuído pela rede elétrica, pé necessário um injetor conectado a origem do sinal, um modem por exemplo, para que esta transmissão seja realizada.
+
+2.A nova tecnologia de conexão, a LI-FI, do termo inglês “Light Fidelity”, é uma tecnologia que emprega luz para transmitir dados em alta velocidade. Que limitação é identificada inicialmente nesta tecnologia?
+R:Possui um alcance limitado, paredes por exemplo limitam a transmissão
+Exp:A letra c é a alternativa correta. Sabemos que ondas de luz não podem penetrar paredes, como ondas de rádio fazem, desta forma a Li-Fi tem seu alcance diminuído a cômodos de sua casa ou escritório, por exemplo. Entretanto, basta que cada cômodo tenha as lâmpadas que possam enviar as informações.
+

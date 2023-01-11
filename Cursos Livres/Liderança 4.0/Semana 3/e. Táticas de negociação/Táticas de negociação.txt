@@ -1,0 +1,152 @@
+Muitos negociadores se atentam apenas à táticas de negociação, tentando decorar “dicas infalíveis” ou truques que possam ser usados em qualquer cenário. Isso é inviável, pois as negociações dependem de vários fatores, muitas vezes imprevisíveis. Táticas que funcionam bem em um cenário, podem ter efeito inverso em outro ligeiramente diferente. 
+
+Vale mencionar que a estratégia adequada pode envolver apenas movimentos fora da mesa de negociação, fazendo com que nem sequer seja necessário sentar à mesa para negociar. Nesses cenários, táticas seriam desnecessárias. De qualquer forma, existem táticas e conceitos gerais que devem ser observados e podem guiar suas decisões durante a negociação, como veremos abaixo. 
+
+Zona de Acordo Possível (ZOPA – Zone of Possible Agreement)
+
+A ZOPA representa a faixa em que as propostas valem mais a pena para ambos do que suas alternativas. Os acordos fechados nessa zona seriam viáveis para os 2. Tentar imaginar essa linha de acordo possível é bem útil na prática, tanto no momento de fazer propostas quanto para não fechar nada abaixo das suas possibilidades.
+
+Há 2 tarefas importantes: 
+
+1) Tentar descobrir qual é a ZOPA do outro (aumenta a captação de valor – caso seja mais alta do que o esperado);
+
+2) Formar a percepção da outra parte sobre qual seria a sua ZOPA (gera proteção de valor: ao fazê-la parecer menor do que realmente é).
+
+A dinâmica na ZOPA funciona com cada um querendo ficar mais próximo do limite do outro, ao mesmo tempo que tenta fazer o outro acreditar que está perto do seu limite.  
+
+Ancoragem
+
+Humanos não conseguem lidar bem com dados genéricos. Precisam de uma referência, algo com o que comparar. Diversos estudos comprovam que as pessoas atribuem um peso muito grande à 1ª informação disponível em relação a algo cujo valor desconhecem. Mesmo em situações que não têm relação com a negociação, a âncora tem efeito de moldar a percepção em relação a algo. 
+
+Uma primeira oferta razoável tem forte poder de influência sobre o valor final de uma negociação. Isso levaria a crer que o segredo então é “chutar valores altos” e com isso se dar sempre bem nas discussões de valor? Não é bem assim...
+
+A opção por ancorar depende do nível de informação que você tem em relação aos limites de valor da outra parte. Se você tiver informação sobre isso, vale usar o poder da ancoragem. Se você não tiver essa informação e achar que pode se surpreender positivamente com a proposta do outro, é melhor não ancorar e ouvir a proposta dele. 
+
+Níveis de Ancoragem
+
+ Ofensiva: Tem pouco efeito prático.
+
+• Tira a credibilidade
+
+• Indica falta de parâmetros de valor
+
+• Demonstra desrespeito pela outra parte
+
+• Gera postura defensiva (falta de cooperação)
+
+Extrema: Risco alto
+
+• Tem outra opção (BATNA) muito forte
+
+• Aceita o risco de perder essa negociação
+
+• Acredita que a outra parte tem opções fracas
+
+Arrojada: Risco médio
+
+• Demonstra margem para negociar
+
+• Aumenta o tempo de negociação (não indicado para casos urgentes)
+
+• Pode gerar a desistência da outra parte (sem aviso prévio) caso tenha outras boas opções (BATNA média) ou não tenha tempo nem disposição para longo ciclo de negociação
+
+Razoável: Risco baixo
+
+• Poderes equilibrados entre as partes
+
+• Possui parâmetros claros para embasar proposta
+
+• Pouca margem para concessões
+
+• Há ambiente cooperativo para discussão
+
+Viável: Sem risco
+
+• Poderes equilibrados
+
+• Parâmetros compartilhados e aceitos
+
+• Baixíssima margem para concessão de valor
+
+• Abertura para criação de concessões alternativas de baixo custo e alto benefício
+
+• Grande sinergia para colaboração entre as partes
+
+• Velocidade no fechamento do negócio 
+
+A escolha do nível de ancoragem vai depender:
+
+Do quanto você está disposto a se arriscar na negociação;
+Da força das suas alternativas;
+Do nível de cooperação/confiança/relacionamento entre as partes;
+Do prazo que você tem para finaliza-la. 
+Quanto mais tempo uma âncora passa na mesa, mais raízes ela cria, muda o foco da negociação e impacta sua visão sobre o todo. Quando receber uma ancoragem pesada, é importante “desancorar”, ou seja, mostrar de forma clara e explicita, o quanto ela não é aceitável, razoável ou justa. Volte com uma justificativa que embase isso ou com uma contraproposta, para enterrá-la em definitivo. 
+
+Persuasão
+
+Persuadir significa convencer ou influenciar alguém a fazer algo. O psicólogo Robert Cialdini, principal autoridade mundial no assunto,  afirma que podemos utilizar gatilhos mentais, para persuadir as pessoas no dia a dia e lista 6 princípios da persuasão: 
+
+Reciprocidade
+Compromisso e Coerência
+Aprovação Social
+Afeição
+Autoridade
+Escassez 
+Formas de Apresentação de Propostas
+
+Pacotes de Ofertas 
+
+Usar pacotes de Ofertas ou MESO (multiple equivalent simultaneous offers)  é uma tática de negociação que envolve fazer múltiplas propostas, de valor equivalente, apresentadas simultaneamente. Como cada pessoa valoriza pontos de forma diferente, essa é uma boa oportunidade de entender na prática quais são as prioridades do outro e poder direcionar /  ajustar suas propostas para atendê-las. 
+
+Oferta “Não Oferta”
+
+Essa pode ser uma opção de ancoragem, em que você referência o preço, sem ofender a outra parte. É como se fosse uma “oferta- não oferta”.
+
+Exemplo: O invés de dizer: “Oferecemos R$ 1 milhão por sua empresa”, Pode falar: “pelas informações que conseguimos captar, dá para perceber que há muito valor subjetivo ou ainda não revelado sobre a sua empresa. Ainda não foi possível fazer uma análise completa, mas com o que já temos hoje, daria para dizer que vale R$ 1 milhão, com a abertura de modificar essa oferta, se forem apresentadas informações adicionais que façam esse valor subir”. 
+
+Propostas com números precisos e faixas de valor
+
+Estudos da Universidade de Columbia avaliaram 1.254 negociações e concluíram que, embora 98% das propostas nas negociações em geral e em sites de classificados sejam feitas com números redondos, o uso de números precisos (como 5.015 ao invés de 5.000), aumentam consideravelmente as chances de sucesso na negociação. Por que? Passam a imagem de que o proponente fez seu dever de casa, estudou a fundo, indicando que há menos espaço para negociar.
+
+O uso de faixas de valor (exemplo: queria fechar entre 33 e 35 mil) também é uma boa oportunidade de ancoragem, quando seu alvo é fechar no número mais baixo da faixa. O outro pode acabar se sentindo impelido a barganhar pelo valor inicial da faixa e considerar que conseguiu uma redução sobre seu valor desejado. 
+
+Acordos Contingenciais
+
+Como um acordo é necessariamente uma diferença de visões, acordos contingenciais são uma ótima forma de resolver 
+impasses, porque cada parte fecha negócio pelo que ela acredita. 
+
+Exemplo: Na venda de uma empresa, o investidor quer pagar menos porque acha que o faturamento vai crescer de forma 
+lenta e o vendedor da empresa acredita que ela dobrará de tamanho no curto prazo. Podem acertar um valor e colocar uma cláusula de valor adicional caso o que cada um acredita, se concretize. 
+
+A vida é feita de diferentes interpretações e é bom que as pessoas pensem diferente mesmo. Essas diferenças se estendem além das óbvias de interesses ou prioridades. Diferenças de visões futuras de negócio (como estimativa de faturamento), de atitude em relação ao risco ou urgência. 
+
+ 
+
+ 
+
+Atividade extra
+
+Nome da atividade: Video Daniel Kahneman 
+
+Link para a atividade: https://www.youtube.com/watch?v=h3xr3VTpEx0
+
+ 
+
+Referência Bibliográfica
+
+As armas da persuasão – Robert Cialdini
+
+Acordos quase impossíveis - Deepak Malhotra
+
+
+1.O que representa a Zona de Acordo Possível (ZOPA) na negociação?
+R:Faixa de valor onde o acordo é viável para ambas as partes.
+Exp:A ZOPA funciona com cada um querendo ficar mais próximo do limite do outro. Ou seja, o mínimo que o vendedor aceite e máximo que o comprador pode ir.
+
+2.Qual desses não é um princípio da persuasão?
+R:Agressividade.
+Exp:Agressividade não condiz com persuação/convencimento, mas apenas com intimidação e obter algo na base da força.
+
+3.Acordos contingenciais envolvem:
+R:Fechamento de negócios acomodando visões distintas.
+Exp:

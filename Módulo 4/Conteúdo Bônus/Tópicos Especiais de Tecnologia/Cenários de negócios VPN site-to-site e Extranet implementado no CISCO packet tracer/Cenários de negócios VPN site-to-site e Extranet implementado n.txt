@@ -1,0 +1,53 @@
+Live: Cenários de negócios VPN site-to-site e Extranet implementado no CISCO packet tracer
+Dados de equipamentos acessando a internet apontam o volume de informação que trafega na rede de forma vulnerável
+
+
+
+
+Uma rede virtual privada, ou VPN, é uma conexão criptografada de Internet do dispositivo para a rede.
+
+A conexão criptografada ajuda a garantir que dados confidenciais sejam transmitidos com segurança.
+
+Impede que pessoas não autorizadas acessem o tráfego e permite que o usuário realize um trabalho remoto.
+
+Uma VPN típica pode ter uma rede local (LAN) principal na sede corporativa de uma empresa, outras LANs em 
+instalações ou escritórios remotos e usuários individuais que se conectam de fora no campo.
+
+
+Com isso as empresas têm agora que pensar em mercados globais e logística.
+
+Muitas empresas possuem instalações dentro do país ou até mesmo espalhadas pelo mundo. 
+
+Porém, todas as empresas precisam de algo em comum: uma forma de manter a comunicação rápida, segura e 
+confiável onde quer que estejam seus escritórios.
+
+
+ 
+
+A VPN apresenta os seguintes benefícios:
+
+ 
+
+Estender a conectividade geográfica
+
+
+Reduzir ⁪custos operacionais em relação às WANs tradicionais
+
+
+Reduzir tempos de trânsito e custos de viagem para usuários remotos
+
+
+Melhorar a produtividade
+
+
+Simplificar topologias de rede
+
+
+Fornecer oportunidades de rede global
+
+
+Fornecer suporte a funcionários remotos
+
+
+Fornecer retorno sobre o investimento (ROI) mais rápido do que a WAN tradicional
+

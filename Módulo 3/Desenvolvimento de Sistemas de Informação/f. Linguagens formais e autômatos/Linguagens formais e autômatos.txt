@@ -1,0 +1,80 @@
+Linguagens formais e autômatos
+Esse módulo discutiu e revelou os conceitos de linguagens, gramáticas e conjuntos, no contexto da ciência da computação, bem como seus desdobramentos tecnológicos que atualmente dão sustentabilidade a muitos avanços tecnológicos.
+
+De acordo com Davis (1995), a importância dessa teoria na ciência da computação é dupla: ela tanto apoia outros aspectos teóricos da ciência da computação, como estabelecendo diversas aplicações computacionais tais como processamento de linguagens, reconhecimento de padrões, modelagem de sistemas.
+
+Para definir o que é a teoria das linguagens formais é preciso definir o que é linguagem e o que é linguagem formal. Começando, de maneira bastante informal, podemos definir uma linguagem como sendo uma forma de comunicação. Estruturando um pouco mais esta definição, podemos definir uma linguagem como sendo "um conjunto de elementos (símbolos) e um conjunto de métodos (regras) para combinar estes elementos, usado e entendido por uma determinada comunidade". São exemplos as "linguagens naturais" (ou idiomas), "linguagens de programação" e os "protocolos de comunicação".
+
+Assim, podemos dizer que "linguagens formais" são mecanismos formais para representação e especificação de linguagens, baseados na chamada "teoria da computação".
+
+De acordo com Ramos (2008), “linguagens são conjuntos. Conjuntos que formam linguagens são coleções de cadeias construídas sobre um alfabeto, por exemplo, através de gramáticas. A fim de explicitar e facilitar o entendimento de linguagens vistas como conjuntos, é conveniente considerar- se uma coleção finita de linguagens distintas, todas infinitas, definidas sobre um mesmo alfabeto qualquer.”
+
+Na visão de Ramos (2008), “um conjunto é uma coleção de símbolos, também denominados átomos ou elementos, em que não são consideradas ocorrências múltiplas dos mesmos nem há relação de ordem entre eles.
+
+O entendimento de Ramos (2008) diz que, “também conhecidas como dispositivos generativos, dispositivos de  síntese,  ou ainda dispositivos de geração de cadeias, as gramáticas constituem sistemas formais baseados em regras de substituição, através dos quais é possível sintetizar, de forma exaustiva, o conjunto das cadeias que compõem uma determinada linguagem.
+
+Segundo Ramos (2008),“ como teórico e estudioso das linguagens naturais, Noam Chomsky se limitava à pesquisa de modelos que permitissem a formalização de tais linguagens. Atualmente esse objetivo parece um tanto ambicioso, porém o trabalho de Chomsky logo destacou a atenção de especialistas de outras áreas, em particular os da área de computação, que viam, para suas teorias, grande aplicabilidade para a formalização e o estudo sistemático de linguagens artificiais, especialmente as de programação.
+
+Para Ramos (2008),“a prática confirmou a intuição dos especialistas. A ordenação das linguagens, que ele propôs, conhecida como Hierarquia de Chomsky, tem como principal mérito ajuntar as linguagens em classes, de tal forma que elas possam ser hierarquizadas de acordo com a sua complexidade relativa. Como resultado, é possível antecipar as propriedades fundamentais exibidas por uma determinada linguagem, ou mesmo vislumbrar os modelos de implementação mais adequados à sua realização, conforme a classe a que pertença.
+
+Segundo Ramos (2008), “os autômatos finitos também possibilitam a formalização das linguagens regulares, ou seja, das linguagens do tipo 3.”
+
+A compreensão de Ramos (2008) diz que, “os autômatos finitos podem ser representados em notação algébrica ou através de diagramas de transição de estados, introduzidos a seguir, mais adequados à sua visualização.
+
+ 
+
+ 
+
+ 
+
+Atividade Extra
+
+Visando ampliar sua compreensão, assista o vídeo em que Fabio Akita, no seu canal, apresenta e explica a arquitetura da máquina de Turing.
+
+Link do vídeo: https://www.youtube.com/watch?v=G4MvFT8TGII.
+
+ 
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+SOMMERVILLE, I. Engenharia de  Software, 9ª Edição. Pearson  Education, 2011.
+
+SOMMERVILLE, I. Software engineering 10th Edition. ISBN-10, 137035152, 18., 2015.
+
+VALENTE, M. T. Engenharia de Software Moderna (Livro Digital)., 2020.
+
+JEFFRIES, R.; ANDERSON, A.; HENDRICKSON, C.  Extreme programming installed. Addison-Wesley Professional., 2001.
+
+REIS, E. The lean startup. New York: Crown Business, 27.   – MVP, 2011.
+
+VALENTE, M. T. Engenharia de Software Moderna (Livro Digital). Disponível em: <https://engsoftmoderna.info/cap0.html>. Acesso em: 04 jun. 2021., 2020.
+
+MARINHO, A. L. Análise e modelagem de sistemas. Person Education do Brasil, 2016.
+
+1.Apoia aspectos teóricos da ciência da computação (decidibilidade, computabilidade, complexidade computacional, por exemplo), como fundamenta diversas aplicações computacionais tais como processamento de linguagens, reconhecimento de padrões, modelagem de sistemas:
+R:Linguagens formais e autômatos
+Exp: Letra a. A letra a é a alternativa correta, de acordo com Davis (1995), a importância dessa teoria na ciência da computação é dupla: ela tanto apoia outros aspectos teóricos da ciência da computação (decidibilidade, computabilidade, complexidade computacional, por exemplo), como fundamenta diversas aplicações computacionais tais como processamento de linguagens, reconhecimento de padrões, modelagem de sistemas
+
+2. São exemplos de linguagem formal:
+R: linguagens naturais (ou idiomas), linguagens de programação e protocolos de comunicação
+Exp: Letra e. A letra e é a alternativa correta, podemos definir uma linguagem como sendo uma forma de comunicação. Elaborando um pouco mais esta definição, podemos definir uma linguagem como sendo “um conjunto de elementos (símbolos) e um conjunto de métodos (regras) para combinar estes elementos, usado e entendido por uma determinada comunidade”
+
+3.Os reconhecedores são dispositivos formais que servem para verificar se uma frase pertence ou não à determinada linguagem. São exemplos destes dispositivos:
+R: autômatos finitos, autômatos de pilha e máquina de Turing
+Exp: Letra c. A letra c é a alternativa correta, pois Assim, podemos dizer que “linguagens formais” são mecanismos formais para representação e especificação de linguagens, baseados na chamada “teoria da computação”. As representações podem ser feitas por reconhecedores e geradores. Os reconhecedores são dispositivos formais que servem para verificar se uma frase pertence ou não à determinada linguagem. Esses dispositivos são os autômatos
+
+4. Tem como principal mérito agrupar as linguagens em classes, de tal forma que elas possam ser hierarquizadas de acordo com a sua complexidade relativa:
+R:Hierarquia de Chomsky
+Exp:Letra b. A letra b é a alternativa correta, a classificação das linguagens, por ele proposta, conhecida como Hierarquia de Chomsky, tem como principal mérito agrupar as linguagens em classes, de tal forma que elas possam ser hierarquizadas de acordo com a sua complexidade relativa. Como resultado, é possível antecipar as propriedades fundamentais exibidas por uma determinada linguagem, ou mesmo vislumbrar os modelos de implementação mais adequados à sua realização, conforme a classe a que pertença
+
+5.Correspondem à instância mais simples do modelo geral de reconhecedores:
+R:autômatos finitos
+Exp:Letra a. A letra a é a alternativa correta, segundo Ramos (2008), “os autômatos finitos também possibilitam a formalização das linguagens regulares, ou seja, das linguagens do tipo 3.”
+
+6.É normalmente definido como um conceito matemático abstrato, mas devido à seu fator determinístico, ele pode ser implementado através de hardware e software para resolver diversos problemas específicos. Por instância, são utilizados para modelar softwares que validam entradas de usuário tal como o seu e-mail em um servidor de correio eletrônico. Podem ser representados em notação algébrica ou através de diagramas de transição de estados:
+R: autômatos finitos
+Exp:Letra e. A letra e é a alternativa correta, segundo Ramos (2008), “Os autômatos finitos podem ser representados em notação algébrica ou através de diagramas de transição de estados, introduzidos a seguir, mais adequados à sua visualização."

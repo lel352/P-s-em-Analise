@@ -1,0 +1,146 @@
+Modelagem de dados e aprendizagem estatística
+Estatística básica
+
+Ciência utilizada na análise de dados de determinado campo em estudo. A partir dos dados de uma amostra, que representam parte do problema, podemos inferir informações sobre toda população.  Podemos inferir importantes informações sobre uma população a partir da análise de dados de uma amostra dessa população.  Os fundamentos de estatística não dependem do campo que estamos estudando, são sempre os mesmos.
+
+O estudo de probabilidade e estatística nos dá ferramentas para modelar, analisar e definir situações mais difíceis de configurar, conscientes de sua incerteza. No campo empresarial a probabilidade é utilizada em processos no qual a tomada de decisões tem grande quantidade de incerteza.
+
+Conceitos básicos tipos de variáveis, amostra, parâmetro e população.
+
+População é o conjunto de todos os elementos cuja as características estão sendo estudadas.
+
+Conjunto de dados é uma coleção com N quantidades de n-tuplas (lista ordenada de n elementos). N é o conjunto de tuplas de n elementos em cada conjunto de dados. Muitas vezes não conhecemos alguns elementos de algumas tuplas.
+
+Dados são conjuntos de informações observadas de variáveis qualitativas ou quantitativas. Um conjunto de dados tabulados pode corresponder a uma ou mais tabelas com registros de conjunto de dados.
+
+Um conjunto de dados é uma descrição de diferentes instâncias do mesmo fenômeno. Variável é essa característica que pode ter diversas formas, mas devem ser da mesma coisa. A forma mais simples para apresentarmos os resultados de uma coleta de dados é uma tabela. Se a quantidade de dados for muito grande a tabela pode não ser útil, pois fica difícil de ler e comparar os resultados.
+
+Medidas importantes para estatística básica
+
+- Medidas centrais média, mediana e moda.
+
+- medidas de dispersão variância e desvio padrão.
+
+ 
+
+Probabilidade
+
+É a ciência que estuda a quantificação da possibilidade de ocorrência de um dado evento.
+
+ 
+
+Aprendizagem estatística
+
+Como no machine learning as máquinas aprendem  com dados de experiências passadas, a análise estatística desses dados é fundamental. Não é necessário observar todos os dados, mas os resultados das análises estatísticas dos dados disponíveis permitem a realização de previsões. A quantidade e a qualidade dos dados  e da estatística irá determinar a acurácia das previsões.
+
+O aprendizado de máquinas só é possível existir hoje por conta dos avanços nas tecnologias computacionais e nas teorias e técnicas estatísticas.
+
+Como vimos antes, o aprendizado de máquinas supervisionado pode ser de classificação ou regressão. Este utiliza a regressão que vimos agora e aquele trata de mapear as variáveis de entrada em categorias discretas.
+
+Para aplicação é necessário uma Linguagem de programação. As mais comuns para trabalhos nesse campo hoje são R e Python.
+
+ 
+
+Big Data
+
+Vimos que, para um conjunto de dados pequenos, podemos utilizar uma tabela. Para um conjunto muito grande podemos utilizar uma planilha eletrônica. Se o conjunto de dados crescer muito mais, não será possível manipular essas planilhas eletrônicas. Um banco de dados faz-se necessário. Mas, e se os números forem de dimensões muito maiores, como tratar da análise e sistematização desses conjuntos de dados Esse é o trabalho desse campo de estudos que chamamos de Big Data. O conjunto de dados além de grande pode apresentar um grau de complexidade difícil de sistematizar.
+
+Pense na quantidade de dados que passamos a armazenar nas últimas décadas. Números de telefone, placas de carro, e-mail, etc.
+
+“As ferramentas de big data são de grande importância na definição de estratégias de marketing, aumentar a produtividade, reduzir custos e tomar decisões mais inteligentes.” Wikipédia
+
+Esses dados podem crescer exponencialmente a cada momento.
+
+A Modelagem de dados envolve tecnologias para coletar, manipular, analisar, compartilhar, atualizar e exibir dados. Para atender a essas ações em tempo aceitável as bases dos softwares não puderam manter-se com banco de dados relacionados, insuficientes para conjuntos tão grandes.
+
+Os 5 Vs do big data são volume, velocidade, variedade, valor e veracidade.
+
+Os dados estudados podem ser dados estruturados, semi estruturados ou não estruturados.
+
+ 
+
+Aplicações
+
+Alguns exemplos de finalidades em sua utilização mundo afora Indústria, bancos, trânsito,operadoras de saúde, seguradoras, logística, entretenimento, etc.
+
+ 
+
+Data Science
+
+A ciência de dados faz um estudo de dados em diferentes campos de negócios. O cientista de dados vai trabalhar com a captura, visualização, transformação, atualização e análise dos dados. Baseado no tratamento dos dados disponíveis contribuirá para tomadas de decisões futuras inteligentes.
+
+Ciência de dados utiliza métodos científicos, procedimentos, algoritmos e sistemas para extrair conhecimentos e  insights de conjuntos de dados.
+
+Embora tenha relação com aprendizado de máquinas, a ciência de dados é uma subárea desenvolvida da estatística. Muitos dizem que a ciência de dados é a estatística para o meio digital.
+
+Um conceito muito importante em aprendizado de máquinas supervisionado é a regressão.
+
+ 
+
+Regressão linear
+
+Na regressão, busca-se um modelo para determinar a relação
+
+entre uma variável aleatória Y que pertence aos números reais e uma tupla x = ( x1 , . . . , xn ) também pertencente aos reais. Ou seja, buscamos uma função que permita determinar valores de Y a partir de uma dada tupla.
+
+Caso a regressão linear não seja boa para ajustar os dados pode-se utilizar uma regressão não linear. Essa é a base do aprendizado de máquinas supervisionado.
+
+São cientistas de dados que fazem os algoritmos de busca do google.
+
+ 
+
+ 
+
+ 
+
+Atividade Extra
+
+ 
+
+Nesse vídeo o palestrante mostra um pouco do trabalho de um cientista de dados com machine learning. É interessante perceber como ele tenta deixar claro a desnecessidade de tratamento como big data em muitas situações.
+
+httpswww.youtube.comwatchv=Vh3pXNUuWws
+
+ 
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+ 
+
+IZBICKI, R. & Mendonça, T. Aprendizado de máquina uma abordagem estatística. São Carlos, SP, 2020.
+
+
+
+1.(VUNESP - 2018 - PC-BA - Escrivão de Polícia) Uma loja utiliza um questionário para avaliar a qualidade do atendimento. A qualidade é classificada como Ótima (O), Boa (B), Regular ( R) e Fraca (F). Os resultados do questionário estão na tabela de frequências a seguir, na qual foram observadas 50 respostas. Conclui-se, portanto, que:
+R:mais da metade das pessoas acharam ótima ou boa
+Exp:Letra c. Como o universo é 50 você pode tomar esse número para realizar uma regra de três. 100% está para 50, assim como x% está para 33, por exemplo. Outra forma fácil de fazer é pegar o número que quer testar, dividir por 50 e multiplicar por 100
+
+2.(FADESP - 2019 - UEPA - Agente Administrativo) Em estatística, há as chamadas medidas de posição ou de tendência central, que constituem uma forma mais sintética de apresentar os resultados contidos em um conjunto de dados observados. As medidas de posição mais empregadas são a média, a mediana e a moda, sendo a primeira a mais usada das três. Pode-se dizer que a média:
+R:é um valor típico e representativo do conjunto de dados
+Exp:Letra b. A média é um valor que representa um conjunto de dados. Ela pode ser um número que não pertence ao conjunto observado. Por exemplo: média entre 2 e 4 é 3. As alternativas “d” e “e” definem a moda e a mediana, respectivamente
+
+3.(CONSULPLAN - 2019 - CFC - Bacharel em Ciências Contábeis - 2º Exame-adaptado) Os seguintes dados amostrais foram obtidos de uma pesquisa que buscou saber o comportamento de determinada ação cotada em bolsa de valores no decorrer de nove pregões
+
+
+Considerando apenas os dados amostrais apresentados, é correto afirmar que:
+R:A mediana dos preços é igual a R$ 7,50
+Exp:Letra a. Fica fácil encontrar a mediana se você colocar os números em ordem: 7,00; 7,00; 7,35; 7,40; 7,50; 7,60; 7,70; 7;75; 7.80
+
+4.(FUNDEP (Gestão de Concursos) - 2019 - Prefeitura de Uberlândia - MG - Profissional de Apoio Escolar- adaptada) Em uma clínica de controle alimentar, um médico entregou à sua assistente uma tabela com a massa, em quilograma, dos doze pacientes que haviam realizado consulta com ele em um determinado dia:
+
+
+Para que o médico pudesse fazer uma melhor análise dos resultados expressos na tabela naquele dia, sua assistente calculou, respectivamente, os valores da média, da mediana e da moda do conjunto de resultados, encontrando, correta e respectivamente:
+R:72,5; 70 e 70
+Exp:Letra a. Comece organizando os dados que verá a mediana. Depois disso calcule a meia. A moda fica fácil de observar para poucos dados
+
+5.(CESPE / CEBRASPE - 2021 - SEED-PR - Professor - Informação e Comunicação) Assinale a opção que apresenta a denominação de um conjunto de dados que contém tipos de dados não estruturados e semiestruturados, como texto, áudio e vídeo, e que exige um pré-processamento adicional para obter significado e dar suporte a metadados, com o objetivo de que estes sejam usados para resolver problemas de negócios:
+R:big data
+Exp:Letra e. Como vimos nessa aula, o campo big data surgiu para tratar de conjuntos de dados absurdamente grandes e ou complexos
+
+6.(INSTITUTO AOCP - 2020 - MJSP - Cientista de Dados - Big Data) O Big Data é definido como coleções de dados cuja sua quantidade é tão grande que é difícil armazenar, gerenciar, processar e analisar esses dados por meio de bancos de dados tradicionais. Nos últimos anos, houve um crescimento exponencial nos dados estruturados e não estruturados gerados pela tecnologia da informação da indústria e saúde por meio da internet das coisas (IoT), por exemplo. Sabendo disso, assinale a alternativa que apresenta corretamente as cinco características, também conhecidas como os cinco “vês”, de um big data:
+R:Velocidade, volume, veracidade, variedade, valor
+Exp:Letra d. Esses são os 5 Vs descritos nesta aula

@@ -1,0 +1,36 @@
+Ambientes Virtuais de Aprendizagem
+No cenário histórico atual, de pandemia de Covid-19, o debate sobre o uso de recursos tecnológicos aplicados à área de educação está centrado na utilização de plataformas tecnológicas (AVA – Ambiente Virtuais de Aprendizagem). A necessidade de implementação de modelos educacionais que permitissem que as escolas continuassem funcionando no decorrer do recolhimento social gerado pela pandemia de Covid-19 transformou a educação global (inclusive gerando novos desafios – ex. necessidade de incluir digitalmente pessoas que estão excluídas socialmente). Entretanto, desde a década de 1980, a sociedade já vinha enfrentando uma série de mudanças na incorporação das tecnologias na rotina das pessoas. Aqueles que nasceram a partir desta década, e principalmente a partir dos anos 90 com a popularização da internet, já estão inseridos em uma sociedade digital e, portanto, o modo como eles adquirem conhecimento e desenvolvem seu aprendizado têm mudado gradativamente. Hoje, já não se utiliza mais as enormes coleções de enciclopédias impressas ou dicionários físicos para fazer pesquisas, pois já é possível digitar uma palavra ou frase no campo de busca do Google e centenas de sites ou blogs tentam, de diferentes formas, explicar o assunto. De um ponto de vista conceitual, os Ambientes Virtuais são divididos em quatro eixos dentro do processo de ensino e aprendizagem:
+
+ 
+
+- Comunicação: a partir dos recursos de comunicação é possível que os professores acompanhem os alunos individualmente, a partir de chats ou e-mails, ou em grupo, a partir de fóruns de discussão. Nesses espaços, por exemplo, há a possibilidade de se fazer uma atividade ou questionário proposto pelo professor de forma remota e, por isso, em caso de dúvidas, o aluno poderá recorrer a uma das ferramentas de comunicação para discutir o desenvolvimento da atividade com seus pares ou sanar dúvidas centrais diretamente com o tutor.
+
+ 
+
+- Gerenciamento: para ter um controle sobre o funcionamento do curso e evolução dos alunos, os Ambientes Virtuais 
+oferecem uma gama de recursos para disponibilizar notas das atividades; histórico de conteúdos estudados; histórico de interação nos fóruns de discussão;  histórico de disciplinas cursadas pelo aluno; controle de atividades; além de um sistema de avaliação, em que o docente pode estabelecer os critérios que deseja e a plataforma disponibiliza uma série de modelos de atividades, como testes múltipla escolha, questões dissertativas, entre outras.
+
+ 
+
+- Informação e documentação: os Ambientes Virtuais podem possuir quadros de avisos para informar os alunos sobre mudanças no cronograma ou sobre novidades; um catálogo de cursos; cronograma do curso em andamento; ferramentas para disponibilização de materiais de apoio e conteúdo online, para que o professor possa compartilhar apenas uma vez o arquivo para que todos os alunos matriculados tenham acesso de onde e quando quiserem, além de esse material ficar guardado na plataforma para posterior consulta; recursos de apoio ao aluno para que, em caso de dúvidas sobre o funcionamento do ambiente virtual, ele possa recorrer e sanar o problema; e espaços para armazenamento de atividades feitas pelos alunos para que, mais tarde, ele possa acompanhar sua evolução durante o curso.
+
+ 
+
+- Produção: este eixo permite que o aluno realize atividades dentro do próprio ambiente virtual, contando com ferramentas como editor online e séries de atividades e problemas para resolução. Estes conteúdos poderão ser predefinidos pelo professor/tutor e servem como forma de avaliação ou exercícios de fixação.
+
+1. Sobre os Ambientes Virtuais de Aprendizagem, assinale a alternativa que apresenta a afirmação incorreta.
+R:A pandemia não impactou na adoção imediata de modelos de Ambientes Virtuais de Aprendizagem.
+
+2. Para ter um controle sobre o funcionamento do curso e evolução dos alunos, os Ambientes Virtuais oferecem uma gama de recursos para disponibilizar notas das atividades e histórico de conteúdos estudados, e tais serviços estão relacionados ao eixo de
+R:Gerenciamento
+
+3. Leia as afirmações a seguir e assinale a alternativa que apresentada as afirmações corretas
+
+I. Aqueles que nasceram a partir desta década, e principalmente a partir dos anos 90 com a popularização da internet, já estão inseridos em uma sociedade digital e, portanto, o modo como eles adquirem conhecimento e
+desenvolvem seu aprendizado têm mudado gradativamente.
+ 
+II. A necessidade de implementação de modelos educacionais que permitissem que as escolas continuassem funcionando no decorrer do recolhimento social gerado pela pandemia de Covid-19 transformou a educação global (inclusive gerando novos desafios – ex. necessidade de
+incluir digitalmente pessoas que estão excluídas socialmente).
+ 
+III. Desde a década de 1980, a sociedade já vinha enfrentando uma série de mudanças na incorporação das tecnologias na rotina das pessoas.
+R:I, II e III estão corretas

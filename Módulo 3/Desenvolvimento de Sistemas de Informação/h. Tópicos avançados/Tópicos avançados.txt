@@ -1,0 +1,109 @@
+Tópicos avançados
+Nesse módulo foram estudados tópicos avançados em cloud computer, mineração de dados, big data e computação urbana, apresentando esses conceitos e suas aplicação na sociedade da informação.
+
+Segundo Computação (2021), Computação em nuvem (em inglês, cloud computing) é um termo coloquial para a disponibilidade sob demanda de recursos do sistema de computador, especialmente armazenamento de dados e capacidade de computação, sem o gerenciamento ativo direto do utilizador. O acesso a programas, serviços e arquivos é remoto, através da Internet - daí a alusão à nuvem
+
+Empresas como Amazon, Oracle, Google, IBM e Microsoft foram as primeiras a iniciar uma grande ofensiva nessa nuvem de informação ("information cloud"), que especialistas consideram uma "nova fronteira da era digital". Aos poucos, essa tecnologia vai deixando de ser utilizada apenas em laboratórios para ingressar nas empresas e, em breve, em computadores domésticos.
+
+Os seguintes serviços atualmente são oferecidos por empresas:
+
+• Servidor Cloud
+
+• Hospedagem de Sites em Cloud
+
+• Load Balancer em Cloud
+
+• Email em Cloud
+
+ 
+
+Processador de texto
+
+A implementação de uma nuvem pode seguir os seguintes modelos de implantação:
+
+• Nuvem privada
+
+• Nuvem pública
+
+• Nuvem híbrida
+
+• Nuvem comunitária
+
+• Nuvem HPC
+
+• Multicloud
+
+• Nuvem de BigData
+
+• Nuvem Distribuída
+
+ 
+
+Podemos citar como vantagem na adoção de uma nuvem: A infraestrutura necessária para uma solução de computação em nuvem é bem mais enxuta do que uma solução tradicional de hospedagem ou alojamento, consumindo menos energia, refrigeração e espaço físico e consequentemente contribuindo para a preservação e o uso racional dos recursos naturais. A maior desvantagem da computação em nuvem vem fora do propósito desta, que é o acesso à internet. Caso você perca o acesso, comprometerá todos os sistemas embarcados.
+
+De acordo com Mineração (2021), “Prospecção de dados ou mineração de dados (também conhecida pelo termo inglês data mining) é o processo de explorar dados à procura de padrões consistentes, como regras de associação ou sequências temporais, para detectar relacionamentos sistemáticos entre variáveis, detectando assim novos subconjuntos de dados.”
+
+Segundo Big (2021), “diariamente as empresas acumulam grande volume de dados em seus aplicativos operacionais. São dados brutos que dizem quem comprou o quê, onde, quando e em que quantidade. É a informação vital para o dia-a-dia da empresa. Se fizermos estatística ao final do dia para repor estoques e detectar tendências de compra, estaremos praticando business intelligence (BI).”
+
+Segundo Rodrigues (2019), a Computação Urbana surge como um paradigma promissor para superar desafios típicos dos grandes centros urbanos, principalmente, por meio da extração de informação de uma grande quantidade de dados heterogêneos existentes nas cidades [Zheng et al. 2014]
+
+A Computação Urbana utiliza diferentes tecnologias de sensoriamento remoto, técnicas de gerenciamento  de dados e modelos analíticos, além de métodos de visualização para criar soluções que melhoram a qualidade de vida da população e dos sistemas de gerenciamento dos serviços oferecidos pelas cidades. Uma questão importante é que a Computação Urbana pode  auxiliar a entender a natureza dos fenômenos urbanos ou até mesmo prevê-los [Zheng et al.  2014, Silva et al. 2018].
+
+ 
+
+ 
+
+ 
+
+Atividade Extra
+
+Após assistir ao vídeo sobre a importância do Big Data para o mercado, reflita sobre seus desdobramentos dessa tecnologia.
+
+Link do vídeo: https://youtu.be/VYFL5EjHjGk.
+
+ 
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+SOMMERVILLE, I. Engenharia de  Software, 9ª Edição. Pearson  Education, 2011.
+
+SOMMERVILLE, I. Software engineering 10th Edition. ISBN-10, 137035152, 18., 2015.
+
+VALENTE, M. T. Engenharia de Software Moderna (Livro Digital)., 2020.
+
+JEFFRIES, R.; ANDERSON, A.; HENDRICKSON, C.  Extreme programming installed. Addison-Wesley Professional., 2001.
+
+REIS, E. The lean startup. New York: Crown Business, 27.   – MVP, 2011.
+
+VALENTE, M. T. Engenharia de Software Moderna (Livro Digital). Disponível em: <https://engsoftmoderna.info/cap0.html>. Acesso em: 04 jun. 2021., 2020.
+
+MARINHO, A. L. Análise e modelagem de sistemas. Person Education do Brasil, 2016.
+
+
+1. É um termo coloquial para a disponibilidade sob demanda de recursos do sistema de computador, especialmente armazenamento de dados e capacidade de computação, sem o gerenciamento ativo direto do utilizador:
+R:cloud computing
+Exp:Letra b. A letra b é a alternativa correta, o acesso a programas, serviços e arquivos é remoto, através da Internet - daí a alusão à nuvem
+
+2.É o processo de explorar dados à procura de padrões consistentes, como regras de associação ou sequências temporais, para detectar relacionamentos sistemáticos entre variáveis, detectando assim novos subconjuntos de dados:
+R:data mining
+Exp:Letra e. A letra e é a alternativa correta, a mineração de dados é formada por um conjunto de ferramentas e técnicas que através do uso de algoritmos de aprendizagem ou classificação baseados em redes neurais e estatística, são capazes de explorar um conjunto de dados, extraindo ou ajudando a evidenciar padrões nestes dados e auxiliando na descoberta de conhecimento
+
+3.No campo da administração, o uso da tecnologia da informação para descobrir regras, identificar fatores e tendências-chave, descobrir padrões e relacionamentos ocultos em grandes bancos de dados para auxiliar a tomada de decisões sobre estratégia e vantagens competitivas, é possível por meio da:
+R:mineração de dados
+Exp:Letra a. A letra a é a alternativa correta, esse conhecimento pode ser apresentado por essas ferramentas de diversas formas: agrupamentos, hipóteses, regras, árvores de decisão, grafos, ou dendrogramas. Como regras de associação ou sequências temporais, para detectar relacionamentos sistemáticos entre variáveis, detectando assim novos subconjuntos de dados.”
+
+4.Conceito de armazenamento ou captura, diária que as empresas realizam em grande volume de dados em seus aplicativos operacionais:
+R:big data
+Exp:Letra b. A letra b é a alternativa correta, diariamente as empresas acumulam grande volume de dados em seus aplicativos operacionais. São dados brutos que dizem quem comprou o quê, onde, quando e em que quantidade. É a informação vital para o dia-a-dia da empresa. Se fizermos estatística ao final do dia para repor estoques e detectar tendências de compra, estaremos praticando business intelligence
+
+5.Dados coletados de redes sociais ou ambientes de interação entre usuários, geralmente demográficos e comportamentais, ou seja, ditam um padrão de um determinado grupo com as mesmas característica:
+R:social data
+Exp:Letra a. A letra a é a alternativa correta, onde Social Data: são dados coletados de redes sociais ou ambientes de interação entre usuários, geralmente demográficos e comportamentais, ou seja, ditam um padrão de um determinado grupo com as mesmas característica
+
+6.Utiliza diferentes tecnologias de sensoriamento remoto, técnicas de gerenciamento de dados e modelos analíticos, além de métodos de visualização para criar soluções que melhoram a qualidade de vida da população e dos sistemas de gerenciamento dos serviços oferecidos pelas cidades:
+R:computação urbana
+Exp:Letra e. A letra e é a alternativa correta, onde a Computação Urbana surge como um paradigma promissor para superar desafios típicos dos grandes centros urbanos, principalmente, por meio da extração de informação de uma grande quantidade de dados heterogêneos existentes nas cidades

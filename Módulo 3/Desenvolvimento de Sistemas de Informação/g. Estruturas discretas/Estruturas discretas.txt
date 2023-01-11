@@ -1,0 +1,111 @@
+Estruturas discretas
+Nesse módulo foram relembrados os fundamentos das estruturas discretas, os conceitos de algoritmos, a teoria dos grafos e por fim, a criptografia.
+
+De acordo com Picado (2014), por que deve um estudante de Informática estudar lógica?  Porque precisa de dominar ferramentas  lógicas  que  lhe  permitam  argumentar  se  um  problema  pode  ou  não  ser  resolvido  num computador, traduzir proposições lógicas da linguagem comum em diversas linguagens computacionais, argumentar se um programa está correto e se é eficiente.  Os computadores baseiam-se em  mecanismos  lógicos  e  são  programados  de  modo  lógico.” (PICADO, 2014, p.1).
+
+O mesmo autor diz que o tipo de problemas que se resolvem usando matemática discreta incluem:  De quantas maneiras podemos escolher um password válido para um  computador?   Qual  é  a  probabilidade  de  ganharmos a megasena?  Qual é  o caminho mais curto entre duas cidades para um determinado sistema  de  transporte?   Como  é  que  podemos  ordenar  uma  lista  de  inteiros  de  modo  a  que  os inteiros fiquem por ordem crescente?  Em quantos passos podemos fazer essa ordenação?  Como podemos desenhar um circuito para adicionar dois inteiros? (PICADO, 2014, p.iii).
+
+De acordo com Picado (2014), “Na matemática discreta abordamos muitos tipos de problemas.  Em muitos deles, para chegarmos à solução,  temos  que  seguir  um  procedimento  que,  num  número  finito  de  passos,  conduz  a  tão desejada solução.  A uma tal sequência chama-se algoritmo.  Um algoritmo é um procedimento para resolver um problema num número finito de passos.”
+
+Em geral, no entendimento de Picado (2014), os algoritmos têm características comuns:
+
+• Entrada (Input): conjunto de valores de entrada, definidos num determinado conjunto.
+
+• Saída  (Output):  a  partir  de  cada  conjunto  de  valores  de  entrada,  um  algoritmo  produz valores  de  saída  num  determinado  conjunto.   Estes  valores  de  saída  contém  a  solução    do problema.
+
+• Precisão:  os passos do algoritmo têm que ser definidos com precisão.
+
+• Finitude:  o  algoritmo  deve  produzir  os  valores  de  saída  ao  cabo  de  um  número  finito  de passos.
+
+• Realizável:  deve ser possível realizar cada passo do algoritmo em tempo útil.
+
+• Generalidade:  o procedimento deve ser aplicável a todos os problemas da forma desejada, e não somente a um conjunto particular de valores de entrada.
+
+ 
+
+Encontramos muitas vezes  algoritmos  recursivos  quando  pretendemos resolver problemas discretos. Um algoritmo chama-se recursivo se resolve um problema reduzindo-o a uma instância do mesmo problema com input pequeno.(PICADO, 2014, p.4).
+
+A  Teoria  dos  Grafos  é  atualmente  uma  das  áreas  mais  importantes  da  matemática  discreta. Tendo  as  suas  raízes  em  jogos  e  recreações  matemáticas,  atribui-se  a  sua  criação  a  Euler,  ao resolver  o  problema  das  pontes  de  Königsberg  em  1736,  mas  foram  os  problemas  acerca  de fórmulas  de  estrutura  de  compostos  químicos,  que  A.  Cayley  resolveu  na  segunda  metade  do século  XIX,  que  a  começaram  a  desenvolver.   (PICADO, 2014, p.57).
+
+Hoje, a Teoria  dos  Grafos  tem  sido  aplicada a  muitas  áreas  (Informática,  Pesquisa  Operacional,  Economia,  Sociologia,  Genética,  etc.), pois  um  grafo  constitui  o  modelo  matemático  ideal  para  o  estudo  das  relações  entre  objetos discretos de qualquer tipo. (PICADO, 2014, p.57).
+
+Segundo Criptografia (2021), geralmente, a criptografia refere-se à construção e análise de protocolos que impedem terceiros, ou o público, de lerem mensagens privadas. Muitos aspectos em segurança da informação, como confidencialidade, integridade de dados, autenticação e não-repúdio são centrais à criptografia moderna. A criptografia moderna existe na interseção das disciplinas de matemática, ciência da computação, engenharia elétrica, ciência da comunicação e física. Aplicações de criptografia incluem comércio eletrônico, cartões de pagamento baseados em chip, moedas digitais, senhas de computadores e comunicações militares.
+
+Segundo Criptografia (2021), antigamente, a cifragem era utilizada na troca de mensagens, sobretudo em assuntos
+ ligados à guerra (no intuito de o inimigo não descobrir a estratégia do emissor da mensagem, caso se apoderasse dela), 
+ao amor (para que os segredos amorosos não fossem descobertos pelos familiares) e à diplomacia (para que facções rivais 
+não estragassem os planos de acordos diplomáticos entre nações). O primeiro uso documentado da criptografia foi
+ em torno de 1900 A.C., no Egito, quando um escriba usou hieróglifos fora do padrão numa inscrição. Nos dias atuais,
+ onde grande parte dos dados é digital, sendo representados por bits, o processo de criptografia é basicamente feito
+ por algoritmos que fazem o embaralhamento dos bits desses dados a partir de uma determinada chave ou par de chaves,
+ dependendo do sistema criptográfico escolhido. Atualmente, a criptografia é amplamente utilizada na Web, em segurança, 
+a fim de autenticar os usuários para lhes fornecer acesso, na proteção de transações financeiras e em redes de c
+omunicação.
+
+Segundo Criptografia (2021), A criptografia tem quatro objetivos principais:
+
+1. confidencialidade da mensagem: só o destinatário autorizado deve ser capaz de extrair o conteúdo da mensagem da sua forma cifrada. Além disso, a obtenção de informação sobre o conteúdo da mensagem (como uma distribuição estatística de certos caracteres) não deve ser possível, uma vez que, se o for, torna mais fácil a análise criptográfica;
+
+2. integridade da mensagem: o destinatário deverá ser capaz de verificar se a mensagem foi alterada durante a transmissão;
+
+3. autenticação do remetente: o destinatário deverá ser capaz de verificar que se o remetente é realmente quem diz ser;
+
+4. não-repúdio ou irretratabilidade do remetente: não deverá ser possível ao remetente negar a autoria de sua mensagem.
+
+ 
+
+ 
+
+ 
+
+Atividade Extra
+
+Visando ampliar sua compreensão, assista o vídeo em que Fabio Akita, no seu canal, apresenta e explica sobre criptografia.
+
+Link do vídeo: https://youtu.be/CcU5Kc_FN_4.
+
+ 
+
+ 
+
+ 
+
+Referência Bibliográfica
+
+SOMMERVILLE, I. Engenharia de  Software, 9ª Edição. Pearson  Education, 2011.
+
+SOMMERVILLE, I. Software engineering 10th Edition. ISBN-10, 137035152, 18., 2015.
+
+VALENTE, M. T. Engenharia de Software Moderna (Livro Digital)., 2020.
+
+JEFFRIES, R.; ANDERSON, A.; HENDRICKSON, C.  Extreme programming installed. Addison-Wesley Professional., 2001.
+
+REIS, E. The lean startup. New York: Crown Business, 27.   – MVP, 2011.
+
+VALENTE, M. T. Engenharia de Software Moderna (Livro Digital). Disponível em: <https://engsoftmoderna.info/cap0.html>. Acesso em: 04 jun. 2021., 2020.
+
+MARINHO, A. L. Análise e modelagem de sistemas. Person Education do Brasil, 2016.
+
+1. Um problema que utilizamos matemática discreta para sua dissolução:
+R: password válida para um computador
+Exp: Letra d. A letra d é a alternativa correta, embora os principais objetos de estudo em matemática discreta sejam objetos distintos, métodos analíticos de matemática contínua são também frequentemente utilizados. A matemática discreta tornou-se popular em décadas recentes devido às suas aplicações na ciência da computação (devido ao desenvolvimento de computadores digitais que funcionam em etapas discretas e ao armazenamento de dados em bits discretos). Conceitos e notações da matemática discreta são úteis para o estudo ou a expressão de objetos ou problemas em algoritmos de computador e linguagens de programação
+
+2.Deriva do nome al-Khowarizmi de um matemático persa do século IX, cujo livro sobre numerais hindus esteve na base da notação decimal moderna que hoje utilizamos.”(PICADO, 2014, p.37):
+R:O termo algoritmo
+Exp:Letra d. A letra d é a alternativa correta, pois “O termo algoritmo deriva do nome al-Khowarizmi de um matemático persa do século IX, cujo livro sobre numerais hindus esteve na base da notação decimal moderna que hoje utilizamos.” (PICADO, 2014, p.37)
+
+3.Algoritmo que resolve um problema reduzindo-o a uma instância do mesmo problema com input pequeno:
+R:algoritmo recursivo
+Exp:Letra c. A letra c é a alternativa correta, encontramos, muitas vezes, algoritmos recursivos quando pretendemos resolver problemas discretos. Um algoritmo chama-se recursivo se resolve um problema reduzindo-o a uma instância do mesmo problema com input pequeno
+
+4.É atualmente uma das áreas mais importantes da matemática discreta. Tendo as suas raízes em jogos e recreações matemáticas, atribui-se a sua criação a Euler, ao resolver o problema das pontes de Königsberg em 1736:
+R:Teoria dos grafos
+Exp:Letra b. A letra b é a alternativa correta, pois atualmente, a Teoria dos Grafos tem sido aplicada a muitas áreas (Informática, Pesquisa Operacional, Economia, Sociologia, Genética, etc.), pois um grafo constitui o modelo matemático ideal para o estudo das relações entre objetos discretos de qualquer tipo
+
+5.Refere-se à construção e análise de protocolos que impedem terceiros, ou o público, de lerem mensagens privadas. Muitos aspectos em segurança da informação, como confidencialidade, integridade de dados, autenticação e não-repúdio são centrais a esse conceito:
+R:criptografia
+Exp:Letra a. A letra a é a alternativa correta, pois nos dias atuais, onde grande parte dos dados é digital, sendo representados por bits, o processo de criptografia é basicamente feito por algoritmos que fazem o embaralhamento dos bits desses dados a partir de uma determinada chave ou par de chaves, dependendo do sistema criptográfico escolhido. Atualmente, a criptografia é amplamente utilizada na Web, em segurança a fim de autenticar os usuários para lhes fornecer acesso, na proteção de transações financeiras e em redes de comunicação
+
+6.Resumidamente falando, a chave privada é usada para decifrar mensagens, enquanto a pública é utilizada para cifrar um conteúdo. Assim, qualquer pessoa que precisar enviar um conteúdo para alguém precisa apenas da chave pública do seu destinatário, que usa a chave privada para decifrar a mensagem. Qual o nome do modelo de criptografia que utiliza o conceito de chave pública e chave privada?
+R: Modelo assimétrico
+Exp:letra e. A letra e é a alternativa correta, a imagem abaixo explica visualmente essa estratégia de utilização

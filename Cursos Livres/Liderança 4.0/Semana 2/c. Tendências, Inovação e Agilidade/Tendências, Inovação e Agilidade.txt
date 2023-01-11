@@ -1,0 +1,170 @@
+Uma forma de anteciparmos os movimentos de mercado é identificar sinais que evidenciam tendências, sejam elas mercadológicas, comportamentais ou estéticas. As tendências são matéria prima para a inovação. No campo de conhecimento e prática em projetos, a agilidade se demonstra como uma tendência e novo padrão de trabalho. Convido você a entender um pouco mais sobre como este contexto:
+
+Tendências
+
+Segundo o Dicionário Priberam de língua portuguesa (2019):
+
+Ten·dên·ci·a: Do Latim tendentia, -ae, plural de tendens, -entis, particípio presente de tendo, -ere, estender, apresentar, dar)
+
+1. .Ação ou força pela qual um corpo tende a mover-se para alguma parte.
+
+2. [Figurado]  Propensão; inclinação; disposição; propósito.
+
+Identificar tendências como forma de antecipar iniciativas e projetos organizacionais, é um dos exemplos de como podemos usar o mapeamento de sinais de mudanças.
+
+Uma ferramenta que pode nos ajudar a identificar isso é o Google Trends, que analisa os termos de pesquisa, por exemplo: SCRUM VS PMBOK.
+
+
+Figura 1: SCRUM vs PMBOK no Google Trends de 2004 até o momento Fonte: Google Trends pelo Autor (2019)
+
+Nesta imagem, podemos identificar que ao longo dos anos o termo PMBOK foi caindo no interesse de buscas, enquanto, o termo SCRUM demonstra um aumento de interesse nas pesquisas do Google.
+
+A identificação de tendências é uma ferramenta importante para guiar a estratégia organizacional e os projetos/iniciativas a serem realizados. Vaitheeswaran (2012) destaca que nós superestimamos a mudança no curto prazo e subestimamos a mudança no longo prazo, ou seja, as mudanças culturais e mercadológicas seguem uma curva de disseminação da inovação que nem sempre é curta.
+
+As tendências elaboradas de maneira autoral, são baseadas em evidências, que são chamadas de sinais, estes sinais são informações comprovadas e irrefutáveis. Estas informações podem ser: Dados; Descobertas; Acontecimentos; Notícias (Globais e Locais). Estes sinais podem ser fatos: Tecnológicos; Científicos; Ambientais; Políticos; Sociais; Econômicos; entre outros.
+
+Cynefin Framework 
+
+O mundo com uma complexidade crescente é algo difícil de ser explicado. Neste sentido, 
+Dave Snowden, propôs em 1999, enquanto trabalhava como consultor na divisão de consultoria da IBM, uma estrutura conceitual que auxilia na compreensão sobre o cenário atual. Cynefin é uma palavra que significa habitat em galês. 
+
+O framework apresenta 4 domínios: óbvio, complicado, complexo e caótico. Ao entender em qual contexto estamos, esta abordagem pode nos ajudar a compreender quais ações são esperadas de nós e do nosso time.  
+
+
+Figura 1: Cynefin Framework Traduzido e Adaptado Fonte: Snowden (1999) adaptado pelo Autor.
+
+Uma das possíveis soluções para o mundo complexo, é adaptar-se por meio de inovações sejam elas incrementais (pequenas mudanças e/ou melhorias) ou disruptivas (grandes mudanças que mudam em grande parte ou totalmente o conceito original).
+
+Inovação
+
+A inovação é um dos termos em alta no mundo corporativo. Nos últimos anos, pode ser observado o aumento da competição entre concorrentes, concentração de mercado, menores ciclo de vida de produtos e serviços, bem como, a pressão de consumidores por novas funcionalidades, implicando na obsolescência percebida. 
+
+Neste contexto, um dado alarmante do Ministério da Ciência, Tecnologia, Inovações e Comunicações (2017), aponta que 64% das empresas no Brasil, não investem em inovação. Mas o que é Inovar?
+
+Segundo o Dicionário Priberam de língua portuguesa (2019):
+
+I·NO·VAR (latim innovo, are, renovar)
+
+1. Introduzir novidades.
+
+2. Renovar; inventar; criar.
+
+Inovar é importante mas para isso o que podemos entender como inovação? Bessant e Tidd (2009) definem inovação como: “A inovação é orientada pela habilidade de fazer relações, de visualizar oportunidades e de tirar vantagem das mesmas. Às vezes, envolve possibilidades completamente novas, como a exploração de avanços tecnológicos totalmente radicais”.
+
+As grandes organizações nos últimos anos tem sofrido com o cenário cada vez mais instável, podemos observar o impacto sobre dos sites sobre as lojas de livros, agências de viagens, mudanças nos modelos de consumo de mídia (LP -> K7 -> CD -> MP3 -> Streaming), que dizimaram as lojas de cd e videolocadoras, gerando a ascensão de novos formatos de negócios. 
+
+Para que a mudança ocorra é importante, entender que o contexto precisa ser adequado, como os autores Bessant e Tidd (2009) reforçam “Igualmente importante é a capacidade de identificar onde e como novos mercados podem ser criados e fomentados. A invenção do telefone de Alexander Bell não resultou em uma revolução instantânea das telecomunicações – ela precisou de todo um desenvolvimento de mercado para a comunicação entre pessoas.”
+
+Todo o contexto de inovação, desenvolvimento de novos produtos e serviços ajudou a incentivar o movimento do Ágil, que você pode entender mais a seguir.
+
+Agilidade
+
+Em 1986, o artigo “O novo jogo do desenvolvimento de novos produtos” (tradução livre pelo autor), publicado por 
+Takeuchi e Nonaka na Harvard Business Review começa a apresentar a visão geral sobre novos formatos organizacionais, 
+bem sucedidos para desenvolvimento de produtos.
+
+Os autores notaram que projetos usando equipes pequenas e multidisciplinares (cross-functional) produziram os 
+melhores resultados, e associaram estas equipes altamente eficazes à formação Scrum do Rugby. No artigo, são 
+apresentadas seis características que contribuiam para o desenvolvimento de novos produtos:
+
+Instabilidade e tensão interna
+
+Equipes de projeto auto-organizadas
+
+Sobreposição de Fases de desenvolvimento
+
+Multi aprendizado
+
+Controle Sutil (Autocontrole e Controle por pressão)
+
+Transferência organizacional do aprendizado
+
+17 profissionais da área de tecnologia que estavam insatisfeitos com o modo como ocorria o desenvolvimento de software, se reuniram de 11 a 13 de fevereiro de 2001, em uma estância de esqui em Utah. Esses 17 entusiastas, dentro os quais diversos eram autores de livros, métodos como: crystal clear, xp... entre outros criaram o Manifesto Ágil para Desenvolvimento de Software.
+
+Manifesto Ágil para Desenvolvimento de Software é composto por: 4 Valores e 12 Princípios. Os valores norteadores do manifesto e os princípios, podem ser observados abaixo:
+
+MANIFESTO
+
+Estamos descobrindo maneiras melhores de desenvolver software, fazendo-o nós mesmos e ajudando outros a fazerem o mesmo. Através deste trabalho, passamos a valorizar:
+
+Indivíduos e interações mais que processos e ferramentas
+
+Software em funcionamento mais que documentação abrangente
+
+Colaboração com o cliente mais que negociação de contratos
+
+Responder a mudanças mais que seguir um plano
+
+Ou seja, mesmo havendo valor nos itens à direita, valorizamos mais os itens à esquerda.
+
+PRINCÍPIOS
+
+Nossa maior prioridade é satisfazer o cliente, através da entrega adiantada e contínua de software de valor;
+
+Aceitar mudanças de requisitos, mesmo no fim do desenvolvimento. Processos ágeis se adequam a mudanças, para que o cliente possa tirar vantagens competitivas;
+
+Entregar software funcionando com freqüencia, na escala de semanas até meses, com preferência aos períodos mais curtos;
+
+Pessoas relacionadas à negócios e desenvolvedores devem trabalhar em conjunto e diariamente, durante todo o curso do projeto;
+
+Construir projetos ao redor de indivíduos motivados. Dando a eles o ambiente e suporte necessário, e confiar 
+que farão seu trabalho;
+
+O Método mais eficiente e eficaz de transmitir informações para, e por dentro de um time de desenvolvimento, é através de uma conversa cara a cara;
+
+Software funcional é a medida primária de progresso;
+
+Processos ágeis promovem um ambiente sustentável. Os patrocinadores, desenvolvedores e usuários, devem ser capazes de manter indefinidamente, passos constantes;
+
+Contínua atenção à excelência técnica e bom design, aumenta a agilidade;
+
+Simplicidade: a arte de maximizar a quantidade de trabalho que não precisou ser feito;
+
+As melhores arquiteturas, requisitos e designs emergem de times auto-organizáveis;
+
+Em intervalos regulares, o time reflete em como ficar mais efetivo, então, se ajustam e otimizam seu comportamento de acordo.
+
+Os princípios e o manifesto são essenciais, pois, dão a base para a cultura ágil. Estes conceitos definem o como devemos agir e nos comportar quando o enfoque cultural busca a agilidade como valor. Lembrando que ágil, não quer dizer algo rápido, mas sim, uma visão mais fluida e adaptativa.
+
+ 
+
+ 
+
+Atividade extra
+
+Nome da atividade: Dan Pink e a surpreendente ciência da motivação 
+
+Este vídeo do TED do Daniel Pink rediscute a motivação nas organizações.
+
+Link para assistir a atividade: https://www.ted.com/talks/dan_pink_on_motivation?language=pt-br
+
+ 
+
+Referência Bibliográfica
+
+PAVITT, Keith; BESSANT, John; TIDD, Joe. Gestão da inovação. Bookman: Porto Alegre. 2008. 
+
+RUBIN, Kenneth S. Scrum Essencial: Um guia prático para o mais popular processo ágil. Alta Books Editora, 2018.
+
+ORGANIZAÇÃO PARA COOPERAÇÃO E DESENVOLVIMENTO ECONÔMICO. Manual de Oslo: diretrizes para coleta e interpretação de dados sobre inovação. 2005.
+
+POPCORN, Faith. O relatório Popcorn: centenas de idéias de novos produtos, empreendimentos e novos mercados. Campus, 1993.
+
+VAITHEESWARAN, Vijay. Focados, gananciosos e eficientes: Como novos modelos de inovação podem criar negócios bem-sucedidos e profissionais destacados. Elsevier Brasil, 2012.
+
+DIAMANDIS, Peter H.; KOTLER, Steven. Abundância: o futuro é melhor do que você imagina. Alta Books Editora, 2018.
+
+SUTHERLAND, Jeff. Scrum: a arte de fazer o dobro do trabalho na metade do tempo. Leya, 2016.
+
+
+1.Considere o Manifesto Ágil. Qual destas opções não faz parte dos valores do manifesto ágil:
+R:Usabilidade e interatividade mais que infraestrutura e tecnologia.
+Exp:Embora a tecnologia e usabilidade sejam pontos importantes. Estes não compõem o manifesto ágil.
+
+2.Quanto às tendências selecione a alternativa que melhor explica o conceito:
+R:Considera sinais de mudança em diversos níveis mercadológicos, sociais e estéticos.
+Exp:Considera sinais de mudança em diversos níveis mercadológicos, sociais e estéticos. As tendências podem surgir em qualquer região, não são somente tecnologia e/ou estética, pois, necessariamente precisam ser contextualizadas e podem ser consideradas como uma das matérias primas para a inovação.
+
+3.Takeuchi e Nonaka (1985) apresentaram no seu artigo 6 fatores que equipes pequenas e multidisciplinares (cross-functional) produziram os melhores resultados. Assinale a alternativa incorreta.
+R:Estabilidade e clima fraterno.
+Exp:A instabilidade e o clima tenso eram um dos fatores que auxiliavam a produção de melhores resultados.

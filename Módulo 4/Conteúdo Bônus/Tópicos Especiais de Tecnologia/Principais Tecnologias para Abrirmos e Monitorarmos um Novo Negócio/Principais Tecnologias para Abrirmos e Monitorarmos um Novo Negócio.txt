@@ -1,0 +1,115 @@
+Entenda as Principais Tecnologias para abrirmos e monitorarmos um novo negócio
+Visão Geral
+
+Acompanho diariamente muitas pessoas que desejam abrir um negócio, mas não estão preparadas e estruturadas o suficiente para administrar um novo negócio. Ao mesmo tempo, vejo empresários acomodados, acreditando que o negócio está sustentável, porém, mal imagina o quanto está atrasado em seus processos e em suas tecnologias. Nesta aula abordaremos como o básico da Tecnologia é muito importante para manter uma empresa bem estruturada e com uma operação sempre produtiva.
+
+ 
+
+Os Frutos de um Negócio
+
+            No livro de Estratégia e Empreendedorismo, chamado “O Vale do Desemprego, entenda como ele pode estar perto de você e como empreender virou uma premissa neste país”, existe uma obra baseada em uma história real, onde apresento a importância desta estruturação para quem deseja empreender e manter a sua empresa bem organizada.
+
+            Na página 196 destaca-se uma árvore chamada “Os Frutos de um Negócio”, onde várias Tecnologias são apresentadas e o autor destaca que, sem um destes frutos, naturalmente a empresa terá impactos operacionais. Vamos abordar algumas destas tecnologias para que vocês possam entender a importância e, também, fazerem uma comparação com o ambiente de vocês, para terem a certeza de que estão bem estruturados.
+
+            Imagine que você tem um bom propósito e deseja deixar um legado para a sociedade, sendo muito bem lembrado pelos seus produtos e seus serviços. Você tem o desejo de ajudar o próximo, dando-lhe um atendimento com excelência e muito carinho. Para isso, vamos supor que você tenha produtos e serviços envolvidos no seu negócio. Partiremos a seguir, com as tecnologias tendo como base este exemplo.
+
+ 
+
+Redes Sociais
+
+            Sejam bem-vindos as vitrines virtuais onde você pode inserir pequenos textos, vídeos, fotos e algumas promoções que fazem sentido para atrair os clientes. Neste caso, vale lembrar que a sua vitrine tem que ser como, no mínimo, a melhor loja do shopping. Então, entenda desde já a importância de uma boa câmera, um bom conteúdo, uma boa dicção e uma boa imagem, tudo sendo suficiente para atrair a confiança do seu público.
+
+ 
+
+Site
+
+            Vamos concordar que hoje em dia muitos jovens não acessam mais sites e ficam somente nas redes sociais, porém, vamos concordar que estamos em um planeta com diversas gerações e pode ser que para vender o seu produto ou serviço, o pai deste jovem seja o dono do dinheiro e vai querer buscar mais confiança e credibilidade antes de comprar o seu produto ou serviço. E para isso, esta pessoa talvez mais tradicional e conservadora, vai querer olhar o seu site.
+
+Eu sou um destes conservadores e abro aqui um exemplo sobre o tema. Certo dia fui convidado pelo Linkedin para adicionar um CEO de uma empresa cujo palavras eram lindas sobre o quanto poderiam ajudar as empresas em suas organizações, operações e estratégias. Fui olhar o site da empresa para confirmar a credibilidade das palavras e dei de cara com um site da década de 90 escrito “Estamos em Manutenção”. O tipo da frase que deve estar lá há pelo menos 20 anos. Como vou fazer uma parceria ou contratar uma empresa que diz resolver ambientes operacionais se nem o próprio ambiente ele resolve? Agora entende a importância de um site?
+
+Se é para ter um site, faça bem feito e de forma minimamente organizada, com informações claras, precisas e que de fato vão resolver os problemas dos seus clientes. O site precisa ser visto como um grande cardápio de um restaurante. Deixe claro todas as opções que o seu cliente possui para ser ajudado por você.
+
+Lembro que existem HotSites (Exemplo: Wordpress, Wix, Builderall) sem muitas dinâmicas, mais para armazenar textos, vídeos e fotos. E também temos sites e-commerce (Exemplo: Iluria – para iniciantes), onde você fará a 
+operação de vendas dos seus produtos e serviços. Você como líder precisa saber de ponta a ponta quais serão as
+ tecnologias que vão apoiar a construção do seu produto e todo o suporte técnico de pré-vendas, vendas, produção,
+ entrega e pós-vendas do seu ambiente operacional.
+
+Um ponto importante para destacarmos referente a plataforma iluria. Ela está conectada a outras plataformas de pagamento, por exemplo, pagseguro, mas não emite nota fiscal dos produtos vendidos. Para isso existem outras plataformas ERP especializadas no assunto, onde falaremos mais para frente.
+
+ 
+
+CRM - Customer Relationship Management
+
+Algumas pessoas são mais resistentes e demoram muito para aceitar que precisam de um CRM no seu dia a dia. Mas depois que pegam o jeito e entendem como funciona a plataforma, dificilmente largarão esta tecnologia.
+
+Pense da seguinte forma. Um bom vendedor não para de vender. Ele vende de forma direta e indireta, mas sabe bem observar quem são os seus potenciais clientes. Ao mesmo, o vendedor, sendo o dono de um negócio, tem outras preocupações na empresa como manter todos os setores produzindo bem, por exemplo: TI, marketing, finanças, compras, contas a pagar, RH, entre outros, além de ter um relacionamento constante com funcionários, clientes, parceiros e fornecedores. Ou seja, é muita informação que precisa ser administrada e se não existir uma tecnologia que dê este suporte para a lembrança de algumas situações, não há memória cerebral que aguente.
+
+Então, para facilitar, criaram o CRM onde você consegue administrar todos os seus Leads (potenciais clientes) e todas as etapas do funil de vendas. Este funil de vendas vai lhe ajudar no monitoramento de cada etapa do processo até efetuar a venda. Como sugestão, recomendo o PipeDrive.
+
+
+ 
+
+ERP - Enterprise Resource Planning
+
+Vejo muitas pessoas abrindo empresas sem saber emitir uma nota fiscal. Normal nesta etapa, mas com certeza, 
+mais cedo ou mais tarde vai precisar saber entender como isso funciona. Na prestação de serviços, existem sites 
+dos órgãos governamentais para emitir uma nota fiscal sem grandes problemas. Já quando se trata de um produto, 
+existem alguns códigos tributários que precisam ser adicionados em diferentes notas fiscais, por exemplo: Nota Fiscal 
+de simples remessa, Nota Fiscal de produto consignado, Nota Fiscal de venda e por aí vai.
+
+A cada novo negócio que você fecha, verá que existem notas fiscais diferentes, dependendo de cada negociação. O 
+importante aqui é saber que existem plataformas que vão lhe ajudar em cada situação, onde você consegue cadastrar os
+ clientes onde o sistema já facilita alguns processos de digitação, por exemplo: reconhecendo o CNPJ da empresas e
+ CEPs onde completam automaticamente o restante dos dados cadastrais.
+
+Ao mesmo tempo, você cadastra os diferentes produtos, com preços diferentes e operações de diferentes notas fiscais.
+ Por fim, consegue emitir as notas fiscais com o apoio de um certificado digital que reconhece a credibilidade da sua 
+empresa. Normalmente o certificado digital também é uma tecnologia promovida por um Token USB e uma senha de segurança.
+
+ 
+
+Internet, Domínio e E-mail corporativo
+
+           Um dos fatores mais importante para quem deseja empreender tendo boas tecnologias, é sair do amadorismo. Quando verem o seu cartão de visita, vão querer ver o seu e-mail corporativo e não o seu e-mail de plataformas como Hotmail, Gmail, Yahoo, Uol, esquece isso.
+
+          Faça o registro do seu domínio .com.br (nome do seu site) no site no Registro.br e por meio da plataforma Zoho Mail, crie um e-mail corporativo. Parece complicado, mas não é. A própria plataforma Zoho Mail tem os tutoriais para orientar nas sincronizações. O importante aqui é você estar ciente de que amadorismo em sites e e-mails não vão trazer credibilidade para a sua empresa.
+
+Outro ponto importante: Tenha uma internet muito boa no seu estabelecimento comercial. É por meio da internet que você vai conversar com grande parte dos seus clientes e isso não pode falhar.
+
+ 
+
+Armazenamento de Dados, Backup e Licenças originais
+
+            Não é novidade que computador quebra, concorda. Então, sabendo disso, a última coisa que temos que fazer é armazenar os nossos principais dados nele. Para isso existem outras tecnologias mais baratas que poderão apoiar neste tema, caso não queiram contratar serviços muito mais profissionais como Data Center.
+
+            Apenas para você ter um pouco mais de segurança, contrate as licenças originais da Microsoft Office e com isso, ganhará um ótimo espaço para armazenar os seus dados no OneDrive. Lembro que vale um triplo armazenamento de dados para evitar qualquer impacto na sua operação. O primeiro é no computador que já está em conjunto com o segundo que é no OneDrive (nuvem) e o terceiro em HDs externos e bem guardados.
+
+
+ 
+
+Plataformas de apoio na criação de conteúdos e impressão em alta escala
+
+            Não perca tempo em tentar dar uma imagem boa ao famoso word e powerpoint cheio de limitações. Vai direto para a plataforma CANVA.com. Nesta plataforma você criará todas as suas propostas, cartões de visitas, Reports e imagens para publicações nas redes sociais. Quem não usa esta plataforma nos dias de hoje com certeza está muito atraso nesta questão.
+
+            Você vai precisar imprimir cartões de visita, flyer e outras ações publicitárias. Para isso, recomendo a plataforma 360imprimir. Nela você perceberá quanto será mais barato do que fazer em qualquer gráfica mais próxima da sua casa.
+
+
+ 
+
+Encerramento
+
+Estes foram alguns exemplos de tecnologias que podem nos apoiar na operação de uma empresa, mas vale lembrar que as transformações nunca param e precisamos sempre estar atentos as novas tecnologias que estão surgindo, por isso, não pare de estudar e acompanhar as tendências do mercado.
+
+            Lembro também que tudo tem custo, claro! Mas se você é um grande empreendedor, entenderá que também existe o ROI – Retorno sobre o investimento, onde cada centavo investido, deverá voltar pelo menos com o dobro do valor investido. Então, queridos alunos, não tenham medo de investir e sejam cada vez mais estratégicos nas suas tomadas de decisões. Sucesso sempre na Jornada!
+
+ 
+
+
+1.Preciso emitir uma nota fiscal! E agora? Qual tecnologia abaixo devo usar?
+R:Bling
+Exp:Para emitir uma nota fiscal, podemos usar a ferramenta BLING.
+
+
+2.Preciso criar um funil de vendas! E agora? Qual tecnologia abaixo devo usar?
+R:Pipe Drive
+Exp:Para criar um funil de vendas, podemos usar a ferramenta Pipe Drive.

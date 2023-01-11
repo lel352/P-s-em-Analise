@@ -1,0 +1,11 @@
+Gamificação da IKEA: Transformando a montagem de móveis em games
+Os melhores exemplos de gamificação não são jogos. Sabemos que Gamificar é adicionar a mecânica de games em algo que não é um jogo de fato, e nesta live vamos conectar a Gamificação com a área do varejo analisando um caso da marca IKEA, de móveis e decoração. A marca está presente na Europa, América do Norte e Ásia com mais de 440 lojas em 54 países, mas recentemente, uma das maiores iniciativas foi a junção de um app que usa realidade aumentada para "projetar" os móveis na casa do comprador através do celular antes de comprar com o ato de montar os próprios móveis em casa, já que ao comprar um móvel na IKEA ele vem totalmente desmontado. Vamos abordar a ideia geral do conceito, o público alvo, a colaboração, o layout do app e tentar entender todo o sentimento por trás de porque montar móveis pode ser super divertido.
+
+1.Cite 3 áreas em que a Gamificação é amplamente utilizada:
+R:Marketing, saúde e educação
+Exp:Jogos e elementos semelhantes a jogos têm sido usados na área de marketing, na saúde e para educar há muitos anos.
+
+2.O que o IKEA Place, o app de Realidade Aumentada da IKEA, proporciona aos usuários?
+R:Experimentar e testar móveis e decoração para sua própria casa
+Exp:A ideia do App é permitir que os compradores “experimentem” móveis em potencial dentro de uma foto de sua própria casa.
+
